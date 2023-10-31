@@ -1,0 +1,117 @@
+/*-----------------------------------
+ * FOOTER
+ *-----------------------------------*/
+// Footer for theme unit test
+.original-footer {
+    text-align: center;
+    padding: 30px 0;
+}
+
+// Main footer
+#haru-footer-main {
+    // Footer Default
+    &.footer-default {
+
+    }
+    // Footer 2
+    &.footer-2 {
+
+    }
+    // Footer 3
+    &.footer-3 {
+
+    }
+    &.footer-default-dark {
+        .footer-contact-shortcode-wrapper {
+            &.style_1 {
+                .footer-contact-content {
+                    color: $text_color_secondary;
+                }
+            }
+        }
+        .footer-link-shortcode-wrapper {
+            &.style_1 {
+                .footer-link-content {
+                    .link-list {
+                        li {
+                            a {
+                                color: $text_color_secondary;
+                                
+                                &:hover {
+                                    color: $link_color_hover;
+                                }
+                            }
+                        }   
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Instagram Feed
+.widget_instagram-feed-widget {
+    #sb_instagram.grid-layout-square {
+        width: auto!important;
+
+        @media screen and (max-width: $screen-xs-max) {
+            width: auto!important;
+        }
+
+        &.padding-5 {
+            margin: -10px -10px 0 -10px!important;
+        }
+
+        &.padding-10 {
+            margin: -20px -20px 0 -20px!important;
+        }
+    }
+}
+
+// Subscribe
+.subscribe-default {
+    background-color: #faf8f4;
+    padding: 4px;
+    @include rounded(25px);
+    .subscribe-email {
+        display: inline-block;
+        padding: 0 15px;
+        width: calc(100% - 155px);
+        input[type="email"] {
+            border: none;
+            width: 100%;
+            padding: 9px 0 9px 9px;
+            background: none;
+            @include placeholder($color: $text_color);
+            @include rounded(5px);
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+    .subscribe-submit {
+        display: inline-block;    
+        float: right;
+        width: 150px;
+        input[type="submit"] {
+            border: none;
+            background: $primary_color;
+            color: $white;
+            font-size: 15px;
+            font-weight: 700;
+            padding: 8px 30px;
+            text-align: center;
+            width: 100%;
+            @include rounded(20px);
+            @include transition(all.35s ease);
+            &:hover {
+                background: $black;
+                color: $white;
+                @include transition(all.35s ease);
+            }
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}

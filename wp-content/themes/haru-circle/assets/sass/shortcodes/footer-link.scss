@@ -1,0 +1,77 @@
+.footer-link-shortcode-wrapper {
+    // Style 1
+    &.style_1 {
+        font-family: $secondary_font;
+        .footer-link-content {
+            .link-list {
+                list-style: none;
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                li {
+                    padding: 10px 0;
+                    font-style: italic;
+                }
+            }
+        }
+    }
+    // Style 2
+    &.style_2 {
+        .footer-link-content {
+            .link-list {
+                list-style: none;
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                font-weight: 600;
+                li {
+                    padding: 6px 0;
+                    font-style: italic;
+                    text-transform: uppercase;
+                    &:first-child {
+                        margin-top: 25px;
+                    }
+                    a {
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Style 3
+    &.style_3 {
+        .footer-link-content {
+            .link-list {
+                list-style: none;
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                font-weight: 600;
+                text-align: right;
+                @media screen and (max-width: $screen-xs-max) {
+                    text-align: left;
+                }
+                li {
+                    display: inline-block;
+                    font-weight: 700;
+                    font-size: 13px;
+                    margin-left: 30px;
+                    padding: 6px 0;
+                    text-transform: uppercase;
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                    a {
+                        color: $text_color_secondary;
+                        &:hover {
+                            text-decoration: underline;
+                            color: $link_color_hover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

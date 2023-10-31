@@ -1,0 +1,55 @@
+/* Clients Shortcode CSS */
+.clients-shortcode-wrapper {
+    position: relative;
+    // Style 1
+    &.style_1 {
+        &:hover {
+            .owl-nav {
+                .owl-prev, .owl-next {
+                    opacity: 1;
+                    @include transition(all .3s ease);
+                }
+            }
+        }
+        .clients-list {
+            .client-item {
+                &:hover {
+                    opacity: 1;
+                    @include transition(all .3s ease);
+                }
+                opacity: .3;
+                @include transition(all .3s ease);
+            }
+        }
+        .owl-nav {
+            .owl-prev, .owl-next {
+                position: absolute;
+                display: block;
+                top: 50%;
+                z-index: 999;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                background: rgba($black, .2);
+                color: $white;
+                opacity: 0;
+                @include translateY(-50%);
+                @include transition(all .3s ease);
+                &:hover {
+                    background: rgba($black, .5);
+                    cursor: pointer;
+                }
+            }
+            .owl-prev {
+                left: 0;
+            }
+            .owl-next {
+                right: 0;
+            }
+        }
+    }
+    &.style_2 {
+
+    }
+}

@@ -1,0 +1,320 @@
+/*-----------------------------------
+ * TRAILER SHORTCODE
+ *-----------------------------------*/
+.trailer-shortcode-wrapper {
+    // Slideshow
+    &.carousel {
+        .trailer-list {
+            .trailer-item {
+                &:focus {
+                    outline: none;
+                }
+                .trailer-image {
+                    overflow: hidden;
+                    position: relative;
+                    img {
+                        // width: 100%;
+                        @include transform(scale(1.0));
+                        @include transition(all .8s);
+                    }
+                    .trailer-icon {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        z-index: 9;
+                        @include transform(translate(-50%, -50%));
+                        @include transition(all .5s);
+                        .view-trailer-button {
+                            width: 50px;
+                            height: 50px;
+                            display: block;
+                            padding: 50px;
+                            position: relative;
+                            border: 2px solid $white;
+                            text-align: center;
+                            @include rounded(50%);
+                            @include transition(all .3s);
+                            @media screen and (max-width: $screen-xs-max) {
+                                width: 30px;
+                                height: 30px;
+                                padding: 30px;
+                            }
+                            &:hover {
+                                border: 2px solid $primary_color;
+                                @include transition(all .3s);
+                                &:before {
+                                    color: $primary_color;
+                                    @include transition(all .3s);
+                                }
+                            }
+                            &:before {
+                                content: "\f488";
+                                font-family: Ionicons;
+                                position: absolute;
+                                left: 40px;
+                                top: 0;
+                                color: $white;
+                                line-height: 100px;
+                                font-size: 45px;
+                                font-weight: 500;
+                                @include transition(all .3s);
+                                @media screen and (max-width: $screen-xs-max) {
+                                    font-size: 25px;
+                                    line-height: 60px;
+                                    left: 25px;
+                                }
+                            }
+                            i {
+                                color: $white;
+                                font-size: 40px;
+                                padding: 20px;
+                                height: 20px;
+                                width: 20px;
+                            }
+                        }
+                    }
+                    .trailer-meta {
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 100%;
+                        padding: 15px 20px;
+                        .trailer-title {
+                            a {
+                                color: $white;
+                                pointer-events: none;
+                                @include transition(all .3s);
+                                &:hover {
+                                    color: $link_color_hover;
+                                    @include transition(all .3s);
+                                }
+                            }
+                            @media screen and (max-width: $screen-xs-max) {
+                                font-size: 16px;
+                            }
+                        }
+                        .trailer-category {
+                            color: rgba($white, .7);
+                            a {
+                                color: rgba($white, .7);
+                                pointer-events: none;
+                                @include transition(all .3s);
+                                &:hover {
+                                    color: $link_color_hover;
+                                    @include transition(all .3s);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+        .trailer-nav {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            padding: 0 5%;
+            @media screen and(max-width: $screen-xs-max) {
+                padding: 0 5%;
+            }
+            .nav-item {
+                &.slick-current {
+                    .trailer-thumbnai {
+                        img {
+                            border: 5px solid $white;
+                            @include transition(all .3s);
+                            @media screen and (max-width: $screen-xs-max) {
+                                border: 2px solid $white;
+                            }
+                        }
+                    }
+                }
+                &:focus {
+                    outline: none;
+                }
+                &:hover {
+                    cursor: pointer;
+                }
+                .trailer-thumbnai {
+                    padding: 0 10px;
+                    img {
+                        border: 5px solid transparent;
+                        @include transition(all .3s);
+                        @media screen and (max-width: $screen-xs-max) {
+                            border: 2px solid transparent;
+                        }
+                    }
+                }
+                .trailer-title {
+                    font-size: 14px;
+                    padding: 0 15px;
+                    margin-top: 15px;
+                    color: $white;
+                    @media screen and (max-width: $screen-xs-max) {
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 1.4;
+                    }
+                }
+            }
+            // Arrow
+            .slick-arrow {
+                &.slick-prev, &.slick-next {
+                    top: 35%;
+                    &:before {
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+        // Arrow
+        .slick-arrow {
+            &.slick-prev, &.slick-next {
+                background: none;
+                border: none;
+                color: transparent;
+                cursor: pointer;
+                display: block;
+                font-size: 0;
+                line-height: 0;
+                outline: none;
+                padding: 0;
+                position: absolute;
+                top: 50%;
+                z-index: 99;
+                @include transform(translateY(-50%));
+                &:before {
+                    color: $text_color_secondary;
+                    font-family: 'slick';
+                    font-size: 56px;
+                    line-height: 1;
+                    opacity: 1;
+                    @include transition(all .3s);
+                }
+                &:hover {
+                    &:before {
+                        color: $primary_color;
+                        @include transition(all .3s);
+                    }
+                }
+            }
+            &.slick-prev {
+                left: 20px;
+                &:before {
+                    content: "\f3cf";
+                    font-family: Ionicons;
+                }
+                @media screen and(max-width: $screen-xs-max) {
+                    left: 5px;
+                }
+            }
+            &.slick-next {
+                right: 20px;
+                &:before {
+                    content: "\f3d1";
+                    font-family: Ionicons;
+                }
+                @media screen and(max-width: $screen-xs-max) {
+                    right: 5px;
+                }
+            }
+        }
+    }
+}
+// Trailer Popup
+.trailer-popup {
+    padding: 5% 20%;
+    @media screen and (max-width: $screen-sm-max) {
+        padding: 5% 10%;
+    }
+    @media screen and (max-width: $screen-xs-max) {
+        padding: 10% 5%;
+    }
+    .popup-content {
+        position: relative;
+        .popup-header {
+            .popup-header-info {
+                clear: both;
+                text-align: center;
+                .popup-title {
+                    color: $white;
+                    font-family: $secondary_font;
+                    font-size: 34px;
+                    font-weight: bold;
+                    position: relative;
+                    @media screen and (max-width: $screen-sm-max) {
+                        font-size: 18px;
+                    }
+                    @media screen and (max-width: $screen-xs-max) {
+                        font-size: 14px;
+                        padding: 0 40px;
+                    }
+                }
+                .popup-trailer-category {
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    a {
+                        color: rgba($white, .5);
+                        font-style: italic;
+                        text-transform: uppercase;
+                        &:hover {
+                            color: $primary_color;
+                        }
+                    }
+                    @media screen and (max-width: $screen-sm-max) {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        .popup-body {
+            .trailer-player {
+                .media-wrapper {
+                    position: relative;
+                    height: 0;
+                    overflow: hidden;
+                    &.ratio-169 {
+                        padding-bottom: 56.25%;
+                    }
+                    &.ratio-43 {
+                        padding-bottom: 75%;
+                    }
+                    video {
+                        opacity: 0;
+                    }
+                    .mejs__mediaelement {
+                        video {
+                            opacity: 1;
+                        }
+                    }
+                }
+                .media-wrapper {
+                    background-color: $black;
+                }
+                iframe {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+        }
+    }
+    .mfp-close {
+        background-color: rgba($black, .2);
+        color: $white;
+        position: absolute;
+        top: 35px;
+        right: 20%;
+        &:hover {
+            background-color: rgba($black, .5);
+        }
+        @media screen and (max-width: $screen-sm-max) {
+            right: 10%;
+        }
+        @media screen and (max-width: $screen-xs-max) {
+            right: 5%;
+        }
+    }
+}

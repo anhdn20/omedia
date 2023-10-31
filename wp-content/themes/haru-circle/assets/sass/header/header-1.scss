@@ -1,0 +1,208 @@
+// Header-1
+header.header-1 {
+    height: 120px;
+
+    .haru-header-nav-wrapper {
+        padding: 0 3%;
+    }
+
+    .haru-header-wrapper {
+        .header-left {
+            .header-logo {
+                a {
+                    line-height: 120px;
+                }
+            }
+        }
+        .header-right {
+            .menu-wrapper {
+                float: left;
+                display: inline-block;
+                .haru-main-menu {
+                    >li {
+                        &:hover {
+                            >a {
+                                &:before {
+                                    width: calc(100% - 40px);
+                                    @include transition(all .3s ease);
+                                }
+                            }
+                        }
+                        &.current-menu-item {
+                            >a {
+                                &:before {
+                                    content: "";
+                                    position: absolute;
+                                    width: calc(100% - 40px);
+                                    height: 1px;
+                                    left: 20px;
+                                    top: 75px;
+                                    background-color: $primary_color;
+                                }
+                            }
+                        }
+                        >a { 
+                            line-height: 120px; 
+                            padding-top: 0;
+                            padding-bottom: 0;
+                            
+                            &:before {
+                                content: "";
+                                position: absolute;
+                                width: 0;
+                                height: 1px;
+                                left: 20px;
+                                top: 75px;
+                                background-color: $primary_color;
+                                @include transition(all .3s ease)
+                            }
+                            // Remove caret
+                            &:after {
+                                display: none;
+                            }
+                        }
+                    }
+                    li.menu-item-has-children {
+                        &:hover {
+                            > a {
+
+                            }
+                        }
+                    }
+                    
+                }
+            }
+            .header-customize {
+                display: flex;
+                align-items: center;
+                height: 120px;
+                &.header-customize-nav {
+                    .shopping-cart-wrapper {
+                        
+                    }
+                }
+            }
+          
+        }
+    }
+    // Float
+    &.header-float {
+        .haru-header-wrapper {
+            .header-right {
+                // Menu
+                .menu-wrapper {
+                    .haru-main-menu {
+                        >li {
+                            >a {
+                                color: $white;
+                            }
+                        }
+                    }
+                }
+                // Customize
+                .header-customize {
+                    &.header-customize-nav {
+                        .header-customize-item {
+                            &.search-button-wrapper {
+                                a {
+                                    &:hover {
+                                        i {
+                                            color: $primary_color;
+                                        }
+                                    }
+                                    i {
+                                        color: $white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Sticky
+    .haru-sticky-wrapper {
+        .haru-header-nav-wrapper {
+            &.sticky-on {
+                .haru-header-wrapper {
+                    .header-left {
+                        
+                    }
+                    .header-right {
+                        // Menu
+                        .menu-wrapper {
+                            .haru-main-menu {
+                                >li {
+                                    >a {
+                                        &:before {
+                                            display: none;
+                                        }
+                                    }
+                                }
+
+                            }
+                        }
+                        // Customize
+                        .header-customize-nav {
+                            height: 60px;
+                            .header-customize-item {
+                                &.search-button-wrapper {
+                                    a {
+                                        i {
+                                            color: $white;
+                                            border-color: $white;
+                                        }
+                                    }
+                                }
+                                &.shopping-cart-wrapper {
+                                    i {
+                                        color: $white;
+                                        border-color: $white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.sticky-out {
+                // Menu
+                .menu-wrapper {
+                    .haru-main-menu {
+                        >li {
+                            >a {
+                                &:before {
+                                    display: none;
+                                }
+                                line-height: 60px;
+                            }
+                        }
+
+                    }
+                }
+                // Customize
+                .header-customize-nav {
+                    height: 60px;
+                    .header-customize-item {
+                        line-height: 60px;
+                        &.search-button-wrapper {
+                            a {
+                                i {
+                                    color: $white;
+                                    border-color: $white;
+                                }
+                            }
+                        }
+                        &.shopping-cart-wrapper {
+                            i {
+                                color: $white;
+                                border-color: $white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

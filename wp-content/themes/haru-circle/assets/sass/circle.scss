@@ -1,0 +1,58 @@
+// Need use this don't use in theme options
+.body-font {
+    font-family: $body_font!important;
+}
+.secondary-font {
+    font-family: $secondary_font;
+}
+.rotate-left {
+    @include rotate(-90deg);
+    position: absolute;
+    left: -24%;
+    bottom: 17%;
+}
+.rotate-right {
+    @include rotate(90deg);
+    position: absolute;
+    right: -43%;
+    bottom: 27%;
+}
+.white-color {
+    color: $white;
+}
+.button_style_6 {
+    &.pd-top-10 {
+        @media screen and (max-width: $screen-xs-max) {
+            padding-top: 10%!important;
+        }
+    }
+}
+// Home 9
+.responsive-banner-home9 {
+    @media screen and (max-width: $screen-xs-max) {
+        margin-top: -15% !important;
+    }
+}
+.services-home-9 {
+    @media screen and (max-width: $screen-md-max) {
+        margin-bottom: 0;
+    }
+}
+.services-home-10 {
+    margin-bottom: -15%;
+    margin-right: -25%;
+}
+// Home 10
+.store-background {
+    margin-bottom: -9%;
+}
+.xs-center {
+    @media screen and (max-width: $screen-xs-max) {
+        text-align: center!important;
+    }
+}
+@import "circle/archive-video";
+@import "circle/single-video";
+@import "circle/single-actor";
+@import "circle/single-director";
+@import "circle/single-film";

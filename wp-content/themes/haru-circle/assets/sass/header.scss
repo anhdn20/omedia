@@ -1,0 +1,221 @@
+/*-----------------------------------
+ * HEADER
+ *-----------------------------------*/
+@import "header/top-bar";
+@import "header/header-1";
+@import "header/header-2";
+@import "header/header-3";
+@import "header/header-4";
+@import "header/header-5";
+@import "header/header-6";
+@import "header/megamenu";
+@import "header/header-mobile";
+@import "header/header-customize";
+
+// Special case when have admin bar
+body {
+    &.admin-bar {
+        header.haru-main-header {
+            &.header-under-slideshow {
+                top: calc(100% + 32px);
+            }
+        }
+    }
+}
+// Header main
+header.haru-main-header {
+    // Hidden on mobile
+    @media screen and (max-width: $screen-sm-max) {
+        display: none;
+    }
+    // General style
+    .haru-header-nav-wrapper {
+        .haru-header-wrapper {
+            position: relative;
+            width: 100%;
+            display: table;
+            z-index: 99;
+            .menu-wrapper {
+                .haru-main-menu {
+                    // Only apply option for level 1
+                    > li {
+                        > a {
+                            color: $header_nav_text_color;
+                            font-size: $menu_font_size;
+                            font-weight: $menu_font_weight;
+                        }
+                        &:hover {
+                            > a {
+                                color: $primary_color;
+                            }
+                        }
+                        > ul {
+                            background: $white;
+                        }
+                    }
+                    li.current-menu-item {
+                        > a {
+                            color: $primary_color !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // General class
+    .fl {
+        float:left;
+    }
+    .fr {
+        float:right;
+    }
+    .header-left {
+        float:left;
+    }
+    .header-right {
+        float:right;
+        display:inline-flex;
+    }
+
+    // Header Float - Menu over Slideshow
+    &.header-float {
+        position: absolute!important;
+        z-index: 997;
+        left: 0;
+        right: 0;
+    }
+    // Header at the bottom of Slideshow
+    &.header-under-slideshow {
+        border-bottom: 1px solid $border_color;
+        position: absolute!important;
+        z-index: 997;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 100%;
+    }
+    
+    /*-----------------------------------
+     * LOGO RETINA FOR HIGH RESOLUTION DISPLAY
+     *-----------------------------------*/
+    .header-logo {
+        a {
+            &.logo-retina {
+                display: none;
+            }
+            &.logo-sticky {
+                display: none;
+            }
+            @media only screen and (min--moz-device-pixel-ratio: 2),
+            only screen and (-o-min-device-pixel-ratio: 2/1),
+            only screen and (-webkit-min-device-pixel-ratio: 2),
+            only screen and (min-device-pixel-ratio: 2) {
+                &.logo-default {
+                    display: none;
+                }
+                &.logo-retina {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    // Sticky Header @TODO: need and more light style (now only dark)
+    .haru-sticky-wrapper {
+        &.is-sticky {
+            > .haru-header-nav-wrapper {
+                z-index: 996;
+                left: 0;
+                right: 0;
+                box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+                border: none!important;
+                @include transform(translate3d(0, 0, 0));
+                @include fixed;
+                // Dark Skin
+                &.sticky_dark {
+                    &.sticky-on {
+                        height: 60px;
+                        background-color: #333;
+                        .menu-wrapper {
+                            .haru-main-menu {
+                                > li {
+                                    > a {
+                                        color: $white;
+                                        line-height: 60px;
+                                        &:hover {
+                                            color: $primary_color;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &.sticky-in {
+                        @include animation(header-drop 0.5s 0s 1 cubic-bezier(0.694, 0.0482, 0.335, 1));
+                    }
+                    &.sticky-out {
+                        @include animation(header-drop-out 0.5s 0s 1 cubic-bezier(0.694, 0.0482, 0.335, 1));
+                        height: 60px;
+                        .menu-wrapper .haru-main-menu {
+                            > li > a {
+                                color: $white;
+                            }
+                        }
+                        background: #333; // Change here to change sticky menu background
+                    }
+                }
+                // Light Skin
+                &.sticky_light {
+                    &.sticky-on {
+                        height: 60px;
+                        background-color: $white;
+                        .menu-wrapper {
+                            .haru-main-menu {
+                                > li {
+                                    > a {
+                                        color: $text_color;
+                                        line-height: 60px;
+                                        &:hover {
+                                            color: $primary_color;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &.sticky-out {
+                        .menu-wrapper .haru-main-menu {
+                            > li > a {
+                                color: $text_color;
+                            }
+                        }
+                        background: $white;
+                    }
+                }
+                // Animation
+                &.sticky-in {
+                    @include animation(header-drop 0.5s 0s 1 cubic-bezier(0.694, 0.0482, 0.335, 1));
+                }
+                &.sticky-out {
+                    @include animation(header-drop-out 0.5s 0s 1 cubic-bezier(0.694, 0.0482, 0.335, 1));
+                    height: 60px;
+                }
+                // Sticky Logo
+                .header-logo {
+                    a {
+                        line-height: 60px;
+
+                        &.logo-default,
+                        &.logo-retina {
+                            display: none;
+                        }
+                        &.logo-sticky {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+/* Decoration Shortcode CSS */
+.decoration-shortcode-wrapper {
+    // Style line
+    &.line {
+        height: 4px;
+        .zigzag {
+            position: relative;
+            width: 100%;
+            &:before{
+                content: ' ';
+                display: block;
+                height: 4px;
+                position: absolute;
+                left: 0;
+                right: 0;
+            }
+            &:before {
+                background: 
+                linear-gradient(45deg, #FCFCFB 25%, transparent 25%),
+                linear-gradient(315deg, #FCFCFB 25%, transparent 25%),
+                linear-gradient(225deg, #FFFFFF 25%, transparent 25%) -2px 0,
+                linear-gradient(135deg, #FFFFFF 25%, transparent 25%) -2px 0;
+                background-size: 4px 4px;
+                background-color: $decoration_color;
+            }
+        }
+    }
+    // Rectangle
+    .rectangle {
+        padding: 30px 0;
+        border: 5px solid $decoration_color;
+        // Responsive
+        @media screen and ( max-width:$screen-xs-max ) {
+            display: none;
+        }
+    }
+    // Circle
+    .circle {
+        border-radius: 50%;
+        background-color: $decoration_color;
+        // Responsive
+        @media screen and ( max-width:$screen-xs-max ) {
+            display: none;
+        }
+    }
+}

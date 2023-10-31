@@ -1,0 +1,289 @@
+/* HARU HEADER SIDEBAR STYLE */
+$header_background_dark: #262626;
+
+#haru-wrapper {
+    position: relative;
+    .haru-top-bar {
+        z-index: 999;
+    }
+}
+#haru-header.header-sidebar {
+    background-color: $header_background_color ;
+    height: 100%;
+    position: fixed;
+    z-index: 888;
+    width: 300px;
+    @include box-shadow( rgba(0, 0, 0, .2) 0 0 10px 0 );
+    .vertical-header-wrapper {
+        height: 100%;
+        // Header top
+        .header-top {
+            text-align: center;
+            .header-logo {
+                padding: 40px 0;
+                img {
+                    max-width: 100%;
+                    @include box-sizing(border-box);
+                }
+            }
+        }
+        // Header bottom
+        .header-bottom {
+            padding-top: 20px;
+            // Vertical Menu
+            .menu-wrapper {
+                width: 100%;
+                .navbar-nav {
+                    &.vertical-megamenu {
+                        padding: 0;
+                        width: 100%;
+                        // General
+                        li {
+                            &.current-menu-item {
+                                > a {
+                                    color: $primary_color;
+                                }
+                            }
+                        }
+                        > li {
+                            // Level 0
+                            font-size: 14px;
+                            float: none;
+                            position: relative;
+                            @include transition(all .2s ease-in-out);
+                            > a {
+                                display: block;
+                                padding: 15px 30px 15px 30px;
+                                font-style: italic;
+                                &:after {
+                                    position: absolute;
+                                    right: 30px;
+                                    @include transition(all .3s);
+                                }
+                            }
+                            &:hover {
+                                > a {
+                                    &:after {
+                                        @include rotate(-90deg);
+                                    }
+                                }
+                            }
+                            // DROPDOWN STYLE
+                            &.menu_style_dropdown {
+                                // Hover on each level
+                                &:hover {
+                                    // Need change only on Level 1
+                                    > ul {
+                                        left: 100%;
+                                        top: 0;
+                                    }
+                                }
+                            }
+                            // COLUMNS STYLE
+                            &.menu_style_column {
+                                > ul {
+                                    // Change css level 1
+                                    background: $header_background_color;
+                                    left: 100%;
+                                    min-width: 970px;
+                                    top: 0;
+                                }
+                            }
+                            // TAB STYLE
+                            &.menu_style_tab {
+                                > ul {
+                                    // Change css level 1
+                                    background: $header_background_color;
+                                    left: 100%;
+                                    min-width: 970px;
+                                    top: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            // Header customize bottom (navigation)
+            .header-customize {
+                &.header-customize-nav {
+                    .header-customize-item {
+                        margin: 0;
+                        padding: 10px 30px;
+                        width: 100%;
+                        &.header-social-profile-wrapper {
+                            margin-top: 60px;
+                            li {
+                                padding: 0 13px;
+                                &:first-child {
+                                    padding-left: 0;
+                                }
+                                a {
+                                    color: $text_color_secondary;
+                                    &:hover {
+                                        color: $primary_color;
+                                    }                                    
+                                }
+                            }
+                        }
+                        &.custom-text-wrapper {
+                            color: $text_color_secondary;
+                            font-family: $secondary_font;
+                            font-style: italic;
+                            span {
+                                color: $text_color_secondary;
+                            }
+                        }
+                        &.user-account-wrapper {
+                            margin-top: 15px;
+                            .user-info {
+                                display: block;
+                                .user-avatar {
+                                    display: inline-block;
+                                    float: left;
+                                    img {
+                                        border: 5px solid $white;
+                                        @include rounded(50%);
+                                    }
+                                }
+                                .user-name {
+                                    display: inline-block;
+                                    margin-left: 15px;
+                                    p {
+                                        margin-bottom: 0;
+                                        margin-top: 5px;
+                                        &.name {
+                                            color: $text_color_secondary;
+                                            text-transform: uppercase;
+                                        }
+                                    }
+                                }
+                            }
+                            .user-link {
+                                clear: both;
+                                margin-top: 20px;
+                            }
+                        }            
+                    }
+                }
+            }
+        }
+    }
+    // Header Light
+    &.header-light {
+
+    }
+    // Header Dark
+    &.header-dark {
+        background-color: $header_background_dark;
+        .vertical-header-wrapper {
+            // Header bottom
+            .header-bottom {
+                // Vertical Menu
+                .menu-wrapper {
+                    width: 100%;
+                    .navbar-nav {
+                        &.vertical-megamenu {
+                            // General
+                            li {
+                                &.current-menu-item {
+                                    > a {
+
+                                    }
+                                }
+                            }
+                            > li {
+                                > a {
+                                    color: $text_color_secondary;
+                                }
+                                &:hover {
+                                    > a {
+                                        color: $primary_color;
+                                    }
+                                }
+                                // DROPDOWN STYLE
+                                &.menu_style_dropdown {
+                                    // Hover on each level
+                                    &:hover {
+                                        // Need change only on Level 1
+                                        > ul {
+
+                                        }
+                                    }
+                                }
+                                // COLUMNS STYLE
+                                &.menu_style_column {
+                                    > ul {
+                                        // Change css level 1
+                                        // background: $header_background_dark;
+                                    }
+                                }
+                                // TAB STYLE
+                                &.menu_style_tab {
+                                    > ul {
+                                        // Change css level 1
+                                        // background: $header_background_dark;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                // Header customize bottom (navigation)
+                .header-customize {
+                    &.header-customize-nav {
+                        .header-customize-item {
+                            &.custom-text-wrapper {
+                                color: $text_color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// 
+body {
+    &.header-sidebar {
+        #haru-content-main {
+            // padding-top: 15px;
+        }
+        .haru-archive-blog,
+        .haru-single-blog {
+            padding: 0 15px;
+        }
+        .haru-archive-product,
+        .haru-single-product {
+            padding: 0 15px;
+        }
+        .haru-archive-video {
+            padding: 0 15px;
+        }
+    }
+}
+// Padding main content
+.header-sidebar {
+    .haru-top-header {
+        padding-left: 300px;
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+    }
+    .haru-top-bar {
+        position: fixed;
+        width: 100%;
+    }
+    #haru-content-main {
+        padding-top: 0;
+        padding-left: 300px !important;
+        @media screen and (max-width: $screen-sm-max) { 
+            padding-left: 0!important;
+        }
+    }  
+    footer {
+        margin-left: 300px !important;
+        @media screen and (max-width: $screen-sm-max) { 
+            margin-left: 0!important;
+        }
+    }
+}

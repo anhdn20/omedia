@@ -1,0 +1,113 @@
+/* Icon Box Shortcode CSS */
+.icon-box-shortcode-wrapper {
+    margin-bottom: 25px;
+    // Style 1
+    &.style_1 {
+        .icon-box-content-wrapper {
+            text-align: center;
+            &:hover {
+                
+            }
+            .icon-wrap {
+                img {
+
+                }
+            }
+            .icon-content {
+                padding: 0 25px;
+                .icon-title {
+                    margin: 0;
+                    padding: 15px 0;
+                    h5 {
+                        font-size: 24px;
+                        @include transition(all .3s);
+                        &:hover {
+                            color: $link_color_hover;
+                            @include transition(all .3s);
+                        }
+                        @media screen and (max-width: $screen-sm-max) {
+                            font-size: 18px;
+                        }
+                    }
+                }
+                .icon-description {
+                    
+                }
+                .icon-readmore {
+                    font-family: $secondary_font;
+                    font-size: 16px;
+                    font-weight: 700;
+                    font-style: italic;
+                    padding-top: 15px;
+                    @media screen and (max-width: $screen-sm-max) {
+                        font-size: 16px;
+                    }
+                    a {
+                        position: relative;
+                        left: -15px;
+                        @include transition(left .3s);
+                        &:hover {
+                            left: 0;
+                            @include transition(left .3s );
+                            &:before {
+                                opacity: 1;
+                            }
+                        }
+                        &:before {
+                            content: "\f273";
+                            font-family: "Ionicons";
+                            font-style: normal;
+                            font-weight: normal;
+                            opacity: 0;
+                            margin-right: 5px;
+                            @include transition(all .3s);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Style 2
+    &.style_2 {
+        .icon-box-container {
+            border: 1px solid $border_color;
+            text-align: left;
+            padding: 30px;
+            @media screen and (max-width: $screen-sm-max) {
+                padding: 20px;
+            }
+            .icon-wrap {
+                font-size: 48px;
+                line-height: 1;
+                padding-bottom: 15px;
+                @media screen and (max-width: $screen-sm-max) {
+                    font-size: 34px;
+                    padding-bottom: 10px;
+                }
+                span {
+                    color: $primary_color;
+                }
+            }
+            .icon-content {
+               .icon-title {
+                    font-size: 24px;
+                    font-weight: bold;
+                    padding-bottom: 15px;
+                    @media screen and (max-width: $screen-sm-max) {
+                        font-size: 18px;
+                        padding-bottom: 10px;
+                    }
+                }
+                .icon-description {
+                    font-family: $secondary_font;
+                    font-size: 18px;
+                    font-style: italic;
+                    letter-spacing: 1px;
+                    @media screen and (max-width: $screen-sm-max) {
+                        font-size: 14px;
+                    }
+                } 
+            }
+        }      
+    }
+}

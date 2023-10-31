@@ -1,0 +1,60 @@
+// Variables
+.countdown-shortcode-wrapper {
+    // Number style
+    &.number {
+        .countdown-content {
+            .list-time {
+                list-style: none;
+                list-style-type: none;
+                padding: 0;
+                text-align: center;
+                li {
+                    position: relative;
+                    display: inline-block;
+                    padding: 5px;
+                    border-radius: 50%;
+                    border: 2px solid rgba($white, .5);
+                    margin-right: 5px;
+                    &:hover {
+                        border: 2px solid rgba($white, 1);
+                        @include transition(all 0.3s);
+                    }
+                    p {
+                        margin: 0;
+                        font-family: $secondary_font;
+                        font-style: italic;
+                        &.countdown-number {
+                            font-size: 18px;
+                            width: 48px;
+                            height: 48px;
+                            line-height: 48px;
+                            padding: 5px;
+                            background: $white;
+                            @include rounded(50%);
+                            @include box-sizing(content-box);
+                            @media screen and ( max-width:$screen-xs-max ) {
+                                font-size: 16px;
+                                height: 40px;
+                                width: 40px;
+                                line-height: 40px;
+                            }
+                        }
+                        &:last-child{
+                            opacity: 0;
+                            visibility: hidden;
+                            margin-top: 10px;
+                            text-align: center;
+                        }
+                        &.countdown-text {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Circle Style
+    &.circle {
+
+    }
+}

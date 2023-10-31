@@ -1,0 +1,73 @@
+// Counter Shortcode
+.counter-shortcode-wrapper {
+    // Style 1
+    &.style_1 {
+        margin-top: 10px;
+        .gr-counter {
+            .content-inner {
+                display: table;
+                width: 100%;
+                .gr-number-counter {
+                    font-family: $secondary_font;
+                    width: 35%;
+                    display: table-cell;
+                    vertical-align: middle;
+                    font-size: 34px;
+                    font-weight: 700;
+                    color: $heading_color;
+                    text-align: right;
+                    padding-right: 50px;
+                    position: relative;
+                    &:before {
+                        content: "\f111";
+                        color: $primary_color;
+                        font-family: fontAwesome;
+                        font-size: 6px;
+                        position: absolute;
+                        right: 20px;
+                        top: 50%;
+                        @include transform(translateY(-50%));
+                    }
+                }
+                .gr-text-default {
+                    width: 65%;
+                    display: table-cell;
+                    vertical-align: middle;
+                    font-size: 16px;
+                    font-style: italic;
+                    text-transform: uppercase;
+                    @media screen and (max-width: $screen-xs-max) {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    // Style 2
+    &.style_2 {
+        .gr-counter {
+            .content-inner {
+                @media screen and (max-width: $screen-xs-max) {
+                    text-align: center;
+                }
+                .gr-number-counter {
+                    color: $primary_color;
+                    font-size: 56px;
+                    font-family: $secondary_font;
+                    font-weight: 700;
+                    @media screen and (max-width: $screen-sm-max) {
+                        font-size: 36px;
+                    }
+                }
+                .gr-text-default {
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    font-style: italic;
+                    @media screen and (max-width: $screen-xs-max) {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,4570 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Haru Circle Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-14 02:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8.1\n"
+"X-Domain: haru-circle"
+
+#: includes/widgets/haru-widget-circle-top-film.php:128
+#: templates/posttypes/film/top-celebrity.php:42
+#: templates/posttypes/film/top-view.php:45
+msgid " views"
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-videos.php:157
+#: includes/widgets/haru-post-thumbnail.php:155
+msgid "%"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:642
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:322
+msgid "- Select -"
+msgstr ""
+
+#: includes/term-meta/include/term-meta-generator-class.php:250
+msgid "-- Choose Icon --"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:153
+msgid "-73.864512"
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-top-film.php:139
+#: templates/circle/film-ajax-search.php:123
+#: templates/circle/film-ajax-search-loadmore.php:125
+#: templates/posttypes/film/film-style/style_1.php:52
+#: templates/posttypes/film/film-style/style_2.php:50
+#: templates/posttypes/trailer/trailer-style/style_1.php:30
+#: templates/posttypes/trailer/trailer-style/style_2.php:28
+msgid "/10"
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-videos.php:159
+#: includes/widgets/haru-post-thumbnail.php:157
+msgid "0"
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-videos.php:161
+#: includes/widgets/haru-post-thumbnail.php:159
+msgid "1"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:161
+msgid "12"
+msgstr ""
+
+#: includes/shortcodes/recent-news/recent-news.php:113
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:110
+msgid "2"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/video.php:120
+#: includes/shortcodes/posttypes/film/film-search-form.php:81
+#: includes/shortcodes/posttypes/film/film-slideshow.php:116
+#: includes/shortcodes/posttypes/film/film.php:119
+#: includes/shortcodes/posttypes/director/director.php:117
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:116
+#: includes/shortcodes/posttypes/actor/actor.php:119
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:108
+msgid "2 Columns"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:85
+msgid "2 columns"
+msgstr ""
+
+#: includes/shortcodes/recent-news/recent-news.php:114
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:111
+msgid "3"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/video.php:121
+#: includes/shortcodes/posttypes/film/film-search-form.php:82
+#: includes/shortcodes/posttypes/film/film-slideshow.php:117
+#: includes/shortcodes/posttypes/film/film.php:120
+#: includes/shortcodes/posttypes/director/director.php:118
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:117
+#: includes/shortcodes/posttypes/actor/actor.php:120
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:109
+msgid "3 Columns"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:86
+msgid "3 columns"
+msgstr ""
+
+#: includes/shortcodes/recent-news/recent-news.php:115
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:112
+msgid "4"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/video.php:122
+#: includes/shortcodes/posttypes/film/film-search-form.php:83
+#: includes/shortcodes/posttypes/film/film-slideshow.php:118
+#: includes/shortcodes/posttypes/film/film.php:121
+#: includes/shortcodes/posttypes/director/director.php:119
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:118
+#: includes/shortcodes/posttypes/actor/actor.php:121
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:110
+msgid "4 Columns"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:87
+msgid "4 columns"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:145
+msgid "40.843292"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:137
+msgid "400px"
+msgstr ""
+
+#: includes/shortcodes/recent-news/recent-news.php:116
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:113
+msgid "5"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/video.php:123
+#: includes/shortcodes/posttypes/film/film-search-form.php:84
+#: includes/shortcodes/posttypes/film/film-slideshow.php:119
+#: includes/shortcodes/posttypes/film/film.php:122
+#: includes/shortcodes/posttypes/director/director.php:120
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:119
+#: includes/shortcodes/posttypes/actor/actor.php:122
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:111
+msgid "5 Columns"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:88
+msgid "5 columns"
+msgstr ""
+
+#: templates/posttypes/trailer/trailer-style/style_1.php:30
+#: templates/posttypes/trailer/trailer-style/style_2.php:28
+msgid "7.8"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1136
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: includes/posttypes/actor.php:46
+#: templates/posttypes/film/top-celebrity.php:44
+msgid "Actor"
+msgstr ""
+
+#: includes/posttypes/actor.php:84
+msgid "Actor Categories"
+msgstr ""
+
+#: includes/posttypes/actor.php:85
+#: includes/shortcodes/posttypes/actor/actor.php:86
+msgid "Actor Category"
+msgstr ""
+
+#: includes/shortcodes/posttypes/actor/actor.php:132
+msgid "Actor Style"
+msgstr ""
+
+#: includes/posttypes/actor.php:44
+msgid "Actors"
+msgstr ""
+
+#: includes/libraries/tax-meta-class/tax-meta-class.php:386
+msgid "Add"
+msgstr ""
+
+#: includes/posttypes/metaboxes/custom-field.php:28
+msgid "Add custom field"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:41 includes/posttypes/film.php:47
+#: includes/posttypes/actor.php:47 includes/posttypes/portfolio.php:47
+#: includes/posttypes/video.php:47 includes/posttypes/footer.php:26
+#: includes/posttypes/director.php:47 includes/posttypes/trailer.php:47
+#: includes/posttypes/teammember.php:43
+msgid "Add New"
+msgstr ""
+
+#: includes/posttypes/actor.php:48 includes/posttypes/actor.php:50
+msgid "Add New Actor"
+msgstr ""
+
+#: includes/posttypes/actor.php:91
+msgid "Add New Actor Category"
+msgstr ""
+
+#: includes/posttypes/director.php:48 includes/posttypes/director.php:50
+msgid "Add New Director"
+msgstr ""
+
+#: includes/posttypes/director.php:91
+msgid "Add New Director Category"
+msgstr ""
+
+#: includes/posttypes/film.php:48 includes/posttypes/film.php:50
+msgid "Add New Film"
+msgstr ""
+
+#: includes/posttypes/film.php:91
+msgid "Add New Film Category"
+msgstr ""
+
+#: includes/posttypes/film.php:171
+msgid "Add New Film Country"
+msgstr ""
+
+#: includes/posttypes/film.php:131
+msgid "Add New Film Tag"
+msgstr ""
+
+#: includes/posttypes/film.php:211
+msgid "Add New Film Year"
+msgstr ""
+
+#: includes/posttypes/footer.php:27 includes/posttypes/footer.php:29
+msgid "Add New Footer"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:48 includes/posttypes/portfolio.php:50
+msgid "Add New Portfolio"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:91
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:133
+msgid "Add New Portfolio Tag"
+msgstr ""
+
+#: includes/posttypes/teammember.php:87
+msgid "Add New Team Category"
+msgstr ""
+
+#: includes/posttypes/teammember.php:44 includes/posttypes/teammember.php:46
+msgid "Add New Team Member"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:42 includes/posttypes/testimonial.php:44
+msgid "Add New Testimonial"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:86
+msgid "Add New Testimonial Category"
+msgstr ""
+
+#: includes/posttypes/trailer.php:48 includes/posttypes/trailer.php:50
+msgid "Add New Trailer"
+msgstr ""
+
+#: includes/posttypes/trailer.php:91
+msgid "Add New Trailer Category"
+msgstr ""
+
+#: includes/posttypes/video.php:48 includes/posttypes/video.php:50
+msgid "Add New Video"
+msgstr ""
+
+#: includes/posttypes/video.php:91
+msgid "Add New Video Category"
+msgstr ""
+
+#: includes/posttypes/actor.php:98
+msgid "Add or remove Actor Categories"
+msgstr ""
+
+#: includes/posttypes/director.php:98
+msgid "Add or remove Director Categories"
+msgstr ""
+
+#: includes/posttypes/film.php:98
+msgid "Add or remove Film Categories"
+msgstr ""
+
+#: includes/posttypes/film.php:178
+msgid "Add or remove Film Countries"
+msgstr ""
+
+#: includes/posttypes/film.php:138
+msgid "Add or remove Film Tags"
+msgstr ""
+
+#: includes/posttypes/film.php:218
+msgid "Add or remove Film Year"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:98
+msgid "Add or remove Portfolio Categories"
+msgstr ""
+
+#: includes/posttypes/teammember.php:94
+msgid "Add or remove Team Categories"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:93
+msgid "Add or remove Testimonial Categories"
+msgstr ""
+
+#: includes/posttypes/trailer.php:98
+msgid "Add or remove Trailer Categories"
+msgstr ""
+
+#: includes/posttypes/video.php:98
+msgid "Add or remove Video Categories"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:69
+msgid "Address"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:75
+msgid "AIzaSyBiZjBDjop9d8CDhkFORzUyZAiFcOaHe5M"
+msgstr ""
+
+#: includes/widgets/haru-product-search.php:32
+msgid "Ajax Search"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-social/footer-social.php:207
+msgid "Align"
+msgstr ""
+
+#: includes/widgets/haru-widget-price-filter.php:178
+#: includes/widgets/haru-widget-price-filter.php:180
+#: templates/posttypes/video/masonry.php:73
+#: templates/posttypes/video/grid_special.php:73
+#: templates/posttypes/video/grid.php:73
+#: templates/posttypes/film/masonry.php:75 templates/posttypes/film/grid.php:75
+#: templates/posttypes/director/masonry.php:73
+#: templates/posttypes/director/grid.php:73
+#: templates/posttypes/actor/masonry.php:73
+#: templates/posttypes/actor/grid.php:73
+#: templates/posttypes/portfolio/filter/filter-tag.php:55
+#: templates/posttypes/portfolio/filter/filter-category.php:56
+#: templates/posttypes/video-ajax/video-ajax-category/grid.php:57
+msgid "All"
+msgstr ""
+
+#: includes/posttypes/actor.php:87
+msgid "All Actor Categories"
+msgstr ""
+
+#: includes/posttypes/director.php:87
+msgid "All Director Categories"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:176
+msgid "All done."
+msgstr ""
+
+#: includes/posttypes/film.php:87
+msgid "All Film Categories"
+msgstr ""
+
+#: includes/posttypes/film.php:167
+msgid "All Film Countries"
+msgstr ""
+
+#: includes/posttypes/film.php:127
+msgid "All Film Tags"
+msgstr ""
+
+#: includes/posttypes/film.php:207
+msgid "All Film Year"
+msgstr ""
+
+#: includes/posttypes/footer.php:25
+msgid "All footer"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:87
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:128
+msgid "All Tags"
+msgstr ""
+
+#: includes/posttypes/teammember.php:83
+msgid "All Team Categories"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:82
+msgid "All Testimonial Categories"
+msgstr ""
+
+#: includes/posttypes/trailer.php:87
+msgid "All Trailer Categories"
+msgstr ""
+
+#: includes/posttypes/video.php:87
+msgid "All Video Categories"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:182
+#: includes/shortcodes/shortcodes.php:300
+msgid "Animation Delay"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:144
+#: includes/shortcodes/shortcodes.php:265
+msgid "Animation Duration"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:136
+#: includes/shortcodes/shortcodes.php:174
+#: includes/shortcodes/shortcodes.php:212
+#: includes/shortcodes/shortcodes.php:260
+#: includes/shortcodes/shortcodes.php:295
+#: includes/shortcodes/shortcodes.php:330
+msgid "Animation Settings"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:74
+msgid "API key"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:311
+msgid "as a new user:"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:160
+#: includes/shortcodes/recent-news/recent-news.php:191
+#: includes/shortcodes/posttypes/video/video.php:232
+#: includes/shortcodes/posttypes/film/film-slideshow.php:163
+#: includes/shortcodes/posttypes/film/film.php:233
+#: includes/shortcodes/posttypes/director/director.php:228
+#: includes/shortcodes/posttypes/teammember/teammember.php:206
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:163
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:126
+#: includes/shortcodes/posttypes/actor/actor.php:231
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:195
+msgid "Ascending"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:264
+msgid "Assign Authors"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:319
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:144
+#: includes/shortcodes/recent-news/recent-news.php:175
+#: includes/shortcodes/posttypes/video/video.php:216
+#: includes/shortcodes/posttypes/film/film-slideshow.php:148
+#: includes/shortcodes/posttypes/film/film.php:218
+#: includes/shortcodes/posttypes/director/director.php:212
+#: includes/shortcodes/posttypes/teammember/teammember.php:190
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:148
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:110
+#: includes/shortcodes/posttypes/actor/actor.php:215
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:179
+msgid "Author"
+msgstr ""
+
+#: includes/shortcodes/clients/clients.php:110
+#: includes/shortcodes/recent-news/recent-news.php:125
+#: includes/shortcodes/posttypes/film/film-slideshow.php:171
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:171
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:140
+msgid "AutoPlay"
+msgstr ""
+
+#: includes/widgets/haru-widget-product-sorting.php:63
+msgid "Average rating"
+msgstr ""
+
+#: includes/shortcodes/banner/banner.php:117
+#: includes/shortcodes/posttypes/video/single-video.php:81
+msgid "Banner's Image"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:96
+msgid "Basic"
+msgstr ""
+
+#: includes/widgets/widgets.php:188 includes/widgets/widgets.php:277
+#: includes/widgets/widgets.php:277
+#: includes/widgets/haru-social-profile-widget.php:52
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:367
+msgid "Behance"
+msgstr ""
+
+#: includes/widgets/haru-social-profile-widget.php:29
+msgid "Bordered"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:127
+#: includes/shortcodes/shortcodes.php:251
+msgid "Bounce"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:121
+#: includes/shortcodes/shortcodes.php:245
+msgid "Bounce Bottom to Top"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:119
+#: includes/shortcodes/shortcodes.php:243
+msgid "Bounce In"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:122
+#: includes/shortcodes/shortcodes.php:246
+msgid "Bounce Left to Right"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:123
+#: includes/shortcodes/shortcodes.php:247
+msgid "Bounce Right to Left"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:120
+#: includes/shortcodes/shortcodes.php:244
+msgid "Bounce Top to Bottom"
+msgstr ""
+
+#: includes/shortcodes/functions.php:95
+msgid "Browse Icon"
+msgstr ""
+
+#: includes/widgets/haru-widget.php:186 includes/widgets/haru-widget.php:198
+msgid "Browse..."
+msgstr ""
+
+#: includes/shortcodes/timeline/timeline.php:124
+#: includes/shortcodes/posttypes/film/film-slideshow.php:107
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:107
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:69
+msgid "Carousel"
+msgstr ""
+
+#: includes/shortcodes/recent-news/recent-news.php:72
+msgid "Carousel (Home 1)"
+msgstr ""
+
+#: includes/shortcodes/recent-news/recent-news.php:73
+msgid "Carousel (Home 2)"
+msgstr ""
+
+#: includes/shortcodes/recent-news/recent-news.php:74
+msgid "Carousel (Home 9, 10)"
+msgstr ""
+
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:70
+msgid "Carousel 2"
+msgstr ""
+
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:71
+msgid "Carousel 3"
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-videos.php:35
+msgid "Carousel Slideshow 1"
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-videos.php:36
+msgid "Carousel Slideshow 2"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:81 includes/posttypes/film.php:86
+#: includes/posttypes/actor.php:86 includes/posttypes/portfolio.php:86
+#: includes/posttypes/video.php:86 includes/posttypes/director.php:86
+#: includes/posttypes/trailer.php:86
+#: includes/widgets/haru-widget-circle-videos.php:79
+#: includes/widgets/haru-post-thumbnail.php:66
+#: includes/widgets/haru-widget-circle-top-film.php:67
+msgid "Categories"
+msgstr ""
+
+#: includes/posttypes/film.php:253 includes/posttypes/actor.php:133
+#: includes/posttypes/portfolio.php:165 includes/posttypes/video.php:133
+#: includes/posttypes/director.php:133 includes/posttypes/trailer.php:133
+#: templates/posttypes/film/search-form-ajax.php:49
+#: templates/posttypes/portfolio/single/detail-02.php:99
+#: templates/posttypes/portfolio/single/detail-03.php:137
+#: templates/posttypes/portfolio/single/detail-01.php:176
+#: templates/posttypes/portfolio/single/detail-04.php:110
+#: templates/posttypes/portfolio/single/detail-05.php:117
+msgid "Category"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-social/footer-social.php:211
+#: includes/shortcodes/posttypes/video/video.php:180
+#: includes/shortcodes/posttypes/film/film.php:178
+#: includes/shortcodes/posttypes/director/director.php:176
+#: includes/shortcodes/posttypes/actor/actor.php:179
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:149
+msgid "Center"
+msgstr ""
+
+#: includes/term-meta/tax-meta-fields.php:16
+msgid "Choose a color"
+msgstr ""
+
+#: includes/term-meta/tax-meta-fields.php:25
+msgid "Choose a Image"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1152
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:108
+msgid "Choose columns of gallery from drop down list"
+msgstr ""
+
+#: includes/posttypes/actor.php:99
+msgid "Choose from the most used Actor Categories"
+msgstr ""
+
+#: includes/posttypes/director.php:99
+msgid "Choose from the most used Director Categories"
+msgstr ""
+
+#: includes/posttypes/film.php:99
+msgid "Choose from the most used Film Categories"
+msgstr ""
+
+#: includes/posttypes/film.php:179
+msgid "Choose from the most used Film Countries"
+msgstr ""
+
+#: includes/posttypes/film.php:139
+msgid "Choose from the most used Film Tags"
+msgstr ""
+
+#: includes/posttypes/film.php:219
+msgid "Choose from the most used Film Year"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:99
+msgid "Choose from the most used Portfolio Categories"
+msgstr ""
+
+#: includes/posttypes/teammember.php:95
+msgid "Choose from the most used Team Categories"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:94
+msgid "Choose from the most used Testimonial Categories"
+msgstr ""
+
+#: includes/posttypes/trailer.php:99
+msgid "Choose from the most used Trailer Categories"
+msgstr ""
+
+#: includes/posttypes/video.php:99
+msgid "Choose from the most used Video Categories"
+msgstr ""
+
+#: includes/shortcodes/clients/clients.php:128
+#: includes/shortcodes/countdown/countdown.php:68
+#: includes/shortcodes/images-gallery/images-gallery.php:109
+#: includes/shortcodes/recent-news/recent-news.php:68
+msgid "Choose layout"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:73
+#: includes/shortcodes/posttypes/video/single-video.php:64
+msgid "Choose layout style from drop down list styles."
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/video.php:206
+#: includes/shortcodes/posttypes/film/film.php:204
+#: includes/shortcodes/posttypes/director/director.php:202
+#: includes/shortcodes/posttypes/actor/actor.php:205
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:169
+msgid "Choose pagination type."
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/single-video.php:77
+msgid "Choose single video by search video name."
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:83
+msgid "Choose style layout"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:93
+msgid "Choose style map"
+msgstr ""
+
+#: includes/shortcodes/countdown/countdown.php:73
+msgid "Circle"
+msgstr ""
+
+#: haru-circle-core.php:63
+msgid "Circle Shortcodes"
+msgstr ""
+
+#: includes/shortcodes/functions.php:95 includes/widgets/haru-widget.php:186
+msgid "Click to browse icon"
+msgstr ""
+
+#: includes/widgets/haru-widget.php:198
+msgid "Click to browse image"
+msgstr ""
+
+#: templates/posttypes/portfolio/single/detail-01.php:162
+msgid "Client"
+msgstr ""
+
+#: includes/shortcodes/clients/clients.php:64
+msgid "Clients"
+msgstr ""
+
+#: includes/shortcodes/clients/clients.php:74
+#: includes/shortcodes/images-gallery/images-gallery.php:73
+#: includes/shortcodes/progress-bar/progress-bar.php:67
+#: includes/shortcodes/pricing-plan/pricing-plan.php:79
+#: includes/shortcodes/timeline/timeline.php:75
+msgid "Codecanyon"
+msgstr ""
+
+#: includes/term-meta/tax-meta-fields.php:15
+#: includes/widgets/haru-widget-color-filter.php:39
+#: includes/widgets/haru-widget-color-filter.php:104
+msgid "Color"
+msgstr ""
+
+#: includes/widgets/haru-widget-color-filter.php:79
+#: includes/shortcodes/images-gallery/images-gallery.php:122
+#: includes/shortcodes/pricing-plan/pricing-plan.php:183
+#: includes/shortcodes/blog/blog.php:83
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:107
+#: includes/shortcodes/posttypes/video/video.php:117
+#: includes/shortcodes/posttypes/film/film-search-form.php:78
+#: includes/shortcodes/posttypes/film/film-slideshow.php:113
+#: includes/shortcodes/posttypes/film/film.php:116
+#: includes/shortcodes/posttypes/director/director.php:114
+#: includes/shortcodes/posttypes/teammember/teammember.php:111
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:113
+#: includes/shortcodes/posttypes/actor/actor.php:116
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:105
+msgid "Columns"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:65
+msgid "Contact Information List"
+msgstr ""
+
+#: includes/posttypes/film.php:166
+msgid "Countries"
+msgstr ""
+
+#: templates/posttypes/film/search-form-ajax.php:62
+msgid "Country"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:110
+#: includes/shortcodes/shortcodes.php:234
+msgid "CSS Animation"
+msgstr ""
+
+#: includes/shortcodes/widget/widget.php:71
+#: includes/shortcodes/introduce/introduce.php:127
+#: includes/shortcodes/pricing-plan/pricing-plan.php:191
+#: includes/shortcodes/timeline/timeline.php:131
+#: includes/shortcodes/banner/banner.php:123
+#: includes/shortcodes/footer/footer-link/footer-link.php:111
+#: includes/shortcodes/footer/footer-social/footer-social.php:220
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:206
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:128
+msgid "CSS box"
+msgstr ""
+
+#: includes/widgets/widget-custom-class.php:14
+msgid "CSS Class"
+msgstr ""
+
+#: includes/shortcodes/pricing-plan/pricing-plan.php:166
+msgid "Currency"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:100
+msgid "Custom"
+msgstr ""
+
+#: includes/shortcodes/icon-box/icon-box.php:189
+#: includes/shortcodes/icon-box/icon-box.php:199
+msgid "Custom color"
+msgstr ""
+
+#: includes/posttypes/metaboxes/spec.php:10
+msgid "Custom Field"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:129 includes/posttypes/film.php:255
+#: includes/posttypes/actor.php:135 includes/posttypes/portfolio.php:168
+#: includes/posttypes/video.php:135 includes/posttypes/director.php:135
+#: includes/posttypes/trailer.php:135 includes/posttypes/teammember.php:130
+#: includes/shortcodes/blog/blog.php:142
+#: includes/shortcodes/recent-news/recent-news.php:173
+#: includes/shortcodes/posttypes/video/video.php:214
+#: includes/shortcodes/posttypes/film/film-slideshow.php:146
+#: includes/shortcodes/posttypes/film/film.php:216
+#: includes/shortcodes/posttypes/director/director.php:210
+#: includes/shortcodes/posttypes/teammember/teammember.php:188
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:146
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:108
+#: includes/shortcodes/posttypes/actor/actor.php:213
+#: templates/posttypes/portfolio/single/detail-02.php:95
+#: templates/posttypes/portfolio/single/detail-03.php:141
+#: templates/posttypes/portfolio/single/detail-01.php:172
+#: templates/posttypes/portfolio/single/detail-04.php:106
+#: templates/posttypes/portfolio/single/detail-05.php:113
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:177
+msgid "Date"
+msgstr ""
+
+#: includes/widgets/haru-post-thumbnail.php:41
+msgid "Date Label"
+msgstr ""
+
+#: templates/countdown/number.php:27
+msgid "Days"
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-film-tag.php:31
+#: includes/widgets/haru-widget-product-sorting.php:61
+#: includes/widgets/haru-film-categories.php:50
+#: includes/widgets/haru-video-categories.php:50
+#: includes/metabox-extensions/custom-fields/footer.php:58
+#: includes/shortcodes/blog/blog.php:130
+#: includes/shortcodes/posttypes/film/film-search-form.php:72
+msgid "Default"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:185
+#: includes/shortcodes/shortcodes.php:303
+msgid ""
+"Delay in seconds. You can use decimal points in the value. Use this field to "
+"delay the animation for a few seconds, this is helpful if you want to chain "
+"different effects one after another above the fold."
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:249
+msgid "Demo Already Imported"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:97
+msgid "Demo Imported"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:276
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:278
+msgid "Demo Importer"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:159
+#: includes/shortcodes/recent-news/recent-news.php:190
+#: includes/shortcodes/posttypes/video/video.php:231
+#: includes/shortcodes/posttypes/film/film-slideshow.php:162
+#: includes/shortcodes/posttypes/film/film.php:232
+#: includes/shortcodes/posttypes/director/director.php:227
+#: includes/shortcodes/posttypes/teammember/teammember.php:205
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:162
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:125
+#: includes/shortcodes/posttypes/actor/actor.php:230
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:194
+msgid "Descending"
+msgstr ""
+
+#: includes/posttypes/metaboxes/custom-field.php:21
+#: includes/shortcodes/introduce/introduce.php:120
+#: includes/shortcodes/icon-box/icon-box.php:219
+#: includes/shortcodes/timeline/timeline.php:104
+#: includes/shortcodes/banner/banner.php:100
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:93
+#: includes/shortcodes/posttypes/teammember/teammember.php:164
+msgid "Description"
+msgstr ""
+
+#: includes/shortcodes/widget/widget.php:73
+#: includes/shortcodes/introduce/introduce.php:128
+#: includes/shortcodes/pricing-plan/pricing-plan.php:193
+#: includes/shortcodes/timeline/timeline.php:132
+#: includes/shortcodes/banner/banner.php:125
+#: includes/shortcodes/footer/footer-link/footer-link.php:112
+#: includes/shortcodes/footer/footer-social/footer-social.php:222
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:208
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:130
+msgid "Design Options"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: includes/widgets/widgets.php:191 includes/widgets/widgets.php:280
+#: includes/widgets/widgets.php:280
+#: includes/widgets/haru-social-profile-widget.php:53
+msgid "Deviantart"
+msgstr ""
+
+#: includes/posttypes/director.php:46
+#: templates/posttypes/film/top-celebrity.php:46
+msgid "Director"
+msgstr ""
+
+#: includes/posttypes/director.php:84
+msgid "Director Categories"
+msgstr ""
+
+#: includes/posttypes/director.php:85
+#: includes/shortcodes/posttypes/director/director.php:84
+msgid "Director Category"
+msgstr ""
+
+#: includes/shortcodes/posttypes/director/director.php:130
+msgid "Director Style"
+msgstr ""
+
+#: includes/posttypes/director.php:44
+msgid "Directors"
+msgstr ""
+
+#: includes/term-meta/include/term-meta-generator-class.php:236
+msgid "Dismiss this notice."
+msgstr ""
+
+#: includes/widgets/haru-product-search.php:22
+#: includes/widgets/haru-widget-product-sorting.php:22
+msgid "Display a product sorting list."
+msgstr ""
+
+#: includes/posttypes/actor.php:60
+msgid "Display Actor"
+msgstr ""
+
+#: includes/shortcodes/banner/banner.php:63
+msgid "Display banner"
+msgstr ""
+
+#: includes/shortcodes/clients/clients.php:60
+msgid "Display client logos"
+msgstr ""
+
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:61
+msgid "Display client testimonials"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:58
+msgid "Display client's testimonials"
+msgstr ""
+
+#: includes/shortcodes/countdown/countdown.php:56
+msgid "Display Countdown timer"
+msgstr ""
+
+#: includes/shortcodes/counter/counter.php:58
+msgid "Display Counter Statistical"
+msgstr ""
+
+#: includes/posttypes/director.php:60
+msgid "Display Director"
+msgstr ""
+
+#: includes/posttypes/film.php:60
+msgid "Display Film"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:60
+msgid "Display Footer Contact"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:61
+msgid "Display Footer Gallery"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-link/footer-link.php:60
+msgid "Display Footer Link"
+msgstr ""
+
+#: includes/posttypes/footer.php:39
+msgid "Display footer of site"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-social/footer-social.php:61
+msgid "Display Footer Social"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:67
+msgid "Display Google Maps with information"
+msgstr ""
+
+#: includes/shortcodes/icon-box/icon-box.php:64
+msgid "Display Icon box from libraries"
+msgstr ""
+
+#: includes/shortcodes/images-gallery/images-gallery.php:59
+msgid "Display images gallery"
+msgstr ""
+
+#: includes/shortcodes/recent-news/recent-news.php:63
+msgid "Display latest post or selected post"
+msgstr ""
+
+#: includes/posttypes/teammember.php:56
+msgid "Display members of team work"
+msgstr ""
+
+#: includes/shortcodes/posttypes/actor/actor.php:70
+msgid "Display our actors work"
+msgstr ""
+
+#: includes/shortcodes/posttypes/director/director.php:68
+msgid "Display our directors"
+msgstr ""
+
+#: includes/shortcodes/posttypes/film/film-top-celebrity.php:60
+msgid "Display our Film Celebrity top view"
+msgstr ""
+
+#: includes/shortcodes/posttypes/film/film-search-form.php:62
+msgid "Display our Film Search Form"
+msgstr ""
+
+#: includes/shortcodes/posttypes/film/film.php:70
+msgid "Display our films"
+msgstr ""
+
+#: includes/shortcodes/posttypes/film/film-slideshow.php:68
+msgid "Display our films as slideshow"
+msgstr ""
+
+#: includes/shortcodes/posttypes/film/film-top-view.php:60
+msgid "Display our films top view"
+msgstr ""
+
+#: includes/shortcodes/posttypes/teammember/teammember.php:64
+msgid "Display our team member"
+msgstr ""
+
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:68
+msgid "Display our trailers as slideshow"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/video.php:70
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:68
+msgid "Display our videos work"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:60
+msgid "Display portfolio"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:67
+msgid "Display post as grid"
+msgstr ""
+
+#: includes/shortcodes/pricing-plan/pricing-plan.php:62
+msgid "Display pricing plan with creative layout"
+msgstr ""
+
+#: includes/shortcodes/progress-bar/progress-bar.php:53
+msgid "Display Progress Bar"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/single-video.php:58
+msgid "Display single Video work"
+msgstr ""
+
+#: includes/shortcodes/timeline/timeline.php:60
+msgid "Display Timeline"
+msgstr ""
+
+#: includes/posttypes/trailer.php:60
+msgid "Display Trailer"
+msgstr ""
+
+#: includes/posttypes/video.php:60
+msgid "Display Video"
+msgstr ""
+
+#: includes/shortcodes/introduce/introduce.php:63
+msgid "Display Videos Header"
+msgstr ""
+
+#: includes/shortcodes/widget/widget.php:61
+msgid "Display widgets."
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:280
+msgid "Download and import file attachments"
+msgstr ""
+
+#: includes/widgets/widgets.php:149 includes/widgets/widgets.php:238
+#: includes/widgets/widgets.php:238
+#: includes/widgets/haru-social-profile-widget.php:39
+msgid "Dribbble"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:147
+#: includes/shortcodes/shortcodes.php:268
+msgid ""
+"Duration in seconds. You can use decimal points in the value. Use this field "
+"to specify the amount of time the animation plays. <em>The default value "
+"depends on the animation, leave blank to use the default.</em>"
+msgstr ""
+
+#: includes/posttypes/actor.php:49
+msgid "Edit Actor"
+msgstr ""
+
+#: includes/posttypes/actor.php:88
+msgid "Edit Actor Category"
+msgstr ""
+
+#: includes/posttypes/director.php:49
+msgid "Edit Director"
+msgstr ""
+
+#: includes/posttypes/director.php:88
+msgid "Edit Director Category"
+msgstr ""
+
+#: includes/posttypes/film.php:49
+msgid "Edit Film"
+msgstr ""
+
+#: includes/posttypes/film.php:88
+msgid "Edit Film Category"
+msgstr ""
+
+#: includes/posttypes/film.php:168
+msgid "Edit Film Country"
+msgstr ""
+
+#: includes/posttypes/film.php:128
+msgid "Edit Film Tag"
+msgstr ""
+
+#: includes/posttypes/film.php:208
+msgid "Edit Film Year"
+msgstr ""
+
+#: includes/posttypes/footer.php:28
+msgid "Edit Footer"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:49
+msgid "Edit Portfolio"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:88
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:131
+msgid "Edit Tags"
+msgstr ""
+
+#: includes/posttypes/teammember.php:84
+msgid "Edit Team Category"
+msgstr ""
+
+#: includes/posttypes/teammember.php:45
+msgid "Edit Team Member"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:43
+msgid "Edit Testimonial"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:83
+msgid "Edit Testimonial Category"
+msgstr ""
+
+#: includes/posttypes/trailer.php:49
+msgid "Edit Trailer"
+msgstr ""
+
+#: includes/posttypes/trailer.php:88
+msgid "Edit Trailer Category"
+msgstr ""
+
+#: includes/posttypes/video.php:49
+msgid "Edit Video"
+msgstr ""
+
+#: includes/posttypes/video.php:88
+msgid "Edit Video Category"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:127 includes/widgets/widgets.php:203
+#: includes/widgets/widgets.php:203 includes/widgets/widgets.php:292
+#: includes/widgets/widgets.php:292
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:77
+msgid "Email"
+msgstr ""
+
+#: includes/widgets/haru-social-profile-widget.php:57
+msgid "Email address"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:304
+msgid "Enable/Disable your site maintenance mode."
+msgstr ""
+
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:94
+msgid "Enter description of contact information."
+msgstr ""
+
+#: includes/shortcodes/introduce/introduce.php:121
+msgid "Enter description of header."
+msgstr ""
+
+#: includes/shortcodes/timeline/timeline.php:106
+msgid "Enter Description of Timeline."
+msgstr ""
+
+#: includes/shortcodes/progress-bar/progress-bar.php:80
+msgid "Enter label of bar."
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/single-video.php:93
+msgid "Enter left title of icon."
+msgstr ""
+
+#: includes/shortcodes/clients/clients.php:89
+msgid "Enter name of client."
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/single-video.php:104
+msgid "Enter right title of icon."
+msgstr ""
+
+#: includes/shortcodes/introduce/introduce.php:99
+msgid "Enter sub title."
+msgstr ""
+
+#: includes/shortcodes/timeline/timeline.php:92
+msgid "Enter time of Timeline."
+msgstr ""
+
+#: includes/shortcodes/introduce/introduce.php:88
+msgid "Enter title first word."
+msgstr ""
+
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:87
+msgid "Enter title of contact information."
+msgstr ""
+
+#: includes/shortcodes/footer/footer-link/footer-link.php:84
+msgid "Enter title of footer link."
+msgstr ""
+
+#: includes/shortcodes/introduce/introduce.php:81
+msgid "Enter title of header."
+msgstr ""
+
+#: includes/shortcodes/images-gallery/images-gallery.php:88
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:85
+msgid "Enter title of image."
+msgstr ""
+
+#: includes/shortcodes/footer/footer-social/footer-social.php:85
+msgid "Enter title of social network."
+msgstr ""
+
+#: includes/shortcodes/timeline/timeline.php:99
+msgid "Enter Title of Timeline."
+msgstr ""
+
+#: includes/shortcodes/progress-bar/progress-bar.php:87
+msgid "Enter value of bar."
+msgstr ""
+
+#: includes/shortcodes/progress-bar/progress-bar.php:60
+msgid "Enter values for bars."
+msgstr ""
+
+#: includes/shortcodes/clients/clients.php:66
+msgid "Enter values for client - name, image and url."
+msgstr ""
+
+#: includes/shortcodes/images-gallery/images-gallery.php:65
+msgid "Enter values for images - title, image and url."
+msgstr ""
+
+#: includes/shortcodes/timeline/timeline.php:66
+msgid "Enter values for timeline - time, title and description."
+msgstr ""
+
+#: includes/widgets/haru-vertical-menu.php:80
+msgid "Enter your title"
+msgstr ""
+
+#: includes/shortcodes/icon-box/icon-box.php:94
+#: includes/shortcodes/footer/footer-social/footer-social.php:104
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:106
+msgid "Entypo"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:344
+msgid "Error"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:348
+msgid "Error Classic"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:162
+msgid "Example : 20 for a close view, 5 for a far view"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:138
+msgid "Example: 500px"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:118
+#: includes/shortcodes/recent-news/recent-news.php:161
+msgid "Excerpt Length"
+msgstr ""
+
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:134
+msgid "Excerpt length"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:220
+#: includes/shortcodes/shortcodes.php:335
+msgid "Extra class name"
+msgstr ""
+
+#: includes/widgets/widgets.php:146 includes/widgets/widgets.php:235
+#: includes/widgets/widgets.php:235
+#: includes/widgets/haru-social-profile-widget.php:38
+#: includes/shortcodes/footer/footer-social/footer-social.php:70
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:359
+msgid "Facebook"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:116
+#: includes/shortcodes/shortcodes.php:240
+msgid "Fade Bottom to Top"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:114
+#: includes/shortcodes/shortcodes.php:238
+msgid "Fade In"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:117
+#: includes/shortcodes/shortcodes.php:241
+msgid "Fade Left to Right"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:118
+#: includes/shortcodes/shortcodes.php:242
+msgid "Fade Right to Left"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:115
+#: includes/shortcodes/shortcodes.php:239
+msgid "Fade Top to Bottom"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:372
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:516
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:738
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:704
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:605
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:238
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:424
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:467
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: includes/shortcodes/pricing-plan/pricing-plan.php:113
+msgid "Featured"
+msgstr ""
+
+#: includes/shortcodes/pricing-plan/pricing-plan.php:110
+msgid "Featured plan"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:106
+msgid "Featured Post"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:940
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: includes/posttypes/film.php:46
+msgid "Film"
+msgstr ""
+
+#: includes/posttypes/film.php:84
+msgid "Film Categories"
+msgstr ""
+
+#: includes/posttypes/film.php:85
+#: includes/shortcodes/posttypes/film/film-slideshow.php:84
+#: includes/shortcodes/posttypes/film/film.php:86
+msgid "Film Category"
+msgstr ""
+
+#: includes/posttypes/film.php:164
+msgid "Film Countries"
+msgstr ""
+
+#: includes/posttypes/film.php:165
+msgid "Film Country"
+msgstr ""
+
+#: includes/shortcodes/posttypes/film/film-search-form.php:90
+#: includes/shortcodes/posttypes/film/film-slideshow.php:125
+#: includes/shortcodes/posttypes/film/film.php:132
+msgid "Film Style"
+msgstr ""
+
+#: includes/posttypes/film.php:125
+msgid "Film Tag"
+msgstr ""
+
+#: includes/posttypes/film.php:124
+msgid "Film Tags"
+msgstr ""
+
+#: includes/posttypes/film.php:204 includes/posttypes/film.php:205
+msgid "Film Year"
+msgstr ""
+
+#: includes/posttypes/film.php:44
+msgid "Films"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/video.php:175
+#: includes/shortcodes/posttypes/film/film.php:173
+#: includes/shortcodes/posttypes/director/director.php:171
+#: includes/shortcodes/posttypes/actor/actor.php:174
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:144
+msgid "Filter Align"
+msgstr ""
+
+#: includes/widgets/haru-widget-price-filter.php:33
+msgid "Filter by price"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/video.php:145
+#: includes/shortcodes/posttypes/film/film.php:143
+#: includes/shortcodes/posttypes/director/director.php:141
+#: includes/shortcodes/posttypes/actor/actor.php:144
+msgid "Filter Display"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/video.php:160
+#: includes/shortcodes/posttypes/film/film.php:158
+#: includes/shortcodes/posttypes/director/director.php:156
+#: includes/shortcodes/posttypes/actor/actor.php:159
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:133
+msgid "Filter Style"
+msgstr ""
+
+#: templates/posttypes/film/search-form-ajax.php:97
+msgid "Find Movies"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:128
+#: includes/shortcodes/shortcodes.php:252
+msgid "Flash"
+msgstr ""
+
+#: includes/widgets/widgets.php:170 includes/widgets/widgets.php:259
+#: includes/widgets/widgets.php:259
+#: includes/widgets/haru-social-profile-widget.php:45
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:363
+msgid "Flickr"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:126
+#: includes/shortcodes/shortcodes.php:250
+msgid "Flip Horizontal"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:125
+#: includes/shortcodes/shortcodes.php:249
+msgid "Flip Vertical"
+msgstr ""
+
+#: templates/posttypes/portfolio/single/detail-02.php:108
+#: templates/posttypes/portfolio/single/detail-03.php:150
+#: templates/posttypes/portfolio/single/detail-01.php:185
+#: templates/posttypes/portfolio/single/detail-04.php:119
+#: templates/posttypes/portfolio/single/detail-05.php:126
+msgid "Follow Us"
+msgstr ""
+
+#: includes/shortcodes/icon-box/icon-box.php:91
+#: includes/shortcodes/footer/footer-social/footer-social.php:101
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:103
+msgid "Font Awesome"
+msgstr ""
+
+#: includes/posttypes/footer.php:24
+msgid "Footer"
+msgstr ""
+
+#: includes/posttypes/footer.php:23
+msgid "Footer Blocks"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:66
+msgid "Footer Gallery Images"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-link/footer-link.php:65
+msgid "Footer Link List"
+msgstr ""
+
+#: includes/widgets/widgets.php:176 includes/widgets/widgets.php:265
+#: includes/widgets/widgets.php:265
+#: includes/widgets/haru-social-profile-widget.php:48
+msgid "Foursquare"
+msgstr ""
+
+#: templates/pricing-plan/style_1.php:39 templates/pricing-plan/style_2.php:53
+msgid "Free"
+msgstr ""
+
+#: includes/shortcodes/posttypes/actor/actor.php:80
+msgid "From Actor IDs"
+msgstr ""
+
+#: includes/shortcodes/recent-news/recent-news.php:83
+#: includes/shortcodes/posttypes/video/video.php:79
+#: includes/shortcodes/posttypes/film/film-slideshow.php:77
+#: includes/shortcodes/posttypes/film/film.php:79
+#: includes/shortcodes/posttypes/director/director.php:77
+#: includes/shortcodes/posttypes/teammember/teammember.php:73
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:77
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:80
+#: includes/shortcodes/posttypes/actor/actor.php:79
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:77
+msgid "From Category"
+msgstr ""
+
+#: includes/shortcodes/posttypes/director/director.php:78
+msgid "From Director IDs"
+msgstr ""
+
+#: includes/shortcodes/posttypes/film/film-slideshow.php:78
+#: includes/shortcodes/posttypes/film/film.php:80
+msgid "From Film IDs"
+msgstr ""
+
+#: includes/shortcodes/posttypes/teammember/teammember.php:74
+msgid "From Member IDs"
+msgstr ""
+
+#: includes/shortcodes/recent-news/recent-news.php:84
+msgid "From Post IDs"
+msgstr ""
+
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:81
+msgid "From Testimonial IDs"
+msgstr ""
+
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:78
+msgid "From Trailer IDs"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/video.php:80
+msgid "From Video IDs"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:146
+#: includes/shortcodes/gmaps/gmaps.php:154
+msgid "Get longtitude from here: https://www.google.com/maps"
+msgstr ""
+
+#: templates/pricing-plan/style_1.php:57 templates/pricing-plan/style_2.php:64
+msgid "Get Started"
+msgstr ""
+
+#: includes/widgets/widgets.php:182 includes/widgets/widgets.php:271
+#: includes/widgets/widgets.php:271
+#: includes/widgets/haru-social-profile-widget.php:50
+msgid "GitHub"
+msgstr ""
+
+#: includes/widgets/haru-social-profile-widget.php:44
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:362
+msgid "Google+"
+msgstr ""
+
+#: includes/widgets/widgets.php:167 includes/widgets/widgets.php:256
+#: includes/widgets/widgets.php:256
+msgid "GooglePlus"
+msgstr ""
+
+#: includes/shortcodes/images-gallery/images-gallery.php:114
+#: includes/shortcodes/posttypes/video/video.php:109
+#: includes/shortcodes/posttypes/film/film.php:109
+#: includes/shortcodes/posttypes/director/director.php:107
+#: includes/shortcodes/posttypes/actor/actor.php:109
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:97
+msgid "Grid"
+msgstr ""
+
+#: includes/shortcodes/posttypes/teammember/teammember.php:102
+msgid "Grid (2 Columns)"
+msgstr ""
+
+#: includes/shortcodes/posttypes/teammember/teammember.php:101
+msgid "Grid (4 Columns width Title)"
+msgstr ""
+
+#: includes/shortcodes/posttypes/teammember/teammember.php:103
+msgid "Grid (About Us)"
+msgstr ""
+
+#: includes/shortcodes/posttypes/actor/actor.php:68
+msgid "Haru Actors"
+msgstr ""
+
+#: includes/shortcodes/banner/banner.php:60
+msgid "Haru Banner"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:63
+msgid "Haru Blog"
+msgstr ""
+
+#. Name of the plugin
+msgid "Haru Circle Core"
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-film-tag.php:17
+msgid "Haru Circle Film Tags"
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-top-film.php:17
+msgid "Haru Circle Top Film"
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-videos.php:17
+msgid "Haru Circle Videos"
+msgstr ""
+
+#: includes/shortcodes/clients/clients.php:56
+msgid "Haru Clients"
+msgstr ""
+
+#: includes/shortcodes/countdown/countdown.php:53
+msgid "Haru Countdown"
+msgstr ""
+
+#: includes/shortcodes/counter/counter.php:54
+msgid "Haru Counter"
+msgstr ""
+
+#: includes/shortcodes/posttypes/director/director.php:66
+msgid "Haru Directors"
+msgstr ""
+
+#: includes/shortcodes/posttypes/film/film.php:68
+msgid "Haru Film"
+msgstr ""
+
+#: includes/widgets/haru-film-categories.php:37
+msgid "Haru Film Categories"
+msgstr ""
+
+#: includes/shortcodes/posttypes/film/film-search-form.php:60
+msgid "Haru Film Search Form"
+msgstr ""
+
+#: includes/shortcodes/posttypes/film/film-slideshow.php:66
+msgid "Haru Film Slideshow"
+msgstr ""
+
+#: includes/shortcodes/posttypes/film/film-top-celebrity.php:58
+msgid "Haru Film Top Celebrity"
+msgstr ""
+
+#: includes/shortcodes/posttypes/film/film-top-view.php:58
+msgid "Haru Film Top View"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:56
+msgid "Haru Footer Contact"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:57
+msgid "Haru Footer Gallery"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-link/footer-link.php:56
+msgid "Haru Footer Link"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-social/footer-social.php:57
+msgid "Haru Footer Social"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:64
+msgid "Haru Google Maps"
+msgstr ""
+
+#: includes/shortcodes/icon-box/icon-box.php:61
+msgid "Haru Icon Box"
+msgstr ""
+
+#: includes/shortcodes/images-gallery/images-gallery.php:55
+msgid "Haru Images Gallery"
+msgstr ""
+
+#: includes/shortcodes/introduce/introduce.php:59
+msgid "Haru Introduce Header"
+msgstr ""
+
+#: includes/widgets/haru-post-thumbnail.php:17
+msgid "Haru Post Thumbnail"
+msgstr ""
+
+#: includes/shortcodes/pricing-plan/pricing-plan.php:59
+msgid "Haru Pricing Plan"
+msgstr ""
+
+#: includes/widgets/haru-product-search.php:24
+msgid "Haru Product Search"
+msgstr ""
+
+#: includes/shortcodes/progress-bar/progress-bar.php:50
+msgid "Haru Progress Bar"
+msgstr ""
+
+#: includes/shortcodes/recent-news/recent-news.php:60
+msgid "Haru Recent News"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/single-video.php:54
+msgid "Haru Single Video"
+msgstr ""
+
+#: includes/shortcodes/posttypes/teammember/teammember.php:62
+msgid "Haru Team Member"
+msgstr ""
+
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:58
+msgid "Haru Testimonial"
+msgstr ""
+
+#: includes/shortcodes/timeline/timeline.php:56
+msgid "Haru Timeline"
+msgstr ""
+
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:66
+msgid "Haru Trailer Slideshow"
+msgstr ""
+
+#: includes/widgets/haru-vertical-menu.php:16
+msgid "Haru Vertical Menu"
+msgstr ""
+
+#: includes/widgets/haru-video-categories.php:37
+msgid "Haru Video Categories"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/video.php:68
+msgid "Haru Videos"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:66
+msgid "Haru Videos Ajax Category"
+msgstr ""
+
+#: includes/shortcodes/widget/widget.php:56
+msgid "Haru Widget"
+msgstr ""
+
+#: includes/widgets/haru-widget-color-filter.php:21
+msgid "Haru WooCommerce Color Filter"
+msgstr ""
+
+#: includes/widgets/haru-widget-product-sorting.php:24
+msgid "Haru WooCommerce Product Sorting"
+msgstr ""
+
+#: includes/widgets/haru-my-account.php:16
+msgid "Haru: My Account"
+msgstr ""
+
+#: includes/widgets/haru-social-profile-widget.php:16
+msgid "Haru: Social Profile"
+msgstr ""
+
+#. Author of the plugin
+msgid "HaruTheme"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:176
+msgid "Have fun!"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/video.php:150
+#: includes/shortcodes/posttypes/film/film.php:148
+#: includes/shortcodes/posttypes/director/director.php:146
+#: includes/shortcodes/posttypes/teammember/teammember.php:133
+#: includes/shortcodes/posttypes/actor/actor.php:149
+msgid "Hide"
+msgstr ""
+
+#: includes/widgets/haru-post-thumbnail.php:73
+msgid "Hide author in post meta info"
+msgstr ""
+
+#: includes/widgets/haru-post-thumbnail.php:83
+msgid "Hide comment in post meta info"
+msgstr ""
+
+#: includes/widgets/haru-post-thumbnail.php:78
+msgid "Hide date in post meta info"
+msgstr ""
+
+#: includes/widgets/haru-film-categories.php:79
+#: includes/widgets/haru-video-categories.php:79
+msgid "Hide empty categories"
+msgstr ""
+
+#: includes/widgets/haru-widget-price-filter.php:55
+msgid "Hide empty price ranges"
+msgstr ""
+
+#: templates/circle/film-ajax-search.php:112
+#: templates/circle/film-ajax-search-loadmore.php:114
+#: templates/posttypes/film/film-style/style_1.php:29
+#: templates/posttypes/film/film-style/style_2.php:29
+#: templates/posttypes/trailer/trailer-style/style_1.php:21
+#: templates/posttypes/trailer/trailer-style/style_2.php:21
+msgid "Hot"
+msgstr ""
+
+#: templates/countdown/number.php:28
+msgid "Hours"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1151
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://harutheme.com"
+msgstr ""
+
+#: includes/shortcodes/icon-box/icon-box.php:107
+#: includes/shortcodes/icon-box/icon-box.php:124
+#: includes/shortcodes/icon-box/icon-box.php:140
+#: includes/shortcodes/icon-box/icon-box.php:156
+#: includes/shortcodes/icon-box/icon-box.php:171
+#: includes/shortcodes/footer/footer-social/footer-social.php:112
+#: includes/shortcodes/footer/footer-social/footer-social.php:129
+#: includes/shortcodes/footer/footer-social/footer-social.php:145
+#: includes/shortcodes/footer/footer-social/footer-social.php:161
+#: includes/shortcodes/footer/footer-social/footer-social.php:176
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:114
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:131
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:147
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:163
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:178
+msgid "Icon"
+msgstr ""
+
+#: includes/posttypes/teammember.php:183
+msgid "Icon class (Ex: fa fa-facebook)"
+msgstr ""
+
+#: includes/shortcodes/icon-box/icon-box.php:187
+msgid "Icon color"
+msgstr ""
+
+#: includes/shortcodes/icon-box/icon-box.php:89
+#: includes/shortcodes/footer/footer-social/footer-social.php:99
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:101
+msgid "Icon library"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:267
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:222
+#: includes/shortcodes/shortcodes.php:337
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: includes/term-meta/tax-meta-fields.php:24
+#: includes/shortcodes/clients/clients.php:94
+#: includes/shortcodes/images-gallery/images-gallery.php:94
+#: includes/shortcodes/introduce/introduce.php:109
+#: includes/shortcodes/pricing-plan/pricing-plan.php:144
+#: includes/shortcodes/icon-box/icon-box.php:78
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:91
+msgid "Image"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:70
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:73
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:76
+msgid "Image text"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:167
+msgid "Image to replace marker"
+msgstr ""
+
+#: includes/shortcodes/images-gallery/images-gallery.php:64
+msgid "Images"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1226
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and "
+"tags</strong> from a WordPress export file."
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:277
+msgid "Import Attachments"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:297
+msgid "Import author:"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:93
+#: includes/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:114
+msgid "Import Demo"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1129
+msgid "Import WordPress"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:116
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:499
+msgid "Imported"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:502
+msgid "Imported to Inactive"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/video.php:204
+#: includes/shortcodes/posttypes/film/film.php:202
+#: includes/shortcodes/posttypes/director/director.php:200
+#: includes/shortcodes/posttypes/actor/actor.php:203
+msgid "Infinite Scrolling"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:132
+msgid "Infinity Scroll"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:128
+msgid "Info window image"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:120
+msgid "Info window title"
+msgstr ""
+
+#: includes/shortcodes/pricing-plan/pricing-plan.php:119
+msgid "Information"
+msgstr ""
+
+#: includes/shortcodes/pricing-plan/pricing-plan.php:123
+msgid "Information 1"
+msgstr ""
+
+#: includes/shortcodes/pricing-plan/pricing-plan.php:126
+msgid "Information 2"
+msgstr ""
+
+#: includes/shortcodes/pricing-plan/pricing-plan.php:129
+msgid "Information 3"
+msgstr ""
+
+#: includes/shortcodes/pricing-plan/pricing-plan.php:136
+msgid "Information Detail"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:341
+msgid "Informational"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:345
+msgid "Informational Classic"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:318
+msgid "Insert coming soon title."
+msgstr ""
+
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:67
+msgid "Insert images for Footer Gallery."
+msgstr ""
+
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:66
+msgid "Insert information for Contact Information List."
+msgstr ""
+
+#: includes/shortcodes/footer/footer-link/footer-link.php:66
+msgid "Insert information for Footer Link List."
+msgstr ""
+
+#: includes/shortcodes/footer/footer-social/footer-social.php:67
+msgid "Insert information for Social Network List."
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:119
+#: includes/shortcodes/recent-news/recent-news.php:162
+msgid "Insert number of words to show in excerpt."
+msgstr ""
+
+#: includes/widgets/widgets.php:179 includes/widgets/widgets.php:268
+#: includes/widgets/widgets.php:268
+#: includes/widgets/haru-social-profile-widget.php:49
+#: includes/shortcodes/footer/footer-social/footer-social.php:76
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:366
+msgid "Instagram"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:953
+msgid "Invalid file type"
+msgstr ""
+
+#: templates/circle/film-ajax-search.php:134
+#: templates/circle/film-ajax-search-loadmore.php:136
+msgid "It seems we can’t find what you’re looking for. Please try other search"
+msgstr ""
+
+#: includes/term-meta/tax-meta-fields.php:32
+#: includes/widgets/haru-social-profile-widget.php:21
+#: includes/shortcodes/progress-bar/progress-bar.php:78
+msgid "Label"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:146
+#: includes/shortcodes/recent-news/recent-news.php:177
+#: includes/shortcodes/posttypes/video/video.php:218
+#: includes/shortcodes/posttypes/film/film-slideshow.php:150
+#: includes/shortcodes/posttypes/film/film.php:220
+#: includes/shortcodes/posttypes/director/director.php:214
+#: includes/shortcodes/posttypes/teammember/teammember.php:192
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:150
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:112
+#: includes/shortcodes/posttypes/actor/actor.php:217
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:181
+msgid "Last modified date"
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-videos.php:52
+#: includes/widgets/haru-post-thumbnail.php:57
+msgid "Latest"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:144
+msgid "Latitude"
+msgstr ""
+
+#: includes/shortcodes/progress-bar/progress-bar.php:94
+#: includes/shortcodes/pricing-plan/pricing-plan.php:172
+#: includes/shortcodes/blog/blog.php:72
+#: includes/shortcodes/icon-box/icon-box.php:69
+#: includes/shortcodes/banner/banner.php:68
+#: includes/shortcodes/posttypes/video/single-video.php:63
+#: includes/shortcodes/posttypes/video/video.php:105
+#: includes/shortcodes/posttypes/film/film-top-celebrity.php:72
+#: includes/shortcodes/posttypes/film/film-search-form.php:68
+#: includes/shortcodes/posttypes/film/film-slideshow.php:103
+#: includes/shortcodes/posttypes/film/film.php:105
+#: includes/shortcodes/posttypes/film/film-top-view.php:72
+#: includes/shortcodes/posttypes/director/director.php:103
+#: includes/shortcodes/posttypes/teammember/teammember.php:99
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:103
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:67
+#: includes/shortcodes/posttypes/actor/actor.php:105
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:93
+msgid "Layout Style"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-social/footer-social.php:212
+#: includes/shortcodes/posttypes/video/video.php:179
+#: includes/shortcodes/posttypes/film/film.php:177
+#: includes/shortcodes/posttypes/director/director.php:175
+#: includes/shortcodes/posttypes/actor/actor.php:178
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:148
+msgid "Left"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:97
+msgid "Light green"
+msgstr ""
+
+#: includes/shortcodes/icon-box/icon-box.php:95
+#: includes/shortcodes/footer/footer-social/footer-social.php:105
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:107
+msgid "Linecons"
+msgstr ""
+
+#: includes/shortcodes/clients/clients.php:102
+#: includes/shortcodes/images-gallery/images-gallery.php:101
+#: includes/shortcodes/pricing-plan/pricing-plan.php:151
+#: includes/shortcodes/icon-box/icon-box.php:225
+#: includes/shortcodes/timeline/timeline.php:112
+#: includes/shortcodes/banner/banner.php:110
+#: includes/shortcodes/footer/footer-link/footer-link.php:90
+#: includes/shortcodes/footer/footer-social/footer-social.php:91
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:98
+#: includes/shortcodes/posttypes/teammember/teammember.php:144
+msgid "Link"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-link/footer-link.php:69
+#: includes/shortcodes/footer/footer-link/footer-link.php:72
+#: includes/shortcodes/footer/footer-link/footer-link.php:75
+msgid "Link text"
+msgstr ""
+
+#: includes/widgets/haru-social-profile-widget.php:43
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:361
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/widgets/widgets.php:164 includes/widgets/widgets.php:253
+#: includes/widgets/widgets.php:253
+msgid "Linkedin"
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-videos.php:33
+msgid "List Videos 1"
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-videos.php:34
+msgid "List Videos 2"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:131
+#: includes/shortcodes/posttypes/portfolio/utils/ajax-action.php:289
+msgid "Load More"
+msgstr ""
+
+#: includes/shortcodes/posttypes/portfolio/utils/ajax-action.php:129
+#: includes/shortcodes/posttypes/portfolio/utils/ajax-action.php:260
+msgid "Load more"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/video.php:203
+#: includes/shortcodes/posttypes/film/film.php:201
+#: includes/shortcodes/posttypes/director/director.php:199
+#: includes/shortcodes/posttypes/actor/actor.php:202
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:167
+msgid "Load More Button"
+msgstr ""
+
+#: includes/shortcodes/blog/utils/functions.php:23
+#: includes/shortcodes/posttypes/video/utils/functions.php:23
+#: includes/shortcodes/posttypes/film/utils/functions.php:23
+#: includes/shortcodes/posttypes/film/utils/functions.php:116
+#: includes/shortcodes/posttypes/director/utils/functions.php:23
+#: includes/shortcodes/posttypes/trailer/utils/functions.php:23
+#: includes/shortcodes/posttypes/actor/utils/functions.php:23
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/utils/ajax-action.php:82
+msgid "Loading..."
+msgstr ""
+
+#: includes/widgets/haru-my-account.php:21
+msgid "Login Text"
+msgstr ""
+
+#: includes/shortcodes/clients/clients.php:139
+msgid "Logo per slide"
+msgstr ""
+
+#: includes/widgets/haru-my-account.php:26
+msgid "Logout Text"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:152
+msgid "Longitude"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:326
+msgid "Maintenance Background"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:295
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:303
+msgid "Maintenance Mode"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:355
+msgid "Maintenance social profiles"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:317
+msgid "Maintenance title"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:136
+msgid "Map height"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:75
+#: includes/shortcodes/posttypes/video/video.php:110
+#: includes/shortcodes/posttypes/film/film.php:110
+#: includes/shortcodes/posttypes/director/director.php:108
+#: includes/shortcodes/posttypes/actor/actor.php:110
+msgid "Masonry"
+msgstr ""
+
+#: includes/widgets/haru-widget-price-filter.php:50
+msgid "Max price ranges"
+msgstr ""
+
+#: includes/widgets/haru-film-categories.php:84
+#: includes/widgets/haru-video-categories.php:84
+msgid "Maximum depth"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:166
+msgid "Media Type"
+msgstr ""
+
+#: includes/widgets/haru-vertical-menu.php:85
+msgid "Menu"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:877
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:870
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: templates/countdown/number.php:29
+msgid "Minutes"
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-videos.php:54
+#: includes/widgets/haru-post-thumbnail.php:59
+msgid "Most Commented"
+msgstr ""
+
+#: includes/widgets/haru-my-account.php:36
+msgid "My Account (Profile) Text"
+msgstr ""
+
+#: includes/widgets/haru-my-account.php:14
+msgid "My Account Link Widget"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:121
+#: includes/shortcodes/gmaps/gmaps.php:129
+msgid "My address"
+msgstr ""
+
+#: templates/posttypes/portfolio/single/detail-01.php:166
+msgid "My Team"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:126 includes/posttypes/teammember.php:127
+#: includes/widgets/haru-film-categories.php:58
+#: includes/widgets/haru-video-categories.php:58
+#: includes/shortcodes/clients/clients.php:87
+msgid "Name"
+msgstr ""
+
+#: templates/circle/film-ajax-search.php:109
+#: templates/circle/film-ajax-search-loadmore.php:111
+#: templates/posttypes/film/film-style/style_1.php:26
+#: templates/posttypes/film/film-style/style_2.php:26
+msgid "New"
+msgstr ""
+
+#: includes/posttypes/actor.php:92
+msgid "New Actor Category Name"
+msgstr ""
+
+#: includes/posttypes/director.php:92
+msgid "New Director Category Name"
+msgstr ""
+
+#: includes/posttypes/film.php:92
+msgid "New Film Category Name"
+msgstr ""
+
+#: includes/posttypes/film.php:172
+msgid "New Film Country Name"
+msgstr ""
+
+#: includes/posttypes/film.php:132
+msgid "New Film Tag Name"
+msgstr ""
+
+#: includes/posttypes/film.php:212
+msgid "New Film Year Name"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:92
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:134
+msgid "New Tag Name"
+msgstr ""
+
+#: includes/posttypes/teammember.php:88
+msgid "New Team Category Name"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:87
+msgid "New Testimonial Category Name"
+msgstr ""
+
+#: includes/posttypes/trailer.php:92
+msgid "New Trailer Category Name"
+msgstr ""
+
+#: includes/posttypes/video.php:92
+msgid "New Video Category Name"
+msgstr ""
+
+#: templates/posttypes/film/search-form-ajax.php:89
+msgid "Newest"
+msgstr ""
+
+#: includes/widgets/haru-widget-product-sorting.php:64
+msgid "Newness"
+msgstr ""
+
+#: includes/shortcodes/blog/utils/functions.php:86
+#: includes/shortcodes/posttypes/video/utils/functions.php:86
+#: includes/shortcodes/posttypes/film/utils/functions.php:87
+#: includes/shortcodes/posttypes/director/utils/functions.php:86
+#: includes/shortcodes/posttypes/trailer/utils/functions.php:86
+#: includes/shortcodes/posttypes/actor/utils/functions.php:86
+msgid "Next"
+msgstr ""
+
+#: templates/posttypes/portfolio/single/related.php:69
+msgctxt "Next post link"
+msgid ""
+"<div class=\"post-navigation-content\"> <div class=\"post-navigation-title\">"
+"%title</div></div> <div class=\"post-navigation-right\"><i class=\"post-"
+"navigation-icon fa fa-long-arrow-right\"></i> </div>"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:113
+#: includes/shortcodes/shortcodes.php:237
+#: includes/metabox-extensions/custom-fields/checkbox-advanced.php:75
+#: includes/shortcodes/clients/clients.php:114
+#: includes/shortcodes/images-gallery/images-gallery.php:134
+#: includes/shortcodes/recent-news/recent-news.php:129
+#: includes/shortcodes/posttypes/film/film-slideshow.php:174
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:174
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:143
+msgid "No"
+msgstr ""
+
+#: includes/posttypes/actor.php:100
+msgid "No Actor Categories found"
+msgstr ""
+
+#: includes/posttypes/actor.php:53
+msgid "No Actor items found"
+msgstr ""
+
+#: includes/posttypes/actor.php:54
+msgid "No Actor items found in trash"
+msgstr ""
+
+#: includes/widgets/haru-social-profile-widget.php:28
+msgid "No Border"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:127
+msgid "No Demo Data Provided"
+msgstr ""
+
+#: includes/posttypes/director.php:100
+msgid "No Director Categories found"
+msgstr ""
+
+#: includes/posttypes/director.php:53
+msgid "No Director items found"
+msgstr ""
+
+#: includes/posttypes/director.php:54
+msgid "No Director items found in trash"
+msgstr ""
+
+#: includes/widgets/haru-film-categories.php:215
+msgid "No film categories exist."
+msgstr ""
+
+#: includes/posttypes/film.php:100
+msgid "No Film Categories found"
+msgstr ""
+
+#: includes/posttypes/film.php:180
+msgid "No Film Countries found"
+msgstr ""
+
+#: includes/posttypes/film.php:53
+msgid "No Film items found"
+msgstr ""
+
+#: includes/posttypes/film.php:54
+msgid "No Film items found in trash"
+msgstr ""
+
+#: includes/posttypes/film.php:140
+msgid "No Film Tags found"
+msgstr ""
+
+#: includes/posttypes/film.php:220
+msgid "No Film Year found"
+msgstr ""
+
+#: includes/posttypes/footer.php:32
+msgid "No Footer items found"
+msgstr ""
+
+#: includes/posttypes/footer.php:33
+msgid "No Footer items found in trash"
+msgstr ""
+
+#: templates/blog/masonry.php:124 templates/recent-news/carousel.php:70
+#: templates/recent-news/carousel_2.php:82
+#: templates/recent-news/carousel_3.php:79
+#: templates/posttypes/video/masonry.php:110
+#: templates/posttypes/video/grid_special.php:145
+#: templates/posttypes/video/grid.php:110
+#: templates/posttypes/film/masonry.php:112
+#: templates/posttypes/film/grid.php:112
+#: templates/posttypes/film/top-celebrity.php:55
+#: templates/posttypes/film/search-form-ajax.php:118
+#: templates/posttypes/film/top-view.php:56
+#: templates/posttypes/film/carousel.php:62
+#: templates/posttypes/director/masonry.php:110
+#: templates/posttypes/director/grid.php:110
+#: templates/posttypes/teammember/grid_2.php:66
+#: templates/posttypes/teammember/grid_3.php:74
+#: templates/posttypes/teammember/grid.php:92
+#: templates/posttypes/trailer/carousel.php:81
+#: templates/posttypes/testimonial/carousel.php:74
+#: templates/posttypes/testimonial/carousel_2.php:65
+#: templates/posttypes/testimonial/carousel_3.php:70
+#: templates/posttypes/actor/masonry.php:110
+#: templates/posttypes/actor/grid.php:110
+#: templates/posttypes/video/single/style_1.php:56
+#: templates/posttypes/video/single/style_2.php:45
+#: templates/posttypes/video/single/style_3.php:49
+#: templates/posttypes/video-ajax/video-ajax-category/grid.php:75
+msgid "No item found"
+msgstr ""
+
+#: includes/redux-extensions/extensions/footer/footer/field_footer.php:124
+#: includes/redux-extensions/extensions/menu/menu/field_menu.php:118
+msgid "No items of this type were found."
+msgstr ""
+
+#: includes/posttypes/portfolio.php:100
+msgid "No Portfolio Categories found"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:53
+msgid "No Portfolio items found"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:54
+msgid "No Portfolio items found in trash"
+msgstr ""
+
+#: includes/posttypes/teammember.php:96
+msgid "No Team Categories found"
+msgstr ""
+
+#: includes/posttypes/teammember.php:49
+msgid "No Team Member items found"
+msgstr ""
+
+#: includes/posttypes/teammember.php:50
+msgid "No Team Member items found in trash"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:95
+msgid "No Testimonial Categories found"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:47
+msgid "No Testimonial items found"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:48
+msgid "No Testimonial items found in trash"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:509
+msgid "No Title"
+msgstr ""
+
+#: includes/posttypes/trailer.php:100
+msgid "No Trailer Categories found"
+msgstr ""
+
+#: includes/posttypes/trailer.php:53
+msgid "No Trailer items found"
+msgstr ""
+
+#: includes/posttypes/trailer.php:54
+msgid "No Trailer items found in trash"
+msgstr ""
+
+#: includes/widgets/haru-video-categories.php:215
+msgid "No video categories exist."
+msgstr ""
+
+#: includes/posttypes/video.php:100
+msgid "No Video Categories found"
+msgstr ""
+
+#: includes/posttypes/video.php:53
+msgid "No Video items found"
+msgstr ""
+
+#: includes/posttypes/video.php:54
+msgid "No Video items found in trash"
+msgstr ""
+
+#: includes/shortcodes/pricing-plan/pricing-plan.php:112
+#: includes/shortcodes/posttypes/video/video.php:201
+#: includes/shortcodes/posttypes/film/film.php:199
+#: includes/shortcodes/posttypes/director/director.php:197
+#: includes/shortcodes/posttypes/actor/actor.php:200
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:166
+msgid "None"
+msgstr ""
+
+#: includes/shortcodes/countdown/countdown.php:72
+#: includes/shortcodes/counter/counter.php:84
+msgid "Number"
+msgstr ""
+
+#: includes/shortcodes/posttypes/actor/actor.php:192
+msgid "Number of actors to show"
+msgstr ""
+
+#: includes/shortcodes/recent-news/recent-news.php:108
+#: includes/shortcodes/posttypes/teammember/teammember.php:120
+msgid "Number of Columns"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:148
+#: includes/shortcodes/recent-news/recent-news.php:179
+#: includes/shortcodes/posttypes/video/video.php:220
+#: includes/shortcodes/posttypes/film/film-slideshow.php:151
+#: includes/shortcodes/posttypes/film/film.php:221
+#: includes/shortcodes/posttypes/director/director.php:216
+#: includes/shortcodes/posttypes/teammember/teammember.php:194
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:151
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:114
+#: includes/shortcodes/posttypes/actor/actor.php:219
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:183
+msgid "Number of comments"
+msgstr ""
+
+#: includes/shortcodes/posttypes/director/director.php:189
+msgid "Number of directors to show"
+msgstr ""
+
+#: includes/shortcodes/posttypes/film/film-top-celebrity.php:84
+msgid "Number of film celebrities to show"
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-top-film.php:43
+msgid "Number of film to show"
+msgstr ""
+
+#: includes/shortcodes/posttypes/film/film-search-form.php:103
+#: includes/shortcodes/posttypes/film/film-slideshow.php:138
+#: includes/shortcodes/posttypes/film/film.php:191
+#: includes/shortcodes/posttypes/film/film-top-view.php:84
+msgid "Number of films to show"
+msgstr ""
+
+#: includes/shortcodes/posttypes/teammember/teammember.php:177
+msgid "Number of member to show"
+msgstr ""
+
+#: includes/widgets/haru-post-thumbnail.php:50
+msgid "Number of posts to show"
+msgstr ""
+
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:138
+msgid "Number of trailers to show"
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-videos.php:45
+#: includes/shortcodes/posttypes/video/video.php:193
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:158
+msgid "Number of videos to show"
+msgstr ""
+
+#: templates/posttypes/film/search-form-ajax.php:90
+msgid "Oldest"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:337
+msgid "Online time"
+msgstr ""
+
+#: includes/widgets/haru-film-categories.php:74
+#: includes/widgets/haru-video-categories.php:74
+msgid "Only show children of the current category"
+msgstr ""
+
+#: includes/shortcodes/icon-box/icon-box.php:92
+#: includes/shortcodes/footer/footer-social/footer-social.php:102
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:104
+msgid "Open Iconic"
+msgstr ""
+
+#: includes/widgets/haru-my-account.php:78
+msgid "or"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:321
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:308
+msgid "or create new user with login name:"
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-videos.php:50
+#: includes/widgets/haru-post-thumbnail.php:55
+#: includes/widgets/haru-film-categories.php:56
+#: includes/widgets/haru-video-categories.php:56
+#: includes/shortcodes/blog/blog.php:140
+#: includes/shortcodes/recent-news/recent-news.php:171
+#: includes/shortcodes/posttypes/video/video.php:212
+#: includes/shortcodes/posttypes/film/film-slideshow.php:144
+#: includes/shortcodes/posttypes/film/film.php:214
+#: includes/shortcodes/posttypes/director/director.php:208
+#: includes/shortcodes/posttypes/teammember/teammember.php:186
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:144
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:106
+#: includes/shortcodes/posttypes/actor/actor.php:211
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:175
+msgid "Order by"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:143
+#: includes/shortcodes/recent-news/recent-news.php:174
+#: includes/shortcodes/posttypes/video/video.php:215
+#: includes/shortcodes/posttypes/film/film-slideshow.php:147
+#: includes/shortcodes/posttypes/film/film.php:217
+#: includes/shortcodes/posttypes/director/director.php:211
+#: includes/shortcodes/posttypes/teammember/teammember.php:189
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:147
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:109
+#: includes/shortcodes/posttypes/actor/actor.php:214
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:178
+msgid "Order by post ID"
+msgstr ""
+
+#: includes/shortcodes/images-gallery/images-gallery.php:130
+msgid "Padding"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/video.php:202
+#: includes/shortcodes/posttypes/film/film.php:200
+#: includes/shortcodes/posttypes/director/director.php:198
+#: includes/shortcodes/posttypes/actor/actor.php:201
+msgid "Page Number"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/video.php:199
+#: includes/shortcodes/posttypes/film/film.php:197
+#: includes/shortcodes/posttypes/director/director.php:195
+#: includes/shortcodes/posttypes/actor/actor.php:198
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:164
+msgid "Pagination"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:128
+msgid "Paging Style"
+msgstr ""
+
+#: includes/posttypes/actor.php:93
+msgid "Parent Actor Category"
+msgstr ""
+
+#: includes/posttypes/actor.php:94
+msgid "Parent Actor Category:"
+msgstr ""
+
+#: includes/posttypes/director.php:93
+msgid "Parent Director Category"
+msgstr ""
+
+#: includes/posttypes/director.php:94
+msgid "Parent Director Category:"
+msgstr ""
+
+#: includes/posttypes/film.php:93
+msgid "Parent Film Category"
+msgstr ""
+
+#: includes/posttypes/film.php:94
+msgid "Parent Film Category:"
+msgstr ""
+
+#: includes/posttypes/film.php:173
+msgid "Parent Film Country"
+msgstr ""
+
+#: includes/posttypes/film.php:174
+msgid "Parent Film Country:"
+msgstr ""
+
+#: includes/posttypes/film.php:133
+msgid "Parent Film Tag"
+msgstr ""
+
+#: includes/posttypes/film.php:134
+msgid "Parent Film Tag:"
+msgstr ""
+
+#: includes/posttypes/film.php:213
+msgid "Parent Film Year"
+msgstr ""
+
+#: includes/posttypes/film.php:214
+msgid "Parent Film Year:"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:93
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:94
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:129
+msgid "Parent Tag"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:130
+msgid "Parent Tag:"
+msgstr ""
+
+#: includes/posttypes/teammember.php:89
+msgid "Parent Team Category"
+msgstr ""
+
+#: includes/posttypes/teammember.php:90
+msgid "Parent Team Category:"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:88
+msgid "Parent Testimonial Category"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:89
+msgid "Parent Testimonial Category:"
+msgstr ""
+
+#: includes/posttypes/trailer.php:93
+msgid "Parent Trailer Category"
+msgstr ""
+
+#: includes/posttypes/trailer.php:94
+msgid "Parent Trailer Category:"
+msgstr ""
+
+#: includes/posttypes/video.php:93
+msgid "Parent Video Category"
+msgstr ""
+
+#: includes/posttypes/video.php:94
+msgid "Parent Video Category:"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:73
+msgid "Phone"
+msgstr ""
+
+#: includes/shortcodes/clients/clients.php:79
+#: includes/shortcodes/images-gallery/images-gallery.php:78
+#: includes/shortcodes/progress-bar/progress-bar.php:71
+#: includes/shortcodes/pricing-plan/pricing-plan.php:86
+#: includes/shortcodes/timeline/timeline.php:81
+msgid "Photodune"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:128 includes/posttypes/teammember.php:129
+msgid "Picture"
+msgstr ""
+
+#: includes/widgets/widgets.php:173 includes/widgets/widgets.php:262
+#: includes/widgets/widgets.php:262
+#: includes/widgets/haru-social-profile-widget.php:47
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:365
+msgid "Pinterest"
+msgstr ""
+
+#: includes/shortcodes/pricing-plan/pricing-plan.php:68
+msgid "Plans List"
+msgstr ""
+
+#: includes/shortcodes/clients/clients.php:103
+#: includes/shortcodes/timeline/timeline.php:113
+msgid "Please insert client' link."
+msgstr ""
+
+#: includes/shortcodes/counter/counter.php:44
+msgid "Please insert counter number!"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:46
+msgid "Please insert Footer Contact information!"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:47
+msgid "Please insert Footer Gallery images!"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-link/footer-link.php:46
+msgid "Please insert Footer Link information!"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-social/footer-social.php:47
+msgid "Please insert Footer Social information!"
+msgstr ""
+
+#: includes/shortcodes/images-gallery/images-gallery.php:102
+msgid "Please insert image' link."
+msgstr ""
+
+#: templates/footer/footer-link/style_1.php:31
+#: templates/footer/footer-link/style_2.php:31
+#: templates/footer/footer-link/style_3.php:31
+#: templates/footer/footer-social/style_1.php:31
+#: templates/footer/footer-social/style_2.php:34
+#: templates/footer/footer-social/style_3.php:34
+msgid "Please insert link"
+msgstr ""
+
+#: includes/shortcodes/timeline/timeline.php:46
+msgid "Please insert Timeline!"
+msgstr ""
+
+#: includes/posttypes/teammember.php:173
+msgid "Please leave empty if use social link."
+msgstr ""
+
+#: includes/shortcodes/clients/clients.php:96
+msgid "Please select client' logo."
+msgstr ""
+
+#: includes/shortcodes/clients/clients.php:46
+msgid "Please select clients!"
+msgstr ""
+
+#: includes/shortcodes/countdown/countdown.php:43
+msgid "Please select datetime!"
+msgstr ""
+
+#: templates/icon-box/style_2.php:48
+msgid "Please select Icon Box!"
+msgstr ""
+
+#: includes/shortcodes/icon-box/icon-box.php:80
+msgid "Please select icon box' image."
+msgstr ""
+
+#: includes/shortcodes/banner/banner.php:50
+msgid "Please select image for banner!"
+msgstr ""
+
+#: includes/shortcodes/images-gallery/images-gallery.php:95
+#: includes/shortcodes/introduce/introduce.php:110
+#: includes/shortcodes/pricing-plan/pricing-plan.php:145
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:92
+msgid "Please select image."
+msgstr ""
+
+#: includes/shortcodes/images-gallery/images-gallery.php:45
+msgid "Please select images!"
+msgstr ""
+
+#: includes/shortcodes/introduce/introduce.php:49
+msgid "Please select Layout Type!"
+msgstr ""
+
+#: includes/shortcodes/widget/widget.php:46
+msgid "Please select Widget!"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:54
+msgid "Please set GMaps!"
+msgstr ""
+
+#: includes/shortcodes/pricing-plan/pricing-plan.php:49
+msgid "Please set pricing plan!"
+msgstr ""
+
+#: includes/widgets/haru-product-search.php:62
+msgid "Please type at least 3 characters to search"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:114
+#: includes/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:117
+msgid "Please Wait..."
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-videos.php:53
+#: includes/widgets/haru-post-thumbnail.php:58
+msgid "Popular"
+msgstr ""
+
+#: includes/posttypes/actor.php:96
+msgid "Popular Actor Categories"
+msgstr ""
+
+#: includes/posttypes/director.php:96
+msgid "Popular Director Categories"
+msgstr ""
+
+#: includes/posttypes/film.php:96
+msgid "Popular Film Categories"
+msgstr ""
+
+#: includes/posttypes/film.php:176
+msgid "Popular Film Countries"
+msgstr ""
+
+#: includes/posttypes/film.php:136
+msgid "Popular Film Tags"
+msgstr ""
+
+#: includes/posttypes/film.php:216
+msgid "Popular Film Year"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:96
+msgid "Popular Portfolio Categories"
+msgstr ""
+
+#: includes/posttypes/teammember.php:92
+msgid "Popular Team Categories"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:91
+msgid "Popular Testimonial Categories"
+msgstr ""
+
+#: includes/posttypes/trailer.php:96
+msgid "Popular Trailer Categories"
+msgstr ""
+
+#: includes/posttypes/video.php:96
+msgid "Popular Video Categories"
+msgstr ""
+
+#: includes/widgets/haru-widget-product-sorting.php:62
+msgid "Popularity"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:44 includes/posttypes/portfolio.php:46
+msgid "Portfolio"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:84
+msgid "Portfolio Categories"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:85
+msgid "Portfolio Category"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:166 includes/posttypes/teammember.php:128
+#: includes/posttypes/teammember.php:167
+msgid "Position"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:147
+#: includes/shortcodes/recent-news/recent-news.php:178
+#: includes/shortcodes/posttypes/video/video.php:219
+#: includes/shortcodes/posttypes/director/director.php:215
+#: includes/shortcodes/posttypes/teammember/teammember.php:193
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:113
+#: includes/shortcodes/posttypes/actor/actor.php:218
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:182
+msgid "Post/page parent ID"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:112
+#: includes/shortcodes/recent-news/recent-news.php:151
+#: includes/shortcodes/posttypes/video/video.php:190
+#: includes/shortcodes/posttypes/film/film-top-celebrity.php:81
+#: includes/shortcodes/posttypes/film/film-search-form.php:100
+#: includes/shortcodes/posttypes/film/film-slideshow.php:135
+#: includes/shortcodes/posttypes/film/film.php:188
+#: includes/shortcodes/posttypes/film/film-top-view.php:81
+#: includes/shortcodes/posttypes/director/director.php:186
+#: includes/shortcodes/posttypes/teammember/teammember.php:174
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:135
+#: includes/shortcodes/posttypes/actor/actor.php:189
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:155
+msgid "Posts per page"
+msgstr ""
+
+#: includes/shortcodes/blog/utils/functions.php:85
+#: includes/shortcodes/posttypes/video/utils/functions.php:85
+#: includes/shortcodes/posttypes/film/utils/functions.php:86
+#: includes/shortcodes/posttypes/director/utils/functions.php:85
+#: includes/shortcodes/posttypes/trailer/utils/functions.php:85
+#: includes/shortcodes/posttypes/actor/utils/functions.php:85
+msgid "Prev"
+msgstr ""
+
+#: templates/posttypes/portfolio/single/related.php:67
+msgctxt "Previous post link"
+msgid ""
+"<div class=\"post-navigation-left\"><i class=\"post-navigation-icon fa fa-"
+"long-arrow-left\"></i> </div> <div class=\"post-navigation-content\"> <div "
+"class=\"post-navigation-title\">%title </div> </div> "
+msgstr ""
+
+#: includes/shortcodes/pricing-plan/pricing-plan.php:103
+msgid "Price"
+msgstr ""
+
+#: includes/widgets/haru-widget-price-filter.php:42
+msgid "Price range size"
+msgstr ""
+
+#: includes/widgets/haru-widget-product-sorting.php:66
+msgid "Price: High to Low"
+msgstr ""
+
+#: includes/widgets/haru-widget-product-sorting.php:65
+msgid "Price: Low to High"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:130
+#: includes/shortcodes/shortcodes.php:254
+msgid "Pulse"
+msgstr ""
+
+#: templates/posttypes/film/search-form-ajax.php:93
+msgid "Random"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:149
+#: includes/shortcodes/recent-news/recent-news.php:180
+#: includes/shortcodes/posttypes/video/video.php:221
+#: includes/shortcodes/posttypes/film/film-slideshow.php:152
+#: includes/shortcodes/posttypes/film/film.php:222
+#: includes/shortcodes/posttypes/director/director.php:217
+#: includes/shortcodes/posttypes/teammember/teammember.php:195
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:152
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:115
+#: includes/shortcodes/posttypes/actor/actor.php:220
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:184
+msgid "Random order"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:118
+msgid "Re-Import"
+msgstr ""
+
+#: templates/icon-box/style_1.php:39 templates/recent-news/carousel_2.php:74
+msgid "Read More"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:77
+msgid ""
+"Reference: https://developers.google.com/maps/documentation/javascript/get-"
+"api-key"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:110
+msgid "Reference: https://snazzymaps.com/"
+msgstr ""
+
+#: includes/widgets/haru-my-account.php:31
+msgid "Register Text"
+msgstr ""
+
+#: templates/posttypes/portfolio/single/related.php:75
+msgid "Related Projects"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:177
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1018
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1029
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1003
+msgid "Remote server did not respond"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1011
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: includes/posttypes/metaboxes/custom-field.php:23
+#: includes/libraries/tax-meta-class/tax-meta-class.php:373
+#: includes/libraries/tax-meta-class/tax-meta-class.php:373
+#: includes/libraries/tax-meta-class/tax-meta-class.php:420
+#: includes/libraries/tax-meta-class/tax-meta-class.php:420
+msgid "Remove"
+msgstr ""
+
+#: includes/posttypes/metaboxes/custom-field.php:29
+msgid "Remove All"
+msgstr ""
+
+#: includes/libraries/tax-meta-class/tax-meta-class.php:719
+msgid "Remove Image"
+msgstr ""
+
+#: includes/term-meta/include/term-meta-generator-class.php:276
+msgid "Remove image"
+msgstr ""
+
+#: includes/term-meta/include/term-meta-generator-class.php:236
+msgid "Revolution Slider is not Installed or Activated."
+msgstr ""
+
+#: includes/shortcodes/footer/footer-social/footer-social.php:213
+#: includes/shortcodes/posttypes/video/video.php:181
+#: includes/shortcodes/posttypes/film/film.php:179
+#: includes/shortcodes/posttypes/director/director.php:177
+#: includes/shortcodes/posttypes/actor/actor.php:180
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:150
+msgid "Right"
+msgstr ""
+
+#: includes/widgets/widgets.php:289
+msgid "Rss"
+msgstr ""
+
+#: includes/widgets/widgets.php:200
+msgid "rss"
+msgstr ""
+
+#: includes/widgets/haru-social-profile-widget.php:56
+msgid "RSS Feed"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:132
+#: includes/shortcodes/shortcodes.php:256
+msgid "Rubber band"
+msgstr ""
+
+#: includes/widgets/haru-product-search.php:64
+msgid "Search"
+msgstr ""
+
+#: includes/posttypes/actor.php:52
+msgid "Search Actor"
+msgstr ""
+
+#: includes/posttypes/actor.php:95
+msgid "Search Actor Categories"
+msgstr ""
+
+#: includes/posttypes/director.php:52
+msgid "Search Director"
+msgstr ""
+
+#: includes/posttypes/director.php:95
+msgid "Search Director Categories"
+msgstr ""
+
+#: includes/posttypes/film.php:52
+msgid "Search Film"
+msgstr ""
+
+#: includes/posttypes/film.php:95
+msgid "Search Film Categories"
+msgstr ""
+
+#: includes/posttypes/film.php:175
+msgid "Search Film Countries"
+msgstr ""
+
+#: includes/posttypes/film.php:135
+msgid "Search Film Tags"
+msgstr ""
+
+#: includes/posttypes/film.php:215
+msgid "Search Film Year"
+msgstr ""
+
+#: includes/posttypes/footer.php:31
+msgid "Search Footer"
+msgstr ""
+
+#: templates/posttypes/film/search-form-ajax.php:46
+msgid "Search for a Movie, Film..."
+msgstr ""
+
+#: includes/posttypes/portfolio.php:52
+msgid "Search Portfolio"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:95
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: includes/posttypes/teammember.php:91
+msgid "Search Team Categories"
+msgstr ""
+
+#: includes/posttypes/teammember.php:48
+msgid "Search Team Member"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:46
+msgid "Search Testimonial"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:90
+msgid "Search Testimonial Categories"
+msgstr ""
+
+#: includes/posttypes/trailer.php:52
+msgid "Search Trailer"
+msgstr ""
+
+#: includes/posttypes/trailer.php:95
+msgid "Search Trailer Categories"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:127
+msgid "Search Types"
+msgstr ""
+
+#: includes/posttypes/video.php:52
+msgid "Search Video"
+msgstr ""
+
+#: includes/posttypes/video.php:95
+msgid "Search Video Categories"
+msgstr ""
+
+#: templates/countdown/number.php:30
+msgid "Seconds"
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-videos.php:80
+#: includes/widgets/haru-post-thumbnail.php:67
+#: includes/widgets/haru-widget-circle-top-film.php:68
+msgid "Select a category or leave blank for all"
+msgstr ""
+
+#: includes/libraries/tax-meta-class/tax-meta-class.php:741
+msgid "Select a color"
+msgstr ""
+
+#: includes/shortcodes/posttypes/actor/actor.php:96
+msgid "Select Actor"
+msgstr ""
+
+#: includes/shortcodes/functions.php:139
+msgid "Select All"
+msgstr ""
+
+#: includes/shortcodes/functions.php:329
+#: includes/redux-extensions/extensions/footer/footer/field_footer.php:100
+#: includes/redux-extensions/extensions/menu/menu/field_menu.php:93
+msgid "Select an item"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:100
+#: includes/shortcodes/recent-news/recent-news.php:89
+msgid "Select Categories"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:101
+msgid "Select categories to display post on your page."
+msgstr ""
+
+#: includes/shortcodes/icon-box/icon-box.php:201
+msgid "Select custom icon color."
+msgstr ""
+
+#: includes/shortcodes/countdown/countdown.php:62
+msgid "Select Datetime"
+msgstr ""
+
+#: includes/shortcodes/posttypes/director/director.php:94
+msgid "Select Director"
+msgstr ""
+
+#: includes/shortcodes/posttypes/film/film-slideshow.php:94
+#: includes/shortcodes/posttypes/film/film.php:96
+msgid "Select Film"
+msgstr ""
+
+#: includes/shortcodes/icon-box/icon-box.php:190
+msgid "Select icon color."
+msgstr ""
+
+#: includes/shortcodes/icon-box/icon-box.php:120
+#: includes/shortcodes/icon-box/icon-box.php:136
+#: includes/shortcodes/icon-box/icon-box.php:152
+#: includes/shortcodes/icon-box/icon-box.php:183
+#: includes/shortcodes/footer/footer-social/footer-social.php:125
+#: includes/shortcodes/footer/footer-social/footer-social.php:141
+#: includes/shortcodes/footer/footer-social/footer-social.php:157
+#: includes/shortcodes/footer/footer-social/footer-social.php:188
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:127
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:143
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:159
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:190
+msgid "Select icon from library."
+msgstr ""
+
+#: includes/shortcodes/icon-box/icon-box.php:99
+#: includes/shortcodes/footer/footer-social/footer-social.php:108
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:110
+msgid "Select icon library."
+msgstr ""
+
+#: includes/shortcodes/pricing-plan/pricing-plan.php:69
+msgid "Select image and insert information for Plans List."
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:327
+msgid "Select maintenance background image."
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:151
+#: includes/shortcodes/recent-news/recent-news.php:182
+#: includes/shortcodes/posttypes/video/video.php:223
+#: includes/shortcodes/posttypes/film/film-slideshow.php:154
+#: includes/shortcodes/posttypes/film/film.php:224
+#: includes/shortcodes/posttypes/director/director.php:219
+#: includes/shortcodes/posttypes/teammember/teammember.php:197
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:154
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:117
+#: includes/shortcodes/posttypes/actor/actor.php:222
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:186
+msgid "Select order type."
+msgstr ""
+
+#: includes/shortcodes/recent-news/recent-news.php:99
+msgid "Select Post"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:356
+msgid "Select social profile for maintenance page."
+msgstr ""
+
+#: includes/widgets/haru-social-profile-widget.php:34
+msgid "Select social profiles"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:162
+#: includes/shortcodes/recent-news/recent-news.php:193
+#: includes/shortcodes/posttypes/video/video.php:234
+#: includes/shortcodes/posttypes/film/film-slideshow.php:165
+#: includes/shortcodes/posttypes/film/film.php:235
+#: includes/shortcodes/posttypes/director/director.php:230
+#: includes/shortcodes/posttypes/teammember/teammember.php:208
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:165
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:128
+#: includes/shortcodes/posttypes/actor/actor.php:233
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:197
+msgid "Select sorting order."
+msgstr ""
+
+#: includes/shortcodes/posttypes/teammember/teammember.php:90
+msgid "Select Teammember"
+msgstr ""
+
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:97
+msgid "Select Testimonial"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:169
+msgid "Select the image to replace the original map marker (optional)."
+msgstr ""
+
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:94
+msgid "Select Trailer"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:135
+#: includes/shortcodes/shortcodes.php:259
+msgid ""
+"Select type of animation if you want this element to be animated when it "
+"enters into the browsers viewport. Note: Works only in modern browsers."
+msgstr ""
+
+#: includes/metabox-extensions/custom-fields/videos.php:132
+#: includes/metabox-extensions/custom-fields/_videos.php:92
+#: includes/shortcodes/posttypes/video/video.php:96
+msgid "Select Video"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/single-video.php:76
+msgid "Select video"
+msgstr ""
+
+#: includes/shortcodes/widget/widget.php:67
+msgid "Select widget area to display."
+msgstr ""
+
+#: includes/posttypes/actor.php:97
+msgid "Separate Actor Categories with commas"
+msgstr ""
+
+#: includes/posttypes/director.php:97
+msgid "Separate Director Categories with commas"
+msgstr ""
+
+#: includes/posttypes/film.php:97
+msgid "Separate Film Categories with commas"
+msgstr ""
+
+#: includes/posttypes/film.php:177
+msgid "Separate Film Countries with commas"
+msgstr ""
+
+#: includes/posttypes/film.php:137
+msgid "Separate Film Tags with commas"
+msgstr ""
+
+#: includes/posttypes/film.php:217
+msgid "Separate Film Year with commas"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:97
+msgid "Separate Portfolio Categories with commas"
+msgstr ""
+
+#: includes/posttypes/teammember.php:93
+msgid "Separate Team Categories with commas"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:92
+msgid "Separate Testimonial Categories with commas"
+msgstr ""
+
+#: includes/posttypes/trailer.php:97
+msgid "Separate Trailer Categories with commas"
+msgstr ""
+
+#: includes/posttypes/video.php:97
+msgid "Separate Video Categories with commas"
+msgstr ""
+
+#: includes/shortcodes/pricing-plan/pricing-plan.php:105
+msgid "Set 0 for Free plan."
+msgstr ""
+
+#: includes/shortcodes/pricing-plan/pricing-plan.php:120
+msgid "Set information details for plan."
+msgstr ""
+
+#: includes/shortcodes/footer/footer-link/footer-link.php:91
+msgid "Set link of footer link."
+msgstr ""
+
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:99
+msgid "Set link of image."
+msgstr ""
+
+#: includes/shortcodes/pricing-plan/pricing-plan.php:152
+msgid "Set link of plan."
+msgstr ""
+
+#: includes/shortcodes/footer/footer-social/footer-social.php:92
+msgid "Set link of social network."
+msgstr ""
+
+#: includes/shortcodes/posttypes/teammember/teammember.php:145
+msgid "Set link of viewmore button."
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:98
+msgid "Shades of Grey"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:129
+#: includes/shortcodes/shortcodes.php:253
+msgid "Shake"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/video.php:149
+#: includes/shortcodes/posttypes/film/film.php:147
+#: includes/shortcodes/posttypes/director/director.php:145
+#: includes/shortcodes/posttypes/teammember/teammember.php:132
+#: includes/shortcodes/posttypes/actor/actor.php:148
+msgid "Show"
+msgstr ""
+
+#: includes/widgets/haru-film-categories.php:64
+msgid "Show film counts"
+msgstr ""
+
+#: includes/widgets/haru-film-categories.php:69
+#: includes/widgets/haru-video-categories.php:69
+msgid "Show hierarchy"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:85
+msgid "Show Map"
+msgstr ""
+
+#: includes/widgets/haru-video-categories.php:64
+msgid "Show video counts"
+msgstr ""
+
+#: includes/widgets/haru-widget-color-filter.php:19
+msgid ""
+"Shows \"color\" attributes in a widget which lets you narrow down the list "
+"of products when viewing products. "
+msgstr ""
+
+#: includes/widgets/haru-widget-price-filter.php:27
+msgid ""
+"Shows a price filter list in a widget which lets you narrow down the list of "
+"shown products when viewing product categories."
+msgstr ""
+
+#: includes/shortcodes/widget/widget.php:65
+msgid "Sidebar"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:405
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: includes/posttypes/actor.php:45
+msgid "Single Actor"
+msgstr ""
+
+#: includes/posttypes/director.php:45
+msgid "Single Director"
+msgstr ""
+
+#: includes/posttypes/film.php:45
+msgid "Single Film"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:45
+msgid "Single Portfolio"
+msgstr ""
+
+#: includes/posttypes/trailer.php:45
+msgid "Single Trailer"
+msgstr ""
+
+#: includes/posttypes/video.php:45
+msgid "Single Video"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:427
+msgid "Site does not support widget"
+msgstr ""
+
+#: includes/widgets/widgets.php:161 includes/widgets/widgets.php:250
+#: includes/widgets/widgets.php:250
+#: includes/widgets/haru-social-profile-widget.php:42
+msgid "Skype"
+msgstr ""
+
+#: includes/shortcodes/images-gallery/images-gallery.php:115
+msgid "Slick 2 (Home 10)"
+msgstr ""
+
+#: includes/shortcodes/images-gallery/images-gallery.php:113
+msgid "Slick Slideshow"
+msgstr ""
+
+#: includes/shortcodes/clients/clients.php:120
+#: includes/shortcodes/recent-news/recent-news.php:139
+#: includes/shortcodes/posttypes/film/film-slideshow.php:181
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:181
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:150
+msgid "Slide Duration (ms)"
+msgstr ""
+
+#: includes/shortcodes/posttypes/film/film-slideshow.php:176
+#: includes/shortcodes/posttypes/film/film-slideshow.php:184
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:145
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:153
+msgid "Slide Settings"
+msgstr ""
+
+#: includes/posttypes/teammember.php:178
+msgid "Social"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-social/footer-social.php:66
+msgid "Social network list"
+msgstr ""
+
+#: includes/widgets/haru-social-profile-widget.php:14
+msgid "Social profile widget"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:132
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:141
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:192
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:196
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:205
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: includes/widgets/haru-widget-product-sorting.php:28
+#: templates/posttypes/film/search-form-ajax.php:88
+msgid "Sort By"
+msgstr ""
+
+#: includes/shortcodes/blog/blog.php:157
+#: includes/shortcodes/recent-news/recent-news.php:188
+#: includes/shortcodes/posttypes/video/video.php:229
+#: includes/shortcodes/posttypes/film/film-slideshow.php:160
+#: includes/shortcodes/posttypes/film/film.php:230
+#: includes/shortcodes/posttypes/director/director.php:225
+#: includes/shortcodes/posttypes/teammember/teammember.php:203
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:160
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:123
+#: includes/shortcodes/posttypes/actor/actor.php:228
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:192
+msgid "Sort Order"
+msgstr ""
+
+#: includes/widgets/widgets.php:194 includes/widgets/widgets.php:283
+#: includes/widgets/widgets.php:283
+#: includes/widgets/haru-social-profile-widget.php:54
+msgid "SoundCloud"
+msgstr ""
+
+#: includes/shortcodes/recent-news/recent-news.php:79
+#: includes/shortcodes/posttypes/video/video.php:76
+#: includes/shortcodes/posttypes/film/film-slideshow.php:74
+#: includes/shortcodes/posttypes/film/film.php:76
+#: includes/shortcodes/posttypes/director/director.php:74
+#: includes/shortcodes/posttypes/teammember/teammember.php:70
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:74
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:77
+#: includes/shortcodes/posttypes/actor/actor.php:76
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:74
+msgid "Source"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/video.php:111
+msgid "Special Grid"
+msgstr ""
+
+#: includes/widgets/haru-product-search.php:31
+msgid "Standard Search"
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-film-tag.php:29
+#: includes/widgets/haru-widget-circle-videos.php:31
+#: includes/widgets/haru-post-thumbnail.php:37
+#: includes/widgets/haru-film-categories.php:48
+#: includes/widgets/haru-widget-circle-top-film.php:31
+#: includes/widgets/haru-video-categories.php:48
+#: includes/shortcodes/introduce/introduce.php:67
+#: includes/shortcodes/counter/counter.php:62
+#: includes/shortcodes/timeline/timeline.php:120
+#: includes/shortcodes/footer/footer-link/footer-link.php:98
+#: includes/shortcodes/footer/footer-social/footer-social.php:194
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:196
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:119
+msgid "Style"
+msgstr ""
+
+#: includes/shortcodes/progress-bar/progress-bar.php:97
+#: includes/shortcodes/posttypes/video/video.php:137
+#: includes/shortcodes/posttypes/video/video.php:164
+#: includes/shortcodes/posttypes/film/film-search-form.php:94
+#: includes/shortcodes/posttypes/film/film-slideshow.php:129
+#: includes/shortcodes/posttypes/film/film.php:136
+#: includes/shortcodes/posttypes/director/director.php:134
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:129
+#: includes/shortcodes/posttypes/actor/actor.php:136
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:125
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:137
+msgid "Style 1"
+msgstr ""
+
+#: includes/shortcodes/counter/counter.php:67
+msgid "Style 1 (Actor Counter)"
+msgstr ""
+
+#: includes/shortcodes/pricing-plan/pricing-plan.php:175
+msgid "Style 1 (Background Dark)"
+msgstr ""
+
+#: includes/shortcodes/posttypes/film/film.php:162
+#: includes/shortcodes/posttypes/director/director.php:160
+#: includes/shortcodes/posttypes/actor/actor.php:163
+msgid "Style 1 (Background dark)"
+msgstr ""
+
+#: includes/shortcodes/banner/banner.php:71
+msgid "Style 1 (Border Effect)"
+msgstr ""
+
+#: includes/shortcodes/clients/clients.php:132
+msgid "Style 1 (Carousel)"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-link/footer-link.php:102
+msgid "Style 1 (Default Footer)"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-social/footer-social.php:198
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:200
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:123
+msgid "Style 1 (Default)"
+msgstr ""
+
+#: includes/shortcodes/introduce/introduce.php:71
+msgid "Style 1 (Film Header)"
+msgstr ""
+
+#: includes/shortcodes/icon-box/icon-box.php:72
+msgid "Style 1 (Image)"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/single-video.php:66
+msgid "Style 1 (Video Background)"
+msgstr ""
+
+#: includes/shortcodes/clients/clients.php:133
+#: includes/shortcodes/posttypes/video/video.php:138
+#: includes/shortcodes/posttypes/video/video.php:165
+#: includes/shortcodes/posttypes/film/film-search-form.php:95
+#: includes/shortcodes/posttypes/film/film-slideshow.php:130
+#: includes/shortcodes/posttypes/film/film.php:137
+#: includes/shortcodes/posttypes/director/director.php:135
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:130
+#: includes/shortcodes/posttypes/actor/actor.php:137
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:126
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:138
+msgid "Style 2"
+msgstr ""
+
+#: includes/shortcodes/counter/counter.php:68
+msgid "Style 2 (About Counter)"
+msgstr ""
+
+#: includes/shortcodes/introduce/introduce.php:72
+msgid "Style 2 (About Header)"
+msgstr ""
+
+#: includes/shortcodes/pricing-plan/pricing-plan.php:176
+msgid "Style 2 (Background Light)"
+msgstr ""
+
+#: includes/shortcodes/posttypes/film/film.php:163
+#: includes/shortcodes/posttypes/director/director.php:161
+#: includes/shortcodes/posttypes/actor/actor.php:164
+msgid "Style 2 (Background light)"
+msgstr ""
+
+#: includes/shortcodes/banner/banner.php:72
+msgid "Style 2 (Home 3)"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-social/footer-social.php:199
+msgid "Style 2 (Icon Home 2)"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-social/footer-social.php:200
+msgid "Style 2 (Icon Home 3)"
+msgstr ""
+
+#: includes/shortcodes/icon-box/icon-box.php:73
+msgid "Style 2 (Icon)"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-link/footer-link.php:103
+msgid "Style 2 (Services Home 2)"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/single-video.php:67
+msgid "Style 2 (VC Background)"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/video.php:139
+#: includes/shortcodes/posttypes/actor/actor.php:138
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:127
+msgid "Style 3"
+msgstr ""
+
+#: includes/shortcodes/introduce/introduce.php:73
+msgid "Style 3 (About Me Header)"
+msgstr ""
+
+#: includes/shortcodes/footer/footer-link/footer-link.php:104
+msgid "Style 3 (Footer Home 2)"
+msgstr ""
+
+#: includes/shortcodes/banner/banner.php:73
+msgid "Style 3 (Home 4 - Top)"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/single-video.php:68
+msgid "Style 3 (Select Image Background)"
+msgstr ""
+
+#: includes/shortcodes/banner/banner.php:74
+msgid "Style 4 (Home 4 - Bottom)"
+msgstr ""
+
+#: includes/shortcodes/banner/banner.php:75
+msgid "Style 5 (About Me)"
+msgstr ""
+
+#: includes/shortcodes/banner/banner.php:76
+msgid "Style 6 (Ads Film Online)"
+msgstr ""
+
+#: includes/shortcodes/banner/banner.php:77
+msgid "Style 7 (Scale Image)"
+msgstr ""
+
+#: includes/shortcodes/banner/banner.php:78
+msgid "Style 8 (Content Bottom)"
+msgstr ""
+
+#: includes/shortcodes/banner/banner.php:79
+msgid "Style 9 (Text Banner)"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:107
+msgid "Style map custom"
+msgstr ""
+
+#: includes/shortcodes/introduce/introduce.php:98
+#: includes/shortcodes/banner/banner.php:90
+msgid "Sub Title"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:284
+msgid "Submit"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:343
+msgid "Success"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:347
+msgid "Success Classic"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:131
+#: includes/shortcodes/shortcodes.php:255
+msgid "Swing"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:134
+#: includes/shortcodes/shortcodes.php:258
+msgid "Tada"
+msgstr ""
+
+#: includes/posttypes/film.php:126 includes/posttypes/portfolio.php:126
+#: templates/posttypes/portfolio/single/detail-02.php:103
+#: templates/posttypes/portfolio/single/detail-03.php:145
+#: templates/posttypes/portfolio/single/detail-01.php:180
+#: templates/posttypes/portfolio/single/detail-04.php:114
+#: templates/posttypes/portfolio/single/detail-05.php:121
+msgid "Tags"
+msgstr ""
+
+#: templates/circle/video-modal.php:51
+msgid "Tap to Unmute"
+msgstr ""
+
+#: includes/posttypes/teammember.php:80 includes/posttypes/teammember.php:82
+msgid "Team Categories"
+msgstr ""
+
+#: includes/posttypes/teammember.php:81
+msgid "Team Category"
+msgstr ""
+
+#: includes/posttypes/teammember.php:41
+msgid "Team Member"
+msgstr ""
+
+#: includes/posttypes/teammember.php:162
+msgid "Team Member Information:"
+msgstr ""
+
+#: includes/posttypes/teammember.php:179
+msgid ""
+"Team Member Social Network Information. Max number of social networks set is "
+"4."
+msgstr ""
+
+#: includes/posttypes/teammember.php:40 includes/posttypes/teammember.php:42
+msgid "Team Members"
+msgstr ""
+
+#: includes/shortcodes/posttypes/teammember/teammember.php:80
+msgid "Teammember Category"
+msgstr ""
+
+#: includes/widgets/haru-widget-color-filter.php:104
+msgid "Term"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:39
+msgid "Testimonial"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:79
+msgid "Testimonial Categories"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:80
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:87
+msgid "Testimonial Category"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:161
+msgid "Testimonial Information:"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:38 includes/posttypes/testimonial.php:40
+msgid "Testimonials"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:197
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:133
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#. Description of the plugin
+msgid "The Haru Circle Core plugin."
+msgstr ""
+
+#: includes/term-meta/tax-meta-fields.php:33
+msgid "The text of label (should be same as name)"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:256
+msgid "Theme options Import file could not be found. Please try again."
+msgstr ""
+
+#: includes/shortcodes/clients/clients.php:69
+#: includes/shortcodes/images-gallery/images-gallery.php:68
+#: includes/shortcodes/progress-bar/progress-bar.php:63
+#: includes/shortcodes/pricing-plan/pricing-plan.php:72
+#: includes/shortcodes/timeline/timeline.php:69
+msgid "Themeforest"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:42
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:72
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:84
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:89
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:306
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:502
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:213
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: includes/posttypes/film.php:254 includes/posttypes/actor.php:134
+#: includes/posttypes/portfolio.php:167 includes/posttypes/video.php:134
+#: includes/posttypes/director.php:134 includes/posttypes/trailer.php:134
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/widgets/haru-post-thumbnail.php:40
+msgid "Thumbnail Full-width"
+msgstr ""
+
+#: includes/widgets/haru-post-thumbnail.php:39
+msgid "Thumbnail Left"
+msgstr ""
+
+#: includes/shortcodes/timeline/timeline.php:90
+msgid "Time"
+msgstr ""
+
+#: includes/shortcodes/pricing-plan/pricing-plan.php:160
+msgid "Time Unit"
+msgstr ""
+
+#: includes/shortcodes/timeline/timeline.php:64
+msgid "Timeline"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:345
+msgid "Timezone"
+msgstr ""
+
+#: includes/posttypes/film.php:252 includes/posttypes/actor.php:132
+#: includes/posttypes/portfolio.php:164 includes/posttypes/video.php:132
+#: includes/posttypes/director.php:132 includes/posttypes/trailer.php:132
+#: includes/widgets/haru-widget-circle-film-tag.php:24
+#: includes/widgets/haru-widget-circle-videos.php:26
+#: includes/widgets/haru-post-thumbnail.php:32
+#: includes/widgets/haru-widget-product-sorting.php:29
+#: includes/widgets/haru-film-categories.php:43
+#: includes/widgets/haru-widget-circle-top-film.php:26
+#: includes/widgets/haru-widget-price-filter.php:34
+#: includes/widgets/haru-video-categories.php:43
+#: includes/widgets/haru-widget-color-filter.php:74
+#: includes/posttypes/metaboxes/custom-field.php:17
+#: includes/shortcodes/images-gallery/images-gallery.php:87
+#: includes/shortcodes/introduce/introduce.php:80
+#: includes/shortcodes/pricing-plan/pricing-plan.php:97
+#: includes/shortcodes/blog/blog.php:145
+#: includes/shortcodes/icon-box/icon-box.php:213
+#: includes/shortcodes/recent-news/recent-news.php:176
+#: includes/shortcodes/counter/counter.php:73
+#: includes/shortcodes/timeline/timeline.php:97
+#: includes/shortcodes/banner/banner.php:84
+#: includes/shortcodes/footer/footer-link/footer-link.php:83
+#: includes/shortcodes/footer/footer-social/footer-social.php:84
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:86
+#: includes/shortcodes/footer/footer-gallery/footer-gallery.php:84
+#: includes/shortcodes/posttypes/video/video.php:217
+#: includes/shortcodes/posttypes/film/film-top-celebrity.php:65
+#: includes/shortcodes/posttypes/film/film-slideshow.php:149
+#: includes/shortcodes/posttypes/film/film.php:219
+#: includes/shortcodes/posttypes/film/film-top-view.php:65
+#: includes/shortcodes/posttypes/director/director.php:213
+#: includes/shortcodes/posttypes/teammember/teammember.php:154
+#: includes/shortcodes/posttypes/teammember/teammember.php:191
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:149
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:111
+#: includes/shortcodes/posttypes/actor/actor.php:216
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:180
+msgid "Title"
+msgstr ""
+
+#: templates/posttypes/film/search-form-ajax.php:91
+msgid "Title (A->Z)"
+msgstr ""
+
+#: includes/posttypes/teammember.php:181
+msgid "Title (Ex: Facebook)"
+msgstr ""
+
+#: templates/posttypes/film/search-form-ajax.php:92
+msgid "Title (Z->A)"
+msgstr ""
+
+#: includes/shortcodes/introduce/introduce.php:87
+msgid "Title First Word"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/single-video.php:92
+msgid "Title Left Icon"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/single-video.php:103
+msgid "Title Right Icon"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:265
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>"
+"admin</code>s entries."
+msgstr ""
+
+#: includes/shortcodes/posttypes/film/film-top-celebrity.php:76
+#: includes/shortcodes/posttypes/film/film-top-view.php:76
+msgid "Top List"
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-top-film.php:34
+msgid "Top Rated"
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-top-film.php:33
+msgid "Top View"
+msgstr ""
+
+#: includes/posttypes/trailer.php:46
+msgid "Trailer"
+msgstr ""
+
+#: includes/posttypes/trailer.php:84
+msgid "Trailer Categories"
+msgstr ""
+
+#: includes/posttypes/trailer.php:85
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:84
+msgid "Trailer Category"
+msgstr ""
+
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:125
+msgid "Trailer Style"
+msgstr ""
+
+#: includes/posttypes/trailer.php:44
+msgid "Trailers"
+msgstr ""
+
+#: templates/posttypes/film/film-style/style_1.php:32
+#: templates/posttypes/film/film-style/style_2.php:32
+msgid "Trend"
+msgstr ""
+
+#: templates/circle/film-ajax-search.php:115
+#: templates/circle/film-ajax-search-loadmore.php:117
+msgid "Trending"
+msgstr ""
+
+#: includes/widgets/widgets.php:158 includes/widgets/widgets.php:247
+#: includes/widgets/widgets.php:247
+#: includes/widgets/haru-social-profile-widget.php:41
+msgid "Tumblr"
+msgstr ""
+
+#: includes/widgets/widgets.php:143 includes/widgets/widgets.php:232
+#: includes/widgets/widgets.php:232
+#: includes/widgets/haru-social-profile-widget.php:37
+#: includes/shortcodes/footer/footer-social/footer-social.php:73
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:358
+msgid "Twitter"
+msgstr ""
+
+#: includes/widgets/haru-product-search.php:29
+#: includes/widgets/haru-social-profile-widget.php:26
+msgid "Type"
+msgstr ""
+
+#: includes/shortcodes/icon-box/icon-box.php:93
+#: includes/shortcodes/footer/footer-social/footer-social.php:103
+#: includes/shortcodes/footer/footer-contact/footer-contact.php:105
+msgid "Typicons"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:99
+msgid "Ultra Light"
+msgstr ""
+
+#: includes/shortcodes/progress-bar/progress-bar.php:104
+msgid "Units"
+msgstr ""
+
+#: includes/posttypes/actor.php:90
+msgid "Update Actor Category"
+msgstr ""
+
+#: includes/posttypes/director.php:90
+msgid "Update Director Category"
+msgstr ""
+
+#: includes/posttypes/film.php:90
+msgid "Update Film Category"
+msgstr ""
+
+#: includes/posttypes/film.php:170
+msgid "Update Film Country"
+msgstr ""
+
+#: includes/posttypes/film.php:130
+msgid "Update Film Tag"
+msgstr ""
+
+#: includes/posttypes/film.php:210
+msgid "Update Film Year"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:90
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:132
+msgid "Update Tag"
+msgstr ""
+
+#: includes/posttypes/teammember.php:86
+msgid "Update Team Category"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:85
+msgid "Update Testimonial Category"
+msgstr ""
+
+#: includes/posttypes/trailer.php:90
+msgid "Update Trailer Category"
+msgstr ""
+
+#: includes/posttypes/video.php:90
+msgid "Update Video Category"
+msgstr ""
+
+#: includes/term-meta/include/term-meta-generator-class.php:274
+msgid "Upload / Add image"
+msgstr ""
+
+#: includes/libraries/tax-meta-class/tax-meta-class.php:721
+msgid "Upload Image"
+msgstr ""
+
+#: includes/posttypes/teammember.php:172 includes/posttypes/teammember.php:182
+msgid "Url"
+msgstr ""
+
+#: includes/shortcodes/progress-bar/progress-bar.php:85
+msgid "Value"
+msgstr ""
+
+#: includes/shortcodes/progress-bar/progress-bar.php:58
+msgid "Values"
+msgstr ""
+
+#: includes/widgets/haru-vertical-menu.php:14
+msgid "Vertical Menu Widget"
+msgstr ""
+
+#: includes/posttypes/video.php:46
+msgid "Video"
+msgstr ""
+
+#: includes/posttypes/video.php:84
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:83
+msgid "Video Categories"
+msgstr ""
+
+#: includes/posttypes/video.php:85
+#: includes/shortcodes/posttypes/video/video.php:86
+msgid "Video Category"
+msgstr ""
+
+#: includes/shortcodes/posttypes/video/video.php:133
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/video-ajax-category.php:121
+msgid "Video Style"
+msgstr ""
+
+#: includes/posttypes/video.php:44
+msgid "Videos"
+msgstr ""
+
+#: includes/posttypes/actor.php:51
+msgid "View Actor"
+msgstr ""
+
+#: includes/posttypes/actor.php:89
+msgid "View Actor Category"
+msgstr ""
+
+#: includes/posttypes/director.php:51
+msgid "View Director"
+msgstr ""
+
+#: includes/posttypes/director.php:89
+msgid "View Director Category"
+msgstr ""
+
+#: includes/posttypes/film.php:51
+msgid "View Film"
+msgstr ""
+
+#: includes/posttypes/film.php:89
+msgid "View Film Category"
+msgstr ""
+
+#: includes/posttypes/film.php:169
+msgid "View Film Country"
+msgstr ""
+
+#: includes/posttypes/film.php:129
+msgid "View Film Tag"
+msgstr ""
+
+#: includes/posttypes/film.php:209
+msgid "View Film Year"
+msgstr ""
+
+#: includes/posttypes/footer.php:30
+msgid "View Footer"
+msgstr ""
+
+#: templates/banner/style_2.php:30 templates/posttypes/teammember/grid.php:82
+#: includes/shortcodes/posttypes/teammember/teammember.php:130
+#: includes/shortcodes/blog/utils/functions.php:24
+#: includes/shortcodes/posttypes/video/utils/functions.php:24
+#: includes/shortcodes/posttypes/film/utils/functions.php:24
+#: includes/shortcodes/posttypes/film/utils/functions.php:117
+#: includes/shortcodes/posttypes/director/utils/functions.php:24
+#: includes/shortcodes/posttypes/trailer/utils/functions.php:24
+#: includes/shortcodes/posttypes/actor/utils/functions.php:24
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/utils/ajax-action.php:85
+#: includes/shortcodes/posttypes/video-ajax/video-ajax-category/utils/ajax-action.php:167
+msgid "View More"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:51
+msgid "View Portfolio"
+msgstr ""
+
+#: includes/posttypes/portfolio.php:89
+msgid "View Portfolio Category"
+msgstr ""
+
+#: includes/posttypes/teammember.php:85
+msgid "View Team Category"
+msgstr ""
+
+#: includes/posttypes/teammember.php:47
+msgid "View Team Member"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:45
+msgid "View Testimonial"
+msgstr ""
+
+#: includes/posttypes/testimonial.php:84
+msgid "View Testimonial Category"
+msgstr ""
+
+#: includes/posttypes/trailer.php:51
+msgid "View Trailer"
+msgstr ""
+
+#: includes/posttypes/trailer.php:89
+msgid "View Trailer Category"
+msgstr ""
+
+#: includes/posttypes/video.php:51
+msgid "View Video"
+msgstr ""
+
+#: includes/posttypes/video.php:89
+msgid "View Video Category"
+msgstr ""
+
+#: includes/widgets/widgets.php:155 includes/widgets/widgets.php:244
+#: includes/widgets/widgets.php:244
+#: includes/widgets/haru-social-profile-widget.php:40
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:360
+msgid "Vimeo"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:342
+msgid "Warning"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:346
+msgid "Warning Classic"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:450
+msgid "Widget already exists"
+msgstr ""
+
+#: includes/widgets/haru-film-categories.php:35
+msgid "Widget display film categories."
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-film-tag.php:15
+msgid "Widget display film tags."
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-top-film.php:15
+msgid "Widget display top film."
+msgstr ""
+
+#: includes/widgets/haru-video-categories.php:35
+msgid "Widget display video categories."
+msgstr ""
+
+#: includes/widgets/haru-widget-circle-videos.php:15
+msgid "Widget display videos."
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:331
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#: includes/widgets/haru-post-thumbnail.php:15
+msgid "Widget post with thumbnail."
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:133
+#: includes/shortcodes/shortcodes.php:257
+msgid "Wobble"
+msgstr ""
+
+#: includes/widgets/haru-widget-price-filter.php:29
+msgid "WooCommerce Price Filter List"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:283
+msgid "Works best to import on a new install of WordPress"
+msgstr ""
+
+#: includes/widgets/widgets.php:185 includes/widgets/widgets.php:274
+#: includes/widgets/widgets.php:274
+#: includes/widgets/haru-social-profile-widget.php:51
+msgid "Xing"
+msgstr ""
+
+#: includes/posttypes/film.php:206
+#: templates/posttypes/film/search-form-ajax.php:75
+msgid "Year"
+msgstr ""
+
+#: includes/widgets/widgets.php:197 includes/widgets/widgets.php:286
+#: includes/widgets/widgets.php:286
+#: includes/widgets/haru-social-profile-widget.php:55
+msgid "Yelp"
+msgstr ""
+
+#: includes/metabox-extensions/custom-fields/checkbox-advanced.php:75
+#: includes/shortcodes/clients/clients.php:113
+#: includes/shortcodes/images-gallery/images-gallery.php:135
+#: includes/shortcodes/recent-news/recent-news.php:128
+#: includes/shortcodes/posttypes/film/film-slideshow.php:173
+#: includes/shortcodes/posttypes/trailer/trailer-slideshow.php:173
+#: includes/shortcodes/posttypes/testimonial/testimonial.php:142
+msgid "Yes"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:346
+msgid ""
+"You can change timezone from here. More details: http://php."
+"net/manual/en/timezones.php"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:338
+msgid "Your page will automatic end maintenance mode after this time."
+msgstr ""
+
+#: includes/widgets/haru-social-profile-widget.php:46
+#: includes/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:364
+msgid "YouTube"
+msgstr ""
+
+#: includes/widgets/widgets.php:152 includes/widgets/widgets.php:241
+#: includes/widgets/widgets.php:241
+msgid "Youtube"
+msgstr ""
+
+#: includes/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1023
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: includes/shortcodes/gmaps/gmaps.php:160
+msgid "Zoom"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:124
+#: includes/shortcodes/shortcodes.php:248
+msgid "Zoom In"
+msgstr ""

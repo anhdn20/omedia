@@ -1,0 +1,651 @@
+body {
+    &.single-haru_film {
+        #haru-main {
+            #haru-content-main {
+                background-color: #1e1e1e;
+                .haru-single-blog {
+                    // Content
+                    .single-content {
+                        padding-bottom: 8%;
+                        .single-wrapper {
+                            article {
+                                .post-wrapper {
+                                    .single-film-top {
+                                        .film-thumbnail-wrap {
+                                            padding-right: 0;
+                                            .film-thumbnail {
+                                                margin-bottom: 20px;
+                                            }
+                                        }
+                                        .film-information-wrap {
+                                            padding-left: 30px;
+                                            @media screen and (max-width: $screen-sm-max) {
+                                                padding-left: 15px;
+                                            }
+                                            .film-information {
+                                                .film-title {
+                                                    color: $white;
+                                                    font-size: 34px;
+                                                    margin-top: 0;
+                                                    @media screen and (max-width: $screen-xs-max) {
+                                                        font-size: 24px;
+                                                    }
+                                                }
+                                                .film-rating {
+                                                    border-bottom: 1px solid rgba($text_color, .7);
+                                                    padding-bottom: 15px;
+                                                    padding-top: 5px;
+                                                    .point {
+                                                        color: $primary_color;
+                                                        font-size: 24px;
+                                                        font-weight: 700;
+                                                        margin-right: 5px;
+                                                        i {
+                                                            color: #ffd52e;
+                                                            font-size: 18px;
+                                                            margin-right: 10px;
+                                                        }
+                                                    }
+                                                    .film-views, .meta-comment {
+                                                        margin-left: 15px;
+                                                        i {
+                                                            color: $primary_color;
+                                                            margin-right: 5px;
+                                                        }
+                                                    }
+                                                }
+                                                .film-meta {
+                                                    margin-top: 20px;
+                                                    ul {
+                                                        list-style-type: none;
+                                                        list-style: none;
+                                                        padding-left: 0;
+                                                        li {
+                                                            display: table;
+                                                            padding: 2px 0;
+                                                            .meta-label {
+                                                                color: $text_color_secondary;
+                                                                font-family: $body_font;
+                                                                width: 120px;
+                                                                display: table-cell;
+                                                            }
+                                                            .meta-value {
+                                                                color: $white;
+                                                                a {
+                                                                    color: $white;
+                                                                    @include transition(all .3s);
+                                                                    &:hover {
+                                                                        color: $link_color_hover;
+                                                                        @include transition(all .3s);
+                                                                    }
+                                                                }
+                                                            }
+                                                        }   
+                                                    }
+                                                    .film-view-links {
+                                                        margin-top: 35px;
+                                                        .view-trailer-button {
+                                                            background-image: none;
+                                                            border: 2px solid $text_color;
+                                                            background-color: transparent;
+                                                            color: $white;
+                                                            font-weight: 700;
+                                                            padding: 10px 25px;
+                                                            min-width: 135px;
+                                                            @include rounded(30px);
+                                                            @include transition(all .3s);
+                                                            &:hover {
+                                                                background-color: $primary_color;
+                                                                border: 2px solid $primary_color;
+                                                                color: $white;
+                                                                i {
+                                                                    color: $white;
+                                                                    @include transition(all .3s);
+                                                                }
+                                                            }
+                                                            i {
+                                                                margin-right: 10px;
+                                                                color: $primary_color;
+                                                                @include transition(all .3s);
+                                                            }
+                                                        }
+                                                        .view-film-button,
+                                                        .film-player-direct {
+                                                            background-color: $primary_color;
+                                                            background-image: none;
+                                                            border: 2px solid $primary_color;
+                                                            color: $white;
+                                                            font-weight: 700;
+                                                            padding: 10px 25px;
+                                                            min-width: 150px;
+                                                            margin-right: 10px;
+                                                            @include rounded(30px);
+                                                            @include transition(all .3s);
+                                                            &:hover {
+                                                                border: 2px solid $text_color;
+                                                                background-color: transparent;
+                                                                color: $white;
+                                                                i {
+                                                                    color: $primary_color;
+                                                                    @include transition(all .3s);
+                                                                }
+                                                            }
+                                                            i {
+                                                                margin-right: 10px;
+                                                                color: $white;
+                                                                @include transition(all .3s);
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        
+                                    }
+                                    // Player Direct
+                                    .player-direct {
+                                        padding-top: 70px;
+                                        .player-wrapper {
+                                            .film-player {
+                                                .media-wrapper {
+                                                    background-color: $black;
+                                                    position: relative;
+                                                    height: 0;
+                                                    overflow: hidden;
+                                                    &.ratio-169 {
+                                                        padding-bottom: 56.25%;
+                                                    }
+                                                    &.ratio-43 {
+                                                        padding-bottom: 75%;
+                                                    }
+                                                    video {
+                                                        opacity: 0;
+                                                    }
+                                                    .mejs__mediaelement {
+                                                        video {
+                                                            opacity: 1;
+                                                        }
+                                                    }
+                                                }
+                                                iframe {
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    position: absolute;
+                                                    top: 0;
+                                                    left: 0;
+                                                }
+                                            }
+                                        }
+                                        .video-playlist {
+                                            padding-top: 30px;
+                                            .video-episodes {
+                                                list-style-type: none;
+                                                list-style: none;
+                                                padding: 0;
+                                                li {
+                                                    display: inline-block;
+                                                    margin-bottom: 3px;
+                                                    a {
+                                                        background-color: #333;
+                                                        color: $text_color_secondary;
+                                                        display: block;
+                                                        padding: 0 15px;
+                                                        @include rounded(3px);
+                                                        &.active {
+                                                            background-color: $primary_color;
+                                                            color: $white;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .film-server-content {
+                                                margin-top: 20px;
+                                                .video-server {
+                                                    list-style-type: none;
+                                                    list-style: none;
+                                                    padding: 0;
+                                                    li {
+                                                        display: inline-block;
+
+                                                        a {
+                                                            color: $primary_color;
+                                                            border: 2px solid rgba($white, .3);
+                                                            background-color: transparent;
+                                                            font-weight: 700;
+                                                            padding: 5px 20px;
+                                                            margin-right: 5px;
+                                                            @include rounded(20px);
+                                                            @include transition(all .3s);
+                                                            &:hover {
+                                                                border: 2px solid $primary_color;
+                                                                background-color: $primary_color;
+                                                                color: $white;
+                                                                @include transition(all .3s);
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    // Overview
+                                    .single-film-overview {
+                                        padding-top: 8%;
+                                        .overview-title {
+                                            border-bottom: 1px solid rgba($text_color, .7);
+                                            color: $white;
+                                            padding-left: 25px;
+                                            padding-bottom: 20px;
+                                            position: relative;
+                                            margin-bottom: 30px;
+                                            &:before {
+                                                content: "/";
+                                                color: $primary_color;
+                                                font-weight: 400;
+                                                position: absolute;
+                                                left: 0;
+                                            }
+                                            @media screen and (max-width: $screen-sm-max) {
+                                                
+                                            }
+                                            @media screen and (max-width: $screen-xs-max) {
+                                                
+                                            }
+                                        }
+                                        p {
+                                            color: $text_color_secondary;
+                                        }
+                                    }
+                                    // Actor
+                                    .single-film-actor {
+                                        padding-top: 5%;
+                                        .actor-title {
+                                            border-bottom: 1px solid rgba($text_color, .7);
+                                            color: $white;
+                                            padding-left: 25px;
+                                            padding-bottom: 20px;
+                                            margin-bottom: 30px;
+                                            position: relative;
+                                            &:before {
+                                                content: "/";
+                                                color: $primary_color;
+                                                font-weight: 400;
+                                                position: absolute;
+                                                left: 0;
+                                            }
+                                            @media screen and (max-width: $screen-sm-max) {
+                                                
+                                            }
+                                            @media screen and (max-width: $screen-xs-max) {
+                                               
+                                            }
+                                        }
+                                        .actor-list {
+                                            .film-actor {
+                                                text-align: center;
+                                                .film-image {
+                                                    position: relative;
+                                                    overflow: hidden;
+                                                    margin: 0 20% 20% 20%;
+                                                    @include rounded(50%);
+                                                    &:before {
+                                                        content: "";
+                                                        display: block;
+                                                        padding-top: 100%;  /* ratio of 1:1*/
+                                                    }
+                                                    img {
+                                                        position: absolute;
+                                                        top: 0;
+                                                    }
+                                                }
+                                                .film-meta {
+                                                    .film-title {
+                                                        a {
+                                                            font-family: $body_font;
+                                                            font-weight: 600;
+                                                            font-size: 14px;
+                                                            color: $text_color_secondary;
+                                                            text-transform: uppercase;
+                                                            @include transition(all .3s);
+                                                            &:hover {
+                                                                color: $link_color_hover;
+                                                                @include transition(all .3s);
+                                                            }
+                                                        }
+                                                    }
+                                                    .film-category {
+                                                        font-family: $secondary_font;
+                                                        font-style: italic;
+                                                    }
+                                                }
+                                            }
+                                            .owl-nav {
+                                                position: absolute;
+                                                top: -60px;
+                                                right: -15px;
+                                                .owl-prev, .owl-next {
+                                                    display: inline-block;
+                                                    font-size: 20px;
+                                                    z-index: 999;
+                                                    width: 35px;
+                                                    height: 20px;
+                                                    line-height: 15px;
+                                                    text-align: center;
+                                                    @include translateY(-50%);
+                                                    @include transition(all .3s ease);
+                                                    &:hover {
+                                                        cursor: pointer;
+                                                        color: $primary_color;
+                                                    }
+                                                }
+                                                .owl-prev {
+                                                    border-right: 1px solid $text_color;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                }
+                            }
+                            // Comments
+                            #comments {
+                                .comments-title {
+                                    border-bottom: 1px solid rgba($text_color, .7);
+                                    color: $white;
+                                    padding-left: 25px;
+                                    padding-bottom: 15px;
+                                    position: relative;
+                                    &:before {
+                                        content: "/";
+                                        color: $primary_color;
+                                        font-weight: 400;
+                                        position: absolute;
+                                        left: 0;
+                                    }
+                                    @media screen and (max-width: $screen-sm-max) {
+                                        
+                                    }
+                                    @media screen and (max-width: $screen-xs-max) {
+                                       
+                                    }
+                                }
+                                // Comment List
+                                .post-comments-list {
+                                    .comment-list {
+                                        li {
+                                            .comment-body {
+                                                .author-avatar {
+                                                    img {
+
+                                                    }
+                                                }
+                                                .comment-text {
+                                                    .author {
+                                                        .author-name {
+                                                            color: $white;
+                                                            a {
+                                                                color: $white;
+                                                                @include transition(all .3s);
+                                                                &:hover {
+                                                                    color: $link_color_hover;
+                                                                    @include transition(all .3s);
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    .comment-meta {
+                                                        .comment-meta-date {
+                                                            color: $text_color;
+                                                        }
+                                                        .comment-meta-action {
+                                                            a {
+                                                                color: $text_color;
+                                                                &:hover {
+                                                                    color: $link_color_hover;
+                                                                }
+                                                                &:first-child {
+                                                                    border-left: 1px solid rgba($text_color, .7);
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    .text {
+                                                        color: $text_color_secondary;
+                                                    }
+                                                }
+                                            }
+                                            .children {
+                                                border-left: 1px solid rgba($text_color, .7);
+                                                @media screen and(max-width: $screen-sm-max) {
+                                                    
+                                                }
+                                                @media screen and(max-width: $screen-xs-max) {
+                                                    
+                                                }
+                                            }
+                                        }
+                                        .children {
+                                            
+                                        }
+                                    }
+                                }
+                                // Comment Form
+                                .post-comments-form {
+                                    border-top: 1px solid rgba($text_color, .7);
+                                }
+                                // Comment form reply and post comment form
+                                #respond-wrapper, .comment-respond {
+                                    h3 {
+                                        color: $white;
+                                        font-size: 24px;
+                                        &:before {
+                                           
+                                        }
+                                        @media screen and ( max-width:$screen-xs-max ) {
+                                            
+                                        }
+                                    }
+                                    .comment-form {
+                                        input, textarea {
+                                            background-color: #333;
+                                            &:focus {
+                                                
+                                            }
+                                        }
+                                        input[type="text"], input[type="email"], textarea {
+                                            color: $text_color_secondary;
+                                        }
+                                        .logged-in-as {
+                                            
+                                        }
+                                        .comment-form-comment {
+                                            
+                                        }
+                                        .submit {
+                                            border: 2px solid rgba($text_color, .7);
+                                            text-transform: none;
+                                            &:hover {
+                                                border: 2px solid $primary_color;
+                                                background-color: $primary_color;
+                                            }
+                                        }
+                                    }
+                                }
+                                // Special for Reply
+                                .comment-respond {
+                                    h3 {
+                                        small {
+
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    // Sidebar
+                    .right-sidebar {
+                        padding-left: 6%;
+                        @media screen and (max-width: $screen-sm-max) {
+                            padding-left: 15px;
+                        }
+                    }
+                    .left-sidebar {
+                        padding-right: 6%;
+                        @media screen and (max-width: $screen-sm-max) {
+                            padding-right: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.film-popup {
+    padding: 5% 20%;
+    @media screen and (max-width: $screen-sm-max) {
+        padding: 5% 10%;
+    }
+    @media screen and (max-width: $screen-xs-max) {
+        padding: 10% 5%;
+    }
+    .popup-content {
+        .popup-header {
+            .popup-header-info {
+                clear: both;
+                text-align: center;
+                .popup-title {
+                    color: $white;
+                    font-family: $secondary_font;
+                    font-size: 34px;
+                    font-weight: bold;
+                    position: relative;
+                    @media screen and (max-width: $screen-sm-max) {
+                        font-size: 18px;
+                    }
+                    @media screen and (max-width: $screen-xs-max) {
+                        font-size: 14px;
+                        padding: 0 40px;
+                    }
+                }
+                .popup-film-category {
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    a {
+                        color: rgba($white, .5);
+                        font-style: italic;
+                        text-transform: uppercase;
+                        &:hover {
+                            color: $primary_color;
+                        }
+                    }
+                    @media screen and (max-width: $screen-sm-max) {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        .popup-body {
+            .film-videos-wrapper {
+                .player-wrapper {
+                    .film-player {
+                        .media-wrapper {
+                            background-color: $black;
+                            position: relative;
+                            height: 0;
+                            overflow: hidden;
+                            &.ratio-169 {
+                                padding-bottom: 56.25%;
+                            }
+                            &.ratio-43 {
+                                padding-bottom: 75%;
+                            }
+                            video {
+                                opacity: 0;
+                            }
+                            .mejs__mediaelement {
+                                video {
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                        iframe {
+                            width: 100%;
+                            height: 100%;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                        }
+                    }
+                }
+                .video-playlist {
+                    padding-top: 30px;
+                    .video-episodes {
+                        list-style-type: none;
+                        list-style: none;
+                        padding: 0;
+                        li {
+                            display: inline-block;
+                            margin-bottom: 3px;
+                            a {
+                                background-color: #333;
+                                color: $text_color_secondary;
+                                display: block;
+                                padding: 0 15px;
+                                @include rounded(3px);
+                                &.active {
+                                    background-color: $primary_color;
+                                    color: $white;
+                                }
+                            }
+                        }
+                    }
+                    .film-server-content {
+                        margin-top: 20px;
+                        .video-server {
+                            list-style-type: none;
+                            list-style: none;
+                            padding: 0;
+                            li {
+                                display: inline-block;
+
+                                a {
+                                    color: $primary_color;
+                                    border: 2px solid rgba($white, .3);
+                                    background-color: transparent;
+                                    font-weight: 700;
+                                    padding: 5px 20px;
+                                    margin-right: 5px;
+                                    @include rounded(20px);
+                                    @include transition(all .3s);
+                                    &:hover {
+                                        border: 2px solid $primary_color;
+                                        background-color: $primary_color;
+                                        color: $white;
+                                        @include transition(all .3s);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .mfp-close {
+        background-color: rgba($black, .2);
+        color: $white;
+        position: absolute;
+        top: 35px;
+        right: 20%;
+        &:hover {
+            background-color: rgba($black, .5);
+        }
+        @media screen and (max-width: $screen-sm-max) {
+            right: 10%;
+        }
+        @media screen and (max-width: $screen-xs-max) {
+            right: 5%;
+        }
+    }
+}

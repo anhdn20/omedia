@@ -1,0 +1,647 @@
+/* Style for Mega Menu */
+/***** TABLE OF CONTENTS *****
+*** 1. GENERAL
+*** 2. MEGA MENU STYLE COLUMN
+*** 3. MEGA MENU STYLE DROPDOWN
+*** 4. MEGA MENU STYLE TAB
+*/
+
+/* RESET MENU STYLE */
+.navbar-nav {
+    cursor: default;
+    display: inline-block;
+    padding: 0;
+    a, ul, li, div, form, input {
+        margin: 0;
+        padding: 0;
+        border: none;
+        outline: none;
+        font-family: $menu_font;
+    }
+    a { 
+        text-decoration: none; 
+        position: relative;
+    }
+    li {
+        list-style: none;    
+    }
+}
+
+.navbar-nav {
+    > li {
+        // Only level 0
+        > a {
+            display: inline-block;
+            padding: 20px 20px;
+            position: relative;
+            text-transform: uppercase;
+            @include transition(all .3s ease);
+        }
+        // GENERAL
+        a {
+            // Icon
+            i {
+                line-height: 20px;
+                &.left {
+                    padding-right: 5px;
+                    float: left;
+                }
+                &.center {
+                    padding-left: 5px;
+                }
+                &.right {
+                    padding-left: 5px;
+                }
+            }
+            // Sub label
+            span.haru_sub_label {
+                color: $white;
+                font-size: 10px;
+                margin-left: 5px;
+                padding: 1px 3px;
+            }
+            // Caret symbol
+            &:after {
+                content: '\f107'; 
+                font-family: FontAwesome;
+                padding-left: 5px;
+            }
+            &:only-child:after { 
+                content: '';
+            }
+
+        }
+        // DROPDOWN STYLE
+        &.menu_style_dropdown {
+            // Hover on each level
+            &:hover {
+                // Level 1
+                > ul {
+                    display: block;
+                    opacity: 1;
+                    visibility: visible;
+                    overflow: visible;
+                    > li {
+                        &:hover {
+                            // Caret rotate
+                            > a {
+                                &:after {
+                                    @include transition(all .3s);
+                                    @include transform(rotate(-90deg));
+                                }
+                            }
+                            // Level 2
+                            > ul {
+                                display: block;
+                                left: 100%;
+                                opacity: 1;
+                                overflow: visible;
+                                position: absolute;
+                                top: 0;
+                                visibility: visible;
+                                > li {
+                                    &:hover {
+                                        // Caret rotate
+                                        > a {
+                                            &:after {
+                                                @include transition(all .3s);
+                                                @include transform(rotate(-90deg));
+                                            }
+                                        }
+                                        // Level 3
+                                        > ul {
+                                            display: block;
+                                            left: 100%;
+                                            opacity: 1;
+                                            overflow: visible;
+                                            position: absolute;
+                                            top: 0;
+                                            visibility: visible;
+                                            > li {
+                                                &:hover {
+                                                    // Caret rotate
+                                                    > a {
+                                                        &:after {
+                                                            @include transition(all .3s);
+                                                            @include transform(rotate(-90deg));
+                                                        }
+                                                    }
+                                                    // Level 4
+                                                    > ul {
+                                                        display: block;
+                                                        left: 100%;
+                                                        opacity: 1;
+                                                        overflow: visible;
+                                                        position: absolute;
+                                                        top: 0;
+                                                        visibility: visible;
+                                                        > li {
+                                                            &:hover {
+                                                                // Caret rotate
+                                                                > a {
+                                                                    &:after {
+                                                                        @include transition(all .3s);
+                                                                        @include transform(rotate(-90deg));
+                                                                    }
+                                                                }
+                                                                // Level 5
+                                                                > ul {
+                                                                    display: block;
+                                                                    left: 100%;
+                                                                    opacity: 1;
+                                                                    overflow: visible;
+                                                                    position: absolute;
+                                                                    top: 0;
+                                                                    visibility: visible;
+                                                                    > li {
+                                                                        &:hover {
+                                                                            // Caret rotate
+                                                                            > a {
+                                                                                &:after {
+                                                                                    @include transition(all .3s);
+                                                                                    @include transform(rotate(-90deg));
+                                                                                }
+                                                                            }
+                                                                            // Level 6
+                                                                            > ul {
+                                                                                display: block;
+                                                                                left: 100%;
+                                                                                opacity: 1;
+                                                                                overflow: visible;
+                                                                                position: absolute;
+                                                                                top: 0;
+                                                                                visibility: visible;
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            // All sub menu have same style
+            ul {
+                background-color: $white;
+                display: none;
+                opacity: 0;
+                overflow: hidden;
+                position: absolute;
+                visibility: hidden;
+                @include box-shadow(0 0px 4px 0 rgba(0, 0, 0, .2));
+                // Animate css @TODO: need change to config
+                @include animation-duration(.5s);
+                @include animation-delay(.1s);
+                li {
+                    display: block;
+                    float: none;
+                    min-width: 250px;
+                    position: relative;
+                    a {
+                        display: block;
+                        line-height: 20px;
+                        padding: 10px 20px;
+                        &:after {
+                            position: absolute;
+                            right: 15px;
+                            @include transition(all .3s);
+                        }
+                    }
+                }
+            }
+        }
+        // COLUMNS STYLE
+        &.menu_style_column {
+            // 2 columns
+            &.mega-col-columns-2 {
+                > ul > li {
+                    float: left;
+                    width: 50%;
+                }
+            }
+            // 3 columns
+            &.mega-col-columns-3 {
+                > ul > li {
+                    float: left;
+                    width: 33.3333333%; 
+                }
+            }
+            // 4 columns
+            &.mega-col-columns-4 {
+                > ul > li {
+                    float: left;
+                    width: 25%;
+                }
+            }
+            // 5 columns
+            &.mega-col-columns-5 {
+                > ul > li {
+                    float: left;
+                    width: 20%;
+                }
+            }
+            // 6 columns
+            &.mega-col-columns-6 {
+                > ul > li {
+                    float: left;
+                    width: 16.6666666%; 
+                }
+            }
+            // Show sub menu on hover
+            &:hover {
+                > ul {
+                    display: block;
+                    opacity: 1;
+                    overflow: visible;
+                    visibility: visible;
+                }
+            }
+            // Hidden sub menu
+            > ul {
+                display: none;
+                left: 0;
+                opacity: 0;
+                overflow: hidden;
+                padding: 30px 0px;
+                position: absolute;
+                top: 100%;
+                visibility: hidden;
+                width: 100%;
+                @include box-shadow(0 0px 4px 0 rgba(0, 0, 0, 0.2));
+                // Animate css @TODO: need change to config
+                @include animation-duration(0.5s);
+                @include animation-delay(0.1s);
+                > li {
+                    border-left: 1px solid $border_color;
+                    &:first-child {
+                        border: none;
+                        padding-left: 2px;
+                    }
+                    // Column title
+                    > a {
+                        position: relative;
+                        display: block;
+                        padding: 0 20px 15px 20px !important;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        &:hover {
+                            color: $primary_color;
+                        }
+                        &:after {
+                            display: none;
+                        }
+                    }
+                    // Column menu list
+                    ul {
+                        li {
+                            a {
+                                display: block;
+                                padding: 10px 20px !important;
+                                position: relative;
+                            }
+                        }
+                    }
+                    // Widget 
+                    .haru_megamenu_widget_area {
+  
+                    }
+                }
+            }
+        }
+        // TAB STYLE
+        &.menu_style_tab {
+            > ul {
+                display: none;
+                left: 0;
+                opacity: 0;
+                overflow: hidden;
+                position: absolute;
+                top: 100%;
+                visibility: hidden;
+                width: 100%;
+                @include box-shadow(0 2px 6px 2px rgba(0, 0, 0, .1));
+                // Animate css @TODO: need change to config
+                @include animation-duration(.5s);
+                @include animation-delay(.1s);
+                &:before {
+                    background: #fafafa;
+                    border-right: 1px solid $border_color;
+                    bottom: 0;
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    width: 25%;
+                }
+                > li {
+                    clear: none;
+                    display: block;
+                    position: static;
+                    text-align: right;
+                    width: 25%;
+                    &:first-child {
+                        margin-top: 20px;
+                    }
+                    &:hover, &.active {
+                        a {
+                            &:before {
+                                height: 100%;
+                            }
+                        }
+                    }
+                    > a {
+                        display: block;
+                        font-weight: 600;
+                        padding: 10px 20px;
+                        position: relative;
+                        &:after {
+                            content: '';
+                        } 
+                        &:before {
+                            content: '';
+                            height: 0;
+                            left: 0;
+                            position: absolute;
+                            top: 0;
+                            width: 2px;
+                            @include transition(all .3s ease);
+                        }
+                    }
+                    &.active {
+                        > a {
+                            border-top: 1px solid $border_color;
+                            border-bottom: 1px solid $border_color;
+                            color: $primary_color;
+                            background: $white;
+                        }
+                    }
+                    > .haru_megamenu_widget_area, > ul {
+                        background: $white;
+                        height: auto;
+                        left: 25%;
+                        opacity: 0;
+                        padding: 20px 20px;
+                        position: absolute;
+                        right: 0;
+                        top: 10px;
+                        text-align: left;
+                        visibility: hidden;
+                        width: auto;
+                        @include transition(all .5s ease-in-out);
+                        &.columns-1 {
+                            section {
+                                width: 100%;
+                            }
+                        }
+                        &.columns-2 {
+                            section {
+                                width: 50%;
+                                float: left;
+                            }
+                        }
+                        &.columns-3 {
+                            section {
+                                width: 33.3333%;
+                                float: left;
+                            }
+                        }
+                        &.columns-4 {
+                            section {
+                                width: 25%;
+                                float: left;
+                            }
+                        }
+                        .widget-title-wrapper {
+                            a {
+                                display: none;
+                            }
+                        }
+                    }
+                    // Show widget menu if is active (default active first tab)
+                    &.active {
+                        .haru_megamenu_widget_area, ul {
+                            opacity: 1;
+                            visibility: visible;
+                            top: 0;
+                            z-index: 999;
+                        }
+                    }
+                }
+            }
+            // Show menu tab
+            &:hover {
+                ul {
+                    display: block;
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+            // Tab Columns
+            // 2 columns
+            &.mega-col-columns-2 {
+                > ul > li > ul > li {
+                    float: left;
+                    width: 50%;
+                    padding: 10px 0;
+                }
+            }
+            // 3 columns
+            &.mega-col-columns-3 {
+                > ul > li > ul > li {
+                    float: left;
+                    width: 33.3333333%;
+                    padding: 10px 0;
+                }
+            }
+            // 4 columns
+            &.mega-col-columns-4 {
+                > ul > li > ul > li {
+                    float: left;
+                    width: 25%;
+                    padding: 10px 0;
+                }
+            }
+            // 5 columns
+            &.mega-col-columns-5 {
+                > ul > li > ul > li {
+                    float: left;
+                    width: 20%;
+                    padding: 10px 0;
+                }
+            }
+            // 6 columns
+            &.mega-col-columns-6 {
+                > ul > li > ul > li {
+                    float: left;
+                    width: 16.6666666%;
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+}
+
+// @TODO: Fullwidth menu
+.navbar-nav > li.menu_style_tab.mega-fullwidth > ul {
+
+}
+
+// Mega Menu Widget
+.haru_widget_area {
+    > .haru_megamenu_widget_area {
+        section {
+            position: relative;
+            &:hover {
+                .widget-title-wrapper {
+                    h3 {
+
+                    }
+                }
+            }
+            .widget-title-wrapper {
+                h3 {
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    margin: 0;
+                    padding-top: 10px;
+                    padding-bottom: 20px;
+                    color: $header_nav_text_color;
+                    @include transition( all .35s ease );
+                }       
+            }
+            // Widget Product List
+            .product_list_widget {
+                left: 0;
+                padding: 0;
+                position: relative;
+                width: 100%;
+                >li {
+                    @include transition( all .35s ease );
+                    &:hover {
+                        @include translate3d(0,-3px, 0);
+                    }
+                    a {
+                        img {
+                            border: 1px solid $border_color;
+                            float: left;
+                            margin: 0;
+                            margin-right: 10px;
+                            padding: 5px;
+                            width: 33.33%;
+                        }
+                        &:after {
+                            content: '';
+                        }
+                    }
+                    .star-rating {
+                        margin: 10px 0;
+                        text-align:  left;
+                        &:before {
+                            left: 0;
+                            @include translateX(0);
+                        }
+                        span {
+                            &:before {
+                                color: $secondary_color;
+                            }
+                        }
+                    }
+                }
+            }
+
+            // Tag cloud (copy from woocommerce-sidebar.less)
+            .widget_product_tag_cloud {
+                .tagcloud a {
+                    display: inline-block;
+                    font-size: 14px!important;
+                    padding: 5px 10px;
+                    margin-right: 10px;
+                    margin-top: 10px;
+                    color: $text_color_secondary;
+                    @include bordered($text_color_secondary,$text_color_secondary,$text_color_secondary,$text_color_secondary);
+                    @include rounded(5px);
+                    &:hover {
+                        color: $white;
+                        background: $primary_color;
+                        @include bordered($primary_color,$primary_color,$primary_color,$primary_color);
+                    }
+                }
+            }
+            // Instagram widget
+
+        }
+    }
+}
+
+.haru_megamenu_widget_area {
+    ul.instagram-pics {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+        li {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+        }
+        a {
+            display: block;
+            position: relative;
+            overflow: hidden;
+            &:before {
+                content: "";
+                position: absolute;
+                width: 101%;
+                height: 101%;
+                background-color: rgba($primary_color, .5);
+                opacity: 0;
+                @include transition(all 0.2s linear);
+            }
+            &:hover:before {
+                opacity: 1;
+            }
+            img {
+                padding: 5px;
+                border: 1px solid $border_color;
+            }
+        }
+    }
+
+    ul.instagram-pics + p {
+        margin: 0;
+        font-size: 13px;
+        font-style: italic;
+        letter-spacing: 0.02em;
+    }
+
+    .null-instagram-feed {
+        &.columns-4 {
+            .instagram-pics {
+                list-style: none;
+                list-style-type: none;
+                padding: 0;
+                margin-left: -5px;
+                margin-right: -5px;
+                margin-top: -5px;
+                li {
+                    width: 25%;
+                    display: inline-block;
+                    padding: 5px;
+                    a {
+                        display: block;
+                        position: relative;
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+    }
+}

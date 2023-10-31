@@ -1,0 +1,955 @@
+/*-----------------------------------
+ * VIDEO SHORTCODE
+ *-----------------------------------*/
+.video-shortcode-wrapper,
+.video-shortcode-ajax {
+    // Grid or Masonry
+    &.grid, &.masonry, &.grid_special {
+        .video-content {
+            .video-filter {
+                list-style: none;
+                list-style-type: none;
+                padding: 0;
+                &.align_left {
+                    text-align: left;
+                }
+                &.align_center {
+                    text-align: center;
+                }
+                &.align_right {
+                    text-align: right;
+                }
+                // Filter style
+                &.style_1 {
+                    li {
+                        display: inline-block;
+                        padding: 0 5px;
+                        margin-bottom: 10px;
+                        a {
+                            border: 2px solid $border_color;
+                            display: inline-block;
+                            font-size: 13px;
+                            padding: 6px 25px;
+                            text-transform: uppercase;
+                            @include rounded(20px);
+                            @include transition(all .3s);
+                            &:hover, &.selected {
+                                background-color: $primary_color;
+                                border-color: $primary_color;
+                                color: $white;
+                                @include transition(all .3s);
+                            }
+                            @media screen and (max-width: $screen-xs-max) {
+                                font-size: 12px;
+                                padding: 5px 15px;
+                            }
+                        }
+                    }
+                }
+                &.style_2 {
+                    li {
+                        display: inline-block;
+                        padding: 0 5px;
+                        margin-bottom: 10px;
+                        a {
+                            border: 2px solid rgba($border_color, .2);
+                            display: inline-block;
+                            font-size: 13px;
+                            padding: 6px 25px;
+                            text-transform: uppercase;
+                            @include rounded(20px);
+                            @include transition(all .3s);
+                            &:hover, &.selected {
+                                background-color: $primary_color;
+                                border-color: $primary_color;
+                                color: $white;
+                                @include transition(all .3s);
+                            }
+                            @media screen and (max-width: $screen-xs-max) {
+                                font-size: 12px;
+                                padding: 5px 15px;
+                            }
+                        }
+                    }
+                }
+            }
+            .video-list {
+                margin-top: 3%;
+                // Columns
+                &.columns-2 {
+                    .video-item {
+                        width: 50%;
+                        @media screen and (max-width: $screen-xs-max) {
+                            width: 100%;
+                        }
+                    }
+                }
+                &.columns-3 {
+                    .video-item {
+                        width: 33.333333%;
+
+                        @-moz-document url-prefix() {
+                            width: calc(33.333333% - .1px);
+                        }
+
+                        @media screen and (max-width: $screen-sm-max) {
+                            width: 50%;
+                        }
+                        @media screen and (max-width: $screen-xs-max) {
+                            width: 100%;
+                        }
+                    }
+                }
+                &.columns-4 {
+                    .video-item {
+                        width: 25%;
+                        @media screen and (max-width: $screen-sm-max) {
+                            width: 50%;
+                        }
+                        @media screen and (max-width: $screen-xs-max) {
+                            width: 100%;
+                        }
+                    }
+                }
+                &.columns-5 {
+                    .video-item {
+                        width: 20%;
+                        @media screen and (max-width: $screen-sm-max) {
+                            width: 50%;
+                        }
+                        @media screen and (max-width: $screen-xs-max) {
+                            width: 100%;
+                        }
+                    }
+                }
+                // Special Columns
+                &.columns-special {
+                    // Item style
+                    .video-item {
+                        // Colums Special
+                        &.hcol-md-5 {
+                            width: 41.666666%;
+                            // Style 1
+                            &.style_1 {
+                                // Item style
+                                &:nth-child(odd) {
+                                    padding: 8% 10% 8% 0;
+                                }
+                                &:nth-child(even) {
+                                    padding: 8% 0 8% 10%;
+                                }
+                                .video-meta {
+                                    .video-title {
+                                        font-size: 18px;
+                                    }
+                                    .video-category {
+                                        font-size: 14px;
+                                    }
+                                }
+                            }
+                            // Style 2
+                            &.style_2 {
+                                // Item style
+                                &:nth-child(odd) {
+                                    padding: 8% 10% 8% 0;
+                                }
+                                &:nth-child(even) {
+                                    padding: 8% 0 8% 10%;
+                                }
+                                .video-meta {
+                                    .video-title {
+                                        font-size: 18px;
+                                    }
+                                    .video-category {
+                                        font-size: 14px;
+                                    }
+                                }
+                            }
+                            
+                            @media screen and (max-width: $screen-xs-max) {
+                                padding: 0!important;
+                                width: 100%;
+                                margin-bottom: 6%;
+                            }
+                        }
+                        &.hcol-md-7 {
+                            width: 58.333333%;
+                            margin-bottom: 6%;
+
+                            @media screen and (max-width: $screen-xs-max) {
+                                width: 100%;
+                                padding: 0;
+                            }
+                        }
+                    }
+                }
+                // Item style
+                .video-item {
+                    // Style 1
+                    &.style_1 {
+                        padding: 10px;
+                        &:hover {
+                            .video-image {
+                                .video-icon {
+                                    opacity: 1;
+                                    @include transition(all .5s);
+                                }
+                                .video-meta {
+                                    padding: 50% 15px 30px 15px;
+                                    @include transition(all .5s);
+                                }
+                            }
+                        }
+                        .video-image {
+                            overflow: hidden;
+                            position: relative;
+                            img {
+                                width: 100%;
+                            }
+                            .video-icon {
+                                position: absolute;
+                                top: 40%;
+                                left: 50%;
+                                z-index: 9;
+                                opacity: 0;
+                                @include transform(translate(-50%, -50%));
+                                @include transition(all .5s);
+                                .view-video-button,
+                                .view-video-button-direct {
+                                    width: 20px;
+                                    height: 20px;
+                                    display: block;
+                                    padding: 20px;
+                                    position: relative;
+                                    border: 2px solid $white;
+                                    text-align: center;
+                                    @include rounded(50%);
+                                    @include transition(all .3s);
+                                    &:hover {
+                                        border: 2px solid $primary_color;
+                                        @include transition(all .3s);
+                                        &:before {
+                                            color: $primary_color;
+                                            @include transition(all .3s);
+                                        }
+                                    }
+                                    &:before {
+                                        content: "\f357";
+                                        font-family: Ionicons;
+                                        position: absolute;
+                                        left: 15px;
+                                        top: 0;
+                                        color: $white;
+                                        line-height: 40px;
+                                        font-size: 20px;
+                                        font-weight: 500;
+                                        @include transition(all .3s);
+                                    }
+                                    i {
+                                        color: $white;
+                                        font-size: 40px;
+                                        padding: 20px;
+                                        height: 20px;
+                                        width: 20px;
+                                    }
+                                }
+                            }
+                            .video-meta {
+                                background-image: linear-gradient(to bottom, transparent, rgba($black, .8));
+                                bottom: 0;
+                                padding: 75px 15px 30px 15px;
+                                position: absolute;
+                                left: 0;
+                                text-align: center;
+                                width: 100%;
+                                @include transition(all .5s);
+                                .video-title {
+                                    @media screen and (max-width: $screen-sm-max) {
+                                        font-size: 20px;
+                                    }
+                                    a {
+                                        color: $white;
+                                        @include transition(all .3s);
+                                        &:hover {
+                                            color: $link_color_hover;
+                                            @include transition(all .3s);
+                                        }
+                                    }
+                                }
+                                .video-category {
+                                    a {
+                                        color: $white;
+                                        font-style: italic;
+                                        text-transform: uppercase;
+                                        @include transition(all .3s);
+                                        &:hover {
+                                            color: $link_color_hover;
+                                            @include transition(all .3s);
+                                        }
+                                        @media screen and (max-width: $screen-sm-max) {
+                                            font-size: 12px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    // Style 2
+                    &.style_2 {
+                        padding: 10px;
+                        &:hover {
+                            .video-image {
+                                &:before {
+                                    padding: 60% 15px 30px 15px;
+                                    @include transition(all .5s);
+                                }
+                                .video-icon {
+                                    opacity: 1;
+                                    @include transition(all .5s);
+                                }
+                            }
+                        }
+                        .video-image {
+                            overflow: hidden;
+                            position: relative;
+                            &:before {
+                                content: "";
+                                background-image: linear-gradient(to bottom, transparent, rgba($black, .8));
+                                bottom: 0;
+                                padding: 75px 15px 30px 15px;
+                                position: absolute;
+                                left: 0;
+                                width: 100%;
+                                @include transition(all .5s);
+                            }
+                            img {
+                                width: 100%;
+                            }
+                            .video-icon {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                z-index: 9;
+                                opacity: 0;
+                                @include transform(translate(-50%, -50%));
+                                @include transition(all .5s);
+                                .view-video-button,
+                                .view-video-button-direct {
+                                    width: 20px;
+                                    height: 20px;
+                                    display: block;
+                                    padding: 20px;
+                                    position: relative;
+                                    border: 2px solid $white;
+                                    text-align: center;
+                                    @include rounded(50%);
+                                    @include transition(all .3s);
+                                    &:hover {
+                                        border: 2px solid $primary_color;
+                                        @include transition(all .3s);
+                                        &:before {
+                                            color: $primary_color;
+                                            @include transition(all .3s);
+                                        }
+                                    }
+                                    &:before {
+                                        content: "\f357";
+                                        font-family: Ionicons;
+                                        position: absolute;
+                                        left: 15px;
+                                        top: 0;
+                                        color: $white;
+                                        line-height: 40px;
+                                        font-size: 20px;
+                                        font-weight: 500;
+                                        @include transition(all .3s);
+                                    }
+                                    i {
+                                        color: $white;
+                                        font-size: 40px;
+                                        padding: 20px;
+                                        height: 20px;
+                                        width: 20px;
+                                    }
+                                }
+                            }
+                        }
+                        .video-meta {
+                            padding: 10px;
+                            text-align: center;
+                            // width: 100%;
+                            @include transition(all .5s);
+                            .video-title {
+                                a {
+                                    color: $white;
+                                    font-size: 18px;
+                                    @include transition(all .3s);
+                                    &:hover {
+                                        color: $link_color_hover;
+                                        @include transition(all .3s);
+                                    }
+                                }
+                            }
+                            .video-category {
+                                color: $text_color_secondary;
+                                font-style: italic;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+                    // Style 3
+                    &.style_3 {
+                        padding: 10px;
+                        &:hover {
+                            .video-image {
+                                &:before {
+                                    padding: 60% 15px 30px 15px;
+                                    @include transition(all .5s);
+                                }
+                                .video-icon {
+                                    opacity: 1;
+                                    @include transition(all .5s);
+                                }
+                            }
+                        }
+                        .video-image {
+                            overflow: hidden;
+                            position: relative;
+                            &:before {
+                                content: "";
+                                background-image: linear-gradient(to bottom, transparent, rgba($black, .8));
+                                bottom: 0;
+                                padding: 75px 15px 30px 15px;
+                                position: absolute;
+                                left: 0;
+                                width: 100%;
+                                @include transition(all .5s);
+                            }
+                            img {
+                                width: 100%;
+                            }
+                            .video-icon {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                z-index: 9;
+                                opacity: 0;
+                                @include transform(translate(-50%, -50%));
+                                @include transition(all .5s);
+                                .view-video-button,
+                                .view-video-button-direct {
+                                    width: 20px;
+                                    height: 20px;
+                                    display: block;
+                                    padding: 20px;
+                                    position: relative;
+                                    border: 2px solid $white;
+                                    text-align: center;
+                                    @include rounded(50%);
+                                    @include transition(all .3s);
+                                    &:hover {
+                                        border: 2px solid $primary_color;
+                                        @include transition(all .3s);
+                                        &:before {
+                                            color: $primary_color;
+                                            @include transition(all .3s);
+                                        }
+                                    }
+                                    &:before {
+                                        content: "\f357";
+                                        font-family: Ionicons;
+                                        position: absolute;
+                                        left: 15px;
+                                        top: 0;
+                                        color: $white;
+                                        line-height: 40px;
+                                        font-size: 20px;
+                                        font-weight: 500;
+                                        @include transition(all .3s);
+                                    }
+                                    i {
+                                        color: $white;
+                                        font-size: 40px;
+                                        padding: 20px;
+                                        height: 20px;
+                                        width: 20px;
+                                    }
+                                }
+                            }
+                        }
+                        .video-meta {
+                            padding: 10px;
+                            text-align: center;
+                            @include transition(all .5s);
+                            .video-title {
+                                a {
+                                    color: $heading_color;
+                                    font-size: 18px;
+                                    @include transition(all .3s);
+                                    &:hover {
+                                        color: $link_color_hover;
+                                        @include transition(all .3s);
+                                    }
+                                }
+                            }
+                            .video-category {
+                                color: $text_color_secondary;
+                                font-style: italic;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Extra class
+    &.title-black {
+        .video-content {
+            .video-list {
+                .video-item {
+                    &.style_2 {
+                        .video-meta {
+                            .video-title {
+                                a {
+                                    color: $heading_color;
+                                    &:hover {
+                                        color: $primary_color;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// Pagination video
+.video-shortcode-paging-wrapper {
+    margin-top: 50px;
+    text-align: center;
+    .video-pagination {
+        font-style: italic;
+        font-weight: 600;
+        margin-top: 30px;
+        text-align: center;
+        .page-numbers {
+            list-style: none;
+            list-style-type: none;
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+            li {
+                display: inline-block;
+                padding-right: 25px;
+                span, a {
+                    display: inline-block;
+                    height: 25px;
+                    line-height: 25px;
+                    text-align: center;
+                }
+                span.current {
+                    color: $primary_color;
+                }
+                a {
+                    &:hover, &:focus {
+                        background: none;
+                        color: $link_color_hover;
+                    }
+                    &.prev, &.next {
+                        text-transform: uppercase;
+                    }
+                }
+
+            }
+        }
+    }
+    // Loadmore style
+    &.paging-load-more {
+        button {
+            background-color: $primary_color;
+            background-image: none;
+            border: 2px solid $primary_color;
+            color: $white;
+            font-weight: 700;
+            padding: 8px 35px;
+            @include rounded(30px);
+            @include transition(all .3s);
+            &:hover {
+                border: 2px solid $border_color;
+                background-color: transparent;
+                color: $primary_color;
+                @include transition(all .3s);
+            }
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
+// Single Video
+.single-video-shortcode-wrapper {
+    &.style_1 {
+        position: relative;
+        z-index: 99;
+        &:hover {
+            .video-content {
+                .video-image {
+                    img {
+                        @include transform(scale(1.1));
+                        @include transition(all .5s);
+                    }
+                }
+            }
+        }
+        .video-content {
+            @include box-shadow(0 20px 30px 0 rgba(#333, .45));
+            .video-image {
+                overflow: hidden;
+                position: relative;
+                img {
+                    width: 100%;
+                    @include transform(scale(1.0));
+                    @include transition(all .5s);
+                }
+                .video-icon {
+                    position: absolute;
+                    top: 40%;
+                    left: 50%;
+                    z-index: 9;
+                    // opacity: 0;
+                    @include transform(translate(-50%, -50%));
+                    @include transition(all .5s);
+                    .view-video-button,
+                    .view-video-button-direct {
+                        width: 80px;
+                        height: 80px;
+                        display: block;
+                        padding: 20px;
+                        position: relative;
+                        border: 2px solid $white;
+                        text-align: center;
+                        @include rounded(50%);
+                        @include transition(all .3s);
+                        @media screen and (max-width: $screen-sm-max) {
+                            width: 60px;
+                            height: 60px;
+                        }
+                        @media screen and (max-width: $screen-xs-max) {
+                            width: 40px;
+                            height: 40px;
+                        }
+                        &:hover {
+                            border: 2px solid $primary_color;
+                            @include transition(all .3s);
+                            &:before {
+                                color: $primary_color;
+                                @include transition(all .3s);
+                            }
+                        }
+                        &:before {
+                            content: "\f357";
+                            font-family: Ionicons;
+                            position: absolute;
+                            left: 30px;
+                            top: 0;
+                            color: $white;
+                            line-height: 80px;
+                            font-size: 35px;
+                            font-weight: 500;
+                            @include transition(all .3s);
+                            @media screen and (max-width: $screen-sm-max) {
+                                left: 23px;
+                                line-height: 60px;
+                                font-size: 30px;
+                            }
+                            @media screen and (max-width: $screen-xs-max) {
+                                left: 16px;
+                                line-height: 40px;
+                                font-size: 20px;
+                            }
+                        }
+                        i {
+                            color: $white;
+                            font-size: 40px;
+                            padding: 20px;
+                            height: 20px;
+                            width: 20px;
+                        }
+                    }
+                }
+                .video-meta {
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 50%;
+                    text-align: center;
+                    .video-title {
+                        a {
+                            color: $white;
+                            font-size: 34px;
+                            @include transition(all .3s);
+                            @media screen and (max-width: $screen-xs-max) {
+                                font-size: 20px;
+                            }
+                            &:hover {
+                                color: $primary_color;
+                                @include transition(all .3s);
+                            }
+                        }
+                    }
+                    .video-excerpt {
+                        color: rgba($white, .8);
+                        font-size: 16px;
+                        font-style: italic;
+                        margin-top: 20px;
+                        text-transform: uppercase;
+                        @media screen and (max-width: $screen-sm-max) {
+                            font-size: 14px;
+                        }
+                        @media screen and (max-width: $screen-xs-max) {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.style_2 {
+        .video-content {
+            &:hover {
+                .video-image {
+                    &:before {
+                        opacity: 1;
+                        @include transform(scale(1));
+                        @include transition(all .3s);
+                    }
+                }
+            }
+            .video-image {
+                overflow: hidden;
+                position: relative;
+                padding: 15% 0;
+                &:before {
+                    content: "";
+                    position: absolute;
+                    width: calc(100%  - 60px);
+                    height: calc(100% - 40px);
+                    top: 0;
+                    left: 0;
+                    margin: 20px 30px;
+                    border: 1px solid rgba($border_color, .3);
+                    opacity: 0;
+                    z-index: 2;
+                    @include transform(scale(.9));
+                    @include transition(all .3s);
+                }
+                .video-icon {
+                    display: table;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    z-index: 999;
+                    line-height: 80px;
+                    @include transform(translate(-50%, -50%));
+                    @include transition(all .5s);
+                    @media screen and (max-width: $screen-sm-max) {
+                        line-height: 60px;
+                    }
+                    span {
+                        color: $white;
+                        display: table-cell;
+                        font-family: $secondary_font;
+                        font-size: 56px;
+                        font-style: italic;
+                        text-transform: uppercase;
+                        @media screen and (max-width: $screen-sm-max) {
+                            font-size: 40px;
+                        }
+                        @media screen and (max-width: $screen-xs-max) {
+                            font-size: 28px;
+                        }
+                        &.title-left {
+                            padding-right: 40px;
+                            @media screen and (max-width: $screen-sm-max) {
+                                padding-right: 20px;
+                            }
+                        }
+                        &.title-right {
+                            padding-left: 40px;
+                            @media screen and (max-width: $screen-sm-max) {
+                                padding-left: 20px;
+                            }
+                        }
+                    }
+                    .view-video-button,
+                    .view-video-button-direct {
+                        display: table-cell;
+                        width: 80px;
+                        height: 80px;
+                        padding: 20px;
+                        position: relative;
+                        border: 2px solid $white;
+                        text-align: center;
+                        @media screen and (max-width: $screen-sm-max) {
+                            width: 60px;
+                            height: 60px;
+                        }
+                        @include rounded(50%);
+                        @include transition(all .3s);
+                        &:hover {
+                            border: 2px solid $primary_color;
+                            @include transition(all .3s);
+                            &:before {
+                                color: $primary_color;
+                                @include transition(all .3s);
+                            }
+                        }
+                        &:before {
+                            content: "\f357";
+                            font-family: Ionicons;
+                            position: absolute;
+                            left: 30px;
+                            top: 0;
+                            color: $white;
+                            line-height: 80px;
+                            font-size: 35px;
+                            font-weight: 500;
+                            @include transition(all .3s);
+                            @media screen and (max-width: $screen-sm-max) {
+                                font-size: 25px;
+                                line-height: 60px;
+                                left: 22px;
+                            }
+                        }
+                        i {
+                            color: $white;
+                            font-size: 40px;
+                            padding: 20px;
+                            height: 20px;
+                            width: 20px;
+                        }
+                    }
+                }
+                .video-meta {
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 50%;
+                    text-align: center;
+                    .video-title {
+                        a {
+                            color: $white;
+                            font-size: 34px;
+                            @include transition(all .3s);
+                            &:hover {
+                                color: $primary_color;
+                                @include transition(all .3s);
+                            }
+                        }
+                    }
+                    .video-excerpt {
+                        color: rgba($white, .8);
+                        font-family: $secondary_font;
+                        font-size: 16px;
+                        font-style: italic;
+                        margin-top: 20px;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+    &.style_3 {
+        .video-content {
+            &:hover {
+                .video-image {
+                    img {
+                        @include transform(scale(1.1));
+                        @include transition(all .3s);
+                    }
+                }
+            }
+            .video-image {
+                overflow: hidden;
+                position: relative;
+                img {
+                    @include transform(scale(1.0));
+                    @include transition(all .3s);
+                }
+                .video-icon {
+                    position: absolute;
+                    top: 45%;
+                    left: 50%;
+                    z-index: 99;
+                    @include transform(translate(-50%, -50%));
+                    @include transition(all .5s);
+                    @media screen and (max-width: $screen-sm-max) {
+                        line-height: 60px;
+                    }
+                    .view-video-button,
+                    .view-video-button-direct {
+                        display: table-cell;
+                        width: 60px;
+                        height: 60px;
+                        padding: 20px;
+                        position: relative;
+                        border: 2px solid $white;
+                        text-align: center;
+                        @media screen and (max-width: $screen-sm-max) {
+                            width: 60px;
+                            height: 60px;
+                        }
+                        @include rounded(50%);
+                        @include transition(all .3s);
+                        &:hover {
+                            border: 2px solid $primary_color;
+                            @include transition(all .3s);
+                            &:before {
+                                color: $primary_color;
+                                @include transition(all .3s);
+                            }
+                        }
+                        &:before {
+                            content: "\f357";
+                            font-family: Ionicons;
+                            position: absolute;
+                            left: 23px;
+                            top: 0;
+                            color: $white;
+                            line-height: 60px;
+                            font-size: 25px;
+                            font-weight: 400;
+                            @include transition(all .3s);
+                            @media screen and (max-width: $screen-sm-max) {
+                                font-size: 20px;
+                                line-height: 60px;
+                                left: 22px;
+                            }
+                        }
+                    }
+                }
+                .video-meta {
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 50%;
+                    text-align: center;
+                    .video-title {
+                        a {
+                            color: $white;
+                            font-size: 28px;
+                            @include transition(all .3s);
+                            &:hover {
+                                color: $primary_color;
+                                @include transition(all .3s);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+// Banner home 1
+.vc_row {
+    &.responsive-banner-home1 {
+        @media screen and (max-width: $screen-xs-max) {
+            margin-top: -10%!important;
+        }
+    }
+}
+.responsive-footer-social-1 {
+    > .vc_column-inner {
+        @media screen and (max-width: $screen-xs-max) {
+            padding-top: 0!important;
+        }
+    }
+}
+
+.banner-home-1-1 {
+    margin-bottom: -60%;
+    z-index: 2;
+    @media screen and (max-width: $screen-xs-max) {
+        margin-bottom: 0;
+    }
+}
+.banner-home-1-2 {
+    @media screen and (max-width: $screen-sm-max) {
+        margin-top: 20%;
+    }
+    .vc_custom_heading {
+        color: rgba(#262626, .4);
+        font-weight: 700;
+    }
+    p {
+        color: rgba(#262626, .2);
+        font-size: 36px;
+        font-style: italic;
+        line-height: 40px;
+        margin-top: -20px;
+    }
+}

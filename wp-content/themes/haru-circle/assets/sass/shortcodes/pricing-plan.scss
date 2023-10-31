@@ -1,0 +1,300 @@
+.pricing-plan-shortcode-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    // Columns
+    &.plan-col-2 {
+        .plan-item-wrap {
+            width: 50%;
+            @media screen and (max-width: $screen-xs-max) {
+                width: 100%;
+            }
+        }
+    }
+    &.plan-col-3 {
+        .plan-item-wrap {
+            width: 33.333333%;
+            @media screen and (max-width: $screen-sm-max) {
+                width: 50%;
+            }
+            @media screen and (max-width: $screen-xs-max) {
+                width: 100%;
+            }
+        }
+    }
+    &.plan-col-4 {
+        .plan-item-wrap {
+            width: 25%;
+            @media screen and (max-width: $screen-sm-max) {
+                width: 50%;
+            }
+            @media screen and (max-width: $screen-xs-max) {
+                width: 100%;
+            }
+        }
+    }
+    &.plan-col-5 {
+        .plan-item-wrap {
+            width: 20%;
+            @media screen and (max-width: $screen-md-max) {
+                width: 33.333333%;
+            }
+            @media screen and (max-width: $screen-sm-max) {
+                width: 50%;
+            }
+            @media screen and (max-width: $screen-xs-max) {
+                width: 100%;
+            }
+        }
+    }
+    &.plan-col-6 {
+        .plan-item-wrap {
+            width: 16.666666%;
+            @media screen and (max-width: $screen-md-max) {
+                width: 25%;
+            }
+            @media screen and (max-width: $screen-sm-max) {
+                width: 50%;
+            }
+            @media screen and (max-width: $screen-xs-max) {
+                width: 100%;
+            }
+        }
+    }
+    // Style 1
+    &.style_1 {
+        .plan-item-wrap {
+            padding: 0 10px;
+            text-align: center;
+            .plan-item {
+                padding: 50px 0;
+                background-color: $heading_color;
+                margin-top: 50px;
+                @media screen and (max-width: $screen-xs-max) {
+                    margin-top: 30px;
+                }
+                &.featured {
+                    padding: 68px 0;
+                    margin-top: 0;
+                    @media screen and (max-width: $screen-xs-max) {
+                        margin-top: 30px;
+                    }
+                    .plan-content {
+                        .plan-link {
+                            border: 1px solid $primary_color;
+                            color: $heading_color;
+                            background-color: $primary_color;
+                            @include transition(all .3s);
+                            &:hover {
+                                border: 1px solid $white;
+                                color: $primary_color;
+                                background-color: transparent;
+                                @include transition(all .3s);
+                            }
+                        }
+                    }
+                }
+                .plan-title {
+                    color: $white;
+                    font-size: 14px;
+                    letter-spacing: 3px;
+                    margin-top: 0;
+                    text-transform: uppercase;
+                }
+                .plan-content {
+                    padding: 0 30px;
+                    .plan-price {
+                        .plan-currency {
+                            font-size: 18px;
+                            color: $primary_color;
+                            font-family: $secondary_font;
+                            font-weight: 700;
+                            @media screen and (max-width: $screen-md-max) {
+                                font-size: 16px;
+                            }
+                        }
+                        .price {
+                            font-size: 64px;
+                            color: $primary_color;
+                            font-family: $secondary_font;
+                            font-weight: 700;
+                            @media screen and (max-width: $screen-md-max) {
+                                font-size: 48px;
+                            }
+                        }
+                        .plan-unit {
+                            color: $text_color_secondary;
+                        }
+                    }
+                    .plan-information {
+                        color: $white;
+                        list-style: none;
+                        padding: 0;
+                        margin: 0;
+                        li {
+                            padding: 20px 0;
+                            border-bottom: 1px solid #454545;
+                            &:last-child {
+                                border-bottom: 0;
+                            }
+                        }
+                    }
+                    .plan-link {
+                        border: 1px solid $white;
+                        color: $white;
+                        display: inline-block;
+                        font-size: 13px;
+                        font-weight: 600;
+                        letter-spacing: 1px;
+                        margin: 30px auto 0 auto;
+                        padding: 11px 35px;
+                        text-transform: uppercase;
+                        @include transition(all .3s);
+                        &:hover {
+                            border: 1px solid $primary_color;
+                            color: $heading_color;
+                            background-color: $primary_color;
+                            @include transition(all .3s);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Style 2
+    &.style_2 {
+        background-color: $white;
+        overflow: hidden;
+        @include rounded(10px);
+        @include box-shadow(0 1px 25px 0 rgba(0, 0, 0, 0.05));
+        // Border columns
+        &.plan-col-4 {
+            .plan-item-wrap {
+                &:nth-child(4) {
+                    border-right: none;
+                }
+            }
+        }
+        // 
+        .plan-item-wrap {
+            border: 1px solid #F3F3F3;
+            position: relative;
+            padding: 50px 0 190px;
+            text-align: center;
+            &:first-child {
+                border-left: none;
+            }
+            &:nth-child(2n) {
+                .plan-item {
+                    .plan-link {
+                        background-color: rgba($heading_color, .8);
+                        border: 1px solid rgba($heading_color, .8);
+                    }
+                }
+            }
+            .plan-item {
+                &.featured {
+                    .plan-content {
+                        
+                    }
+                    .plan-link {
+                        border: 1px solid $primary_color;
+                        color: $heading_color;
+                        background-color: $primary_color;
+                        @include transition(all .3s);
+                        &:hover {
+                            border: 1px solid $heading_color;
+                            color: $primary_color;
+                            background-color: $heading_color;
+                            @include transition(all .3s);
+                        }
+                    }
+                }
+                .plan-title {
+                    color: $heading_color;
+                    font-size: 14px;
+                    letter-spacing: 3px;
+                    margin-top: 0;
+                    text-transform: uppercase;
+                }
+                .plan-image {
+                    background-color: #F8F8F8;
+                    width: 120px;
+                    height: 120px;
+                    line-height: 120px;
+                    margin: 30px auto 15px auto;
+                    @include rounded(50%);
+                    img {
+                        width: 50%;
+                    }
+                }
+                .plan-content {
+                    padding: 0 30px;
+                    .plan-information {
+                        list-style: none;
+                        padding: 0;
+                        margin: 0;
+                        color: $text_color;
+                        font-family: $secondary_font;
+                        font-style: italic;
+                        letter-spacing: 1px;
+                        li {
+                            padding: 20px 0;
+                            border-bottom: 1px solid #F3F3F3;
+                            &:last-child {
+                                border-bottom: 0;
+                            }
+                        }
+                    }
+                    .plan-price {
+                        position: absolute;
+                        padding-bottom: 30px;
+                        bottom: 55px;
+                        width: 100%;
+                        left: 0;
+                        .plan-currency {
+                            font-size: 18px;
+                            color: $text_color;
+                            font-family: $secondary_font;
+                            font-weight: 700;
+                        }
+                        .price {
+                            font-size: 64px;
+                            color: $heading_color;
+                            font-family: $secondary_font;
+                            font-weight: 700;
+                            @media screen and (max-width: $screen-md-max) {
+                                font-size: 48px;
+                            }
+                        }
+                        .plan-unit {
+                            color: $text_color_secondary;
+                        }
+                    }
+
+                }
+                .plan-link {
+                    position: absolute;
+                    left: -1px;
+                    bottom: 0;
+                    background-color: $heading_color;
+                    border: 1px solid $heading_color;
+                    color: $white;
+                    display: inline-block;
+                    font-size: 13px;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    padding: 15px 35px;
+                    text-transform: uppercase;
+                    width: calc(100% + 2px);
+                    @include transition(all .3s);
+                    &:hover {
+                        border: 1px solid $primary_color;
+                        color: $heading_color;
+                        background-color: $primary_color;
+                        @include transition(all .3s);
+                    }
+                }
+            }
+        }
+    }
+}

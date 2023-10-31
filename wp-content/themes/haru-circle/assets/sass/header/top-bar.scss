@@ -1,0 +1,33 @@
+/*-----------------------------------
+ * TOPBAR
+ *-----------------------------------*/
+.haru-top-bar {
+    height: 50px;
+    border-bottom: 1px solid $border_color;
+    .top-sidebar {
+        line-height: 50px;
+        &.top-bar-left {
+            text-align: left;
+            color: $text_color_secondary;
+        }
+        &.top-bar-right {
+            text-align: right;
+            color: $text_color_secondary;
+            a {
+                color: $text_color_secondary;
+                margin: 0 5px;
+                &:hover {
+                    color: $link_color_hover;
+                }
+            }
+        }
+    }
+    &.mobile-top-bar-hide {
+        @media screen and ( max-width:$screen-xs-max ) {
+            display: none;
+        }
+    }
+    @media screen and ( max-width:$screen-xs-max ) {
+        height: auto;
+    }
+}

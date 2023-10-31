@@ -1,0 +1,174 @@
+// Header-6
+header.header-6 {
+    .haru-header-nav-above {
+        background-color: #1e1e1e;
+        position: relative;
+        .container {
+            position: relative;
+            .header-logo {
+                line-height: 130px;
+                position: relative;
+            }
+            .fr {
+                position: absolute;
+                right: 15px;
+                top: 0;
+                .header-customize-right {
+                    height: 130px;
+                    .custom-text-wrapper {
+                        i {
+                            font-size: 18px;
+                            vertical-align: middle;
+                            padding-right: 5px;
+                        }
+                    }
+                    .search-box-wrapper {
+                        margin-right: 50px;
+                        .search-box {
+                            position: relative;
+                            background-color: #333333;
+                            min-width: 550px;
+                            @include rounded(30px);
+                            @media screen and (max-width: $screen-md-max) {
+                                min-width: 380px;
+                            }
+                            input[type="text"] {
+                                background-color: #333333;
+                                height: 40px;
+                            }
+                            button {
+                                background-color: #262626;
+                                color: $primary_color;
+                                font-size: 14px;
+                                font-weight: 700;
+                                margin: 3px;
+                                width: 90px;
+                                @include rounded(30px);
+                                @include transition(all .3s);
+                                &:hover {
+                                    color: $white;
+                                    @include transition(all .3s);
+                                }
+                                &:before {
+                                    display: none;
+                                }
+                                i {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .haru-header-nav-wrapper {
+        background-color: #262626;
+        .haru-header-wrapper {
+            .header-center {
+                // display: flex;
+                .header-center-primary-menu {
+                    margin: 0;
+                    .menu-wrapper {
+                        #main-menu {
+                            > li {
+                                &:hover {
+                                    >a {
+                                        color: $primary_color;
+                                        @include transition(all .3s ease);
+                                        &:before {
+                                            width: 100%;
+                                            @include transition(all .3s ease);
+                                        }
+                                    }
+                                }
+                                &.current-menu-item {
+                                    >a {
+                                        &:before {
+                                            content: "";
+                                            position: absolute;
+                                            width: 100%;
+                                            height: 2px;
+                                            left: 0;
+                                            bottom: 0;
+                                            background-color: $primary_color;
+                                        }
+                                    }
+                                }
+                                &:first-child {
+                                    > a {
+                                        padding-left: 0;
+                                    }
+                                }
+                                > a {
+                                    color: #ababab;
+                                    font-weight: 700;
+                                    line-height: 60px; 
+                                    padding-top: 0;
+                                    padding-bottom: 0;
+                                    position: relative;
+                                    @include transition(all .3s ease);
+                                    &:before {
+                                        content: "";
+                                        position: absolute;
+                                        width: 0;
+                                        height: 2px;
+                                        left: 0;
+                                        bottom: 0;
+                                        background-color: $primary_color;
+                                        @include transition(all .3s ease)
+                                    }
+                                    // Remove caret
+                                    &:after {
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .header-customize {
+                    float: right;
+                    .film-category-wrapper {
+                        .film-category-label {
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Sticky
+    .haru-sticky-wrapper {
+        .haru-header-nav-wrapper {
+            .haru-header-wrapper {
+                .header-center {
+                    .menu-wrapper {
+
+                    }
+                }
+            }
+            // Sticky
+            &.sticky-on {
+                .haru-header-wrapper {
+                    .header-center {
+                        .header-center-primary-menu {
+                            // Menu
+                            .menu-wrapper {
+                                .haru-main-menu {
+                                    >li {
+                                        > a {
+                                            padding-top: 0!important;
+                                            padding-bottom: 0!important;
+                                        }
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

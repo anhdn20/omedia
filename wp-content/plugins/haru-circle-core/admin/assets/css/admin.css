@@ -1,0 +1,132 @@
+.vc_element-icon.haru-vc-icon {
+  background: none;
+}
+.vc_element-icon.haru-vc-icon::before {
+  font-size: 32px;
+}
+.dashicons-pricing-table:before {
+  font-family: FontAwesome;
+  content: "\f155";
+}
+.dashicons-cutlery:before {
+  font-family: FontAwesome;
+  content: "\f0f5";
+}
+.dashicons-clock:before {
+  font-family: FontAwesome;
+  content: "\f017";
+}
+/* DatetimePicker */
+.xdsoft_datetimepicker {
+  z-index: 999999!important;
+}
+.haru-portfolio-post-type label {
+  display: block;
+  padding-bottom: 10px;
+}
+/* Portfolio Style */
+.portfolio-custom-field .description {
+  display: none;
+}
+.wpa_group-portfolio_custom_fields {
+  width: 50%;
+  float: left;
+}
+.portfolio-custom-field label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 12px;
+}
+.portfolio-custom-field label span {
+  display: inline;
+  font-weight: normal;
+}
+.portfolio-custom-field span {
+  color: #999;
+  display: block;
+}
+.portfolio-custom-field textarea,
+.portfolio-custom-field input[type='text'] {
+  margin-bottom: 3px;
+  width: 99%;
+}
+.portfolio-custom-field h4 {
+  color: #999;
+  font-size: 1em;
+  margin: 15px 6px;
+  text-transform: uppercase;
+}
+.wpa_group.wpa_group-process {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 0 15px 15px 0;
+  background: #fff;
+  width: 20%;
+  float: left;
+}
+.haru-portfolio-thumbnail-size .rwmb-label {
+  margin-bottom: 15px;
+}
+.haru-portfolio-view-detail .rwmb-label {
+  margin-bottom: 15px;
+}
+/* Menu icon */
+#adminmenu .menu-icon-haru_footer .wp-menu-image:before,
+#adminmenu .menu-icon-haru_testimonial .wp-menu-image:before,
+#adminmenu .menu-icon-haru_portfolio .wp-menu-image:before,
+#adminmenu .menu-icon-haru_teammember .wp-menu-image:before {
+  color: #cfb574!important;
+}
+#adminmenu .toplevel_page_donation-settings .wp-menu-image:before,
+#adminmenu .toplevel_page__options .wp-menu-image:before {
+  color: #cfb574!important;
+}
+#adminmenu .menu-icon-haru_film .wp-menu-image:before,
+#adminmenu .menu-icon-haru_video .wp-menu-image:before,
+#adminmenu .menu-icon-haru_trailer .wp-menu-image:before,
+#adminmenu .menu-icon-haru_actor .wp-menu-image:before,
+#adminmenu .menu-icon-haru_director .wp-menu-image:before {
+  color: #fd6500!important;
+}
+/* Remove page options box */
+.post-type-haru_footer .haru-meta-tabs-wrap,
+.post-type-haru_teammember .haru-meta-tabs-wrap,
+.post-type-haru_testimonial .haru-meta-tabs-wrap,
+.post-type-haru_portfolio .haru-meta-tabs-wrap,
+.post-type-haru_actor .haru-meta-tabs-wrap,
+.post-type-haru_director .haru-meta-tabs-wrap,
+.post-type-haru_trailer .haru-meta-tabs-wrap {
+  display: none;
+}
+.nav-section-wrapper a {
+  font-weight: normal;
+  padding-right: 10px;
+  padding-left: 5px;
+  text-decoration: none;
+  border-right: 1px solid #ccc;
+}
+.nav-section-wrapper a:first-child {
+  padding-left: 0;
+}
+.nav-section-wrapper a:last-child {
+  padding-right: 0;
+  border: none;
+}
+.nav-section-wrapper a.nav-section-active {
+  color: #000;
+  font-weight: 600;
+}
+.map-api-key {
+  min-width: 380px;
+}
+.form-table.email-options input[type=email],
+.form-table.email-options input[type=text] {
+  width: 100%;
+}
+.wp-admin #the-list >tr:before {
+  display: none;
+}
+.wp-admin #the-list >tr:after {
+  display: none;
+}

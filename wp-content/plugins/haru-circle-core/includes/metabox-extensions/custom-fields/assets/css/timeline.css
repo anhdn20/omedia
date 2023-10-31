@@ -1,0 +1,11 @@
+.rwmb-timeline {
+
+}
+
+.rwmb-timeline .rwmb-timeline-text {
+	width: 50%;
+    margin-bottom: 5px;
+}
+.rwmb-timeline .rwmb-timeline-textarea {
+	width: 100%;
+}

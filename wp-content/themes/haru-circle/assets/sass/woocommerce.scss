@@ -1,0 +1,66 @@
+/*-----------------------------------
+ * WOOCOMMERCE
+ *-----------------------------------*/
+@import "woocommerce/product-base";
+@import "woocommerce/archive";
+@import "woocommerce/archive-ajax";
+@import "woocommerce/single";
+@import "woocommerce/woocomerce-sidebar";
+@import "woocommerce/cart";
+@import "woocommerce/my-account";
+@import "woocommerce/wishlist";
+@import "woocommerce/checkout";
+@import "woocommerce/quickview";
+@import "woocommerce/woocommerce-shortcode"; // Original shortcode of woocommerce
+
+
+/*-----------------------------------
+ * General Style
+ *-----------------------------------*/
+.woocommerce {
+    // Need reset border from table unit test data css
+    table, th, td {
+        border: none;
+    }
+    thead {
+        background: none;
+    }
+    // 
+    table.shop_table {
+        @include rounded(0);
+    }
+    a.button, input.button {
+        @include rounded(0);
+        background: $secondary_color;
+        color: $white;
+        font-weight: normal;
+        text-transform: uppercase;
+        &:hover {
+            background: $primary_color;
+            color: $white;
+        }
+    }
+}
+.woocommerce-message {
+    border-top-color: $primary_color;
+    &:before {
+        color: $primary_color;
+    }
+}
+.woocommerce-info{
+    border-top-color: $primary_color;
+    &:before {
+        color: $primary_color;
+    }
+}
+
+.woocommerce form .form-row input.input-text, 
+.woocommerce form .form-row textarea {
+    border: 1px solid $border_color;
+    padding: 8px 15px;
+    @include rounded(0);
+    &:focus {
+        border: 1px solid $primary_color;
+    }
+}
+

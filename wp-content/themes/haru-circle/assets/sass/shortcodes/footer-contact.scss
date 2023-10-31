@@ -1,0 +1,21 @@
+.footer-contact-shortcode-wrapper {
+    font-family: $secondary_font;
+    // Style 1
+    &.style_1 {
+        .footer-contact-content {
+            .contact-information {
+                list-style: none;
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                li {
+                    padding: 10px 0;
+                    font-style: italic;
+                    span {
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

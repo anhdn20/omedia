@@ -1,0 +1,90 @@
+/*
+Theme Name: Haru Circle
+Theme URI: http://harutheme.com/circle
+Author: HaruTheme
+Author URI: http://harutheme.com/
+Description: Circle is the Video, Film WordPress theme from HaruTheme have many features: video manage, mega menu,...and much more
+Version: 2.6.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, featured-images, flexible-header, full-width-template, theme-options, translation-ready
+Text Domain: haru-circle
+Domain Path: /languages/
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*-----------------------------------
+ * TABLE OF CONTENT
+ * 1. LIBRARIES AND DEFINED VARIABLES
+ * 2. CORE
+ * 3. THEME
+ * 4. HEADER
+ * 5. FOOTER
+ * 6. BLOG
+ * 7. WOOCOMMERCE
+ * 8. SHORTCODES
+ * 9. THEMECHECK
+ * 10. RESPONSIVE PAGES
+ *-----------------------------------*/
+
+
+/*-----------------------------------
+ * 1. LIBRARIES AND DEFINED VARIABLES
+ *-----------------------------------*/
+@import "paritial/variable";
+@import "paritial/mixins";
+@import "paritial/animation";
+
+/*-----------------------------------
+ * 2. CORE
+ *-----------------------------------*/
+@import "wp-core";
+@import "wp-blocks";
+@import "loading";
+@import "dialog";
+@import "newsletter";
+@import "widgets";
+
+/*-----------------------------------
+ * 3. THEME
+ *-----------------------------------*/
+@import "theme";
+@import "404";
+
+/*-----------------------------------
+ * 4. HEADER
+ *-----------------------------------*/
+@import "header";
+
+/*-----------------------------------
+ * 5. FOOTER
+ *-----------------------------------*/
+@import "footer";
+
+/*-----------------------------------
+ * 6. BLOG
+ *-----------------------------------*/
+@import "blog";
+
+/*-----------------------------------
+ * 7. SHORTCODES
+ *-----------------------------------*/
+@import "shortcodes";
+@import "circle";
+
+/*-----------------------------------
+ * 8. WOOCOMMERCE
+ *-----------------------------------*/
+@import "woocommerce";
+
+/*-----------------------------------
+ * 9. THEMECHECK
+ *-----------------------------------*/
+@import "fix-themecheck";
+
+/*-----------------------------------
+ * 10. RESPONSIVE PAGES
+ *-----------------------------------*/
+@import "responsive";

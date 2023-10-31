@@ -1,0 +1,20 @@
+.rwmb-videos {
+
+}
+
+.rwmb-videos .rwmb-videos-text {
+	width: 30%;
+    margin-bottom: 5px;
+}
+.rwmb-videos .rwmb-videos-textarea {
+	width: 100%;
+}
+
+.rwmb-videos .episode-title {
+    width: 30%;
+}
+
+
+.rwmb-videos .video-server .video-title {
+    width: 30%;
+}

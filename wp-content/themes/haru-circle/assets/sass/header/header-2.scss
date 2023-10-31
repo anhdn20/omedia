@@ -1,0 +1,143 @@
+// Header-2
+header.header-2 {
+    .haru-header-nav-above {
+        position: relative;
+        .container {
+            position: relative;
+            .fl {
+                position: relative;
+                z-index: 99;
+                .header-customize-left {
+                    height: 200px;
+                    .header-customize-item {
+                        &.header-social-profile-wrapper {
+                            li {
+                                &:first-child {
+                                    padding-left: 0;
+                                }
+                                a {
+                                    i {
+                                        color: $text_color_secondary;
+                                        &:hover {
+                                            color: $primary_color;
+                                            // Social color code: https://www.lockedowndesign.com/social-media-colors/
+                                            &.fa-facebook {
+                                                color: #3b5998;
+                                            }
+                                            &.fa-twitter {
+                                                color: #00b6f1;
+                                            }
+                                            &.fa-instagram {
+                                                color: #c32aa3;
+                                            }
+                                            &.fa-pinterest {
+                                                color: #cb2027;
+                                            }
+                                            &.fa-youtube {
+                                                color: #b31217;
+                                            }
+                                            &.fa-vimeo-square {
+                                                color: #45bbff;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .header-logo {
+                height: 200px;
+                position: relative;
+                a {
+                    img {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        bottom: 0;
+                        right: 0;
+                        text-align: center;
+                        margin: auto;
+                        padding-top: 0px;
+                        padding-bottom: 0px;
+                        max-height: 152px;
+                    }
+                }
+            }
+            .fr {
+                position: absolute;
+                right: 15px;
+                top: 0;
+                .header-customize-right {
+                    height: 200px;
+                    .custom-text-wrapper {
+                        i {
+                            font-size: 18px;
+                            vertical-align: middle;
+                            padding-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .haru-header-nav-wrapper {
+        .haru-header-wrapper {
+            .header-center {
+                display: flex;
+                .header-center-primary-menu {
+                    margin: 0 auto;
+                    .menu-wrapper {
+                        #main-menu {
+                            > li {
+                                > a {
+                                    padding-top: 25px;
+                                    padding-bottom: 30px;
+                                    padding-left: 15px;
+                                    padding-right: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .header-customize {
+
+                }
+            }
+        }
+    }
+    // Sticky
+    .haru-sticky-wrapper {
+        .haru-header-nav-wrapper {
+            .haru-header-wrapper {
+                .header-center {
+                    .menu-wrapper {
+
+                    }
+                }
+            }
+            // Sticky
+            &.sticky-on {
+                .haru-header-wrapper {
+                    .header-center {
+                        .header-center-primary-menu {
+                            // Menu
+                            .menu-wrapper {
+                                .haru-main-menu {
+                                    >li {
+                                        > a {
+                                            padding-top: 0!important;
+                                            padding-bottom: 0!important;
+                                        }
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

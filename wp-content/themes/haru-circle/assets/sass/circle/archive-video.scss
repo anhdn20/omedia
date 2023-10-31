@@ -1,0 +1,133 @@
+// Video thumbnail show on hover
+.video-thumbnail-slideshow {
+    position: relative;
+    overflow: hidden;
+
+    img:not(:first-child) {
+        display: none;
+    }
+}
+
+.video-thumbnail-video {
+    background-color: $black;
+    position: relative;
+    overflow: hidden;
+
+    video {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.archive-content-layout {
+    // Item style
+    .video-item {
+        // Style 2
+        &.style_2 {
+            &:hover {
+                .video-image {
+                    &:before {
+                        padding: 60% 15px 30px 15px;
+                        @include transition(all .5s);
+                    }
+                    .video-icon {
+                        opacity: 1;
+                        @include transition(all .5s);
+                    }
+                }
+            }
+            .video-image {
+                overflow: hidden;
+                position: relative;
+                &:before {
+                    content: "";
+                    background-image: linear-gradient(to bottom, transparent, rgba($black, .8));
+                    bottom: 0;
+                    padding: 75px 15px 30px 15px;
+                    position: absolute;
+                    left: 0;
+                    width: 100%;
+                    @include transition(all .5s);
+                }
+                img {
+                    width: 100%;
+                }
+                .video-icon {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    z-index: 9;
+                    opacity: 0;
+                    @include transform(translate(-50%, -50%));
+                    @include transition(all .5s);
+                    .view-video-button,
+                    .view-video-button-direct {
+                        width: 20px;
+                        height: 20px;
+                        display: block;
+                        padding: 20px;
+                        position: relative;
+                        border: 2px solid $white;
+                        text-align: center;
+                        @include rounded(50%);
+                        @include transition(all .3s);
+                        &:hover {
+                            border: 2px solid $primary_color;
+                            @include transition(all .3s);
+                            &:before {
+                                color: $primary_color;
+                                @include transition(all .3s);
+                            }
+                        }
+                        &:before {
+                            content: "\f357";
+                            font-family: Ionicons;
+                            position: absolute;
+                            left: 15px;
+                            top: 0;
+                            color: $white;
+                            line-height: 40px;
+                            font-size: 20px;
+                            font-weight: 500;
+                            @include transition(all .3s);
+                        }
+                        i {
+                            color: $white;
+                            font-size: 40px;
+                            padding: 20px;
+                            height: 20px;
+                            width: 20px;
+                        }
+                    }
+                }
+            }
+            .video-meta {
+                text-align: center;
+                // width: 100%;
+                @include transition(all .5s);
+                .video-title {
+                    a {
+                        color: $heading_color;
+                        font-size: 18px;
+                        @include transition(all .3s);
+                        &:hover {
+                            color: $link_color_hover;
+                            @include transition(all .3s);
+                        }
+                    }
+                }
+                .video-category {
+                    color: $text_color_secondary;
+                    font-style: italic;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+

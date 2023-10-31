@@ -1,0 +1,430 @@
+// Archive style ajax
+// Filter above
+.archive-product-header {
+    padding: 20px 0;
+    .haru-shop-filter-menu {
+        list-style: none;
+        list-style-type: none;
+        padding: 0;
+        float: right;
+        width: 20%;
+        text-align: right;
+        white-space: nowrap;
+        overflow: hidden;
+        li {
+            display: inline-block;
+            margin-right: 10px;
+            &.current-cat {
+                a {
+                    color: $primary_color;
+                }
+            }
+            &.active {
+                a {
+                    color: $primary_color;
+                }
+            }
+            &.haru-shop-categories-btn-wrap {
+                display: none;
+                @media screen and (max-width: $screen-sm-max) {
+                    display: inline-block;
+                    margin-right: 30px;
+                }
+            }
+            span {
+                margin-right: 10px;
+            }
+            a {
+                font-size: 16px;
+                line-height: 2;
+            }
+        }
+        @media screen and (max-width: $screen-sm-max) {
+            width: 100%;
+            text-align: left;
+        }
+    }
+    .haru-shop-categories {
+        list-style: none;
+        list-style-type: none;
+        padding: 0;
+        float: left;
+        width: 80%;
+        overflow: hidden;
+        &.fade-in {
+            opacity: 1;
+        }
+        li {
+            display: inline-block;
+            margin-right: 10px;
+            &.current-cat {
+                a {
+                    color: $primary_color;
+                }
+            }
+            &.active {
+                a {
+                    color: $primary_color;
+                }
+            }
+            span {
+                margin-right: 10px;
+                @media screen and (max-width: $screen-sm-max) {
+                    display: none;
+                }
+            }
+            a {
+                font-size: 16px;
+                line-height: 2;
+                @media screen and (max-width: $screen-sm-max) {
+                    font-size: 14px;
+                }
+            }
+            @media screen and (max-width: $screen-sm-max) {
+                width: 100%;
+                margin: 0 0 5px 0;
+                padding-bottom: 5px;
+                border-bottom: 1px solid $border_color;
+            }
+        }
+        @media screen and (max-width: $screen-sm-max) {
+            display: none;
+            opacity: 0;
+            width: 100%;
+            @include transition(opacity .5s ease);
+        }
+    }
+    // Filter show
+    #haru-shop-sidebar {
+        display: none;
+        opacity: 0;
+        @include transition(opacity .3s ease);
+        &.fade-in {
+            opacity: 1;
+        }
+        .woocommerce-sidebar-ajax {
+            aside {
+                width: 25%;
+                float: left;
+                @media screen and (max-width: $screen-sm-max) {
+                    border-bottom: 1px solid $border_color;
+                    float: none;
+                    width: 100%;
+                }
+                .widget-title {
+                    font-size: 18px;
+                    padding-bottom: 10px;
+                    position: relative;
+                    @media screen and (max-width: $screen-sm-max) {
+                        margin-bottom: 0;
+                        font-size: 14px;
+                    }
+                    &:after {
+                        position: absolute;
+                        content: "\f489";
+                        font-family: Ionicons;
+                        right: 5px;
+                        font-size: 18px;
+                        display: none;
+                        top: -1px;
+                        @media screen and (max-width: $screen-sm-max) {
+                            display: block;
+                        }
+                    }
+                    &.active {
+                        &:after {
+                            position: absolute;
+                            content: "\f462";
+                            font-family: Ionicons;
+                            right: 5px;
+                            font-size: 18px;
+                            display: none;
+                            top: -1px;
+                            @media screen and (max-width: $screen-sm-max) {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+                // Use this for mobile sidebar toggle
+                ul, div {
+                    margin-bottom: 0;
+                    &.show {
+                        @media screen and (max-width: $screen-sm-max) {
+                            height: auto;
+                            padding-bottom: 5px;
+                        }
+                    }
+                    @media screen and (max-width: $screen-sm-max) {
+                        position: relative;   
+                        height: 0;
+                        overflow: hidden;
+                        @include transition(height .3s ease);
+                    }
+                }
+            }
+            .haru-product-sorting {
+                list-style: none;
+                list-style-type: none;
+                padding-left: 0;
+                li {
+                    margin-bottom: 5px;
+                    &.active {
+                        color: $primary_color;
+                    }
+                }
+            }
+            .haru-price-filter {
+                list-style: none;
+                padding-left: 0;
+                li {
+                    margin-bottom: 5px;
+                    &.current {
+                        color: $primary_color;
+                    }
+                }
+            }
+            .haru_widget_color_filter {
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                }
+                li {
+                    margin-bottom: 5px;
+                    &.chosen {
+                        a {
+                            position: relative;
+                            display: inline-block;
+                            color: $primary_color;
+                            padding: 0 10px 0 30px;
+                            border: 1px solid $primary_color;
+                            @include rounded(30px);
+                            &:before {
+                                display: block;
+                                position: absolute;
+                                top: 1px;
+                                left: 10px;
+                                font-family: 'Ionicons';
+                                content: "\f2d7";
+                                color: $primary_color;
+                            }
+                            &:hover {
+                                color: $text_color;
+                                border: 1px solid $text_color;
+                                &:before {
+                                    color: $text_color;
+                                }
+                            }
+                        }
+                    }
+                    a {
+                        i {
+                            border: 1px solid rgba($black, .1);
+                            display: inline-block;
+                            width: 10px;
+                            height: 10px;
+                            margin-right: 10px;
+                            @include rounded(50%);
+                        }
+                    }
+                    span {
+                        display: none;
+                    }
+                }
+            }
+            .widget_product_tag_cloud {
+                .tagcloud {
+                    a {
+                        // border: 1px solid $border_color;
+                        display: inline-block;
+                        font-size: 14px!important;
+                        // padding: 3px 10px;
+                        // color: $text_color;
+                        margin: 0 5px;
+                        margin-top: 6px;
+                        @include rounded(0);
+                        // &:hover {
+                        //     color: $white;
+                        //     background: $primary_color;
+                        //     @include bordered($primary_color,$primary_color,$primary_color,$primary_color);
+                        // }
+                    }
+                }
+            }
+        }
+    }
+    .haru-shop-search {
+        display: none;
+        opacity: 0;
+        @include transition(opacity .3s ease);
+        &.fade-in {
+            opacity: 1;
+        }
+        .haru-shop-search-input-wrap {
+            overflow: hidden;
+            position: relative;
+            #haru-shop-search-close {
+                position: absolute;
+                top: 50%;
+                right: 5px;
+                z-index: 10;
+                font-size: 22px;
+                line-height: 1;
+                color: #aaa;
+                width: 25px;
+                height: 25px;
+                margin-top: -11px;
+            }
+            .search-form {
+                border-radius: 0;
+                max-width: 100%;
+                input {
+                    background: transparent;
+                    border: none;
+                    display: block;
+                    padding: 5px 30px 5px 20px;
+                    width: 100%;
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+        }
+        #haru-shop-search-notice {
+            font-size: 14px;
+            color: #aaa;
+            height: 0;
+            opacity: 0;
+            cursor: default;
+            @include transition(all .2s);
+            &.show {
+                height: 30px;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+// Loadmore
+.haru-loadmore-wrapper {
+    padding-bottom: 80px;
+    padding-top: 2%;
+    .haru-loadmore-link {
+        display: none;
+    }
+    .haru-loadmore-controls {
+        text-align: center;
+        &.haru-loader {
+            .haru-loadmore-btn {
+                i {
+                    display: inline-block;
+                }
+            }
+        }
+        &.hide-btn {
+            .haru-loadmore-btn {
+                display: none;
+            }
+        }
+        .haru-loadmore-btn {
+            background: $primary_color;
+            border: 1px solid $primary_color;
+            color: $white;
+            display: block;
+            font-weight: 700;
+            margin: 0 auto;
+            padding: 8px 20px;
+            text-transform: uppercase;
+            width: 160px;
+            @include transition(all .3s);
+            @include rounded(0);
+            &:hover {
+                background: transparent;
+                color: $primary_color;
+                @include transition(all .3s);
+            }
+            i {
+                margin-right: 10px;
+                display: none;
+            }
+        }
+        .haru-loadmore-all {
+            display: none;
+            &.show {
+                display: block;
+                @include transition(all .3s);
+            }
+        }
+    }
+    @media screen and (max-width: $screen-xs-max) {
+        padding-bottom: 50px;
+    }
+}
+
+// Overlay
+#haru-shop-products-overlay {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    z-index: 1000;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    overflow: hidden;
+    background: #fff;
+    @include transition(opacity .3s ease);
+    &.show {
+        visibility: visible;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+    }
+    &.fade-out {
+        opacity: 0;
+    }
+    i {
+        top: 160px;
+        left: 50%;
+        position: absolute;
+        opacity: 1;
+        color: $primary_color;
+        @include transform(translateX(-50%));
+    }
+}
+
+/* Results button/bar */
+.haru-shop-results-bar {
+    margin-bottom: 20px;
+    overflow: hidden;
+    &.is-category {
+        // display: none; // @TODO: make filter visible too
+    }
+    a {
+        position: relative;
+        display: inline-block;
+        line-height: 1.4;
+        overflow: hidden;
+        margin-right: 8px;
+        padding: 5px 15px 5px 35px;
+        border: 1px solid $text_color;
+        @include rounded(30px);
+        &:last-child {
+            margin-right: 0;
+        }
+        &:hover {
+            text-decoration: line-through;
+        }
+        span {
+            color: $heading_color;
+        }
+        i {
+            position: absolute;
+            top: 6px;
+            left: 12px;
+            font-size: 16px;
+            line-height: 1;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+/**  
+ * @package    HaruTheme
+ * @version    1.0.0
+ * @author     Administrator <admin@harutheme.com>
+ * @copyright  Copyright (c) 2017, HaruTheme
+ * @license    http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
+ * @link       http://harutheme.com
+*/
+.redux-container #redux-header .display_header span.redux-dev-mode-notice {
+  display: none !important;
+}
+
+#redux-header .rAds {
+  opacity: 0;
+}
+
+.redux-notice {
+  display: none;
+}
+
+.admin-color-fresh .redux-field-container .ui-buttonset label .ui-checkboxradio-icon {
+    height: 0;
+    opacity: 0;
+  }

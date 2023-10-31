@@ -1,0 +1,504 @@
+/* Shortcode banner */ 
+.banner-shortcode-wrapper {
+    // Style 1
+    &.style_1 {
+        .banner-content-wrapper {
+            position: relative;
+            text-align: center;
+            text-transform: uppercase;
+            @include box-shadow(0 10px 15px 0 rgba(#333, .45));
+            &:hover {
+                .banner-content-inner {
+                    background: rgba($primary_color, .2);
+                    @include transition(all .35s);
+                    &:before {
+                        opacity: 1;
+                        @include transform(scale(1));
+                    }
+                    &:after {
+                        opacity: 1;
+                        @include transform(scale(1));
+                    }
+                    .banner-content {
+                        opacity: 1;
+                        @include transition(all .35s);
+                    }
+                }
+            }
+            img {
+                width: 100%;
+            }
+            .banner-content-inner {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                padding: 30px;
+                @include transition(all .35s);
+                &:before {
+                    content: '';
+                    border-top: 1px solid $white;
+                    border-bottom: 1px solid $white;
+                    opacity: 0;
+                    position: absolute;
+                    top: 30px;
+                    right: 30px;
+                    bottom: 30px;
+                    left: 30px;
+                    @include transform(scale(0,1));
+                    @include transition(all .35s);
+                    @media screen and (max-width: $screen-sm-max) {
+                        top: 15px;
+                        right: 15px;
+                        bottom: 15px;
+                        left: 15px;
+                    }
+                }
+                &:after {
+                    content: '';
+                    border-right: 1px solid $white;
+                    border-left: 1px solid $white;
+                    opacity: 0;
+                    position: absolute;
+                    top: 30px;
+                    right: 30px;
+                    bottom: 30px;
+                    left: 30px;
+                    @include transform(scale(1,0));
+                    @include transition(all .35s);
+                    @media screen and (max-width: $screen-sm-max) {
+                        top: 15px;
+                        right: 15px;
+                        bottom: 15px;
+                        left: 15px;
+                    }
+                }
+                .banner-content {
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    width: 100%;
+                    opacity: 0;
+                    color: $white;
+                    @include transition(all .35s);
+                    @include transform(translateY(-50%));
+                    .banner-title {
+                        font-weight: 300;
+                        color: $white;
+                    }
+                }
+            }           
+        }
+    }
+    // Style 2
+    &.style_2 {
+        .banner-content-wrapper {
+            position: relative;
+            text-align: center;
+            &:hover {
+                .banner-content-inner {
+                    background-color: rgba($black, .3);
+                    padding-top: 30px;
+                    top: 0;
+                    @include transition(all .35s);
+                    @media screen and (max-width: $screen-xs-max) {
+                        padding-top: 10px;
+                    }
+                    .banner-content {
+                        .banner-title {
+
+                        }
+                        .banner-description {
+                            opacity: 1;
+                            @include transition(all .35s);
+                        }
+                        .banner-viewmore {
+                            opacity: 1;
+                            @include transition(all .35s);
+                        }
+                    }
+                }
+            }
+            .banner-content-inner {
+                background-color: rgba($black, 0);
+                position: absolute;
+                top: 45%;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                @include transition(all .35s);
+                .banner-content {
+                    .banner-title {
+                        color: $white;
+                        font-size: 34px;
+                        margin-top: 15px;
+                        @include transform(translateY(-50%));
+                        @media screen and (max-width: $screen-sm-max) {
+                            font-size: 24px;
+                        }
+                    }
+                    .banner-description {
+                        color: $text_color_secondary;
+                        opacity: 0;
+                        padding: 0 15%;
+                        padding-bottom: 15px;
+                        @include transition(all .35s);
+                        @media screen and (max-width: $screen-sm-max) {
+                            display: none;
+                        }
+                        @media screen and (max-width: $screen-xs-max) {
+                            display: block;
+                            padding-bottom: 5px;
+                        }
+                    }
+                    .banner-viewmore {
+                        border: 2px solid rgba($border_color, .5);
+                        background-color: transparent;
+                        color: $primary_color;
+                        font-weight: 700;
+                        opacity: 0;
+                        padding: 8px 30px;
+                        @include rounded(30px);
+                        @include transition(all .3s);
+                        &:hover {
+                            background-color: $primary_color;
+                            border: 2px solid $primary_color;
+                            color: $white;
+                            @include transition(all .3s);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Style 3
+    &.style_3 {
+        .banner-content-wrapper {
+            position: relative;
+            &:hover {
+                .banner-image {
+                    img {
+                        @include transform(translate(30px, 50px));
+                        @include transition(all .3s);
+                    }
+                }
+            }
+            .banner-image {
+                position: relative;
+                margin-right: 30px;
+                margin-bottom: 50px;
+                &:after {
+                    content: "";
+                    width: 80%;
+                    height: 80%;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    background: $primary_color;
+                    @include transform(translate(30px, 50px));
+                }
+                img {
+                    position: relative;
+                    z-index: 2;
+                    @include transition(all .3s);
+                    @include box-shadow(0 10px 15px 0 rgba(#333, .25));
+                }
+            }
+            
+        }
+    }
+    // Style 4
+    &.style_4 {
+        .banner-content-wrapper {
+            position: relative;
+            &:hover {
+                .banner-image {
+                    img {
+                        @include transform(translate(-30px, 50px));
+                        @include transition(all .3s);
+                    }
+                }
+            }
+            .banner-image {
+                position: relative;
+                margin-left: 30px;
+                margin-bottom: 50px;
+                text-align: right;
+                &:after {
+                    content: "";
+                    width: 80%;
+                    height: 60%;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    background: #f0f2f2;
+                    @include transform(translate(-30px, 50px));
+                }
+                img {
+                    position: relative;
+                    z-index: 2;
+                    @include transition(all .3s);
+                    @include box-shadow(0 10px 15px 0 rgba(#333, .25));
+                }
+            }
+        }
+    }
+    // Style 5
+    &.style_5 {
+        .banner-content-wrapper {
+            position: relative;
+            text-align: center;
+            overflow: hidden;
+            &:hover {
+                .banner-content-inner {
+                    
+                }
+                img {
+                    @include transform(scale(1.1));
+                    @include transition(all .5s);
+                }
+            }
+            img {
+                width: 100%;
+                @include transform(scale(1.0));
+                @include transition(all .5s);
+            }
+            .banner-content-inner {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                padding: 30px;
+                @include transition(all .35s);
+                .banner-content {
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    width: 100%;
+                    color: $white;
+                    @include transition(all .35s);
+                    @include transform(translateY(-50%));
+                    .banner-title {
+                        color: $white;
+                        font-size: 80px;
+                        @media screen and (max-width: $screen-sm-max) {
+                            font-size: 60px;
+                        }
+                        @media screen and (max-width: $screen-xs-max) {
+                            font-size: 30px;
+                        }
+                    }
+                    .banner-description {
+                        font-size: 16px;
+                        font-weight: 600;
+                        letter-spacing: 2px;
+                        margin-top: 15px;
+                        text-transform: uppercase;
+                        @media screen and (max-width: $screen-xs-max) {
+                            font-size: 14px;
+                            letter-spacing: 1px;
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }           
+        }
+    }
+    // Style 6
+    &.style_6 {
+        .banner-content-wrapper {
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            text-transform: uppercase;
+            &:hover {
+                img {
+                    @include transform(scale(1.1));
+                    @include transition(all .5s);
+                }
+                .banner-content-inner {
+                    background: rgba($primary_color, .1);
+                    @include transition(all .35s);
+                    .banner-content {
+                        opacity: 1;
+                        @include transition(all .35s);
+                    }
+                }
+            }
+            img {
+                width: 100%;
+                @include transform(scale(1.0));
+                @include transition(all .5s);
+            }
+            .banner-content-inner {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                padding: 30px;
+                @include transition(all .35s);
+                .banner-content {
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    width: 100%;
+                    opacity: 0;
+                    color: $white;
+                    @include transition(all .35s);
+                    @include transform(translateY(-50%));
+                    .banner-title {
+                        font-weight: 300;
+                        color: $white;
+                    }
+                }
+            }           
+        }
+    }
+    // Style 7
+    &.style_7 {
+        .banner-content-wrapper {
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            text-transform: uppercase;
+            &:hover {
+                img {
+                    @include transform(scale(1.1));
+                    @include transition(all .3s);
+                }
+                .banner-content-inner {
+                    .banner-title {
+                        opacity: 1;
+                        @include transition(all .3s);
+                    }
+                }
+            }
+            img {
+                width: 100%;
+                @include transform(scale(1.0));
+                @include transition(all .3s);
+            }
+            .banner-content-inner {
+                position: absolute;
+                top: 50%;
+                left: 0;
+                width: 100%;
+                @include transform(translateY(-50%));
+                .banner-title {
+                    color: $primary_color;
+                    margin: 0;
+                    opacity: 0;
+                    @include transition(all .3s);
+                }
+            }
+        }
+        &.home-9 {
+            margin-right: -30%;
+            @media screen and (max-width: $screen-md-max) {
+                margin-right: -25%;
+            }
+            @media screen and (max-width: $screen-sm-max) {
+                margin-right: 0;
+            }
+        }
+    }
+    // Style 8
+    &.style_8 {
+        &:hover {
+            .banner-image {
+                img {
+                    @include transform(scale(1.1));
+                    @include transition(all .3s);
+                }
+            }
+        }
+        .banner-image {
+            overflow: hidden;
+            img {
+                @include transform(scale(1.0));
+                @include transition(all .3s);
+            }
+        }
+        .banner-content-inner {
+            background-color: #333;
+            padding: 40px;
+            @media screen and (max-width: $screen-md-max) {
+                padding: 20px 30px;
+            }
+            @media screen and (max-width: $screen-sm-max) {
+                padding: 15px 20px;
+            }
+            .banner-title {
+                color: $white;
+                font-size: 36px;
+                margin: 0;
+                @media screen and (max-width: $screen-md-max) {
+                    font-size: 28px;
+                }
+                @media screen and (max-width: $screen-sm-max) {
+                    font-size: 20px;
+                }
+                span {
+                    color: $primary_color;
+                    padding-left: 15px;
+                }
+            }
+            .banner-description {
+                color: $text_color_secondary;
+                font-style: italic;
+                padding-top: 20px;
+                text-transform: uppercase;
+            }
+        }
+    }
+    // Style 9
+    &.style_9 {
+        &:hover {
+            .banner-content-inner {
+                .banner-image {
+                    img {
+                        @include transform(scale(1.1));
+                        @include transition(all .3s);
+                    }
+                }
+            }
+        }
+        .banner-content-inner {
+            background-color: #f8f8f8;
+            .banner-content {
+                padding: 30px 40px;
+                position: absolute;
+                bottom: 0;
+                text-transform: uppercase;
+                width: 50%;
+                .banner-description {
+                    color: $heading_color;
+                    font-family: $body_font;
+                    font-weight: 700;
+                    padding-bottom: 20px;
+                }
+                h6 {
+                    font-family: $body_font;
+                    margin-bottom: 0;
+                    margin-top: 5px;
+                    font-weight: 900;
+                    @media screen and (max-width: $screen-sm-max) {
+                        font-size: 20px;
+                    }
+                }
+            }
+            .banner-image {
+                overflow: hidden;
+                float: right;
+                width: 50%;
+                img {
+                    @include transform(scale(1.0));
+                    @include transition(all .3s);
+                }
+            }
+        }
+    }
+}

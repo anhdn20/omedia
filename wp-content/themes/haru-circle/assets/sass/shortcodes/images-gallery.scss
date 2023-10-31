@@ -1,0 +1,233 @@
+
+.images-gallery-shortcode-wrapper {
+    // Slick style
+    &.slick {
+        .images-list {
+            padding: 0 100px;
+            @media screen and(max-width: $screen-xs-max) {
+                padding: 0 20px;
+            }
+            .image-item {
+                padding: 0 10px;
+                // @include transition(all .3s);
+                &:focus {
+                    outline: none;
+                }
+                &.slick-center {
+                    .slide-item {
+                        @include box-shadow(0 20px 30px 0 rgba(#333, .45));
+                        @include transition(all .5s);
+                        &:before {
+                            opacity: 0;
+                            visibility: hidden;
+                            @include transition(all .5s);
+                        }
+                        img {
+                            opacity: 1;
+                            @include transition(all .5s);
+                        }
+                    }
+                }
+                .slide-item {
+                    position: relative;
+                    margin-bottom: 40px;
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        top: 0;
+                        left: 0;
+                        background-color: $black;
+                        @include transition(all .5s);
+                    }
+                    img {
+                        opacity: .3;
+                        @include transition(all .5s);
+                    }
+                }
+            }
+        }
+    }
+    &.slick_2 {
+        .images-list {
+            .image-item {
+                padding: 0 15px;
+                @media screen and(max-width: $screen-xs-max) {
+                    padding: 0 5px;
+                }
+                &:focus {
+                    outline: none;
+                }
+                &.slick-center {
+                    .slide-item {
+                        img {
+                            opacity: 1;
+                            @include transition(all .5s);
+                        }
+                    }
+                }
+                .slide-item {
+                    img {
+                        opacity: .3;
+                        @include transition(all .5s);
+                    }
+                }
+            }
+        }
+    }
+    &.slick, &.slick_2 {
+        .images-list {
+            // Arrow
+            .slick-arrow {
+                &.slick-prev, &.slick-next {
+                    background: none;
+                    border: none;
+                    color: transparent;
+                    cursor: pointer;
+                    display: block;
+                    font-size: 0;
+                    line-height: 0;
+                    outline: none;
+                    padding: 0;
+                    position: absolute;
+                    top: 50%;
+                    z-index: 999;
+                    &:before {
+                        color: $text_color;
+                        font-family: 'slick';
+                        font-size: 56px;
+                        line-height: 1;
+                        opacity: 1;
+                        @include transition(all .3s);
+                    }
+                    &:hover {
+                        &:before {
+                            color: $primary_color;
+                            @include transition(all .3s);
+                        }
+                    }
+                }
+                &.slick-prev {
+                    left: 50px;
+                    @include transform(translate(-50%, -50%));
+                    &:before {
+                        content: "\f3cf";
+                        font-family: Ionicons;
+                    }
+                }
+                &.slick-next {
+                    right: 50px;
+                    @include transform(translate(50%, -50%));
+                    &:before {
+                        content: "\f3d1";
+                        font-family: Ionicons;
+                    }
+                }
+            }
+        }
+    }
+    // Grid
+    &.grid {
+        .images-list {
+            .image-item {
+                float: left;
+                &:hover {
+                    .slide-item {
+                        &:before {
+                            opacity: 1;
+                            @include transition(all .3s);
+                        }
+                        .image-meta {
+                            opacity: 1;
+                            @include transition(all .3s);
+                        }
+                    }
+                }
+                .slide-item {
+                    position: relative;
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        top: 0;
+                        left: 0;
+                        opacity: 0;
+                        background-color: rgba(#333333, .9);
+                        @include transition(all .3s);
+                    }
+                    .image-meta {
+                        position: absolute;
+                        width: 100%;
+                        top: 50%;
+                        text-align: center;
+                        color: $white;
+                        opacity: 0;
+                        @include transform(translateY(-50%));
+                        @include transition(all .3s);
+                        i {
+                            font-size: 40px;
+                            @include transition(all .3s);
+                            @media screen and (max-width: $screen-sm-max) {
+                                font-size: 30px;
+                            }
+                            &:hover {
+                                color: $primary_color;
+                                @include transition(all .3s);
+                            }
+                        }
+                        .image-title {
+                            color: $white;
+                            font-size: 18px;
+                            font-family: $body_font;
+                            text-transform: uppercase;
+                            @include transition(all .3s);
+                            @media screen and (max-width: $screen-sm-max) {
+                                font-size: 16px;
+                            }
+                            &:hover {
+                                color: $primary_color;
+                                @include transition(all .3s);
+                            }
+                        }
+                    }
+                }
+                // Padding
+                &.padding-5 {
+                    padding: 5px;
+                }
+                // Columns
+                &.image-col-2 {
+                    width: 50%;
+                }
+                &.image-col-3 {
+                    width: 33.333333%;
+
+                    @-moz-document url-prefix() {
+                        width: calc(33.333333% - .1px);
+                    }
+                        
+                    @media screen and (max-width: $screen-xs-max) {
+                        width: 50%;
+                    }
+                }
+                &.image-col-4 {
+                    width: 25%;
+                    @media screen and (max-width: $screen-xs-max) {
+                        width: 50%;
+                    }
+                }
+                &.image-col-5 {
+                    width: 20%;
+                    @media screen and (max-width: $screen-sm-max) {
+                        width: 25%;
+                    }
+                    @media screen and (max-width: $screen-xs-max) {
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+}

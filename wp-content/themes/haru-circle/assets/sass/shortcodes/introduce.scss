@@ -1,0 +1,269 @@
+/* Introduce Shortcode CSS */
+.introduce-shortcode-wrapper {
+    // Style 1
+    &.style_1 {
+        .introduce-content {
+            position: relative;
+            .introduce-main {
+                font-family: $secondary_font;
+                text-align: center;
+                .intro-title {
+                    color: $heading_color;
+                    font-size: 72px;
+                    font-weight: 700;
+                    .first-word {
+                        font-style: italic;
+                        font-weight: normal;
+                        margin-right: 10px;
+                    }
+                    @media screen and (max-width: $screen-sm-max) {
+                        font-size: 36px;
+                    }
+                    @media screen and (max-width: $screen-xs-max) {
+                        font-size: 28px;
+                    }
+                }
+                .intro-description {
+                    color: rgba($text_color, .8);
+                    font-size: 24px;
+                    font-style: italic;
+                    letter-spacing: 2px;
+                    padding: 30px 13% 0 13%;
+                    span {
+                        color: #333;
+                    }
+                    @media screen and (max-width: $screen-sm-max) {
+                        font-size: 18px;
+                        padding: 10px 13% 0 13%; 
+                    }
+                    @media screen and (max-width: $screen-xs-max) {
+                        font-size: 14px;
+                        padding: 10px 13% 0 13%; 
+                    }
+                }
+            }
+            .image-left {
+                background-image: url(../haru-circle/assets/images/leaf-prev.png);
+                background-size: cover;
+                content: "";
+                width: 88px;
+                height: 170px;
+                display: block;
+                opacity: .1;
+                position: absolute;
+                left: 0;
+                top: 60%;
+                @include transform(translateY(-50%));
+                @include transition(all .3s);
+                @media screen and (max-width: $screen-sm-max) {
+                    width: 75px;
+                    height: 145px;
+                }
+                @media screen and (max-width: $screen-xs-max) {
+                    width: 70px;
+                    height: 136px;
+                    top: 70%;
+                }
+            }
+            .image-right {
+                background-image: url(../haru-circle/assets/images/leaf-next.png);
+                background-size: cover;
+                content: "";
+                width: 88px;
+                height: 170px;
+                display: block;
+                opacity: .1;
+                position: absolute;
+                right: 0;
+                top: 60%;
+                @include transform(translateY(-50%));
+                @include transition(all .3s);
+                @media screen and (max-width: $screen-sm-max) {
+                    width: 75px;
+                    height: 145px;
+                }
+                @media screen and (max-width: $screen-xs-max) {
+                    width: 70px;
+                    height: 136px;
+                    top: 70%;
+                }
+            }
+        }
+    }
+    // Style 2
+    &.style_2 {
+        .introduce-content {
+            position: relative;
+            .introduce-main {
+                font-family: $secondary_font;
+                text-align: center;
+                .intro-title {
+                    color: $heading_color;
+                    font-size: 72px;
+                    font-weight: 700;
+                    .first-word {
+                        font-style: italic;
+                        font-weight: normal;
+                        margin-right: 10px;
+                    }
+                    @media screen and (max-width: $screen-sm-max) {
+                        font-size: 36px;
+                    }
+                    @media screen and (max-width: $screen-sm-max) {
+                        font-size: 28px;
+                    }
+                }
+                .intro-description {
+                    color: rgba($text_color, .8);
+                    font-size: 24px;
+                    font-style: italic;
+                    letter-spacing: 2px;
+                    padding-top: 30px;
+                    span {
+                        color: #333;
+                    }
+                    @media screen and (max-width: $screen-sm-max) {
+                        font-size: 18px;
+                        padding: 10px 13% 0 13%; 
+                    }
+                    @media screen and (max-width: $screen-xs-max) {
+                        font-size: 14px;
+                        padding: 0 15% 0 15%; 
+                    }
+                }
+            }
+            .image-left {
+                background-image: url(../haru-circle/assets/images/leaf-prev.png);
+                background-size: cover;
+                content: "";
+                width: 58px;
+                height: 113px;
+                display: block;
+                opacity: .1;
+                position: absolute;
+                left: 0;
+                top: 5%;
+                @include transition(all .3s);
+                @media screen and (max-width: $screen-sm-max) {
+                    width: 75px;
+                    height: 145px;
+                }
+                @media screen and (max-width: $screen-xs-max) {
+                    width: 58px;
+                    height: 113px;
+                    top: 20%;
+                }
+            }
+            .image-right {
+                background-image: url(../haru-circle/assets/images/leaf-next.png);
+                background-size: cover;
+                content: "";
+                width: 58px;
+                height: 113px;
+                display: block;
+                opacity: .1;
+                position: absolute;
+                right: 0;
+                top: 5%;
+                @include transition(all .3s);
+                @media screen and (max-width: $screen-sm-max) {
+                    width: 75px;
+                    height: 145px;
+                }
+                @media screen and (max-width: $screen-xs-max) {
+                    width: 58px;
+                    height: 113px;
+                    top: 20%;
+                }
+            }
+        }
+    }
+    // Style 3
+    &.style_3 {
+        .introduce-content {
+            position: relative;
+            .introduce-main {
+                font-family: $secondary_font;
+                text-align: center;
+                .intro-description {
+                    color: $heading_color;
+                    font-size: 24px;
+                    font-weight: 700;
+                    padding: 30px 13% 0 13%;
+                    @media screen and (max-width: $screen-sm-max) {
+                        font-size: 18px;
+                        padding: 10px 13% 0 13%; 
+                    }
+                    @media screen and (max-width: $screen-xs-max) {
+                        font-size: 14px;
+                        padding: 10px 13% 0 13%; 
+                    }
+                }
+                .intro-image {
+                    margin-top: 5%;
+                    @media screen and (max-width: $screen-xs-max) {
+                        
+                    }
+                }
+                .intro-title {
+                    color: $heading_color;
+                    font-family: $body_font;
+                    font-size: 18px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    @media screen and (max-width: $screen-sm-max) {
+                        font-size: 16px;
+                    }
+                    @media screen and (max-width: $screen-xs-max) {
+                        font-size: 14px;
+                    }
+                }
+                .intro-sub-title {
+                    font-style: italic;
+                }
+            }
+            .image-left {
+                background-image: url(../haru-circle/assets/images/leaf-prev.png);
+                background-size: cover;
+                content: "";
+                width: 88px;
+                height: 170px;
+                display: block;
+                opacity: 1;
+                position: absolute;
+                left: 0;
+                top: 0;
+                @include transition(all .3s);
+                @media screen and (max-width: $screen-sm-max) {
+                    width: 75px;
+                    height: 145px;
+                }
+                @media screen and (max-width: $screen-xs-max) {
+                    width: 70px;
+                    height: 136px;
+                }
+            }
+            .image-right {
+                background-image: url(../haru-circle/assets/images/leaf-next.png);
+                background-size: cover;
+                content: "";
+                width: 88px;
+                height: 170px;
+                display: block;
+                opacity: 1;
+                position: absolute;
+                right: 0;
+                top: 0;
+                @include transition(all .3s);
+                @media screen and (max-width: $screen-sm-max) {
+                    width: 75px;
+                    height: 145px;
+                }
+                @media screen and (max-width: $screen-xs-max) {
+                    width: 70px;
+                    height: 136px;
+                }
+            }
+        }
+    }
+}

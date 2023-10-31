@@ -1,0 +1,693 @@
+/*-----------------------------------
+ * HEADER MOBILE
+ *-----------------------------------*/
+$mobile_menu_background: #333;
+/* HARU MOBILE MENU */
+header.haru-mobile-header {
+    display: none;
+    // Show mobile header on small screen
+    @media screen and (max-width: $screen-sm-max) {
+        display: block;
+    }
+    .haru-header-container-wrapper {
+        background-color: $white;
+        border-bottom: solid 1px $border_color;
+        top: 0;
+        width: 100%;
+        z-index: 996;
+        @include transition(all .3s ease);
+        .haru-mobile-header-wrapper {
+            background-color: $white;
+            position: relative;
+            // Header inner
+            .haru-mobile-header-inner {
+                height: 60px;
+                position: relative;
+                .header-logo-mobile {
+                    line-height: 60px;
+                    vertical-align: middle;
+                    text-align: center;
+                    img {
+                        max-height: 50px;
+                        @include box-sizing(border-box);
+                    }
+                }
+                .header-customize {
+                    display: block;
+                    font-size: 0;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto;
+                    right: 0;
+                    color: $black;
+                    &:before {
+                        content: "";
+                        display: inline-block;
+                        vertical-align: middle;
+                        height: 100%;
+                    }
+                    .header-customize-item {
+                        font-size: 14px;
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+                }
+            }
+            // Header mobile navigation
+            .haru-mobile-header-nav {
+                background: $mobile_menu_background;
+                display: none;
+                margin-bottom: 15px;
+                // FLY MENU
+                &.menu-drop-fly {
+                    display: block;
+                    position: fixed;
+                    margin: 0;
+                    top: 0;
+                    bottom: 0;
+                    overflow: auto;
+                    overflow-x: hidden;
+                    width: 280px;
+                    left: -280px;
+                    border-right: solid 2px $primary_color;
+                    z-index: 9999;
+                    @include transition(all .3s);
+                    &.in {
+                        left: 0;
+                    }
+                    .mobile-menu-header {
+                        background-color: $black;
+                        color: $white;
+                        font-weight: 700;
+                        padding: 10px 0;
+                        text-align: center;
+                        text-transform: uppercase;
+                    }
+                    ul.haru-nav-mobile-menu {
+                        padding: 0;
+                        li.menu-item {
+                            font-size: 14px;
+                            color: $white;
+                            border-bottom: 1px solid rgba($white, .12);
+                            letter-spacing: 0.5px;
+                            position: relative;
+                            @include transition(all .2s ease-in-out);
+                            > a {
+                                padding: 15px;
+                                display: inline-block;
+                                color: $white;
+                                line-height: 1.2;
+                                &:hover {
+                                    color: $primary_color;
+                                }
+                            }
+                            > b.menu-caret {
+                                color: $white;
+                                float: right;
+                                font-size: 18px;
+                                font-weight: 400;
+                                right: 0;
+                                position: absolute;
+                                @include transition(all .3s ease-in-out);
+                                &:before {
+                                    content: "\f3d0";
+                                    display: inline-block;
+                                    font-family: Ionicons;
+                                    text-align: center;
+                                    line-height: 45px;
+                                    width: 45px;
+                                }
+                                &:hover {
+                                    cursor: pointer;
+                                    color: $primary_color;
+                                    @include rotate(360deg);
+                                }
+                                &.active {
+                                    &:before {
+                                        content: "\f3d8";
+                                        display: inline-block;
+                                        font-family: Ionicons;
+                                    }
+                                }
+                            }
+                            &:not(.sub-menu-open):hover {
+                                background-color: lighten($mobile_menu_background, 5%);
+                            }
+                            &.sub-menu-open {
+                                border-bottom-width: 0px;
+                                > ul.sub-menu:before {
+                                    content: "";
+                                    display: block;
+                                    position: absolute;
+                                    top: -6px;
+                                    left: 15px;
+                                    z-index: 1;
+                                    border-style: solid;
+                                    border-width: 0 6px 6px 6px;
+                                    border-color: transparent transparent lighten($mobile_menu_background, 10%);;
+                                }
+                            }
+                        }
+                        li.current-menu-ancestor > a,
+                        li.current-menu-parent > a,
+                        li.current-menu-item > a,
+                        li.menu-current > a,
+                        li > a:hover,
+                        li:hover > a,
+                        li ul.sub-menu li:hover > a {
+                            color: $primary_color;
+                            > b.caret:before {
+                                color: $primary_color;
+                            }
+                        }
+                        
+                        // Sub Menu Level 1
+                        ul.sub-menu {
+                            background-color: lighten($mobile_menu_background, 10%);
+                            padding-left: 0;
+                            position: relative;
+                            > li.menu-item {
+                                > a {
+                                    font-size: 12px;
+                                }
+                            }
+                            > li.menu-item.sub-menu-open > ul.sub-menu:before {
+                                border-color: transparent transparent lighten($mobile_menu_background, 15%);
+                            }
+                            // Sub Menu Level 2
+                            ul.sub-menu {
+                                background-color: lighten($mobile_menu_background, 15%);
+                                > li.menu-item.sub-menu-open > ul.sub-menu:before {
+                                    border-color: transparent transparent lighten($mobile_menu_background,20%);
+                                }
+                                // Sub Menu Level 3
+                                ul.sub-menu {
+                                    background-color: lighten($mobile_menu_background, 20%);
+                                    > li.menu-item.sub-menu-open > ul.sub-menu:before {
+                                        border-color: transparent transparent lighten($mobile_menu_background, 25%);
+                                    }
+                                    // Sub Menu Level 4
+                                    ul.sub-menu {
+                                        background-color: lighten($mobile_menu_background, 25%);
+                                        > li.menu-item.sub-menu-open > ul.sub-menu:before {
+                                            border-color: transparent transparent lighten($mobile_menu_background, 30%);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                // DROPDOWN MENU
+                &.menu-drop-dropdown {
+                    .mobile-menu-header {
+                        background-color: $black;
+                        color: $white;
+                        font-weight: 700;
+                        padding: 10px 0;
+                        text-align: center;
+                        text-transform: uppercase;
+                    }
+                    ul.haru-nav-mobile-menu {
+                        padding: 0;
+                        li.menu-item {
+                            font-size: 14px;
+                            color: $white;
+                            border-bottom: 1px solid rgba($white, .12);
+                            letter-spacing: .5px;
+                            position: relative;
+                            @include transition(all .2s ease-in-out);
+                            > a {
+                                padding: 15px;
+                                display: inline-block;
+                                color: $white;
+                                line-height: 1.2;
+                                &:hover {
+                                    color: $primary_color;
+                                }
+                            }
+                            > b.menu-caret {
+                                color: $white;
+                                float: right;
+                                font-size: 18px;
+                                font-weight: 400;
+                                right: 0;
+                                position: absolute;
+                                @include transition(all .3s ease-in-out);
+                                &:before {
+                                    content: "\f3d0";
+                                    display: inline-block;
+                                    font-family: Ionicons;
+                                    text-align: center;
+                                    line-height: 45px;
+                                    width: 45px;
+                                }
+                                &:hover {
+                                    cursor: pointer;
+                                    color: $primary_color;
+                                    @include rotate(360deg);
+                                }
+                                &.active {
+                                    &:before {
+                                        content: "\f3d8";
+                                        display: inline-block;
+                                        font-family: Ionicons;
+                                    }
+                                }
+                            }
+                            &:not(.sub-menu-open):hover {
+                                background-color: lighten($mobile_menu_background, 5%);
+                            }
+                            &.sub-menu-open {
+                                border-bottom-width: 0px;
+                                > ul.sub-menu:before {
+                                    content: "";
+                                    display: block;
+                                    position: absolute;
+                                    top: -6px;
+                                    left: 15px;
+                                    z-index: 1;
+                                    border-style: solid;
+                                    border-width: 0 6px 6px 6px;
+                                    border-color: transparent transparent lighten($mobile_menu_background, 10%);
+                                }
+                            }
+                        }
+                        li.current-menu-ancestor > a,
+                        li.current-menu-parent > a,
+                        li.current-menu-item > a,
+                        li.menu-current > a,
+                        li > a:hover,
+                        li:hover > a,
+                        li ul.sub-menu li:hover > a {
+                            color: $primary_color;
+
+                            > b.caret:before {
+                                color: $primary_color;
+                            }
+                        }
+
+                        // Sub Menu Level 1
+                        ul.sub-menu {
+                            background-color: lighten($mobile_menu_background, 10%);
+                            padding-left: 0;
+                            position: relative;
+                            > li.menu-item {
+                                > a {
+                                    font-size: 12px;
+                                }
+                            }
+                            > li.menu-item.sub-menu-open > ul.sub-menu:before {
+                                border-color: transparent transparent lighten($mobile_menu_background, 15%);
+                            }
+                            // Sub Menu Level 2
+                            ul.sub-menu {
+                                background-color: lighten($mobile_menu_background, 15%);
+                                > li.menu-item.sub-menu-open > ul.sub-menu:before {
+                                    border-color: transparent transparent lighten($mobile_menu_background,20%);
+                                }
+                                // Sub Menu Level 3
+                                ul.sub-menu {
+                                    background-color: lighten($mobile_menu_background, 20%);
+                                    > li.menu-item.sub-menu-open > ul.sub-menu:before {
+                                        border-color: transparent transparent lighten($mobile_menu_background, 25%);
+                                    }
+                                    // Sub Menu Level 4
+                                    ul.sub-menu {
+                                        background-color: lighten($mobile_menu_background, 25%);
+                                        > li.menu-item.sub-menu-open > ul.sub-menu:before {
+                                            border-color: transparent transparent lighten($mobile_menu_background, 30%);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                // General
+                .haru-nav-mobile-menu {
+                    li {
+                        list-style: none;
+                        list-style-type: none;
+                        > ul.sub-menu {
+                            background-color: #444;
+                            position: relative;
+                            list-style: none;
+                            padding: 0;
+                            padding-left: 20px;
+                            margin: 0;
+                            display: none;
+                            background: transparent;
+                        }
+                    }
+                }
+            }
+            // Overlay
+            .haru-mobile-menu-overlay {
+                opacity: 0;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba($black, .6);
+                z-index: -1;
+                pointer-events: none;
+                overflow: hidden;
+                -webkit-backface-visibility: hidden;
+                @include transition(opacity .3s ease);
+            }
+        }
+    }
+
+    /*-----------------------------------
+     * HEADER MOBILE 1
+     *-----------------------------------*/
+    &.header-mobile-1 {
+        .haru-header-container-wrapper {
+            .haru-mobile-header-wrapper {
+                // Header inner
+                .haru-mobile-header-inner {
+                    .toggle-icon-wrapper {
+
+                    }
+                    .header-customize {
+                        .header-customize-item {
+                            // Search Button
+                            &.search-button-wrapper {
+                                border-left: none;
+                                a {
+                                    i {
+                                        margin-left: 10px;
+                                        margin-right: 10px;
+                                    }
+                                }
+                            }
+                            // Shopping cart
+                            &.shopping-cart-wrapper {
+                                // No Price
+                                &.no-price {
+                                    .widget_shopping_cart_content {
+                                        .widget_shopping_cart_icon {
+                                            i {
+                                                padding: 0 5px;
+                                            }
+                                            .total {
+                                                right: 0px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .header-logo-mobile {
+                        position: absolute;
+                        left: 50%;
+                        @include transform(translateX(-50%));
+                    }
+                }
+            }
+        }
+    }
+    /*-----------------------------------
+     * HEADER MOBILE 2
+     *-----------------------------------*/
+    &.header-mobile-2 {
+        .header-mobile-before {
+            text-align: center;
+            img {
+                max-height: 50px;
+                padding: 5px 0;
+                @include box-sizing(border-box);
+            }
+        }
+        .haru-header-container-wrapper {
+            background-color: $mobile_menu_background;
+            border-bottom: none;
+            .haru-mobile-header-wrapper {
+                background-color: transparent;
+                // Header inner
+                .haru-mobile-header-inner {
+                    position: relative;
+                    .toggle-icon-wrapper {
+                        &.in {
+                            .toggle-icon {
+                                span {
+                                    background: transparent;
+                                }
+                            }
+                        }
+                        .toggle-icon {
+                            &:after, &:before {
+                                background: none repeat scroll 0 0 $white;
+                            }
+                            span {
+                                background: none repeat scroll 0 0 $white;
+                            }
+                        }
+                    }
+                    .header-customize {
+                        .header-customize-item {
+                            // Search button
+                            &.search-button-wrapper {
+                                border-left: none;
+                                a {
+                                    i {
+                                        margin-left: 10px;
+                                        margin-right: 10px;
+                                        color: $white;
+                                    }
+                                }
+                            }
+                            // Shopping cart
+                            &.shopping-cart-wrapper {
+                                // No Price
+                                &.no-price {
+                                    .widget_shopping_cart_content {
+                                        .widget_shopping_cart_icon {
+                                            i {
+                                                padding: 0 5px;
+                                                color: $white;
+                                            }
+                                            .total {
+                                                right: 0px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*-----------------------------------
+     * HEADER MOBILE 3
+     *-----------------------------------*/
+    &.header-mobile-3 {
+        .haru-header-container-wrapper {
+            .haru-mobile-header-wrapper {
+                // Header inner
+                .haru-mobile-header-inner {
+                    .header-logo-mobile {
+                        position: absolute;
+                    }
+                    .header-customize {
+                        right: 50px;
+                        left: auto;
+                        .header-customize-item {
+                            // Search button
+                            &.search-button-wrapper {
+                                border-left: none;
+                                a {
+                                    i {
+                                        margin-left: 10px;
+                                        height: 24px;
+                                    }
+                                }
+                            }
+                            // Shopping cart
+                            &.shopping-cart-wrapper {
+                                // No Price
+                                &.no-price {
+                                    .widget_shopping_cart_content {
+                                        .widget_shopping_cart_icon {
+                                            i {
+                                                padding: 0 5px;
+                                                height: 24px;
+                                            }
+                                            .total {
+                                                right: 0px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .toggle-icon-wrapper{
+                        right: 0;
+                        left: auto;
+                    }
+                }
+            }
+        }
+        
+        .shopping-cart-wrapper {
+            position: static;
+            .widget_shopping_cart_content .cart_list_wrapper {
+                left: -200px;
+                right: auto;
+                @media screen and (max-width: $screen-mobile) {
+                    left: -175px;
+                }
+            }
+        }
+    }
+
+    /*-----------------------------------
+     * HEADER MOBILE STICKY
+     *-----------------------------------*/
+    .haru-sticky-wrapper {
+        &.is-sticky {
+            > .haru-header-container-wrapper {
+                z-index: 997;
+                left: 0;
+                right: 0;
+            }
+        }
+        &:not(.is-sticky) {
+            height: auto!important;
+            position: relative!important;
+        }
+    }
+
+}
+
+// Body transition
+body {
+    left: 0;
+    @include transition(all .3s);
+    &.menu-mobile-in {
+        left: 280px;
+        overflow: hidden;
+        header.haru-mobile-header {
+            .haru-header-container-wrapper {
+                .haru-mobile-header-wrapper {
+                    // Overlay
+                    .haru-mobile-menu-overlay {
+                        opacity: 1;
+                        z-index: 299;
+                        pointer-events: auto;
+                        cursor: crosshair;
+                        color: $white;
+                    }
+                }
+            }
+        }
+        // Sticky Menu
+        .haru-sticky-wrapper {
+            &.is-sticky {
+                > .haru-header-container-wrapper {
+                    .menu-drop-fly {
+                        left: 280px;
+                        right: -280px;
+                    }
+                }
+            }
+        }
+    }
+    // Admin bar
+    &.admin-bar {
+        header.haru-mobile-header {
+            .haru-header-container-wrapper {
+                .haru-mobile-header-wrapper {
+                    .haru-mobile-header-nav {
+                        &.menu-drop-fly {
+                            top: 46px;
+                        }
+                    }
+                }
+            } 
+        }
+    }
+}
+
+// @TODO: doesn't have now
+form.haru-search-form-mobile-menu {
+    display: none;
+}
+
+/*-----------------------------------
+ * HEADER MOBILE ICON TOGGLE
+ *-----------------------------------*/
+.toggle-icon-wrapper {
+    display: inline-block;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    top: 0;
+    vertical-align: middle;
+    &:before {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
+    .toggle-icon {
+        display: inline-block;
+        height: 30px;
+        position: relative;
+        vertical-align: middle;
+        width: 30px;
+        > span {
+            background: none repeat scroll 0 0 $black;
+            bottom: 0;
+            display: block;
+            height: 2px;
+            left: 0;
+            margin: auto;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 80%;
+            @include transition(all .3s ease);
+        }
+        &:after, &:before {
+            background: none repeat scroll 0 0 $black;
+            content: "";
+            height: 2px;
+            left: 0;
+            margin: auto;
+            position: absolute;
+            right: 0;
+            width: 80%;
+            @include transition(all .3s ease);
+        }
+        &:before {
+            top: 20%;
+            @include transform-origin(top left);
+        }
+        &:after {
+            bottom: 20%;
+            @include transform-origin(bottom left);
+        }
+    }
+    &.in {
+        .toggle-icon {
+            span {
+                background: transparent;
+            }
+            &:before {
+                @include rotate(45deg);
+            }
+            &:after {
+                @include rotate(-45deg);
+            }
+        }
+    }
+} 

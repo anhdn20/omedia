@@ -1,0 +1,176 @@
+/*-----------------------------------
+ * WOOCOMMERCE WISHLIST
+ *-----------------------------------*/
+ .woocommerce-wishlist {
+    .woocommerce {
+        margin-bottom: 60px;
+        margin-top: 30px;
+        .wishlist-title {
+            display: block;
+            text-align: center;
+            h2 {
+                color: $primary_color;
+                @media screen and (max-width: $screen-sm-max) {
+                    font-size: 18px;
+                }
+            }
+        }
+        .wishlist_table {
+            margin-top: 15px;
+            font-size: 100%;
+            thead {
+                text-transform: uppercase;
+                tr {
+                    th {
+                        border-top: none;
+                        font-weight: 600;
+                    }
+                }
+            }
+            tbody {
+                .product-remove {
+                    a.remove {
+                        margin: 0 auto;
+                        font-weight: 400;
+                    }
+                }
+                .product-name {
+                    a {
+                        color: $heading_color;
+                        font-weight: 500;
+                        &:hover {
+                            color: $link_color_hover;
+                        }
+                    }
+                }
+                .product-price {
+                    text-align: left;
+                    ins {
+                        margin-right: 5px;
+                    }
+                }
+                .product-stock-status {
+                    text-align: left;
+                    span {
+                        color: $primary_color;
+                    }
+                }
+                .product-add-to-cart {
+                    .add-to-cart-wrapper {
+                        a {
+                            background: $primary_color;
+                            color: $white;
+                            font-weight: 500;
+                            padding: 10px 15px;
+                            min-width: 187px;
+                            @include rounded(0);
+                            @include transition(all .3s);
+                            &:hover {
+                                background: $secondary_color;
+                                @include transition(all .3s);
+                            }
+                        }
+                    }
+                }
+            }
+
+            // Mobile
+            &.mobile {
+                padding: 0;
+
+                > li {
+                    border-bottom: 1px solid $border_color;
+                    padding-bottom: 10px;
+                    margin-bottom: 15px;
+                    position: relative;
+                }
+
+                li {
+                    .item-wrapper {
+                        .product-thumbnail {
+                            border: 1px solid $border_color;
+                        }
+                    }
+
+                    .item-details h3 {
+                        font-size: 14px;
+                        margin-top: 0;
+                    }
+
+                    table.item-details-table {
+                        td {
+                            vertical-align: top;
+                            line-height: 1.8;
+                            font-size: 12px;
+                        }
+
+                        td.label {
+                            padding: 0;
+                            padding-right: 5px;
+                            color: $heading_color;
+                        }
+
+                        td.value {
+                            padding: 0;
+                        }
+                    }
+                    
+                    table.additional-info {
+                        td {
+                            vertical-align: top;
+                            line-height: 1.8;
+                            font-size: 12px;
+                        }
+
+                        td.label {
+                            color: $heading_color;
+                        }
+
+                        td.value {
+                            padding: 0;
+                        }
+                    }
+
+                    .product-add-to-cart {
+                        text-align: left;
+
+                        a.button {
+                            margin-left: 0!important;
+                            background: $primary_color;
+                            color: $white!important;
+                            font-weight: 700;
+                            padding: 12px 15px!important;
+                            min-width: 170px;
+                            text-transform: uppercase;
+                            @include rounded(0);
+                            @include transition(all .3s);
+
+                            &:hover {
+                                background: $secondary_color;
+                                @include transition(all .3s);
+                            }
+
+                            &:focus {
+                                outline: none;
+                            }
+                        }
+                    }
+
+                    .product-remove {
+                        position: absolute;
+                        top: -5px;
+                        right: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .yith_wcwl_wishlist_footer .yith-wcwl-share {
+        margin-bottom: 80px;
+
+        @media screen and (max-width: $screen-xs-max) {
+            margin-bottom: 60px;
+        }
+    }
+ }

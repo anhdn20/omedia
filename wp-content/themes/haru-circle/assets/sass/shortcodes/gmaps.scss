@@ -1,0 +1,49 @@
+/* GMaps Shortcode CSS */
+.gmaps-shortcode-wrapper {
+    .map-info {
+        max-width: 280px;
+        @media screen and (max-width: $screen-sm-max) {
+            max-width: 260px;
+        }
+        .info-image {
+            float: left;
+            max-width: 200px;
+            @media screen and (max-width: $screen-sm-max) {
+                max-width: 160px;
+            }
+        }
+        .info-address {
+            padding: 10px 0 5px 0;
+            p {
+                text-align: center;
+                color: $heading_color;
+                font-weight: bold;
+                font-family: $secondary_font;
+                font-size: 16px;
+                @media screen and (max-width: $screen-sm-max) {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    // Style Show Map
+    &.show_map {
+        
+    }
+    // Style Toggle Button
+    &.toggle_button {
+        .gmaps-button-wrap {
+            .gmaps-toggle-button {
+                width: 200px;
+                margin: 0 auto;
+                padding: 15px 0;
+                border: 1px solid $primary_color;
+                text-align: center;
+                &:hover {
+                    background: $primary_color;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,118 @@
+// Header-3
+.header-3 {
+    .haru-header-wrapper {
+        .header-left {
+            float: left;
+            .header-logo {
+                a {
+                    img{
+                        padding-top: 30px;
+                        padding-bottom: 25px;
+                    }
+                }
+            }
+        }
+        .header-right {
+            float: right;
+            .menu-wrapper {
+                float: left;
+                .haru-main-menu {
+                    >li {
+                        >a {
+                            line-height: 140px; 
+                            padding-top: 0;
+                            padding-bottom: 0;
+                            font-weight: 700;
+                        }
+                    }
+                    li.menu-item-has-children {
+                        &:hover {
+                            > a {
+                            }
+                        }
+                    }
+                }
+            }
+            .header-customize-nav {
+                line-height: 140px;
+            }
+        }
+        .haru-sticky-wrapper {
+            .haru-header-nav-wrapper {
+                .container {
+                    clear: both;             
+                }
+            }
+            &.sticky-on {
+                .container {
+                    .haru-header-wrapper {
+                        .header-left {
+                            .header-logo {
+                                a {
+                                    img {
+                                        padding-top: 10px;
+                                        padding-bottom: 10px;
+                                    }
+                                }
+                            }
+                        }
+                        .header-right {
+                            float: right;
+                            .menu-wrapper {
+                                .haru-main-menu {
+                                    >li {
+                                        >a {
+                                            line-height: 20px; 
+                                            padding-top: 20px;
+                                            padding-bottom: 20px;
+                                            font-weight: 700;
+                                        }
+                                    }
+
+                                }
+                            }
+                            .header-customize-nav {
+                                line-height: 60px;
+                            }
+                        }
+                    }
+                }
+            }
+            &.sticky-out {
+                .container {
+                    .haru-header-wrapper {
+                        .header-left {
+                            .header-logo {
+                                a {
+                                    img {
+                                        padding-top: 10px;
+                                        padding-bottom: 10px;
+                                    }
+                                }
+                            }
+                        }
+                        .header-right {
+                            float: right;
+                            .menu-wrapper {
+                                .haru-main-menu {
+                                    >li {
+                                        >a {
+                                            line-height: 20px; 
+                                            padding-top: 20px;
+                                            padding-bottom: 20px;
+                                            font-weight: 700;
+                                        }
+                                    }
+
+                                }
+                            }
+                            .header-customize-nav {
+                                line-height: 60px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

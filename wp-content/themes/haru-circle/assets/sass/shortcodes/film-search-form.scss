@@ -1,0 +1,501 @@
+/*-----------------------------------
+ * FILM SEARCH FORM
+ *-----------------------------------*/
+.film-search-form-shortcode-wrapper {
+    // Search Form
+    .film-searchform {
+        .data-search {
+            color: #f5f5f5;
+            input, select {
+                margin-top: 10px;
+            }
+            input[type="text"] {
+                width: 25%;
+                height: 40px;
+                background-color: #0f0f0f;
+                border: none;
+                outline: none;
+                padding-left: 20px;
+                padding-right: 5px;
+                font-weight: 400;
+                min-width: 150px;
+                // @include placeholder();
+                @include rounded(30px);
+            }
+            select {
+                background-color: #0f0f0f;
+                height: 40px;
+                border: none;
+                font-weight: 400;
+                font-style: italic;
+                text-transform: uppercase;
+                padding: 0 15px;
+                margin-left: 5px;
+                min-width: 150px;
+                -webkit-appearance: none; 
+                -moz-appearance: none;
+                appearance: none;       /* remove default arrow */
+                background: url(../haru-circle/assets/images/select-arrow.png) 90% / 8% no-repeat #0f0f0f;   /* add custom arrow */
+                @include rounded(30px);
+                &::-ms-expand { 
+                    display: none; /* hide the default arrow in ie10 and ie11 */
+                }
+                &:focus {
+                    outline: none;
+                }
+                &#country {
+                    background: url(../haru-circle/assets/images/select-country.png) 90% / 8% no-repeat #0f0f0f;
+                }
+                &#year {
+                    background: url(../haru-circle/assets/images/select-calendar.png) 90% / 8% no-repeat #0f0f0f;
+                }
+            }
+            input[type="submit"] {
+                background-color: #232323;
+                border: none;
+                height: 40px;
+                padding: 0 20px;
+                margin-left: 20px;
+                color: $primary_color;
+                font-weight: 700;
+                @include rounded(30px);
+                @include transition(all .3s);
+                &:hover {
+                    background-color: $primary_color;
+                    color: $white;
+                    @include transition(all .3s);
+                }
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+    // Content Result
+    .film-content {
+        margin-left: -10px;
+        margin-right: -10px;
+        position: relative;
+        // Loading
+        &.loading {
+            // Process loading effect
+            &:before {
+                content: "";
+                background-color: rgba(#0f0f0f, .8);
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                width: calc(100% - 20px);
+                height: calc(100%);
+                z-index: 99;
+            }
+            &:after {
+                content: "\f1d5";
+                color: $primary_color;
+                font-family: 'Ionicons';
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                z-index: 100;
+                font-size: 20px;
+                -webkit-animation: fa-spin 1s infinite linear;
+                animation: fa-spin 1s infinite linear;
+                @include transform(translate(-50%, -50%));
+            }
+        }
+        .film-list {
+            margin-top: 30px;
+            // Columns
+            &.columns-2 {
+                .film-item {
+                    width: 50%;
+                }
+            }
+            &.columns-3 {
+                .film-item {
+                    width: 33.333333%;
+
+                    @-moz-document url-prefix() {
+                        width: calc(33.333333% - .1px);
+                    }
+                        
+                    @media screen and (max-width: $screen-xs-max) {
+                        width: 50%;
+                    }
+                }
+            }
+            &.columns-4 {
+                .film-item {
+                    width: 25%;
+
+                    @media screen and (max-width: $screen-sm-max) {
+                        width: 33.333333%;
+
+                        @-moz-document url-prefix() {
+                            width: calc(33.333333% - .1px);
+                        }
+                    }
+
+                    @media screen and (max-width: $screen-xs-max) {
+                        width: 50%;
+                    }
+                }
+            }
+            &.columns-5 {
+                .film-item {
+                    width: 20%;
+
+                    @media screen and (max-width: $screen-sm-max) {
+                        width: 33.333333%;
+
+                        @-moz-document url-prefix() {
+                            width: calc(33.333333% - .1px);
+                        }
+                    }
+
+                    @media screen and (max-width: $screen-xs-max) {
+                        width: 50%;
+                    }
+                }
+            }
+            // Item style
+            .film-item {
+                // Style 1
+                &.style_1 {
+                    padding: 10px;
+                    &:hover {
+                        .film-image {
+                            &:before {
+                                opacity: 1;
+                                @include transition(all .3s);
+                            }
+                            img {
+                                @include transform(scale(1.1));
+                                @include transition(all .8s);
+                            }
+                            .film-icon {
+                                opacity: 1;
+                                @include transition(all .5s);
+                            }
+                        }
+
+                    }
+                    .film-image {
+                        overflow: hidden;
+                        position: relative;
+                        &:before {
+                            content: "";
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            left: 0;
+                            top: 0;
+                            background-color: rgba($black, .4);
+                            z-index: 1;
+                            opacity: 0;
+                            @include transition(all .3s);
+                        }
+                        img {
+                            width: 100%;
+                            @include transform(scale(1.0));
+                            @include transition(all .8s);
+                        }
+                        .film-label {
+                            position: absolute;
+                            right: 0;
+                            top: 20px;
+                            padding: 1px 15px;
+                            color: $white;
+                            font-size: 15px;
+                            font-weight: 700;
+                            border-top-left-radius: 20px;
+                            border-bottom-left-radius: 20px;
+                            &.hot {
+                                background-color: #da0e2b;
+                            }
+                            &.new {
+                                background-color: #da0e2b;
+                            }
+                            &.trending {
+                                background-color: $primary_color;
+                            }
+                        }
+                        .film-icon {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            z-index: 9;
+                            opacity: 0;
+                            @include transform(translate(-50%, -50%));
+                            @include transition(all .5s);
+                            .view-film-button,
+                            .view-film-button-direct {
+                                width: 50px;
+                                height: 50px;
+                                display: block;
+                                padding: 50px;
+                                position: relative;
+                                border: 2px solid $white;
+                                text-align: center;
+                                @include rounded(50%);
+                                @include transition(all .3s);
+                                &:hover {
+                                    border: 2px solid $primary_color;
+                                    @include transition(all .3s);
+                                    &:before {
+                                        color: $primary_color;
+                                        @include transition(all .3s);
+                                    }
+                                }
+                                &:before {
+                                    content: "\f488";
+                                    font-family: Ionicons;
+                                    position: absolute;
+                                    left: 40px;
+                                    top: 0;
+                                    color: $white;
+                                    line-height: 100px;
+                                    font-size: 45px;
+                                    font-weight: 500;
+                                    @include transition(all .3s);
+                                }
+                                i {
+                                    color: $white;
+                                    font-size: 40px;
+                                    padding: 20px;
+                                    height: 20px;
+                                    width: 20px;
+                                }
+                            }
+                        }
+                    }
+                    .film-meta {
+                        text-align: center;
+                        .film-rating {
+                            margin-top: 15px;
+                            .point {
+                                color: $primary_color;
+                                font-size: 24px;
+                                font-weight: 700;
+                                margin-right: 5px;
+                            }
+                        }
+                        .film-title {
+                            font-size: 18px;
+                            margin-top: 5px;
+                            padding: 0px 10px;
+                            line-height: 1.8;
+                            @media screen and (max-width: $screen-sm-max) {
+                               
+                            }
+                            a {
+                                color: $white;
+                                @include transition(all .3s);
+                                &:hover {
+                                    color: $link_color_hover;
+                                    @include transition(all .3s);
+                                }
+                            }
+                        }
+                        .film-category {
+                            margin-top: 3px;
+                            margin-bottom: 25px;
+                            a {
+                                color: $text_color_tertiary;
+                                letter-spacing: 1px;
+                                @include transition(all .3s);
+                                &:hover {
+                                    color: $link_color_hover;
+                                    @include transition(all .3s);
+                                }
+                                @media screen and (max-width: $screen-sm-max) {
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+                // Style 2
+                &.style_2 {
+                    padding: 10px;
+                    &:hover {
+                        .film-image {
+                            &:before {
+                                opacity: 1;
+                                @include transition(all .3s);
+                            }
+                            img {
+                                @include transform(scale(1.1));
+                                @include transition(all .8s);
+                            }
+                            .film-icon {
+                                opacity: 1;
+                                @include transition(all .5s);
+                            }
+                        }
+
+                    }
+                    .film-image {
+                        overflow: hidden;
+                        position: relative;
+                        &:before {
+                            content: "";
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            left: 0;
+                            top: 0;
+                            background-color: rgba($black, .4);
+                            z-index: 1;
+                            opacity: 0;
+                            @include transition(all .3s);
+                        }
+                        img {
+                            width: 100%;
+                            @include transform(scale(1.0));
+                            @include transition(all .8s);
+                        }
+                        .film-label {
+                            position: absolute;
+                            right: 0;
+                            top: 20px;
+                            padding: 1px 15px;
+                            color: $white;
+                            font-size: 14px;
+                            font-weight: 700;
+                            border-top-left-radius: 20px;
+                            border-bottom-left-radius: 20px;
+                            &.hot {
+                                background-color: #da0e2b;
+                            }
+                            &.new {
+                                background-color: #da0e2b;
+                            }
+                            &.trending {
+                                background-color: $primary_color;
+                            }
+                        }
+                        .film-icon {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            z-index: 9;
+                            opacity: 0;
+                            @include transform(translate(-50%, -50%));
+                            @include transition(all .5s);
+                            .view-film-button,
+                            .view-film-button-direct {
+                                width: 40px;
+                                height: 40px;
+                                display: block;
+                                padding: 40px;
+                                position: relative;
+                                border: 2px solid $white;
+                                text-align: center;
+                                @include rounded(50%);
+                                @include transition(all .3s);
+                                &:hover {
+                                    border: 2px solid $primary_color;
+                                    @include transition(all .3s);
+                                    &:before {
+                                        color: $primary_color;
+                                        @include transition(all .3s);
+                                    }
+                                }
+                                &:before {
+                                    content: "\f488";
+                                    font-family: Ionicons;
+                                    position: absolute;
+                                    left: 32px;
+                                    top: 0;
+                                    color: $white;
+                                    line-height: 80px;
+                                    font-size: 45px;
+                                    font-weight: 500;
+                                    @include transition(all .3s);
+                                }
+                                i {
+                                    color: $white;
+                                    font-size: 40px;
+                                    padding: 20px;
+                                    height: 20px;
+                                    width: 20px;
+                                }
+                            }
+                        }
+                        .film-rating {
+                            background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.6));
+                            font-size: 13px;
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            margin-top: 15px;
+                            text-align: center;
+                            .point {
+                                color: $primary_color;
+                                font-size: 18px;
+                                font-weight: 700;
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                    .film-meta {
+                        text-align: center;
+                        .film-title {
+                            font-size: 14px;
+                            margin-top: 15px;
+                            margin-bottom: 20px;
+                            padding: 0px 10px;
+                            line-height: 1.8;
+                            @media screen and (max-width: $screen-sm-max) {
+                               
+                            }
+                            a {
+                                color: $white;
+                                @include transition(all .3s);
+                                &:hover {
+                                    color: $link_color_hover;
+                                    @include transition(all .3s);
+                                }
+                            }
+                        }
+                    }
+                }
+                // Style 3
+            }
+            // Not found
+            .no-more-item {
+                padding: 0 15px;
+                color: $white;
+            }
+        }
+    }
+}
+// Pagination film
+.film-search-form-shortcode-paging-wrapper {
+    margin-top: 50px;
+    text-align: center;
+    // Loadmore style
+    &.paging-load-more, &.paging-load-more-ajax {
+        button {
+            background-color: $primary_color;
+            background-image: none;
+            border: 2px solid $primary_color;
+            color: $white;
+            font-weight: 700;
+            padding: 8px 35px;
+            @include rounded(30px);
+            @include transition(all .3s);
+            &:hover {
+                border: 2px solid $border_color;
+                background-color: transparent;
+                color: $primary_color;
+                @include transition(all .3s);
+            }
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+// 
+.woocommerce {
+    &.columns-1 {
+        ul.products {
+            li.product {
+                margin-bottom: 0;
+                .product-inner {
+                    text-align: left;
+                    // Sale, hot, new
+                    .onsale, .product-flash {
+                        left: 47%!important;
+                        margin-bottom: -50%;
+                    }
+                    .product-thumb-primary {
+                        width: 33%;
+                        float: left;
+                        img {
+                            margin-bottom: 0;
+                        }
+                    }
+                    .star-rating {
+                        top: 10%;
+                        left: 17%;
+                    }
+                    .woocommerce-loop-product__title, .price {
+                        margin-left: 40%;
+                    }
+                    .product-actions {
+                        display: none;
+                    }
+                }
+                @media screen and ( max-width:$screen-sm-max ) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

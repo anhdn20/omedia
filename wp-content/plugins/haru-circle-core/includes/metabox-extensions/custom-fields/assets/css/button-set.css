@@ -1,0 +1,28 @@
+/* button-set
+-------------------------------------*/
+.rwmb-button-set label {
+  background-color: #ed6f6f;
+  border: solid 1px #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 6px 12px;
+}
+.rwmb-button-set label:first-child {
+  -webkit-border-radius: 15px 0 0 15px;
+  -moz-border-radius: 15px 0 0 15px;
+  border-radius: 15px 0 0 15px;
+}
+.rwmb-button-set label:last-child {
+  -webkit-border-radius: 0 15px 15px 0;
+  -moz-border-radius: 0 15px 15px 0;
+  border-radius: 0 15px 15px 0;
+}
+.rwmb-button-set label.selected {
+  background-color: #4fb845;
+}
+.rwmb-button-set label + label {
+  border-left: none;
+}
+.rwmb-button-set label > span {
+  color: #fff;
+}

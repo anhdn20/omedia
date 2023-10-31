@@ -1,0 +1,4580 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Haru Circle\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-14 02:37+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8.1\n"
+"X-Domain: haru-circle"
+
+#: templates/single/content-film.php:67
+#: templates/single/content-haru-director.php:51
+#: templates/single/content-haru-actor.php:51
+#: templates/single/content-haru-video.php:55
+msgid " Comments"
+msgstr ""
+
+#: templates/single/content-film.php:110
+msgid " minutes"
+msgstr ""
+
+#: framework/includes/theme-functions.php:992
+#: framework/includes/theme-functions.php:1005
+msgid " View"
+msgstr ""
+
+#: framework/includes/theme-functions.php:1009
+msgid " Views"
+msgstr ""
+
+#. 1: plugin name.
+#: plugins/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#. 1: plugin name.
+#: plugins/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/includes/theme-hooks.php:192
+#, php-format
+msgid "%s"
+msgstr ""
+
+#. %s: title of menu item which is invalid
+#: framework/core/megamenu/edit_custom_walker.php:84
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. %s: title of menu item in draft status
+#: framework/core/megamenu/edit_custom_walker.php:88
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: templates/archive/content-haru-film.php:76
+#: templates/single/content-film.php:57
+msgid "/10"
+msgstr ""
+
+#: templates/single/content-film.php:69
+#: templates/single/content-haru-director.php:53
+#: templates/single/content-haru-actor.php:53
+#: templates/single/content-haru-video.php:57
+msgid "1 Comment"
+msgstr ""
+
+#: framework/includes/theme-options.php:3221
+msgid "3"
+msgstr ""
+
+#: framework/includes/theme-options.php:2746
+msgid "3D Unfold"
+msgstr ""
+
+#: framework/includes/theme-options.php:3222
+msgid "4"
+msgstr ""
+
+#: 404.php:19
+msgid "404"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:38
+msgid "<span class=\"label\">Category:</span>"
+msgid_plural "<span class=\"label\">Categories:</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:40
+msgid "<span class=\"label\">Tag:</span>"
+msgid_plural "<span class=\"label\">Tags:</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/includes/theme-functions.php:670
+#, php-format
+msgid ""
+"<span>Update Required</span> To play the media you will need to either "
+"update your browser to a recent version or update your <a href=\"%s\" "
+"target=\"_blank\">Flash plugin</a>."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:98
+msgid "A password will be sent to your email address."
+msgstr ""
+
+#: templates/single/portfolio-single-01.php:142
+msgid "About Project"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: plugins/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: framework/includes/theme-options.php:259
+#: framework/includes/theme-metabox.php:314
+#: framework/includes/theme-metabox.php:459
+#: templates/single/content-film.php:79
+#: templates/single/content-haru-video.php:130
+msgid "Actor"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:143
+msgid "Actor Awards Information."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:190
+msgid "Actor Filmography."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:169
+msgid "Actor Gallery Information"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:125
+msgid "Actor Metaboxes"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:460
+msgid "Actor of Film."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:315
+msgid "Actor of Video."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:155
+msgid ""
+"Actor Social Network Information. Max number of social networks set is 4."
+msgstr ""
+
+#: templates/archive/archive-heading.php:78
+#: templates/archive/archive-heading.php:87
+msgid "Actors"
+msgstr ""
+
+#: framework/includes/theme-options.php:1578
+#: framework/includes/theme-options.php:1642
+#: framework/includes/theme-options.php:1705
+msgid "Add Content for Custom Text"
+msgstr ""
+
+#: framework/includes/woocommerce-hooks.php:129
+msgid "Add new"
+msgstr ""
+
+#: framework/includes/theme-functions.php:35
+msgid "Add Sidebar"
+msgstr ""
+
+#: framework/includes/theme-options.php:2828
+msgid "Add To Compare Button"
+msgstr ""
+
+#: framework/includes/theme-options.php:2821
+msgid "Add To Wishlist Button"
+msgstr ""
+
+#: framework/includes/theme-options.php:2892
+msgid "Ajax"
+msgstr ""
+
+#: framework/includes/theme-options.php:1357
+msgid "Ajax Search Post Type"
+msgstr ""
+
+#: framework/includes/woocommerce-hooks.php:685
+msgid "All"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#. 1: dashboard link.
+#: plugins/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: woocommerce/archive-product-ajax.php:189
+msgid "All products loaded."
+msgstr ""
+
+#. 1: plugin name, 2: error message.
+#: plugins/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/vc_extension/update_params.php:87
+msgid "Animation Delay"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:52
+msgid "Animation Duration"
+msgstr ""
+
+#: woocommerce/cart/cart.php:148
+msgid "Apply Coupon"
+msgstr ""
+
+#: framework/includes/theme-options.php:343
+#: framework/includes/theme-options.php:506
+#: framework/includes/theme-options.php:669
+#: framework/includes/theme-options.php:912
+#: framework/includes/theme-options.php:2381
+msgid "Archive Display Columns"
+msgstr ""
+
+#: framework/includes/theme-options.php:316
+#: framework/includes/theme-options.php:479
+#: framework/includes/theme-options.php:642
+#: framework/includes/theme-options.php:885
+#: framework/includes/theme-options.php:2352
+msgid "Archive Display Type"
+msgstr ""
+
+#: framework/includes/theme-options.php:828
+msgid "Archive Film"
+msgstr ""
+
+#: framework/includes/theme-options.php:2837
+msgid "Archive Product"
+msgstr ""
+
+#: framework/includes/theme-options.php:2876
+msgid "Archive Product Layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:2938
+msgid "Archive Product Left Sidebar"
+msgstr ""
+
+#: framework/includes/theme-options.php:2948
+msgid "Archive Product Right Sidebar"
+msgstr ""
+
+#: framework/includes/theme-options.php:2923
+msgid "Archive Product Sidebar"
+msgstr ""
+
+#: framework/includes/theme-options.php:2888
+msgid "Archive Product Style"
+msgstr ""
+
+#: framework/includes/theme-options.php:2992
+msgid "Archive Product Title Background"
+msgstr ""
+
+#: framework/includes/theme-options.php:2977
+msgid "Archive Product Title Layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:3004
+msgid "Archive Product Title Parallax"
+msgstr ""
+
+#: framework/includes/theme-options.php:2295
+msgid "Archive Setting"
+msgstr ""
+
+#: framework/includes/theme-options.php:2969
+msgid "Archive Title"
+msgstr ""
+
+#: framework/includes/theme-options.php:392
+#: framework/includes/theme-options.php:555
+#: framework/includes/theme-options.php:718
+#: framework/includes/theme-options.php:961
+#: framework/includes/theme-options.php:2430
+msgid "Archive Title Background"
+msgstr ""
+
+#: framework/includes/theme-options.php:380
+#: framework/includes/theme-options.php:543
+#: framework/includes/theme-options.php:706
+#: framework/includes/theme-options.php:949
+#: framework/includes/theme-options.php:2418
+msgid "Archive Title Layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:404
+#: framework/includes/theme-options.php:567
+#: framework/includes/theme-options.php:730
+#: framework/includes/theme-options.php:973
+#: framework/includes/theme-options.php:2442
+msgid "Archive Title Parallax"
+msgstr ""
+
+#: framework/includes/theme-options.php:365
+#: framework/includes/theme-options.php:528
+#: framework/includes/theme-options.php:691
+#: framework/includes/theme-options.php:934
+#: framework/includes/theme-options.php:2403
+msgid "Archive Title Setting"
+msgstr ""
+
+#: framework/includes/theme-options.php:585
+msgid "Archive Video"
+msgstr ""
+
+#: templates/archive/archive-heading.php:93
+msgid "Archives"
+msgstr ""
+
+#: framework/includes/theme-functions.php:816
+msgid "Archives by: "
+msgstr ""
+
+#: framework/includes/theme-functions.php:808
+#: framework/includes/theme-functions.php:811
+#: framework/includes/theme-functions.php:814
+msgid "Archives for "
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: templates/archive/archive-heading.php:57
+msgid "Asides"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:826
+msgid "Audio URL or Embeded Code"
+msgstr ""
+
+#: templates/archive/archive-heading.php:71
+msgid "Audios"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:846
+msgid "Author"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:851
+msgid "Author Url"
+msgstr ""
+
+#: templates/archive/archive-heading.php:47
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: woocommerce/cart/cart.php:79
+msgid "Available on backorder"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: templates/single/content-haru-director.php:102
+#: templates/single/content-haru-actor.php:102
+#: templates/single/content-haru-video.php:154
+msgid "Award"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:45
+#: framework/includes/theme-metabox.php:142
+#: framework/includes/theme-metabox.php:343
+msgid "Awards"
+msgstr ""
+
+#: 404.php:23
+msgid "Back to home"
+msgstr ""
+
+#: framework/includes/theme-options.php:215
+msgid "Back To Top"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1434
+#: framework/core/megamenu/edit_custom_walker.php:290
+msgid "Background Image"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1435
+msgid "Background Image for page title."
+msgstr ""
+
+#: framework/includes/theme-options.php:140
+msgid "Background Pattern"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/includes/theme-options.php:1566
+#: framework/includes/theme-options.php:1630
+#: framework/includes/theme-options.php:1693
+#: framework/includes/theme-metabox.php:1207
+#: framework/includes/theme-metabox.php:1262
+#: framework/includes/theme-metabox.php:1317
+msgid "Behance"
+msgstr ""
+
+#: framework/includes/theme-options.php:2697
+msgid "Behance URL"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:700
+msgid "Big Squared"
+msgstr ""
+
+#: templates/breadcrumb.php:17 templates/archive/archive-heading.php:38
+msgid "Blog"
+msgstr ""
+
+#: framework/includes/theme-options.php:123
+msgid "Body Background"
+msgstr ""
+
+#: framework/includes/theme-options.php:124
+msgid "Body background (Apply for Boxed layout style)."
+msgstr ""
+
+#: framework/includes/theme-options.php:108
+msgid "Body Background Mode"
+msgstr ""
+
+#: framework/includes/theme-options.php:141
+msgid "Body background pattern(Apply for Boxed layout style)"
+msgstr ""
+
+#: framework/includes/theme-options.php:1890
+#: framework/includes/theme-options.php:1897
+msgid "Body Font"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:37
+msgid "Bounce"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:31
+msgid "Bounce Bottom to Top"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:29
+msgid "Bounce In"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:32
+msgid "Bounce Left to Right"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:33
+msgid "Bounce Right to Left"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:30
+msgid "Bounce Top to Bottom"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:890
+msgid "Boxed"
+msgstr ""
+
+#: framework/includes/theme-options.php:413
+#: framework/includes/theme-options.php:576
+#: framework/includes/theme-options.php:739
+#: framework/includes/theme-options.php:819
+#: framework/includes/theme-options.php:982
+#: framework/includes/theme-options.php:1062
+#: framework/includes/theme-options.php:2286
+#: framework/includes/theme-options.php:2451
+#: framework/includes/theme-options.php:2584
+#: framework/includes/theme-metabox.php:1457
+msgid "Breadcrumbs"
+msgstr ""
+
+#: framework/includes/theme-options.php:3013
+msgid "Breadcrumbs in Archive Product"
+msgstr ""
+
+#: framework/includes/theme-options.php:1230
+msgid "Breadcrumbs in Portfolio"
+msgstr ""
+
+#: framework/includes/theme-options.php:3188
+msgid "Breadcrumbs in Single Product"
+msgstr ""
+
+#: woocommerce/add-to-wishlist-added.php:44
+#: woocommerce/add-to-wishlist-browse.php:44
+msgid "Browse"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:201
+msgid "Button Style"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:206
+msgid "Button Style 1"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:208
+msgid "Button Style 1 (Background Dark)"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:207
+msgid "Button Style 2"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:209
+msgid "Button Style 2 (Background Dark)"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:210
+msgid "Button Style 3 (Text Icon Play)"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:211
+msgid "Button Style 4 (Home 9)"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:366
+msgid "Cancel"
+msgstr ""
+
+#: framework/includes/theme-options.php:1541
+#: framework/includes/theme-options.php:1604
+#: framework/includes/theme-options.php:1668
+#: framework/includes/theme-sidebar.php:162
+#: framework/includes/theme-metabox.php:1182
+#: framework/includes/theme-metabox.php:1237
+#: framework/includes/theme-metabox.php:1292
+msgid "Canvas Menu"
+msgstr ""
+
+#: templates/single/content-film.php:172
+msgid "Cast & Crew"
+msgstr ""
+
+#: woocommerce/archive-product-ajax.php:101
+#: templates/header/header-customize/film-category.php:18
+msgid "Categories"
+msgstr ""
+
+#: templates/single/portfolio-single-03.php:158
+#: templates/single/portfolio-single-02.php:129
+#: templates/single/portfolio-single-01.php:132
+msgid "Category"
+msgstr ""
+
+#: framework/includes/theme-tax-meta.php:54
+msgid "Category Icon"
+msgstr ""
+
+#: framework/includes/theme-tax-meta.php:18
+#: framework/includes/theme-tax-meta.php:46
+msgid "Category Meta Box"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:233
+msgid "Center"
+msgstr ""
+
+#: templates/archive/archive-heading.php:73
+msgid "Chats"
+msgstr ""
+
+#: framework/includes/woocommerce-hooks.php:161
+#: framework/includes/woocommerce-hooks.php:242
+#: framework/includes/woocommerce-hooks.php:327
+msgid "Choose an option"
+msgstr ""
+
+#: framework/includes/theme-options.php:1101
+msgid "Choose player JS from list."
+msgstr ""
+
+#: framework/includes/theme-options.php:1080
+msgid "Choose player type as Direct or Popup."
+msgstr ""
+
+#: framework/includes/theme-options.php:2740
+msgid "Choose popup effect."
+msgstr ""
+
+#: framework/vc_extension/update_params.php:203
+msgid "Choose Pre-made Button style."
+msgstr ""
+
+#: framework/vc_extension/update_params.php:182
+msgid "Choose Pre-made Heading style."
+msgstr ""
+
+#: framework/includes/theme-options.php:2797
+msgid "Choose Sale Badge Mode"
+msgstr ""
+
+#: framework/includes/theme-options.php:295
+#: framework/includes/theme-options.php:458
+#: framework/includes/theme-options.php:621
+#: framework/includes/theme-options.php:864
+#: framework/includes/theme-options.php:2331
+msgid "Choose the default left sidebar"
+msgstr ""
+
+#: framework/includes/theme-options.php:306
+#: framework/includes/theme-options.php:469
+#: framework/includes/theme-options.php:632
+#: framework/includes/theme-options.php:875
+#: framework/includes/theme-options.php:2342
+msgid "Choose the default right sidebar"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:678
+msgid "Choose the media type for this Portfolio Item."
+msgstr ""
+
+#: framework/includes/theme-options.php:344
+#: framework/includes/theme-options.php:507
+#: framework/includes/theme-options.php:670
+#: framework/includes/theme-options.php:913
+#: framework/includes/theme-options.php:2382
+msgid "Choose the number of columns to display on archive pages."
+msgstr ""
+
+#: framework/includes/theme-options.php:2856
+msgid "Choose the number of columns to display on shop/category pages."
+msgstr ""
+
+#: framework/includes/theme-options.php:3066
+msgid "Choose the number of columns to display thumbnails."
+msgstr ""
+
+#: framework/includes/theme-options.php:109
+msgid "Chose Background Mode"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Circle is the Video, Film WordPress theme from HaruTheme have many features: "
+"video manage, mega menu,...and much more"
+msgstr ""
+
+#: framework/includes/theme-options.php:249
+msgid "Circle Settings"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:94
+msgid "Clear selection"
+msgstr ""
+
+#: framework/includes/theme-hooks.php:254
+msgid "Click here to cancel the reply"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:755
+#: templates/single/portfolio-single-03.php:138
+#: templates/single/portfolio-single-02.php:109
+#: templates/single/portfolio-single-01.php:112
+msgid "Client"
+msgstr ""
+
+#: framework/includes/woocommerce-hooks.php:65
+msgid "Color"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:267
+msgid "Column"
+msgstr ""
+
+#: framework/includes/enqueue-frontend.php:134
+#: assets/libraries/enqueue-frontend.php:129
+msgid "Compare"
+msgstr ""
+
+#: framework/includes/theme-options.php:272
+#: framework/includes/theme-options.php:435
+#: framework/includes/theme-options.php:598
+#: framework/includes/theme-options.php:788
+#: framework/includes/theme-options.php:841
+#: framework/includes/theme-options.php:1031
+#: framework/includes/theme-options.php:1288
+#: framework/includes/theme-options.php:1393
+#: framework/includes/theme-options.php:1728
+#: framework/includes/theme-options.php:2192
+#: framework/includes/theme-options.php:2308
+#: framework/includes/theme-options.php:2881
+#: framework/includes/theme-options.php:2982
+#: framework/includes/theme-options.php:3043
+#: framework/includes/theme-options.php:3157
+#: framework/includes/theme-metabox.php:905
+#: framework/includes/theme-metabox.php:979
+#: framework/includes/theme-metabox.php:1099
+#: framework/includes/theme-metabox.php:1404
+#: framework/includes/theme-metabox.php:1486
+msgid "Container"
+msgstr ""
+
+#: framework/includes/woocommerce-hooks.php:480
+msgid "Continue shopping"
+msgstr ""
+
+#: framework/includes/theme-stylesheet.php:228
+msgid "Could not save file"
+msgstr ""
+
+#: templates/single/content-film.php:117
+msgid "Country"
+msgstr ""
+
+#: woocommerce/cart/cart.php:148
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:148
+msgid "Coupon:"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:398
+msgid "Crew Link"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:20
+msgid "CSS Animation"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:162
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: framework/includes/theme-options.php:226
+msgid "Custom CSS"
+msgstr ""
+
+#: framework/includes/theme-options.php:1813
+msgid "Custom favicon"
+msgstr ""
+
+#: framework/includes/theme-options.php:237
+msgid "Custom JS"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1423
+msgid "Custom Page Subtitle"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1413
+msgid "Custom Page Title"
+msgstr ""
+
+#: framework/includes/theme-options.php:1554
+#: framework/includes/theme-options.php:1618
+#: framework/includes/theme-options.php:1681
+#: framework/includes/theme-metabox.php:1191
+msgid "Custom social profiles"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1246
+msgid "Custom social profiles left"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1301
+msgid "Custom social profiles right"
+msgstr ""
+
+#: framework/includes/theme-options.php:1540
+#: framework/includes/theme-options.php:1603
+#: framework/includes/theme-options.php:1667
+#: framework/includes/theme-metabox.php:1181
+#: framework/includes/theme-metabox.php:1236
+#: framework/includes/theme-metabox.php:1291
+msgid "Custom Text"
+msgstr ""
+
+#: framework/includes/theme-options.php:1577
+#: framework/includes/theme-options.php:1641
+#: framework/includes/theme-options.php:1704
+msgid "Custom Text Content"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1212
+msgid "Custom text content"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1267
+msgid "Custom text content left"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1322
+msgid "Custom text content right"
+msgstr ""
+
+#: templates/archive/archive-heading.php:49
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:232
+#: framework/includes/theme-metabox.php:588
+msgid "Dailymotion"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:565
+msgid "Dailymotion ID"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:558
+msgid "Dailymotion Server"
+msgstr ""
+
+#: framework/includes/theme-options.php:1331
+#: framework/includes/theme-metabox.php:1149
+msgid "Dark"
+msgstr ""
+
+#: templates/single/portfolio-single-03.php:144
+#: templates/single/portfolio-single-02.php:115
+#: templates/single/portfolio-single-01.php:118
+msgid "Date"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:48
+#: framework/includes/theme-metabox.php:95
+#: framework/includes/theme-metabox.php:145
+#: framework/includes/theme-metabox.php:192
+msgid "Datetime"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:184
+#: framework/vc_extension/update_params.php:205
+#: framework/includes/theme-options.php:333
+#: framework/includes/theme-options.php:496
+#: framework/includes/theme-options.php:659
+#: framework/includes/theme-options.php:760
+#: framework/includes/theme-options.php:902
+#: framework/includes/theme-options.php:1003
+#: framework/includes/theme-options.php:2371
+#: framework/includes/theme-options.php:2891
+#: framework/includes/theme-metabox.php:269
+#: framework/includes/theme-metabox.php:635
+#: framework/includes/theme-metabox.php:647
+#: framework/includes/theme-metabox.php:661
+#: framework/includes/theme-metabox.php:698
+#: framework/includes/theme-metabox.php:889
+#: framework/includes/theme-metabox.php:903
+#: framework/includes/theme-metabox.php:967
+#: framework/includes/theme-metabox.php:978
+#: framework/includes/theme-metabox.php:1098
+#: framework/includes/theme-metabox.php:1110
+#: framework/includes/theme-metabox.php:1123
+#: framework/includes/theme-metabox.php:1136
+#: framework/includes/theme-metabox.php:1148
+#: framework/includes/theme-metabox.php:1356
+#: framework/includes/theme-metabox.php:1368
+#: framework/includes/theme-metabox.php:1390
+#: framework/includes/theme-metabox.php:1402
+#: framework/includes/theme-metabox.php:1447
+#: framework/includes/theme-metabox.php:1462
+#: framework/includes/theme-metabox.php:1484
+msgid "Default"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:90
+msgid ""
+"Delay in seconds. You can use decimal points in the value. Use this field to "
+"delay the animation for a few seconds, this is helpful if you want to chain "
+"different effects one after another above the fold."
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:174
+msgid "Description"
+msgstr ""
+
+#: framework/includes/theme-options.php:422
+#: framework/includes/theme-metabox.php:297
+#: framework/includes/theme-metabox.php:442
+#: templates/single/content-film.php:98
+#: templates/single/content-haru-video.php:113
+msgid "Director"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:46
+msgid "Director Awards Information."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:93
+msgid "Director Filmography."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:72
+msgid "Director Gallery Information"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:28
+msgid "Director Metaboxes"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:443
+msgid "Director of Film."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:298
+msgid "Director of Video."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:58
+msgid ""
+"Director Social Network Information. Max number of social networks set is 4."
+msgstr ""
+
+#: templates/single/content-haru-director.php:121
+msgid "Director Story"
+msgstr ""
+
+#: templates/archive/archive-heading.php:80
+#: templates/archive/archive-heading.php:89
+msgid "Directors"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1112
+#: framework/includes/theme-metabox.php:1125
+#: framework/includes/theme-metabox.php:1138
+#: framework/includes/theme-metabox.php:1370
+#: framework/includes/theme-metabox.php:1449
+msgid "Disable"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/includes/theme-sidebar.php:164
+msgid "Display Canvas Menu widget"
+msgstr ""
+
+#: framework/includes/theme-sidebar.php:87
+msgid "Display Footer Gallery"
+msgstr ""
+
+#: framework/includes/theme-sidebar.php:109
+#: framework/includes/theme-sidebar.php:120
+#: framework/includes/theme-sidebar.php:131
+#: framework/includes/theme-sidebar.php:142
+#: framework/includes/theme-sidebar.php:153
+msgid "Display Mega Menu widget"
+msgstr ""
+
+#: framework/includes/theme-sidebar.php:98
+msgid "Display Product tags"
+msgstr ""
+
+#: templates/newsletter-popup.php:35
+msgid "Don't show this popup again"
+msgstr ""
+
+#: framework/includes/theme-options.php:1477
+#: framework/includes/theme-metabox.php:1357
+msgid "Dropdown Menu"
+msgstr ""
+
+#: templates/single/content-film.php:109
+msgid "Duration"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:55
+msgid ""
+"Duration in seconds. You can use decimal points in the value. Use this field "
+"to specify the amount of time the animation plays. <em>The default value "
+"depends on the animation, leave blank to use the default.</em>"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:496
+msgid "Duration of one Film's episodes (minutes)."
+msgstr ""
+
+#: framework/includes/theme-hooks.php:208
+msgid "Edit"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:126
+#: framework/core/megamenu/edit_custom_walker.php:128
+msgid "Edit Menu Item"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:86
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:105
+msgid "Empty cart"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1111
+#: framework/includes/theme-metabox.php:1124
+#: framework/includes/theme-metabox.php:1137
+#: framework/includes/theme-metabox.php:1369
+#: framework/includes/theme-metabox.php:1448
+msgid "Enable"
+msgstr ""
+
+#: framework/includes/theme-options.php:405
+#: framework/includes/theme-options.php:568
+#: framework/includes/theme-options.php:731
+#: framework/includes/theme-options.php:974
+#: framework/includes/theme-options.php:2443
+msgid "Enable Archive Title Parallax"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:246
+msgid "Enable megamenu"
+msgstr ""
+
+#: framework/includes/theme-options.php:2278
+#: framework/includes/theme-metabox.php:1444
+msgid "Enable Page Title Parallax"
+msgstr ""
+
+#: framework/includes/theme-options.php:1206
+msgid "Enable Portfolio Title Parallax"
+msgstr ""
+
+#: framework/includes/theme-options.php:2576
+msgid "Enable Single Blog Title Parallax"
+msgstr ""
+
+#: framework/includes/theme-options.php:1508
+msgid "Enable Stick Mobile Header."
+msgstr ""
+
+#: framework/includes/theme-options.php:1501
+msgid "Enable Top bar."
+msgstr ""
+
+#: framework/includes/theme-options.php:2829
+msgid "Enable/Disable Add To Compare Button"
+msgstr ""
+
+#: framework/includes/theme-options.php:2822
+msgid "Enable/Disable Add To Wishlist Button"
+msgstr ""
+
+#: framework/includes/theme-options.php:373
+#: framework/includes/theme-options.php:536
+#: framework/includes/theme-options.php:699
+#: framework/includes/theme-options.php:942
+#: framework/includes/theme-options.php:2411
+msgid "Enable/Disable Archive Title"
+msgstr ""
+
+#: framework/includes/theme-options.php:2526
+msgid "Enable/Disable Author Info"
+msgstr ""
+
+#: framework/includes/theme-options.php:216
+msgid "Enable/Disable Back to top button"
+msgstr ""
+
+#: framework/includes/theme-options.php:414
+#: framework/includes/theme-options.php:577
+#: framework/includes/theme-options.php:740
+#: framework/includes/theme-options.php:983
+#: framework/includes/theme-options.php:2452
+msgid "Enable/Disable Breadcrumbs In Archive"
+msgstr ""
+
+#: framework/includes/theme-options.php:2287
+msgid "Enable/Disable Breadcrumbs In Pages"
+msgstr ""
+
+#: framework/includes/theme-options.php:1231
+msgid "Enable/Disable Breadcrumbs in Portfolio"
+msgstr ""
+
+#: framework/includes/theme-options.php:2585
+msgid "Enable/Disable Breadcrumbs In Single Blog"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1114
+msgid "Enable/disable header on slideshow."
+msgstr ""
+
+#: framework/includes/theme-options.php:1186
+msgid "Enable/Disable Portfolio Title"
+msgstr ""
+
+#: framework/includes/theme-options.php:2518
+msgid "Enable/Disable Post Navigation"
+msgstr ""
+
+#: framework/includes/theme-options.php:2815
+msgid "Enable/Disable Quick View"
+msgstr ""
+
+#: framework/includes/theme-options.php:2541
+msgid "Enable/Disable Single Blog Title"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1415
+#: framework/includes/theme-metabox.php:1425
+msgid "Enter a custom page title if you'd like."
+msgstr ""
+
+#: framework/includes/theme-functions.php:34
+msgid "Enter Custom Sidebar Name"
+msgstr ""
+
+#: templates/header/header-customize/search-box.php:31
+#: templates/header/header-customize/search-box-film.php:24
+#: templates/header/header-customize/search-popup.php:32
+msgid "Enter keyword to search"
+msgstr ""
+
+#: framework/includes/theme-hooks.php:241
+#: framework/includes/theme-hooks.php:262
+msgid "Enter Your Comment"
+msgstr ""
+
+#: framework/includes/theme-hooks.php:240
+msgid "Enter Your Email*"
+msgstr ""
+
+#: framework/includes/theme-hooks.php:239
+msgid "Enter Your Name*"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:487
+msgid "Episodes Number"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:214
+msgid "Ex: balance-scale"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: framework/includes/theme-options.php:1558
+#: framework/includes/theme-options.php:1622
+#: framework/includes/theme-options.php:1685
+#: framework/includes/theme-metabox.php:234
+#: framework/includes/theme-metabox.php:590
+#: framework/includes/theme-metabox.php:1199
+#: framework/includes/theme-metabox.php:1254
+#: framework/includes/theme-metabox.php:1309
+msgid "Facebook"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:567
+msgid "Facebook ID"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:560
+msgid "Facebook Server"
+msgstr ""
+
+#: framework/includes/theme-options.php:2633
+msgid "Facebook URL"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:26
+msgid "Fade Bottom to Top"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:24
+msgid "Fade In"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:27
+msgid "Fade Left to Right"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:28
+msgid "Fade Right to Left"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:25
+msgid "Fade Top to Bottom"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:104
+#: framework/includes/theme-metabox.php:201
+msgid "Featured Video"
+msgstr ""
+
+#: framework/includes/theme-options.php:1544
+#: framework/includes/theme-options.php:1607
+#: framework/includes/theme-options.php:1671
+#: framework/includes/theme-metabox.php:1185
+#: framework/includes/theme-metabox.php:1240
+#: framework/includes/theme-metabox.php:1295
+msgid "Film Category"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:495
+msgid "Film duration"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:519
+msgid "Film Label"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:431
+msgid "Film Metaboxes"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:533
+msgid "Film Rating"
+msgstr ""
+
+#: templates/single/content-haru-video.php:149
+msgid "Film Story"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:503
+msgid "Film trailer"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:475
+msgid "Film Type"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:546
+msgid "Film Videos"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:92
+#: framework/includes/theme-metabox.php:189
+#: templates/single/content-haru-director.php:110
+#: templates/single/content-haru-actor.php:110
+msgid "Filmography"
+msgstr ""
+
+#: templates/archive/archive-heading.php:82
+#: templates/archive/archive-heading.php:91
+msgid "Films"
+msgstr ""
+
+#: woocommerce/archive-product-ajax.php:106
+msgid "Filter"
+msgstr ""
+
+#: woocommerce/archive-product-results-bar.php:32
+#, php-format
+msgid "Filters active %s(%s)%s"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:281
+msgid "Five"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:38
+msgid "Flash"
+msgstr ""
+
+#: framework/includes/theme-options.php:1562
+#: framework/includes/theme-options.php:1626
+#: framework/includes/theme-options.php:1689
+#: framework/includes/theme-metabox.php:1203
+#: framework/includes/theme-metabox.php:1258
+#: framework/includes/theme-metabox.php:1313
+msgid "Flickr"
+msgstr ""
+
+#: framework/includes/theme-options.php:2689
+msgid "Flickr URL"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:36
+msgid "Flip Horizontal"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:35
+msgid "Flip Vertical"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:892
+msgid "Float"
+msgstr ""
+
+#: framework/includes/theme-options.php:1478
+#: framework/includes/theme-metabox.php:1358
+msgid "Fly Menu"
+msgstr ""
+
+#: framework/includes/theme-options.php:1716
+#: framework/includes/theme-metabox.php:1475
+msgid "Footer"
+msgstr ""
+
+#: framework/includes/theme-sidebar.php:85
+msgid "Footer Gallery"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:192
+msgid "Footer Heading 1 (Slash Sign)"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1480
+msgid "Footer Layout"
+msgstr ""
+
+#: framework/includes/theme-sidebar.php:96
+msgid "Footer Tags"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:280
+#: framework/core/megamenu/edit_custom_walker.php:337
+msgid "Four"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:539
+msgid "From 0 to 10"
+msgstr ""
+
+#: framework/includes/theme-options.php:271
+#: framework/includes/theme-options.php:434
+#: framework/includes/theme-options.php:597
+#: framework/includes/theme-options.php:787
+#: framework/includes/theme-options.php:840
+#: framework/includes/theme-options.php:1030
+#: framework/includes/theme-options.php:1727
+#: framework/includes/theme-options.php:2191
+#: framework/includes/theme-options.php:2307
+#: framework/includes/theme-options.php:2880
+#: framework/includes/theme-options.php:2981
+#: framework/includes/theme-options.php:3042
+#: framework/includes/theme-options.php:3156
+#: framework/includes/theme-metabox.php:904
+#: framework/includes/theme-metabox.php:1403
+#: framework/includes/theme-metabox.php:1485
+msgid "Full Width"
+msgstr ""
+
+#: framework/includes/theme-options.php:1289
+#: framework/includes/theme-options.php:1394
+#: framework/includes/theme-metabox.php:980
+#: framework/includes/theme-metabox.php:1100
+msgid "Full width"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:714
+msgid "Fullwidth slide"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:716
+msgid "Fullwidth slide 2"
+msgstr ""
+
+#: templates/archive/archive-heading.php:59
+msgid "Galleries"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:71
+#: framework/includes/theme-metabox.php:168
+#: framework/includes/theme-metabox.php:372
+#: framework/includes/theme-metabox.php:688
+msgid "Gallery"
+msgstr ""
+
+#: framework/includes/theme-options.php:75
+msgid "General Setting"
+msgstr ""
+
+#: templates/single/content-film.php:105
+msgid "Genre"
+msgstr ""
+
+#: framework/includes/theme-options.php:1561
+#: framework/includes/theme-options.php:1625
+#: framework/includes/theme-options.php:1688
+#: framework/includes/theme-metabox.php:1202
+#: framework/includes/theme-metabox.php:1257
+#: framework/includes/theme-metabox.php:1312
+msgid "Google+"
+msgstr ""
+
+#: framework/includes/theme-options.php:2681
+msgid "Google+ URL"
+msgstr ""
+
+#: framework/includes/theme-options.php:320
+#: framework/includes/theme-options.php:483
+#: framework/includes/theme-options.php:646
+#: framework/includes/theme-options.php:889
+#: framework/includes/theme-options.php:2358
+msgid "Grid"
+msgstr ""
+
+#: framework/includes/theme-options.php:1948
+msgid "H1 Font"
+msgstr ""
+
+#: framework/includes/theme-options.php:1969
+msgid "H2 Font"
+msgstr ""
+
+#: framework/includes/theme-options.php:1990
+msgid "H3 Font"
+msgstr ""
+
+#: framework/includes/theme-options.php:2011
+msgid "H4 Font"
+msgstr ""
+
+#: framework/includes/theme-options.php:2032
+msgid "H5 Font"
+msgstr ""
+
+#: framework/includes/theme-options.php:2053
+msgid "H6 Font"
+msgstr ""
+
+#. Name of the theme
+msgid "Haru Circle"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:47
+#: framework/vc_extension/update_params.php:82
+#: framework/vc_extension/update_params.php:117
+#: framework/vc_extension/update_params.php:130
+#: framework/vc_extension/update_params.php:142
+#: framework/vc_extension/update_params.php:158
+msgid "Haru Options"
+msgstr ""
+
+#. Author of the theme
+msgid "HaruTheme"
+msgstr ""
+
+#: framework/includes/theme-options.php:1239
+#: framework/includes/theme-metabox.php:1073
+msgid "Header"
+msgstr ""
+
+#: framework/includes/theme-options.php:1493
+msgid "Header Cart"
+msgstr ""
+
+#: framework/includes/theme-options.php:1516
+#: framework/includes/theme-metabox.php:1159
+msgid "Header Customize"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1227
+msgid "Header Customize Left"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1172
+msgid "Header Customize Navigation"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1282
+msgid "Header Customize Right"
+msgstr ""
+
+#: framework/includes/theme-options.php:1246
+#: framework/includes/theme-options.php:1459
+#: framework/includes/theme-metabox.php:1078
+msgid "Header Layout"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1333
+msgid "Header Mobile"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1338
+msgid "Header Mobile Layout"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1363
+msgid "Header mobile sticky"
+msgstr ""
+
+#: framework/includes/theme-options.php:1263
+msgid "Header Navigation"
+msgstr ""
+
+#: framework/includes/theme-options.php:1286
+#: framework/includes/theme-metabox.php:1094
+msgid "Header navigation layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:1297
+msgid "Header navigation padding left/right (px)"
+msgstr ""
+
+#: framework/includes/theme-options.php:1307
+#: framework/includes/theme-metabox.php:1105
+msgid "Header On Slideshow"
+msgstr ""
+
+#: framework/includes/theme-options.php:1486
+msgid "Header Search"
+msgstr ""
+
+#: framework/includes/theme-options.php:1339
+msgid "Header Search Settings"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1131
+msgid "Header Sticky"
+msgstr ""
+
+#: framework/includes/theme-options.php:1328
+#: framework/includes/theme-metabox.php:1144
+msgid "Header Sticky Skin"
+msgstr ""
+
+#: framework/includes/theme-options.php:1314
+#: framework/includes/theme-metabox.php:1118
+msgid "Header Under Slideshow"
+msgstr ""
+
+#: framework/includes/theme-options.php:1859
+msgid "Heading Color"
+msgstr ""
+
+#: framework/includes/theme-options.php:1941
+msgid "Heading Font"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:180
+msgid "Heading Style"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:185
+msgid "Heading Style 1 (Primary font)"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:186
+msgid "Heading Style 2 (Secondary font)"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:187
+msgid "Heading Style 3 (Primary font Italic)"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:188
+msgid "Heading Style 4 (Secondary font Italic)"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:189
+msgid "Heading Style 5 (Secondary font Slash Sign)"
+msgstr ""
+
+#: templates/header/header-customize/user-account.php:47
+msgid "Hello"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:127
+#: framework/includes/theme-metabox.php:969
+#: framework/includes/theme-metabox.php:1392
+#: framework/includes/theme-metabox.php:1464
+msgid "Hide"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3594
+#: plugins/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:308
+msgid "Hide Mega menu heading?"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:125
+msgid "Hide or Show overlay on row background image."
+msgstr ""
+
+#: framework/includes/theme-options.php:2748
+msgid "Hinge"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:412
+msgid "Hire Us Link"
+msgstr ""
+
+#: templates/single/content-haru-video.php:218
+msgid "Hire Us Now"
+msgstr ""
+
+#: templates/breadcrumb.php:16 framework/includes/theme-functions.php:741
+#: framework/includes/theme-functions.php:746
+msgid "Home"
+msgstr ""
+
+#: 404.php:22
+msgid "Home Page"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:636
+msgid "Horizontal"
+msgstr ""
+
+#: framework/includes/theme-options.php:3055
+msgid "Horizontal Slide"
+msgstr ""
+
+#: woocommerce/single-product/sale-flash.php:44
+#: woocommerce/loop/sale-flash.php:44
+#: framework/includes/woocommerce-functions.php:75
+#: framework/includes/theme-metabox.php:525
+#: templates/archive/content-haru-film.php:58
+msgid "Hot"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://harutheme.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "http://harutheme.com/circle"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:198
+msgid "Icon"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:229
+msgid "Icon Alignment"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:62
+#: framework/includes/theme-metabox.php:159
+msgid "Icon class (Ex: fa fa-facebook)"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:987
+msgid "If layout 1 column, it will display left sidebar."
+msgstr ""
+
+#: framework/includes/theme-options.php:2164
+msgid ""
+"If you want to custom Color, Typograhpy or CSS you must enable this option."
+msgstr ""
+
+#: woocommerce/cart/cart.php:31 framework/includes/woocommerce-hooks.php:66
+#: framework/includes/theme-metabox.php:686
+#: framework/includes/theme-metabox.php:778
+msgid "Image"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:364
+#: framework/includes/theme-metabox.php:386
+#: framework/includes/theme-metabox.php:795
+#: templates/archive/archive-heading.php:61
+msgid "Images"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:86
+#: framework/includes/theme-metabox.php:183
+#: framework/includes/theme-metabox.php:730
+msgid "Images Gallery"
+msgstr ""
+
+#: framework/includes/theme-options.php:335
+#: framework/includes/theme-options.php:498
+#: framework/includes/theme-options.php:661
+#: framework/includes/theme-options.php:904
+#: framework/includes/theme-options.php:2373
+msgid "Infinity Scroll"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:33
+#: framework/includes/theme-metabox.php:49
+#: framework/includes/theme-metabox.php:130
+#: framework/includes/theme-metabox.php:146
+#: framework/includes/theme-metabox.php:292
+msgid "Information"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:351
+msgid "Information of partner/sponsor"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:293
+msgid "Information of video as actor, director, client, producer,..."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:713
+msgid "Inherit from theme options"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:87
+#: framework/includes/theme-metabox.php:184
+msgid "Insert images for gallery."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1521
+msgid "Insert Video ID from Youtube or Vimeo server."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:243
+msgid ""
+"Insert Video ID from Youtube, Dailymotion, Twitch, Facebook or Vimeo server."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:599
+msgid "Insert Video ID from Youtube, Dailymotion... or Vimeo server."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:251
+#: framework/includes/theme-metabox.php:607
+#: framework/includes/theme-metabox.php:1529
+msgid "Insert Video Url from other server (mp4 and webm)."
+msgstr ""
+
+#: framework/includes/theme-options.php:1565
+#: framework/includes/theme-options.php:1629
+#: framework/includes/theme-options.php:1692
+#: framework/includes/theme-metabox.php:1206
+#: framework/includes/theme-metabox.php:1261
+#: framework/includes/theme-metabox.php:1316
+msgid "Instagram"
+msgstr ""
+
+#: framework/includes/theme-options.php:2657
+msgid "Instagram URL"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: plugins/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#. 1: install status, 2: update status
+#: plugins/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: plugins/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: plugins/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. %s: plugin name.
+#: plugins/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/includes/woocommerce-functions.php:41
+msgid "Is Hot Product?"
+msgstr ""
+
+#: framework/includes/woocommerce-functions.php:35
+msgid "Is New Product?"
+msgstr ""
+
+#: templates/archive/content-none.php:22
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: framework/includes/woocommerce-hooks.php:67
+#: framework/includes/theme-metabox.php:39
+#: framework/includes/theme-metabox.php:136
+#: framework/includes/theme-metabox.php:337
+msgid "Label"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:701
+msgid "Landscape"
+msgstr ""
+
+#: framework/includes/theme-options.php:2356
+msgid "Large Image"
+msgstr ""
+
+#: framework/includes/enqueue-admin.php:16
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#: framework/includes/theme-options.php:267
+#: framework/includes/theme-options.php:430
+#: framework/includes/theme-options.php:593
+#: framework/includes/theme-options.php:836
+#: framework/includes/theme-options.php:1723
+#: framework/includes/theme-options.php:2187
+#: framework/includes/theme-options.php:2303
+#: framework/includes/theme-options.php:2468
+#: framework/includes/theme-metabox.php:880
+msgid "Layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:2870
+#: framework/includes/theme-options.php:3031
+msgid "Layout Options"
+msgstr ""
+
+#: framework/includes/theme-options.php:82
+#: framework/includes/theme-metabox.php:885
+msgid "Layout Style"
+msgstr ""
+
+#: framework/includes/theme-hooks.php:253
+#, php-format
+msgid "Leave a reply to %s"
+msgstr ""
+
+#: framework/includes/theme-hooks.php:252
+msgid "Leave us a comment"
+msgstr ""
+
+#: framework/includes/theme-options.php:3085
+#: framework/core/megamenu/edit_custom_walker.php:231
+msgid "Left"
+msgstr ""
+
+#: framework/includes/theme-options.php:294
+#: framework/includes/theme-options.php:457
+#: framework/includes/theme-options.php:620
+#: framework/includes/theme-options.php:863
+#: framework/includes/theme-options.php:2213
+#: framework/includes/theme-options.php:2330
+#: framework/includes/theme-options.php:2495
+#: framework/includes/theme-metabox.php:926
+msgid "Left Sidebar"
+msgstr ""
+
+#: framework/includes/theme-options.php:358
+#: framework/includes/theme-options.php:521
+#: framework/includes/theme-options.php:684
+#: framework/includes/theme-options.php:927
+#: framework/includes/theme-options.php:2396
+msgid "Length of excerpt"
+msgstr ""
+
+#: framework/includes/tgmpa-register.php:98
+msgid "Less & scss PHP Compilers"
+msgstr ""
+
+#: framework/includes/theme-options.php:250
+msgid "Let's choose Sub section of Section and customize"
+msgstr ""
+
+#: framework/includes/theme-options.php:1332
+#: framework/includes/theme-metabox.php:1150
+msgid "Light"
+msgstr ""
+
+#: woocommerce/single-product/related.php:34
+msgid "like this"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:687
+msgid "Link"
+msgstr ""
+
+#: framework/includes/theme-options.php:1869
+msgid "Link Color"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:401
+msgid "Link of Crew button. Leave empty if you don't want to show."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:415
+msgid "Link of Hire Us button. Leave empty if you don't want to show."
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:168
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: framework/includes/theme-options.php:1560
+#: framework/includes/theme-options.php:1624
+#: framework/includes/theme-options.php:1687
+#: framework/includes/theme-metabox.php:1201
+#: framework/includes/theme-metabox.php:1256
+#: framework/includes/theme-metabox.php:1311
+msgid "LinkedIn"
+msgstr ""
+
+#: framework/includes/theme-options.php:2673
+msgid "LinkedIn URL"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:394
+#: templates/archive/archive-heading.php:67
+msgid "Links"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:395
+msgid "Links to pages"
+msgstr ""
+
+#: woocommerce/archive-product-ajax.php:187
+#: framework/includes/theme-options.php:334
+#: framework/includes/theme-options.php:497
+#: framework/includes/theme-options.php:660
+#: framework/includes/theme-options.php:903
+#: framework/includes/theme-options.php:2372
+#: framework/includes/woocommerce-hooks.php:552
+#: framework/includes/theme-functions.php:244
+msgid "Load More"
+msgstr ""
+
+#: framework/includes/woocommerce-hooks.php:551
+#: framework/includes/theme-functions.php:243
+#: framework/includes/theme-functions.php:1093
+msgid "Loading..."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:557
+msgid "Local Server"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:54
+msgid "Log in"
+msgstr ""
+
+#: templates/header/header-customize/user-account.php:53
+msgid "Log Out"
+msgstr ""
+
+#: framework/includes/theme-hooks.php:247
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:32
+#: templates/header/header-customize/user-account.php:37
+msgid "Login"
+msgstr ""
+
+#: framework/includes/theme-options.php:1752
+#: framework/includes/theme-metabox.php:1027
+msgid "Logo"
+msgstr ""
+
+#: framework/includes/theme-options.php:1744
+msgid "Logo & Favicon"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1033
+msgid "Logo Image"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1034
+msgid "Logo Image for page."
+msgstr ""
+
+#: framework/includes/theme-options.php:1796
+#: framework/includes/theme-metabox.php:1054
+msgid "Logo Max Height"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1040
+msgid "Logo Retina Image"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1041
+msgid "Logo Retina Image for page."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1048
+msgid "Logo Sticky Image for page."
+msgstr ""
+
+#: framework/includes/theme-options.php:1804
+#: framework/includes/theme-metabox.php:1061
+msgid "Logo Sticky Max Height"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:57
+msgid "Lost your password?"
+msgstr ""
+
+#: framework/includes/theme-options.php:321
+#: framework/includes/theme-options.php:484
+#: framework/includes/theme-options.php:647
+#: framework/includes/theme-options.php:890
+#: framework/includes/theme-options.php:2359
+msgid "Masonry"
+msgstr ""
+
+#: framework/includes/theme-options.php:2357
+msgid "Medium Image"
+msgstr ""
+
+#: framework/includes/theme-options.php:1269
+msgid "Mega Menu Animation"
+msgstr ""
+
+#: framework/includes/theme-sidebar.php:107
+msgid "Mega Menu Column 1"
+msgstr ""
+
+#: framework/includes/theme-sidebar.php:118
+msgid "Mega Menu Column 2"
+msgstr ""
+
+#: framework/includes/theme-sidebar.php:129
+msgid "Mega Menu Tab 1"
+msgstr ""
+
+#: framework/includes/theme-sidebar.php:140
+msgid "Mega Menu Tab 2"
+msgstr ""
+
+#: framework/includes/theme-sidebar.php:151
+msgid "Mega Menu Tab 3"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:315
+msgid "Mega Menu Widget Area"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:275
+msgid "Megamenu columns"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:264
+msgid "Megamenu style"
+msgstr ""
+
+#: templates/header/header-mobile-template.php:114
+msgid "Menu"
+msgstr ""
+
+#: framework/includes/theme-options.php:1473
+#: framework/includes/theme-metabox.php:1352
+msgid "Menu Drop Type"
+msgstr ""
+
+#: framework/includes/theme-options.php:2074
+#: framework/includes/theme-options.php:2081
+msgid "Menu Font"
+msgstr ""
+
+#: framework/includes/theme-options.php:1308
+msgid ""
+"Menu Over Slideshow. Usually set to false and should use this only for "
+"Homepage in Page Options."
+msgstr ""
+
+#: framework/includes/tgmpa-register.php:93
+msgid "Meta Box"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:39
+msgid "Mini Cart"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/includes/theme-options.php:1451
+msgid "Mobile Header"
+msgstr ""
+
+#: framework/includes/theme-options.php:1786
+msgid "Mobile Logo"
+msgstr ""
+
+#: framework/includes/theme-setup.php:56
+msgid "Mobile Menu"
+msgstr ""
+
+#: templates/archive/archive-heading.php:51
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: templates/archive/archive-heading.php:51
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:331
+msgid "More Information"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:124
+msgid "Move down"
+msgstr ""
+
+#: framework/includes/theme-options.php:2745
+msgid "Move From Top"
+msgstr ""
+
+#: framework/includes/theme-options.php:2744
+msgid "Move Horizontal"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:111
+msgid "Move up"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:252
+#: framework/includes/theme-metabox.php:563
+#: framework/includes/theme-metabox.php:608
+#: framework/includes/theme-metabox.php:1530
+msgid "Mp4 Url"
+msgstr ""
+
+#: framework/includes/theme-functions.php:637
+msgid "mute"
+msgstr ""
+
+#: templates/header/header-customize/user-account.php:52
+msgid "My Account"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:105
+#: framework/includes/theme-metabox.php:202
+msgid "My Featured Video."
+msgstr ""
+
+#: templates/single/content-haru-director.php:179
+#: templates/single/content-haru-actor.php:179
+msgid "My Featured Videos"
+msgstr ""
+
+#: templates/single/portfolio-single-03.php:150
+#: templates/single/portfolio-single-02.php:121
+#: templates/single/portfolio-single-01.php:124
+msgid "My Team"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:33
+msgid "N/A"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:96
+#: framework/includes/theme-metabox.php:193
+msgid "Name Of Film"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:144
+msgid "Navigation Label"
+msgstr ""
+
+#: woocommerce/single-product/sale-flash.php:38
+#: woocommerce/loop/sale-flash.php:38
+#: framework/includes/woocommerce-functions.php:74
+#: framework/includes/theme-metabox.php:524
+#: templates/archive/content-haru-film.php:55
+msgid "New"
+msgstr ""
+
+#: templates/newsletter-popup.php:29
+msgid "Newsletter"
+msgstr ""
+
+#: framework/includes/theme-options.php:2707
+msgid "Newsletter Popup"
+msgstr ""
+
+#: framework/includes/theme-options.php:2743
+msgid "Newspaper"
+msgstr ""
+
+#: framework/includes/woocommerce-hooks.php:615
+#: framework/includes/theme-functions.php:309
+#: framework/includes/theme-functions.php:1155
+msgid "Next"
+msgstr ""
+
+#: templates/single/post-nav.php:26
+msgctxt "Next post link"
+msgid ""
+"</span><i class=\"ion-ios-arrow-forward\"></i> </div><div class=\"post-"
+"navigation-content\"> <div class=\"post-navigation-title\">%title</div></div>"
+msgstr ""
+
+#: templates/single/content-haru-director.php:63
+#: templates/single/content-haru-actor.php:63
+#: templates/single/content-haru-video.php:67
+msgctxt "Next post link"
+msgid ""
+"<div class=\"post-navigation-right\"><span class=\"link-next\">Next</span> "
+"</div><div class=\"post-navigation-content\"><div class=\"post-navigation-"
+"title\">%title</div> <i class=\"ion-ios-arrow-forward\"></i></div>"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:23
+msgid "No"
+msgstr ""
+
+#. 1: plugin name.
+#: plugins/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: templates/comments.php:19 templates/single/content-film.php:65
+#: templates/single/content-haru-director.php:49
+#: templates/single/content-haru-actor.php:49
+#: templates/single/content-haru-video.php:53
+msgid "No Comments"
+msgstr ""
+
+#: framework/includes/woocommerce-hooks.php:850
+#: framework/includes/theme-functions.php:1279
+msgid "No items were found matching your selection."
+msgstr ""
+
+#: framework/core/megamenu/megamenu.php:244
+msgid "No menu assigned"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:106
+msgid "No products in the cart."
+msgstr ""
+
+#: framework/includes/woocommerce-hooks.php:932
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:523
+msgid "None"
+msgstr ""
+
+#: framework/includes/theme-options.php:2924
+#: framework/includes/theme-options.php:3096
+msgid "None, Left or Right Sidebar"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: templates/archive/archive-heading.php:35
+msgid "Nothing Found"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:488
+msgid "Number of Film's episodes."
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:334
+msgid "One"
+msgstr ""
+
+#: templates/comments.php:19
+msgid "One Comment"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:157
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: woocommerce/add-to-wishlist-remove.php:49
+msgid "or"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:352
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:134
+msgid "Overlay color"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:147
+msgid "Overlay opacity"
+msgstr ""
+
+#: templates/single/content-film.php:164
+msgid "Overview"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:946
+msgid "Page Extra Class"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:899
+msgid "Page Layout"
+msgstr ""
+
+#: framework/includes/theme-functions.php:824
+msgid "Page Not Found"
+msgstr ""
+
+#: framework/includes/theme-options.php:165
+msgid "Page Preloader"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:912
+msgid "Page Sidebar"
+msgstr ""
+
+#: framework/includes/theme-options.php:2136
+msgid "Page Sub Title Font"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1380
+msgid "Page Title"
+msgstr ""
+
+#: framework/includes/theme-options.php:2265
+#: framework/includes/theme-tax-meta.php:35
+msgid "Page Title Background"
+msgstr ""
+
+#: framework/includes/theme-options.php:2104
+#: framework/includes/theme-options.php:2111
+msgid "Page Title Font"
+msgstr ""
+
+#: framework/includes/theme-options.php:2250
+#: framework/includes/theme-metabox.php:1398
+msgid "Page Title Layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:2963
+#: framework/includes/theme-options.php:3137
+msgid "Page Title Options"
+msgstr ""
+
+#: framework/includes/theme-options.php:2277
+#: framework/includes/theme-metabox.php:1442
+msgid "Page Title Parallax"
+msgstr ""
+
+#: framework/includes/theme-options.php:2235
+msgid "Page Title Setting"
+msgstr ""
+
+#: framework/includes/theme-options.php:2180
+msgid "Pages Setting"
+msgstr ""
+
+#: framework/includes/theme-hooks.php:100 templates/page/content-page.php:17
+msgid "Pages:"
+msgstr ""
+
+#: framework/includes/theme-options.php:329
+#: framework/includes/theme-options.php:492
+#: framework/includes/theme-options.php:655
+#: framework/includes/theme-options.php:898
+#: framework/includes/theme-options.php:2367
+msgid "Paging Style"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:350
+msgid "Partners/Sponsor"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:43
+#: woocommerce/myaccount/form-login.php:93
+msgid "Password"
+msgstr ""
+
+#: framework/includes/theme-options.php:227
+msgid ""
+"Paste your CSS code here. Do not place any <style> tags in these areas as "
+"they are already added for your convenience"
+msgstr ""
+
+#: framework/includes/theme-options.php:238
+msgid ""
+"Paste your Javscript code here. You can add your Google Analytics Code here. "
+"Do not place any <script> tags in these areas as they are already added for "
+"your convenience."
+msgstr ""
+
+#: framework/includes/theme-functions.php:626
+msgid "pause"
+msgstr ""
+
+#: framework/includes/theme-options.php:2801
+msgid "Percent"
+msgstr ""
+
+#: framework/includes/theme-options.php:206
+msgid "Pick a preloader spinner color"
+msgstr ""
+
+#: framework/includes/theme-options.php:1564
+#: framework/includes/theme-options.php:1628
+#: framework/includes/theme-options.php:1691
+#: framework/includes/theme-metabox.php:1205
+#: framework/includes/theme-metabox.php:1260
+#: framework/includes/theme-metabox.php:1315
+msgid "Pinterest"
+msgstr ""
+
+#: framework/includes/theme-options.php:2649
+msgid "Pinterest URL"
+msgstr ""
+
+#: framework/includes/theme-functions.php:625
+msgid "play"
+msgstr ""
+
+#: framework/includes/theme-options.php:1071
+msgid "Player"
+msgstr ""
+
+#: framework/includes/theme-options.php:1100
+msgid "Player JS"
+msgstr ""
+
+#: framework/includes/theme-options.php:1079
+msgid "Player type"
+msgstr ""
+
+#: framework/includes/enqueue-admin.php:17
+msgctxt "Playfair Display font: on or off"
+msgid "on"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1019
+#: plugins/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: framework/includes/theme-options.php:1347
+msgid ""
+"Please note Search Box Type Ajax now doesn't support. We'll try to update it "
+"asap."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1206
+#: plugins/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:394
+#: plugins/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#. 1: plugin name.
+#: plugins/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. 1: number of plugins.
+#: plugins/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/includes/theme-options.php:2773
+msgid "Popup Background"
+msgstr ""
+
+#: framework/includes/theme-options.php:2765
+msgid "Popup Content"
+msgstr ""
+
+#: framework/includes/theme-options.php:2756
+msgid "Popup Delay"
+msgstr ""
+
+#: framework/includes/theme-options.php:2739
+msgid "Popup Effect"
+msgstr ""
+
+#: framework/includes/theme-options.php:2730
+msgid "Popup Height"
+msgstr ""
+
+#: framework/includes/theme-options.php:2721
+msgid "Popup Width"
+msgstr ""
+
+#: framework/includes/theme-options.php:1114
+msgid "Portfolio"
+msgstr ""
+
+#: framework/includes/theme-options.php:1179
+msgid "Portfolio Page Title Settings"
+msgstr ""
+
+#: framework/includes/theme-options.php:1153
+msgid "Portfolio Related Column"
+msgstr ""
+
+#: framework/includes/theme-options.php:1122
+msgid "Portfolio Single Settings"
+msgstr ""
+
+#: framework/includes/theme-options.php:1219
+msgid "Portfolio Title Background"
+msgstr ""
+
+#: framework/includes/theme-options.php:1192
+msgid "Portfolio Title Layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:1205
+msgid "Portfolio Title Parallax"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:674
+msgid "Portfolio Type"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:702
+msgid "Portrait"
+msgstr ""
+
+#: framework/includes/theme-hooks.php:257
+msgid "Post Comment"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:821
+msgid "Post Format: Audio"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:790
+msgid "Post Format: Gallery"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:773
+msgid "Post Format: Image"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:860
+msgid "Post Format: Link"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:836
+msgid "Post Format: Quote"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:806
+msgid "Post Format: Video"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/includes/theme-options.php:194
+msgid "Preloader background color"
+msgstr ""
+
+#: framework/includes/theme-options.php:205
+msgid "Preloader spinner color"
+msgstr ""
+
+#: woocommerce/archive-product-ajax.php:145
+#, php-format
+msgid "press %sEnter%s to search"
+msgstr ""
+
+#: framework/includes/woocommerce-hooks.php:614
+#: framework/includes/theme-functions.php:308
+#: framework/includes/theme-functions.php:1154
+msgid "Prev"
+msgstr ""
+
+#: templates/single/post-nav.php:25
+msgctxt "Previous post link"
+msgid ""
+"</span></div><div class=\"post-navigation-content\"><div class=\"post-"
+"navigation-title\">%title</div></div> "
+msgstr ""
+
+#: templates/single/content-haru-director.php:62
+#: templates/single/content-haru-actor.php:62
+#: templates/single/content-haru-video.php:66
+msgctxt "Previous post link"
+msgid ""
+"<div class=\"post-navigation-left\"><span class=\"link-prev\">Previous</span>"
+"</div> <div class=\"post-navigation-content\"><i class=\"ion-ios-arrow-"
+"back\"></i> <div class=\"post-navigation-title\">%title </div> </div> "
+msgstr ""
+
+#: woocommerce/cart/cart.php:33 woocommerce/cart/cart.php:84
+msgid "Price"
+msgstr ""
+
+#: framework/includes/theme-options.php:1829
+msgid "Primary Color"
+msgstr ""
+
+#: framework/includes/theme-setup.php:55
+msgid "Primary Menu"
+msgstr ""
+
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:64
+msgid "Product"
+msgstr ""
+
+#: framework/includes/theme-options.php:2808
+msgid "Product Attribute"
+msgstr ""
+
+#: framework/includes/woocommerce-hooks.php:494
+#: framework/includes/theme-metabox.php:624
+msgid "Product Guide"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:620
+msgid "Product Metaboxes"
+msgstr ""
+
+#: framework/includes/theme-options.php:3065
+#: framework/includes/theme-metabox.php:644
+msgid "Product Thumbnail Columns"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:658
+msgid "Product Thumbnail Position"
+msgstr ""
+
+#: framework/includes/theme-options.php:3081
+msgid "Product Thumbnails Position"
+msgstr ""
+
+#: framework/includes/woocommerce-functions.php:47
+msgid "Product Video Url"
+msgstr ""
+
+#: framework/includes/theme-options.php:2855
+msgid "Products Display Columns"
+msgstr ""
+
+#: framework/includes/theme-options.php:2845
+msgid "Products Per Page"
+msgstr ""
+
+#: woocommerce/archive-product-results-bar.php:57
+#, php-format
+msgid "Products tagged %s&ldquo;%s&rdquo;%s"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:725
+msgid "Project Information"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:40
+msgid "Pulse"
+msgstr ""
+
+#: woocommerce/cart/cart.php:34 woocommerce/cart/cart.php:90
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/loop/quick-view.php:15
+msgid "Quick view"
+msgstr ""
+
+#: framework/includes/theme-options.php:2814
+msgid "Quick View Button"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:841
+msgid "Quote"
+msgstr ""
+
+#: templates/archive/archive-heading.php:65
+msgid "Quotes"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:534
+msgid "Rating of Film."
+msgstr ""
+
+#: templates/archive/content.php:82 templates/archive/content-audio.php:82
+#: templates/archive/content-haru-director.php:75
+#: templates/archive/content-quote.php:95 templates/archive/content-link.php:91
+#: templates/archive/content-haru-actor.php:75
+msgid "Read more"
+msgstr ""
+
+#: templates/archive/content-none.php:13
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: framework/includes/tgmpa-register.php:88
+msgid "Redux Framework"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:70
+#: woocommerce/myaccount/form-login.php:106
+#: woocommerce/myaccount/form-login.php:106
+msgid "Register"
+msgstr ""
+
+#: framework/includes/theme-options.php:3218
+msgid "Related Product Display Columns"
+msgstr ""
+
+#: framework/includes/theme-options.php:3202
+msgid "Related Product Options"
+msgstr ""
+
+#: framework/includes/theme-options.php:3209
+msgid "Related Products Number"
+msgstr ""
+
+#: templates/single/portfolio-related.php:40
+msgid "Related Projects"
+msgstr ""
+
+#: templates/single/content-film.php:113
+msgid "Release"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:51
+msgid "Remember me"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:365
+msgid "Remove"
+msgstr ""
+
+#: woocommerce/cart/cart.php:125 woocommerce/cart/mini-cart.php:86
+msgid "Remove this item"
+msgstr ""
+
+#: framework/includes/theme-functions.php:661
+msgid "repeat"
+msgstr ""
+
+#: framework/includes/theme-functions.php:664
+msgid "repeat off"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: framework/includes/theme-options.php:1763
+msgid "Retina Logo"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:393
+#: plugins/class-tgm-plugin-activation.php:912
+#: plugins/class-tgm-plugin-activation.php:2618
+#: plugins/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/includes/theme-options.php:3086
+#: framework/core/megamenu/edit_custom_walker.php:232
+msgid "Right"
+msgstr ""
+
+#: framework/includes/theme-options.php:305
+#: framework/includes/theme-options.php:468
+#: framework/includes/theme-options.php:631
+#: framework/includes/theme-options.php:874
+#: framework/includes/theme-options.php:2224
+#: framework/includes/theme-options.php:2341
+#: framework/includes/theme-options.php:2506
+#: framework/includes/theme-metabox.php:936
+msgid "Right Sidebar"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:123
+msgid "Row background overlay"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:42
+msgid "Rubber band"
+msgstr ""
+
+#: framework/includes/theme-options.php:2796
+msgid "Sale Badge Mode"
+msgstr ""
+
+#: woocommerce/single-product/sale-flash.php:32
+#: woocommerce/loop/sale-flash.php:32
+msgid "Sale!"
+msgstr ""
+
+#: framework/includes/theme-options.php:2163
+#: framework/includes/theme-options.php:2170
+msgid "SCSS Compiler"
+msgstr ""
+
+#: searchform.php:17 woocommerce/archive-product-ajax.php:115
+#: templates/header/header-customize/search-box.php:33
+#: templates/header/header-customize/search-box-film.php:28
+msgid "Search"
+msgstr ""
+
+#: framework/includes/theme-options.php:1536
+#: framework/includes/theme-options.php:1600
+#: framework/includes/theme-options.php:1664
+#: framework/includes/theme-metabox.php:1179
+#: framework/includes/theme-metabox.php:1234
+#: framework/includes/theme-metabox.php:1289
+msgid "Search Box"
+msgstr ""
+
+#: framework/includes/theme-options.php:1542
+#: framework/includes/theme-options.php:1605
+#: framework/includes/theme-options.php:1669
+#: framework/includes/theme-metabox.php:1183
+#: framework/includes/theme-metabox.php:1238
+#: framework/includes/theme-metabox.php:1293
+msgid "Search Box Film"
+msgstr ""
+
+#: framework/includes/theme-options.php:1345
+msgid "Search Box Type"
+msgstr ""
+
+#: framework/includes/theme-options.php:1539
+#: framework/includes/theme-options.php:1601
+#: framework/includes/theme-options.php:1665
+#: framework/includes/theme-metabox.php:1178
+#: framework/includes/theme-metabox.php:1233
+#: framework/includes/theme-metabox.php:1288
+msgid "Search Button"
+msgstr ""
+
+#: templates/header/header-customize/search-box-film.php:26
+msgid "Search for a Movie, Film..."
+msgstr ""
+
+#: templates/header/header-customize/search-popup.php:48
+msgid "Search for..."
+msgstr ""
+
+#: searchform.php:14
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/archive-product-ajax.php:140
+msgid "Search Products"
+msgstr ""
+
+#: framework/includes/theme-options.php:1364
+msgid "Search Result Amount"
+msgstr ""
+
+#: framework/includes/theme-functions.php:820
+msgid "Search results for \""
+msgstr ""
+
+#: woocommerce/archive-product-results-bar.php:41
+#, php-format
+msgid "Search results for %s&ldquo;%s&rdquo;%s"
+msgstr ""
+
+#: templates/archive/archive-heading.php:55
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: framework/includes/theme-options.php:1839
+msgid "Secondary Color"
+msgstr ""
+
+#: framework/includes/theme-options.php:1919
+msgid "Secondary Font"
+msgstr ""
+
+#: framework/includes/theme-options.php:1247
+msgid "Select a header layout option from the examples."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:782
+msgid "Select a image for post"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:405
+#: framework/includes/theme-metabox.php:419
+msgid "Select a Page or Post"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:321
+#: framework/includes/theme-metabox.php:466
+msgid "Select Actors"
+msgstr ""
+
+#: framework/includes/woocommerce-hooks.php:127
+msgid "Select all"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:628
+msgid "Select an image for Product Guide"
+msgstr ""
+
+#: framework/includes/theme-options.php:1270
+msgid "Select animation for mega menu"
+msgstr ""
+
+#: framework/includes/theme-options.php:317
+#: framework/includes/theme-options.php:480
+#: framework/includes/theme-options.php:643
+#: framework/includes/theme-options.php:886
+#: framework/includes/theme-options.php:2353
+msgid "Select archive display type"
+msgstr ""
+
+#: framework/includes/theme-options.php:268
+#: framework/includes/theme-options.php:431
+#: framework/includes/theme-options.php:594
+#: framework/includes/theme-options.php:837
+#: framework/includes/theme-options.php:2304
+msgid "Select Archive Layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:330
+#: framework/includes/theme-options.php:493
+#: framework/includes/theme-options.php:656
+#: framework/includes/theme-options.php:899
+#: framework/includes/theme-options.php:2368
+msgid "Select archive paging style"
+msgstr ""
+
+#: framework/includes/theme-options.php:381
+#: framework/includes/theme-options.php:544
+#: framework/includes/theme-options.php:707
+#: framework/includes/theme-options.php:950
+#: framework/includes/theme-options.php:2419
+msgid "Select Archive Title Layout"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:136
+msgid "Select color for background overlay."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:304
+#: framework/includes/theme-metabox.php:449
+msgid "Select Director"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1231
+msgid "Select element for header customize left. Drag to change element order"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1176
+msgid ""
+"Select element for header customize navigation. Drag to change element order"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1286
+msgid "Select element for header customize right. Drag to change element order"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1492
+msgid "Select Footer"
+msgstr ""
+
+#: framework/includes/theme-options.php:1735
+msgid "Select Footer Block"
+msgstr ""
+
+#: framework/includes/theme-options.php:1724
+msgid "Select Footer Layout"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1495
+msgid "Select footer to override footer selected in Theme Options"
+msgstr ""
+
+#: framework/includes/theme-options.php:1460
+msgid "Select header mobile layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:1329
+msgid "Select Header Sticky Skin."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:367
+msgid "Select images for partner"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:279
+msgid "Select images for video's thumbnail"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:389
+msgid "Select images gallery for parter"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:733
+#: framework/includes/theme-metabox.php:798
+msgid "Select images gallery for post"
+msgstr ""
+
+#: framework/includes/woocommerce-hooks.php:128
+msgid "Select none"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:153
+msgid "Select opacity for overlay."
+msgstr ""
+
+#: framework/includes/theme-options.php:2188
+msgid "Select Page Layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:166
+msgid "Select Page Preloader. Leave empty if you don't want to use this."
+msgstr ""
+
+#: framework/includes/theme-options.php:2251
+msgid "Select Page Title Layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:1154
+msgid "Select Portfolio Related Column."
+msgstr ""
+
+#: framework/includes/theme-options.php:1193
+msgid "Select Portfolio Title Layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:1358
+msgid "Select post type for ajax search"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:930
+#: framework/includes/theme-metabox.php:940
+#: framework/includes/theme-metabox.php:1005
+#: framework/includes/theme-metabox.php:1016
+msgid "Select Sidebar"
+msgstr ""
+
+#: framework/includes/theme-options.php:2469
+msgid "Select Single Blog Layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:2549
+msgid "Select Single Blog Title Layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:1129
+msgid "Select Single Portfolio Layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:1555
+#: framework/includes/theme-options.php:1619
+#: framework/includes/theme-options.php:1682
+msgid "Select social profile for custom text"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1194
+#: framework/includes/theme-metabox.php:1249
+#: framework/includes/theme-metabox.php:1304
+msgid "Select social profiles"
+msgstr ""
+
+#: framework/includes/woocommerce-hooks.php:115
+msgid "Select terms"
+msgstr ""
+
+#: framework/includes/theme-options.php:83
+msgid "Select the layout style"
+msgstr ""
+
+#: framework/includes/theme-options.php:1415
+msgid ""
+"Select the top bar column layout. If layout 1 column, it will display left "
+"sidebar."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:510
+msgid "Select Trailer"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:46
+msgid ""
+"Select type of animation if you want this element to be animated when it "
+"enters into the browsers viewport. Note: Works only in modern browsers."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:111
+#: framework/includes/theme-metabox.php:208
+msgid "Select Video"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:317
+msgid "Select Widget Area"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:480
+#: templates/single/content-film.php:127
+msgid "Series"
+msgstr ""
+
+#: framework/includes/theme-options.php:1365
+msgid "Set amount of Search Result"
+msgstr ""
+
+#: framework/includes/theme-options.php:1736
+msgid "Set Footer Block"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1221
+msgid "Set header customize left?"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1164
+msgid "Set header customize navigation?"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1275
+msgid "Set header customize right?"
+msgstr ""
+
+#: framework/includes/theme-options.php:1860
+msgid "Set Heading Color."
+msgstr ""
+
+#: framework/includes/theme-options.php:1870
+msgid "Set Link Color."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1055
+msgid "Set max height for Logo by pixel (Insert number only)"
+msgstr ""
+
+#: framework/includes/theme-options.php:1797
+msgid "Set max height for Logo by pixel (Insert number only)."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1062
+msgid "Set max height for Logo Sticky by pixel (Insert number only)"
+msgstr ""
+
+#: framework/includes/theme-options.php:1805
+msgid "Set max height for Logo Sticky by pixel (Insert number only)."
+msgstr ""
+
+#: framework/includes/theme-options.php:1474
+msgid "Set menu drop type for mobile header"
+msgstr ""
+
+#: framework/includes/theme-options.php:195
+msgid "Set Preloader background color."
+msgstr ""
+
+#: framework/includes/theme-options.php:1830
+msgid "Set Primary Color"
+msgstr ""
+
+#: framework/includes/theme-options.php:1346
+msgid "Set search box and search button type."
+msgstr ""
+
+#: framework/includes/theme-options.php:1840
+msgid "Set Secondary Color"
+msgstr ""
+
+#: framework/includes/theme-options.php:2889
+msgid "Set shop page or product category style."
+msgstr ""
+
+#: framework/includes/theme-options.php:281
+#: framework/includes/theme-options.php:444
+#: framework/includes/theme-options.php:607
+#: framework/includes/theme-options.php:850
+#: framework/includes/theme-options.php:2201
+#: framework/includes/theme-options.php:2317
+#: framework/includes/theme-options.php:2482
+msgid "Set Sidebar Style"
+msgstr ""
+
+#: framework/includes/theme-options.php:1850
+msgid "Set Text Color."
+msgstr ""
+
+#: framework/includes/theme-options.php:97
+msgid "Set the site max width of body"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:262
+msgid "Set thumbnail style for Archive video"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:286
+msgid "Set video URL for video's thumbnail (MP4)"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:552
+msgid "Set videos of Film."
+msgstr ""
+
+#: framework/vc_extension/update_params.php:39
+msgid "Shake"
+msgstr ""
+
+#: templates/single/portfolio-single-01.php:153
+msgid "Share Project"
+msgstr ""
+
+#: templates/single/social-share.php:31
+msgid "Share: "
+msgstr ""
+
+#: woocommerce/cart/cart.php:22
+msgid "Shopping Cart"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:479
+#: templates/single/content-film.php:125
+msgid "Short"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:436
+msgid "Short Description"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:968
+#: framework/includes/theme-metabox.php:1391
+#: framework/includes/theme-metabox.php:1463
+msgid "Show"
+msgstr ""
+
+#: framework/includes/theme-options.php:372
+#: framework/includes/theme-options.php:535
+#: framework/includes/theme-options.php:698
+#: framework/includes/theme-options.php:941
+#: framework/includes/theme-options.php:2410
+msgid "Show Archive Title"
+msgstr ""
+
+#: framework/includes/theme-options.php:2525
+msgid "Show Author Info"
+msgstr ""
+
+#: framework/includes/theme-options.php:2899
+msgid "Show Categories"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3594
+#: plugins/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: framework/includes/theme-options.php:2907
+msgid "Show Filters"
+msgstr ""
+
+#: framework/includes/theme-options.php:1494
+msgid "Show Hide header Cart."
+msgstr ""
+
+#: framework/includes/theme-options.php:1322
+msgid "Show Hide header Sticky."
+msgstr ""
+
+#: framework/includes/theme-options.php:1384
+msgid "Show Hide Top Bar."
+msgstr ""
+
+#: framework/includes/theme-options.php:1142
+msgid "Show or hide related in single portfolio"
+msgstr ""
+
+#: framework/includes/theme-options.php:1168
+msgid "Show or hide Social share in single portfolio"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:128
+msgid "Show Overlay Color"
+msgstr ""
+
+#: framework/includes/theme-options.php:2242
+msgid "Show Page Title"
+msgstr ""
+
+#: framework/includes/theme-options.php:2714
+msgid "Show Popup"
+msgstr ""
+
+#: framework/includes/theme-options.php:1185
+msgid "Show Portfolio Title"
+msgstr ""
+
+#: framework/includes/theme-options.php:2517
+msgid "Show Post Navigation"
+msgstr ""
+
+#: framework/includes/theme-options.php:2809
+msgid ""
+"Show Product Attribute (Apply for Color, Image & Label attribute type in "
+"Products -> Attributes)"
+msgstr ""
+
+#: framework/includes/theme-options.php:2915
+msgid "Show Search"
+msgstr ""
+
+#: framework/includes/theme-options.php:2540
+msgid "Show Single Blog Title"
+msgstr ""
+
+#: framework/includes/theme-options.php:2601
+msgid "Show the social sharing in blog posts"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1459
+msgid "Show/Hide Breadcrumbs"
+msgstr ""
+
+#: framework/includes/theme-options.php:2900
+msgid "Show/Hide categories in filter sidebar."
+msgstr ""
+
+#: framework/includes/theme-options.php:2908
+msgid "Show/Hide filters in filter sidebar."
+msgstr ""
+
+#: framework/includes/theme-options.php:1588
+msgid "Show/Hide Head Customize Left"
+msgstr ""
+
+#: framework/includes/theme-options.php:1525
+msgid "Show/Hide Head Customize Nav"
+msgstr ""
+
+#: framework/includes/theme-options.php:1652
+msgid "Show/Hide Header Customize Right"
+msgstr ""
+
+#: framework/includes/theme-options.php:1487
+msgid "Show/Hide header Search."
+msgstr ""
+
+#: framework/includes/theme-options.php:1321
+msgid "Show/Hide Header Sticky"
+msgstr ""
+
+#: framework/includes/theme-options.php:2243
+msgid "Show/Hide Page Title"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1385
+msgid "Show/Hide Page Title?"
+msgstr ""
+
+#: framework/includes/theme-options.php:2715
+msgid "Show/Hide Popup when user go to your site"
+msgstr ""
+
+#: framework/includes/theme-options.php:1141
+msgid "Show/Hide Related"
+msgstr ""
+
+#: framework/includes/theme-options.php:2916
+msgid "Show/Hide search in filter sidebar."
+msgstr ""
+
+#: framework/includes/theme-options.php:1167
+msgid "Show/Hide Share"
+msgstr ""
+
+#: framework/includes/theme-options.php:1383
+#: framework/includes/theme-metabox.php:962
+msgid "Show/Hide Top Bar"
+msgstr ""
+
+#: woocommerce/archive-product-results-bar.php:54
+#, php-format
+msgid "Showing %s&ldquo;%s&rdquo;%s"
+msgstr ""
+
+#: framework/includes/theme-functions.php:655
+msgid "shuffle"
+msgstr ""
+
+#: framework/includes/theme-functions.php:658
+msgid "shuffle off"
+msgstr ""
+
+#: framework/includes/theme-options.php:280
+#: framework/includes/theme-options.php:443
+#: framework/includes/theme-options.php:606
+#: framework/includes/theme-options.php:849
+#: framework/includes/theme-options.php:2200
+#: framework/includes/theme-options.php:2316
+#: framework/includes/theme-options.php:2481
+msgid "Sidebar"
+msgstr ""
+
+#: framework/includes/theme-sidebar.php:19
+msgid "Sidebar 1"
+msgstr ""
+
+#: framework/includes/theme-sidebar.php:30
+msgid "Sidebar 2"
+msgstr ""
+
+#: framework/includes/theme-sidebar.php:41
+#: framework/includes/theme-sidebar.php:43
+msgid "Sidebar Film Online"
+msgstr ""
+
+#: templates/header/header-customize/user-account.php:38
+msgid "Sign Up"
+msgstr ""
+
+#: framework/includes/theme-options.php:2563
+msgid "Single Blog Title Background"
+msgstr ""
+
+#: framework/includes/theme-options.php:2548
+msgid "Single Blog Title Layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:2575
+msgid "Single Blog Title Parallax"
+msgstr ""
+
+#: framework/includes/theme-options.php:2533
+msgid "Single Blog Title Setting"
+msgstr ""
+
+#: framework/includes/theme-options.php:991
+msgid "Single Film"
+msgstr ""
+
+#: framework/includes/theme-options.php:1018
+msgid "Single Film Title"
+msgstr ""
+
+#: framework/includes/theme-options.php:1041
+msgid "Single Film Title Background"
+msgstr ""
+
+#: framework/includes/theme-options.php:1026
+msgid "Single Film Title Layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:1053
+msgid "Single Film Title Parallax"
+msgstr ""
+
+#: framework/includes/theme-options.php:1011
+msgid "Single Film Title Setting"
+msgstr ""
+
+#: framework/includes/theme-options.php:1128
+msgid "Single Portfolio Layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:3023
+msgid "Single Product"
+msgstr ""
+
+#: framework/includes/theme-options.php:3038
+msgid "Single Product Layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:3109
+msgid "Single Product Left Sidebar"
+msgstr ""
+
+#: framework/includes/theme-options.php:3120
+msgid "Single Product Right Sidebar"
+msgstr ""
+
+#: framework/includes/theme-options.php:3095
+msgid "Single Product Sidebar"
+msgstr ""
+
+#: framework/includes/theme-options.php:3051
+#: framework/includes/theme-metabox.php:632
+msgid "Single Product Style"
+msgstr ""
+
+#: framework/includes/theme-options.php:3167
+msgid "Single Product Title Background"
+msgstr ""
+
+#: framework/includes/theme-options.php:3152
+msgid "Single Product Title Layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:3179
+msgid "Single Product Title Parallax"
+msgstr ""
+
+#: framework/includes/theme-options.php:2460
+msgid "Single Setting"
+msgstr ""
+
+#: framework/includes/theme-options.php:756
+#: framework/includes/theme-options.php:999
+#: framework/includes/theme-metabox.php:708
+msgid "Single Style"
+msgstr ""
+
+#: framework/includes/theme-options.php:3144
+msgid "Single Title"
+msgstr ""
+
+#: framework/includes/theme-options.php:748
+msgid "Single Video"
+msgstr ""
+
+#: framework/includes/theme-options.php:1092
+msgid "Single Video Autoplay"
+msgstr ""
+
+#: framework/includes/theme-options.php:1094
+msgid ""
+"Single Video Autoplay Direct or Popup. Please note Autoplay video must be "
+"muted."
+msgstr ""
+
+#: framework/includes/theme-options.php:775
+msgid "Single Video Title"
+msgstr ""
+
+#: framework/includes/theme-options.php:798
+msgid "Single Video Title Background"
+msgstr ""
+
+#: framework/includes/theme-options.php:783
+msgid "Single Video Title Layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:810
+msgid "Single Video Title Parallax"
+msgstr ""
+
+#: framework/includes/theme-options.php:768
+msgid "Single Video Title Setting"
+msgstr ""
+
+#: framework/includes/theme-options.php:96
+msgid "Site Max Width (px)"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:282
+msgid "Six"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:222
+msgid "Size"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:32
+msgid "SKU:"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:270
+msgid "Slideshow"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:699
+msgid "Small Squared"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:57
+#: framework/includes/theme-metabox.php:154
+msgid "Social"
+msgstr ""
+
+#: framework/includes/theme-options.php:1535
+#: framework/includes/theme-options.php:1602
+#: framework/includes/theme-options.php:1666
+#: framework/includes/theme-metabox.php:1180
+#: framework/includes/theme-metabox.php:1235
+#: framework/includes/theme-metabox.php:1290
+msgid "Social Profile"
+msgstr ""
+
+#: framework/includes/theme-options.php:2593
+msgid "Social Settings"
+msgstr ""
+
+#: framework/includes/theme-options.php:2598
+msgid "Social Share"
+msgstr ""
+
+#: woocommerce/single-product/sale-flash.php:50
+#: woocommerce/loop/sale-flash.php:50
+msgid "Sold"
+msgstr ""
+
+#: woocommerce/loop/add-to-cart.php:28
+msgid "Sold out"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: templates/archive/content-none.php:17
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:226
+#: framework/includes/theme-metabox.php:582
+#: framework/includes/theme-metabox.php:1507
+msgid "Source Server"
+msgstr ""
+
+#: framework/includes/theme-options.php:1898
+msgid "Specify the body font properties."
+msgstr ""
+
+#: framework/includes/theme-options.php:1949
+msgid "Specify the H1 font properties."
+msgstr ""
+
+#: framework/includes/theme-options.php:1970
+msgid "Specify the H2 font properties."
+msgstr ""
+
+#: framework/includes/theme-options.php:1991
+msgid "Specify the H3 font properties."
+msgstr ""
+
+#: framework/includes/theme-options.php:2012
+msgid "Specify the H4 font properties."
+msgstr ""
+
+#: framework/includes/theme-options.php:2033
+msgid "Specify the H5 font properties."
+msgstr ""
+
+#: framework/includes/theme-options.php:2054
+msgid "Specify the H6 font properties."
+msgstr ""
+
+#: framework/includes/theme-options.php:2082
+msgid "Specify the Menu font properties."
+msgstr ""
+
+#: framework/includes/theme-options.php:2137
+msgid "Specify the page sub title font properties."
+msgstr ""
+
+#: framework/includes/theme-options.php:2112
+msgid "Specify the page title font properties."
+msgstr ""
+
+#: framework/includes/theme-options.php:1920
+msgid "Specify the secondary font properties."
+msgstr ""
+
+#: framework/includes/theme-options.php:1349
+msgid "Standard"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: templates/archive/archive-heading.php:69
+msgid "Statuses"
+msgstr ""
+
+#: framework/includes/theme-options.php:1507
+msgid "Stick Mobile Header"
+msgstr ""
+
+#: templates/single/post-meta.php:23
+msgid "Sticky"
+msgstr ""
+
+#: framework/includes/theme-options.php:1774
+msgid "Sticky Logo"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1047
+msgid "Sticky Logo Image"
+msgstr ""
+
+#: framework/includes/theme-options.php:1822
+msgid "Styling Options"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:190
+msgid "Sub Heading Style 1"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:191
+msgid "Sub Heading Style 2"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:186
+msgid "Sub Label"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:192
+msgid "Sub Label Color"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:300
+msgid "Sub menu fullwidth? (only use with Column style)"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:80
+#: framework/includes/theme-metabox.php:177
+#: framework/includes/theme-metabox.php:359
+#: framework/includes/theme-metabox.php:381
+msgid "Sub Title"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:41
+msgid "Swing"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:268
+msgid "Tab"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:331
+msgid "Tab columns (only use with tab style)"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:44
+msgid "Tada"
+msgstr ""
+
+#: templates/single/content-film.php:133 templates/single/post-tags.php:12
+msgid "Tags"
+msgstr ""
+
+#: templates/archive/archive-heading.php:45
+msgid "Tags: "
+msgstr ""
+
+#: templates/single/video-player-direct.php:33
+msgid "Tap to Unmute"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:760
+msgid "Team Member"
+msgstr ""
+
+#: framework/includes/theme-options.php:2800
+#: framework/includes/theme-metabox.php:749
+#: framework/includes/theme-metabox.php:870
+msgid "Text"
+msgstr ""
+
+#: framework/includes/theme-options.php:1849
+msgid "Text Color"
+msgstr ""
+
+#. %s: version number
+#: plugins/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:176
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:395
+#: plugins/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:371
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:365
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. 1: plugin name.
+#: plugins/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: framework/includes/theme-options.php:3263
+#: framework/includes/theme-options.php:3264
+msgid "Theme Options"
+msgstr ""
+
+#: templates/comments.php:19
+#, php-format
+msgid "There are % comments"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:359
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/includes/theme-options.php:2846
+msgid "This must be numeric or empty (default 12)."
+msgstr ""
+
+#: framework/includes/theme-metabox.php:1127
+msgid "This option will override Header On Slideshow option."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:347
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:341
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/core/megamenu/edit_custom_walker.php:279
+#: framework/core/megamenu/edit_custom_walker.php:336
+msgid "Three"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:261
+msgid "Thumbnail"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:276
+msgid "Thumbnail Images"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:693
+msgid "Thumbnail size"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:266
+msgid "Thumbnail Style"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:283
+msgid "Thumbnail Video"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:76
+#: framework/includes/theme-metabox.php:173
+#: framework/includes/theme-metabox.php:355
+#: framework/includes/theme-metabox.php:377
+msgid "Title"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:60
+#: framework/includes/theme-metabox.php:157
+msgid "Title (Ex: Facebook)"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:150
+msgid "Title Attribute"
+msgstr ""
+
+#. 1: number of plugins.
+#: plugins/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: number of plugins.
+#: plugins/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/includes/theme-options.php:1823
+msgid "To make color change work you need enable SCSS Compiler."
+msgstr ""
+
+#: framework/includes/theme-options.php:2171
+msgid ""
+"To make this option work you need install plugin Less & scss PHP Compilers."
+msgstr ""
+
+#: framework/includes/theme-options.php:1885
+msgid "To make Typograhpy change work you need enable SCSS Compiler."
+msgstr ""
+
+#: framework/includes/theme-options.php:1375
+#: framework/includes/theme-options.php:1500
+#: framework/includes/theme-metabox.php:957
+msgid "Top Bar"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:985
+msgid "Top Bar Layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:1414
+msgid "Top bar Layout"
+msgstr ""
+
+#: framework/includes/theme-options.php:1391
+#: framework/includes/theme-metabox.php:974
+msgid "Top bar layout width"
+msgstr ""
+
+#: framework/includes/theme-sidebar.php:52
+#: framework/includes/theme-sidebar.php:54
+msgid "Top Bar Left"
+msgstr ""
+
+#: framework/includes/theme-options.php:1403
+msgid "Top bar padding left/right (px)"
+msgstr ""
+
+#: framework/includes/theme-sidebar.php:63
+#: framework/includes/theme-sidebar.php:65
+msgid "Top Bar Right"
+msgstr ""
+
+#: framework/includes/theme-options.php:1428
+#: framework/includes/theme-metabox.php:1000
+msgid "Top Left Sidebar"
+msgstr ""
+
+#: framework/includes/theme-options.php:1439
+#: framework/includes/theme-metabox.php:1011
+msgid "Top Right Sidebar"
+msgstr ""
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:112
+msgid "Total"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:578
+msgid "Trailer Metaboxes"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:504
+msgid "Trailer of Film."
+msgstr ""
+
+#: templates/archive/content-haru-film.php:61
+msgid "Trend"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:526
+msgid "Trending"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:233
+#: framework/includes/theme-metabox.php:589
+msgid "Twitch"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:566
+msgid "Twitch ID"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:559
+msgid "Twitch Server"
+msgstr ""
+
+#: framework/includes/theme-options.php:1557
+#: framework/includes/theme-options.php:1621
+#: framework/includes/theme-options.php:1684
+#: framework/includes/theme-metabox.php:1198
+#: framework/includes/theme-metabox.php:1253
+#: framework/includes/theme-metabox.php:1308
+msgid "Twitter"
+msgstr ""
+
+#: framework/includes/theme-options.php:2625
+msgid "Twitter URL"
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:278
+#: framework/core/megamenu/edit_custom_walker.php:335
+msgid "Two"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2634
+#: templates/single/content-film.php:121
+msgid "Type"
+msgstr ""
+
+#: framework/includes/theme-options.php:1884
+msgid "Typograhpy"
+msgstr ""
+
+#: framework/includes/theme-functions.php:640
+msgid "unmute"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: plugins/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. 1: number of plugins.
+#: plugins/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/cart/cart.php:154
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:154
+msgid "Update cart"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: plugins/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. %s: plugin name.
+#: plugins/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/includes/theme-options.php:1814
+msgid ""
+"Upload a 16px x 16px Png/Gif/ico image that will represent your website "
+"favicon"
+msgstr ""
+
+#: framework/includes/theme-options.php:1775
+msgid "Upload a sticky version of your logo here"
+msgstr ""
+
+#: framework/includes/theme-options.php:393
+#: framework/includes/theme-options.php:556
+#: framework/includes/theme-options.php:719
+#: framework/includes/theme-options.php:962
+#: framework/includes/theme-options.php:2431
+msgid "Upload archive title background."
+msgstr ""
+
+#: framework/includes/theme-options.php:2266
+msgid "Upload page title background."
+msgstr ""
+
+#: framework/includes/theme-options.php:1220
+msgid "Upload portfolio title background."
+msgstr ""
+
+#: framework/includes/theme-options.php:2564
+msgid "Upload single blog title background."
+msgstr ""
+
+#: framework/includes/theme-options.php:1753
+#: framework/includes/theme-options.php:1764
+#: framework/includes/theme-options.php:1787
+msgid "Upload your logo here."
+msgstr ""
+
+#: framework/core/megamenu/edit_custom_walker.php:137
+msgid "URL"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:61
+#: framework/includes/theme-metabox.php:158
+#: framework/includes/theme-metabox.php:235
+#: framework/includes/theme-metabox.php:591
+#: framework/includes/theme-metabox.php:743
+#: framework/includes/theme-metabox.php:865
+#: framework/includes/theme-metabox.php:1513
+msgid "Url"
+msgstr ""
+
+#: framework/includes/theme-options.php:1315
+msgid ""
+"Use this when set Revolution Slider layout is Full-Screen and this will "
+"override Header On Slideshow option. Should use only in Page Options"
+msgstr ""
+
+#: framework/includes/theme-options.php:1543
+#: framework/includes/theme-options.php:1606
+#: framework/includes/theme-options.php:1670
+#: framework/includes/theme-metabox.php:1184
+#: framework/includes/theme-metabox.php:1239
+#: framework/includes/theme-metabox.php:1294
+msgid "User Account"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:79
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:39
+msgid "Username or email address"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:40
+#: framework/includes/theme-metabox.php:137
+#: framework/includes/theme-metabox.php:338
+msgid "Value"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:637
+msgid "Vertical"
+msgstr ""
+
+#: framework/includes/theme-options.php:3057
+#: framework/includes/theme-metabox.php:638
+msgid "Vertical Gallery"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:715
+msgid "Vertical images"
+msgstr ""
+
+#: framework/includes/theme-options.php:3056
+msgid "Vertical Slide"
+msgstr ""
+
+#: woocommerce/single-product/product-image-slide.php:157
+#: woocommerce/single-product/product-image-gallery.php:153
+#: framework/includes/theme-metabox.php:271
+#: framework/includes/theme-metabox.php:689
+msgid "Video"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:373
+msgid "Video Gallery Information"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:242
+#: framework/includes/theme-metabox.php:598
+#: framework/includes/theme-metabox.php:1520
+msgid "Video ID"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:222
+#: framework/includes/theme-metabox.php:1502
+msgid "Video Metaboxes"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:554
+msgid "Video Name"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:250
+#: framework/includes/theme-metabox.php:606
+#: framework/includes/theme-metabox.php:1528
+msgid "Video Url"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:737
+#: framework/includes/theme-metabox.php:811
+msgid "Video URL or Embeded Code"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:551
+#: templates/archive/archive-heading.php:63
+#: templates/archive/archive-heading.php:76
+#: templates/archive/archive-heading.php:85
+msgid "Videos"
+msgstr ""
+
+#: woocommerce/add-to-wishlist-remove.php:50
+msgid "View &rsaquo;"
+msgstr ""
+
+#: framework/includes/enqueue-frontend.php:135
+#: assets/libraries/enqueue-frontend.php:130
+msgid "View Cart"
+msgstr ""
+
+#: templates/single/content-haru-video.php:215
+msgid "View Crew"
+msgstr ""
+
+#: framework/includes/woocommerce-hooks.php:826
+#: framework/includes/woocommerce-hooks.php:908
+#: framework/includes/theme-functions.php:1094
+#: framework/includes/theme-functions.php:1255
+#: templates/single/content-haru-director.php:151
+#: templates/single/content-haru-actor.php:151
+#: templates/single/content-haru-video.php:209
+msgid "View More"
+msgstr ""
+
+#: templates/single/content-film.php:148
+msgid "View Trailer"
+msgstr ""
+
+#: woocommerce/single-product/product-image-slide.php:157
+#: woocommerce/single-product/product-image-gallery.php:153
+msgid "View Video"
+msgstr ""
+
+#: framework/includes/theme-options.php:1559
+#: framework/includes/theme-options.php:1623
+#: framework/includes/theme-options.php:1686
+#: framework/includes/theme-metabox.php:231
+#: framework/includes/theme-metabox.php:587
+#: framework/includes/theme-metabox.php:1200
+#: framework/includes/theme-metabox.php:1255
+#: framework/includes/theme-metabox.php:1310
+#: framework/includes/theme-metabox.php:1512
+msgid "Vimeo"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:562
+msgid "Vimeo ID"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:556
+msgid "Vimeo Server"
+msgstr ""
+
+#: framework/includes/theme-options.php:2665
+msgid "Vimeo URL"
+msgstr ""
+
+#: templates/single/content-film.php:143 templates/single/content-film.php:145
+msgid "Watch Now"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:253
+#: framework/includes/theme-metabox.php:564
+#: framework/includes/theme-metabox.php:609
+#: framework/includes/theme-metabox.php:1531
+msgid "WebM Url"
+msgstr ""
+
+#: framework/includes/theme-options.php:76
+msgid ""
+"Welcome to Haru Circle theme options panel! You can easy to customize the "
+"theme for your purpose!"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:891
+msgid "Wide"
+msgstr ""
+
+#: framework/includes/theme-sidebar.php:21
+msgid "Widget Area 1"
+msgstr ""
+
+#: framework/includes/theme-sidebar.php:32
+msgid "Widget Area 2"
+msgstr ""
+
+#: woocommerce/add-to-wishlist-button.php:43
+#: framework/includes/woocommerce-hooks.php:41
+msgid "Wishlist"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:43
+msgid "Wobble"
+msgstr ""
+
+#: framework/includes/theme-options.php:2789
+#: framework/includes/theme-sidebar.php:74
+msgid "Woocommerce"
+msgstr ""
+
+#: framework/includes/theme-sidebar.php:76
+msgid "Woocommerce Sidebar"
+msgstr ""
+
+#: 404.php:20
+msgid "Woops, looks like this page doesn't exist"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/includes/tgmpa-register.php:104
+msgid "WPBakery Page Builder"
+msgstr ""
+
+#: templates/archive/archive-heading.php:53
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: templates/archive/archive-heading.php:53
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: 404.php:21
+msgid "You could either go to homepage"
+msgstr ""
+
+#: woocommerce/single-product/related.php:34
+msgid "You may also "
+msgstr ""
+
+#: templates/single/post-related.php:13
+#: templates/single/content-haru-video.php:256
+msgid "You may also like this"
+msgstr ""
+
+#: framework/includes/theme-hooks.php:197
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/includes/theme-options.php:1563
+#: framework/includes/theme-options.php:1627
+#: framework/includes/theme-options.php:1690
+#: framework/includes/theme-metabox.php:1204
+#: framework/includes/theme-metabox.php:1259
+#: framework/includes/theme-metabox.php:1314
+msgid "YouTube"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:230
+#: framework/includes/theme-metabox.php:586
+#: framework/includes/theme-metabox.php:1511
+msgid "Youtube"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:561
+msgid "Youtube ID"
+msgstr ""
+
+#: framework/includes/woocommerce-functions.php:48
+msgid "Youtube or Vimeo Url"
+msgstr ""
+
+#: framework/includes/theme-metabox.php:555
+msgid "Youtube Server"
+msgstr ""
+
+#: framework/includes/theme-options.php:2641
+msgid "YouTube URL"
+msgstr ""
+
+#: framework/vc_extension/update_params.php:34
+msgid "Zoom In"
+msgstr ""
+
+#: framework/includes/theme-options.php:2742
+msgid "ZoomIn"
+msgstr ""
+
+#: framework/includes/theme-options.php:2747
+msgid "ZoomOut"
+msgstr ""

@@ -1,0 +1,762 @@
+/*-----------------------------------
+ * FILM SHORTCODE
+ *-----------------------------------*/
+.film-shortcode-wrapper {
+    // Grid or Masonry
+    &.grid, &.masonry, &.slideshow {
+        .film-content {
+            .film-filter {
+                list-style: none;
+                list-style-type: none;
+                padding: 0;
+                &.align_left {
+                    text-align: left;
+                }
+                &.align_center {
+                    text-align: center;
+                }
+                &.align_right {
+                    text-align: right;
+                }
+                // Filter style
+                &.style_1 {
+                    li {
+                        display: inline-block;
+                        padding: 0 5px;
+                        margin-bottom: 10px;
+                        a {
+                            border: 2px solid $border_color;
+                            display: inline-block;
+                            font-size: 13px;
+                            padding: 6px 25px;
+                            text-transform: uppercase;
+                            @include rounded(20px);
+                            @include transition(all .3s);
+                            &:hover, &.selected {
+                                background-color: $primary_color;
+                                border-color: $primary_color;
+                                color: $white;
+                                @include transition(all .3s);
+                            }
+                            @media screen and (max-width: $screen-xs-max) {
+                                font-size: 12px;
+                                padding: 5px 15px;
+                            }
+                        }
+                    }
+                }
+                &.style_2 {
+                    li {
+                        display: inline-block;
+                        padding: 0 5px;
+                        margin-bottom: 10px;
+                        a {
+                            border: 2px solid rgba($border_color, .2);
+                            display: inline-block;
+                            font-size: 13px;
+                            padding: 6px 25px;
+                            text-transform: uppercase;
+                            @include rounded(20px);
+                            @include transition(all .3s);
+                            &:hover, &.selected {
+                                background-color: $primary_color;
+                                border-color: $primary_color;
+                                color: $white;
+                                @include transition(all .3s);
+                            }
+                            @media screen and (max-width: $screen-xs-max) {
+                                font-size: 12px;
+                                padding: 5px 15px;
+                            }
+                        }
+                    }
+                }
+            }
+            // Slideshow style
+            &:hover {
+                .film-slideshow-container {
+                    .owl-nav {
+                        .owl-prev, .owl-next {
+                            opacity: 1;
+                            @include transition(all .3s ease);
+                        }
+                    }
+                }
+            }
+            .film-list, .film-slideshow-container { // film-slideshow-container for slideshow style
+                margin-top: 3%;
+                // Columns
+                &.columns-2 {
+                    .film-item {
+                        width: 50%;
+                    }
+                }
+                &.columns-3 {
+                    .film-item {
+                        width: 33.333333%;
+
+                        @-moz-document url-prefix() {
+                            width: calc(33.333333% - .1px);
+                        }
+
+                        @media screen and (max-width: $screen-xs-max) {
+                            width: 50%;
+                        }
+                    }
+                }
+                &.columns-4 {
+                    .film-item {
+                        width: 25%;
+                        @media screen and (max-width: $screen-sm-max) {
+                            width: 33.333333%;
+
+                            @-moz-document url-prefix() {
+                                width: calc(33.333333% - .1px);
+                            }
+                        }
+                        @media screen and (max-width: $screen-xs-max) {
+                            width: 50%;
+                        }
+                    }
+                }
+                &.columns-5 {
+                    .film-item {
+                        width: 20%;
+                        @media screen and (max-width: $screen-sm-max) {
+                            width: 33.333333%;
+
+                            @-moz-document url-prefix() {
+                                width: calc(33.333333% - .1px);
+                            }
+                        }
+                        @media screen and (max-width: $screen-xs-max) {
+                            width: 50%;
+                        }
+                    }
+                }
+                // Special Columns
+                &.columns-special {
+                    // Item style
+                    .film-item {
+                        // Colums Special
+                        &.hcol-md-5 {
+                            width: 41.666666%;
+                            // Style 1
+                            &.style_1 {
+                                // Item style
+                                &:nth-child(odd) {
+                                    padding: 8% 10% 8% 0;
+                                }
+                                &:nth-child(even) {
+                                    padding: 8% 0 8% 10%;
+                                }
+                                .film-meta {
+                                    .film-title {
+                                        font-size: 18px;
+                                    }
+                                    .film-category {
+                                        font-size: 14px;
+                                    }
+                                }
+                            }
+                            // Style 2
+                            &.style_2 {
+                                // Item style
+                                &:nth-child(odd) {
+                                    padding: 8% 10% 8% 0;
+                                }
+                                &:nth-child(even) {
+                                    padding: 8% 0 8% 10%;
+                                }
+                                .film-meta {
+                                    .film-title {
+                                        font-size: 18px;
+                                    }
+                                    .film-category {
+                                        font-size: 14px;
+                                    }
+                                }
+                            }
+                            @media screen and (max-width: $screen-xs-max) {
+                                padding: 0!important;
+                                width: 100%;
+                            }
+                        }
+                        &.hcol-md-7 {
+                            width: 58.333333%;
+                            margin-bottom: 6%;
+                            @media screen and (max-width: $screen-xs-max) {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+                // Item style
+                .film-item {
+                    // Style 1
+                    &.style_1 {
+                        padding: 10px;
+                        &:hover {
+                            .film-image {
+                                &:before {
+                                    opacity: 1;
+                                    @include transition(all .3s);
+                                }
+                                img {
+                                    @include transform(scale(1.1));
+                                    @include transition(all .8s);
+                                }
+                                .film-icon {
+                                    opacity: 1;
+                                    @include transition(all .5s);
+                                }
+                            }
+
+                        }
+                        .film-image {
+                            overflow: hidden;
+                            position: relative;
+                            &:before {
+                                content: "";
+                                position: absolute;
+                                width: 100%;
+                                height: 100%;
+                                left: 0;
+                                top: 0;
+                                background-color: rgba($black, .4);
+                                z-index: 1;
+                                opacity: 0;
+                                @include transition(all .3s);
+                            }
+                            img {
+                                width: 100%;
+                                @include transform(scale(1.0));
+                                @include transition(all .8s);
+                            }
+                            .film-label {
+                                position: absolute;
+                                right: 0;
+                                top: 20px;
+                                padding: 1px 15px;
+                                color: $white;
+                                font-size: 15px;
+                                font-weight: 700;
+                                border-top-left-radius: 20px;
+                                border-bottom-left-radius: 20px;
+                                &.hot {
+                                    background-color: #da0e2b;
+                                }
+                                &.new {
+                                    background-color: #da0e2b;
+                                }
+                                &.trending {
+                                    background-color: $primary_color;
+                                }
+                            }
+                            .film-icon {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                z-index: 9;
+                                opacity: 0;
+                                @include transform(translate(-50%, -50%));
+                                @include transition(all .5s);
+                                .view-film-button,
+                                .view-film-button-direct {
+                                    width: 50px;
+                                    height: 50px;
+                                    display: block;
+                                    padding: 50px;
+                                    position: relative;
+                                    border: 2px solid $white;
+                                    text-align: center;
+                                    @include rounded(50%);
+                                    @include transition(all .3s);
+                                    &:hover {
+                                        border: 2px solid $primary_color;
+                                        @include transition(all .3s);
+                                        &:before {
+                                            color: $primary_color;
+                                            @include transition(all .3s);
+                                        }
+                                    }
+                                    &:before {
+                                        content: "\f488";
+                                        font-family: Ionicons;
+                                        position: absolute;
+                                        left: 40px;
+                                        top: 0;
+                                        color: $white;
+                                        line-height: 100px;
+                                        font-size: 45px;
+                                        font-weight: 500;
+                                        @include transition(all .3s);
+                                    }
+                                    i {
+                                        color: $white;
+                                        font-size: 40px;
+                                        padding: 20px;
+                                        height: 20px;
+                                        width: 20px;
+                                    }
+                                }
+                            }
+                        }
+                        .film-meta {
+                            text-align: center;
+                            .film-rating {
+                                margin-top: 15px;
+                                .point {
+                                    color: $primary_color;
+                                    font-size: 24px;
+                                    font-weight: 700;
+                                    margin-right: 5px;
+                                }
+                            }
+                            .film-title {
+                                font-size: 18px;
+                                margin-top: 5px;
+                                padding: 0px 10px;
+                                line-height: 1.8;
+                                @media screen and (max-width: $screen-sm-max) {
+                                   
+                                }
+                                a {
+                                    color: $white;
+                                    @include transition(all .3s);
+                                    &:hover {
+                                        color: $link_color_hover;
+                                        @include transition(all .3s);
+                                    }
+                                }
+                            }
+                            .film-category {
+                                margin-top: 3px;
+                                margin-bottom: 25px;
+                                a {
+                                    color: $text_color_tertiary;
+                                    letter-spacing: 1px;
+                                    @include transition(all .3s);
+                                    &:hover {
+                                        color: $link_color_hover;
+                                        @include transition(all .3s);
+                                    }
+                                    @media screen and (max-width: $screen-sm-max) {
+                                        font-size: 12px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    // Style 2
+                    &.style_2 {
+                        padding: 10px;
+                        &:hover {
+                            .film-image {
+                                &:before {
+                                    opacity: 1;
+                                    @include transition(all .3s);
+                                }
+                                img {
+                                    @include transform(scale(1.1));
+                                    @include transition(all .8s);
+                                }
+                                .film-icon {
+                                    opacity: 1;
+                                    @include transition(all .5s);
+                                }
+                            }
+
+                        }
+                        .film-image {
+                            overflow: hidden;
+                            position: relative;
+                            &:before {
+                                content: "";
+                                position: absolute;
+                                width: 100%;
+                                height: 100%;
+                                left: 0;
+                                top: 0;
+                                background-color: rgba($black, .4);
+                                z-index: 1;
+                                opacity: 0;
+                                @include transition(all .3s);
+                            }
+                            img {
+                                width: 100%;
+                                @include transform(scale(1.0));
+                                @include transition(all .8s);
+                            }
+                            .film-label {
+                                position: absolute;
+                                right: 0;
+                                top: 20px;
+                                padding: 1px 15px;
+                                color: $white;
+                                font-size: 14px;
+                                font-weight: 700;
+                                border-top-left-radius: 20px;
+                                border-bottom-left-radius: 20px;
+                                &.hot {
+                                    background-color: #da0e2b;
+                                }
+                                &.new {
+                                    background-color: #da0e2b;
+                                }
+                                &.trending {
+                                    background-color: $primary_color;
+                                }
+                            }
+                            .film-icon {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                z-index: 9;
+                                opacity: 0;
+                                @include transform(translate(-50%, -50%));
+                                @include transition(all .5s);
+                                .view-film-button,
+                                .view-film-button-direct {
+                                    width: 40px;
+                                    height: 40px;
+                                    display: block;
+                                    padding: 40px;
+                                    position: relative;
+                                    border: 2px solid $white;
+                                    text-align: center;
+                                    @include rounded(50%);
+                                    @include transition(all .3s);
+                                    &:hover {
+                                        border: 2px solid $primary_color;
+                                        @include transition(all .3s);
+                                        &:before {
+                                            color: $primary_color;
+                                            @include transition(all .3s);
+                                        }
+                                    }
+                                    &:before {
+                                        content: "\f488";
+                                        font-family: Ionicons;
+                                        position: absolute;
+                                        left: 32px;
+                                        top: 0;
+                                        color: $white;
+                                        line-height: 80px;
+                                        font-size: 45px;
+                                        font-weight: 500;
+                                        @include transition(all .3s);
+                                    }
+                                    i {
+                                        color: $white;
+                                        font-size: 40px;
+                                        padding: 20px;
+                                        height: 20px;
+                                        width: 20px;
+                                    }
+                                }
+                            }
+                            .film-rating {
+                                background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.6));
+                                color: $white;
+                                font-size: 13px;
+                                position: absolute;
+                                left: 0;
+                                right: 0;
+                                bottom: 0;
+                                margin-top: 15px;
+                                text-align: center;
+                                .point {
+                                    color: $primary_color;
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    margin-right: 5px;
+                                }
+                            }
+                        }
+                        .film-meta {
+                            text-align: center;
+                            .film-title {
+                                font-size: 14px;
+                                margin-top: 15px;
+                                margin-bottom: 20px;
+                                padding: 0px 10px;
+                                line-height: 1.8;
+                                @media screen and (max-width: $screen-sm-max) {
+                                   
+                                }
+                                a {
+                                    color: $white;
+                                    @include transition(all .3s);
+                                    &:hover {
+                                        color: $link_color_hover;
+                                        @include transition(all .3s);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    // Style 3
+
+                }
+                .owl-nav {
+                    .owl-prev, .owl-next {
+                        position: absolute;
+                        display: block;
+                        top: 36%;
+                        z-index: 999;
+                        width: 40px;
+                        height: 40px;
+                        line-height: 40px;
+                        text-align: center;
+                        background: rgba($black, .2);
+                        color: $white;
+                        opacity: 0;
+                        @include translateY(-50%);
+                        @include transition(all .3s ease);
+                        &:hover {
+                            background: rgba($black, .5);
+                            cursor: pointer;
+                        }
+                    }
+                    .owl-prev {
+                        left: 0;
+                    }
+                    .owl-next {
+                        right: 0;
+                    }
+                }
+            }
+        }
+    }
+    &.grid, &.masonry {
+        .film-content {
+            margin-left: -10px;
+            margin-right: -10px;
+        }
+    }
+    // Slideshow
+    &.slideshow {
+        .film-content {
+            .film-slideshow-container {
+                // Item style
+                .film-item {
+                    &.style_1 {
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+
+}
+// Pagination film
+.film-shortcode-paging-wrapper {
+    margin-top: 50px;
+    text-align: center;
+    .film-pagination {
+        font-style: italic;
+        font-weight: 600;
+        margin-top: 30px;
+        text-align: center;
+        .page-numbers {
+            list-style: none;
+            list-style-type: none;
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+            li {
+                display: inline-block;
+                padding-right: 25px;
+                span, a {
+                    display: inline-block;
+                    height: 25px;
+                    line-height: 25px;
+                    text-align: center;
+                }
+                span.current {
+                    color: $primary_color;
+                }
+                a {
+                    &:hover, &:focus {
+                        background: none;
+                        color: $link_color_hover;
+                    }
+                    &.prev, &.next {
+                        text-transform: uppercase;
+                    }
+                }
+
+            }
+        }
+    }
+    // Loadmore style
+    &.paging-load-more {
+        button {
+            background-color: $primary_color;
+            background-image: none;
+            border: 2px solid $primary_color;
+            color: $white;
+            font-weight: 700;
+            padding: 8px 35px;
+            @include rounded(30px);
+            @include transition(all .3s);
+            &:hover {
+                border: 2px solid $border_color;
+                background-color: transparent;
+                color: $primary_color;
+                @include transition(all .3s);
+            }
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
+/*-----------------------------------
+ * FILM TOP VIEW
+ *-----------------------------------*/
+.film-top-view-shortcode-wrapper {
+    .film-content {
+        background-color: #111;
+        .top-title {
+            position: relative;
+            font-size: 24px;
+            font-family: $secondary_font;
+            color: $white;
+            margin-left: 15px;
+            padding-left: 18px;
+            padding-top: 25px;
+            &:before {
+                content: "/";
+                color: $primary_color;
+                left: 0;
+                position: absolute;
+            }
+        }
+        .film-list {
+            list-style-type: none;
+            list-style: none;
+            margin-bottom: 0;
+            padding: 10px 0;
+            .film-item {
+                padding: 20px 25px;
+                border-bottom: 1px dashed #333;
+                &:last-child {
+                    border-bottom: none;
+                }
+                .top-number {
+                    background-color: #333;
+                    color: $white;
+                    font-size: 15px;
+                    font-weight: 500;
+                    display: inline-block;
+                    float: left;
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    @include rounded(50%);
+                }
+                .item-content {
+                    display: inline-block;
+                    padding-left: 15px;
+                    width: calc(100% - 45px);
+                    a {
+                        color: $text_color_secondary;
+                        font-size: 16px;
+                        font-family: $secondary_font;
+                        font-weight: 700;
+                        @include transition(all .3s);
+                        &:hover {
+                            color: $link_color_hover;
+                            @include transition(all .3s);
+                        }
+                    }
+                    .view-count {
+                        font-size: 15px;
+                        margin-top: 5px;
+                        i {
+                            color: $primary_color;
+                            margin-right: 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*-----------------------------------
+ * FILM TOP CELEBRITY
+ *-----------------------------------*/
+.celebrity-top-view-shortcode-wrapper {
+    .celebrity-content {
+        background-color: #111;
+        .top-title {
+            position: relative;
+            font-size: 24px;
+            font-family: $secondary_font;
+            color: $white;
+            margin-left: 15px;
+            padding-left: 18px;
+            padding-top: 25px;
+            &:before {
+                content: "/";
+                color: $primary_color;
+                left: 0;
+                position: absolute;
+            }
+        }
+        .celebrity-list {
+            list-style-type: none;
+            list-style: none;
+            margin-bottom: 0;
+            padding: 10px 0;
+            .celebrity-item {
+                padding: 15px 15px;
+                border-bottom: 1px dashed #333;
+                &:last-child {
+                    border-bottom: none;
+                }
+                .item-thumbnail {
+                    display: inline-block;
+                    float: left;
+                    width: 70px;
+                    height: 70px;
+                    overflow: hidden;
+                    @include rounded(50%);
+                }
+                .item-content {
+                    display: inline-block;
+                    padding-left: 15px;
+                    padding-top: 10px;
+                    width: calc(100% - 85px);
+                    a {
+                        color: $text_color_secondary;
+                        font-size: 14px;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        @include transition(all .3s);
+                        &:hover {
+                            color: $link_color_hover;
+                            @include transition(all .3s);
+                        }
+                    }
+                    .view-count {
+                        display: none;
+                        font-size: 15px;
+                        i {
+                            color: $primary_color;
+                            margin-right: 6px;
+                        }
+                    }
+                    .item-position {
+                        font-family: $secondary_font;
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+    }
+}
