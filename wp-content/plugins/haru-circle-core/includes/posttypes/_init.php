@@ -33,6 +33,7 @@ if( ! class_exists( 'Haru_CircleCore_Posttypes' ) ) {
             require_once( PLUGIN_HARU_CIRCLE_CORE_DIR . 'includes/posttypes/trailer.php');
             require_once( PLUGIN_HARU_CIRCLE_CORE_DIR . 'includes/posttypes/video.php');
             require_once( PLUGIN_HARU_CIRCLE_CORE_DIR . 'includes/posttypes/film.php');
+			require_once( PLUGIN_HARU_CIRCLE_CORE_DIR . 'includes/posttypes/digitalasset.php');
 		}
 	}
 

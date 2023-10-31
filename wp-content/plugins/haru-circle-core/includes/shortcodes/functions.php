@@ -229,6 +229,8 @@ vc_add_shortcode_param('haru_teammember_categories', 'haru_register_vc_field_tea
 vc_add_shortcode_param('haru_teammember_list', 'haru_register_vc_field_teammember_list');
 vc_add_shortcode_param('haru_video_categories', 'haru_register_vc_field_video_categories');
 vc_add_shortcode_param('haru_video_list', 'haru_register_vc_field_video_list');
+vc_add_shortcode_param('haru_digitalasset_categories', 'haru_register_vc_field_digitalasset_categories');
+vc_add_shortcode_param('haru_digitalasset_list', 'haru_register_vc_field_digitalasset_list');
 vc_add_shortcode_param('haru_actor_categories', 'haru_register_vc_field_actor_categories');
 vc_add_shortcode_param('haru_actor_list', 'haru_register_vc_field_actor_list');
 vc_add_shortcode_param('haru_director_categories', 'haru_register_vc_field_director_categories');
@@ -274,6 +276,13 @@ function haru_register_vc_field_video_categories($settings, $value) {
 }
 function haru_register_vc_field_video_list($settings, $value) {
     return haru_multi_select_settings_field_shortcode_param($settings, $value, 'video_category', 'haru_video', false);
+}
+
+function haru_register_vc_field_digitalasset_categories($settings, $value) {
+    return haru_multi_select_settings_field_shortcode_param($settings, $value, 'digitalasset_category', 'haru_digitalasset', true);
+}
+function haru_register_vc_field_digitalasset_list($settings, $value) {
+    return haru_multi_select_settings_field_shortcode_param($settings, $value, 'digitalasset_category', 'haru_digitalasset', false);
 }
 
 function haru_register_vc_field_actor_categories($settings, $value) {

@@ -50,6 +50,8 @@ if (!class_exists('Haru_CircleCore_Shortcodes')) {
             include_once( PLUGIN_HARU_CIRCLE_CORE_DIR . 'includes/shortcodes/posttypes/portfolio/portfolio.php' );
             include_once( PLUGIN_HARU_CIRCLE_CORE_DIR . 'includes/shortcodes/posttypes/video/video.php' );
             include_once( PLUGIN_HARU_CIRCLE_CORE_DIR . 'includes/shortcodes/posttypes/video/single-video.php' );
+            include_once( PLUGIN_HARU_CIRCLE_CORE_DIR . 'includes/shortcodes/posttypes/digitalasset/digitalasset.php' );
+            // include_once( PLUGIN_HARU_CIRCLE_CORE_DIR . 'includes/shortcodes/posttypes/digitalasset/single-digitalasset.php' );
             include_once( PLUGIN_HARU_CIRCLE_CORE_DIR . 'includes/shortcodes/posttypes/actor/actor.php' );
             include_once( PLUGIN_HARU_CIRCLE_CORE_DIR . 'includes/shortcodes/posttypes/director/director.php' );
             include_once( PLUGIN_HARU_CIRCLE_CORE_DIR . 'includes/shortcodes/posttypes/film/film.php' );

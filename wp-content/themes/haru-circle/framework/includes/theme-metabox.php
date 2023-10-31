@@ -425,6 +425,55 @@ function haru_register_meta_boxes() {
         )
     );
 
+    // Digital Assets metabox
+    $meta_boxes[] = array(
+        'id'         => 'haru_digitalasset' . '_metabox',
+        'title'      => esc_html__( 'Video Metaboxes', 'haru-circle' ),
+        'post_types' => array( 'haru_digitalasset' ),
+        'fields'     => array(
+            // THUMBNAIL INFORMATION
+            array(
+                'type' => 'heading',
+                'name' => esc_html__( 'Thumbnail', 'haru-circle' ),
+                'desc' => esc_html__( 'Set thumbnail style for Digital Assets', 'haru-circle' ),
+            ),
+            
+            array(
+                'name'  => esc_html__( 'Thumbnail Video', 'haru-circle' ),
+                'id'    => 'haru_digitalasset' . '_thumbnail_video',
+                'type'  => 'file_input',
+                'desc'  => esc_html__( 'Set video URL for video\'s thumbnail (MP4)', 'haru-circle' )
+            ),
+            array(
+                'name' => esc_html__( 'Thumbnail Images', 'haru-circle' ),
+                'id'   => 'haru_digitalasset' . '_thumbnail_images',
+                'type' => 'image_advanced',
+                'desc' => esc_html__( 'Select images for partner','haru-circle' )
+            ),
+            // HEADING PARTNER/ SPONSOR
+            array(
+                'type' => 'heading',
+                'name' => esc_html__( 'Partners/Sponsor', 'haru-circle' ),
+                'desc' => esc_html__( 'Information of partner/sponsor', 'haru-circle' ),
+            ),
+            array(
+                'id'   => 'haru_digitalasset' . '_price',
+                'name' => esc_html__( 'Price', 'haru-circle' ),
+                'type' => 'text',
+            ),
+            array(
+                'name' => esc_html__( 'OPV', 'haru-circle' ),
+                'id'   => 'haru_digitalasset' . '_opv',
+                'type' => 'text',
+            ),
+            array(
+                'name' => esc_html__( 'Link Find Out More', 'haru-circle' ),
+                'id'   => 'haru_digitalasset' . '_url_find_out_more',
+                'type' => 'text'
+            )
+        )
+    );
+
     // Film metabox
     $meta_boxes[] = array(
         'id'         => 'haru_film' . '_metabox',
