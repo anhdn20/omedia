@@ -31,7 +31,7 @@ if ( ! class_exists('Haru_Framework_Shortcode_Digitalasset') ) {
                 'digitalasset_ids'      => '',
                 'layout_type'    => 'grid',
                 'columns'        => '2',
-                'digitalasset_style'    => 'style_1',
+                'digitalasset_style'  => 'style_1',
                 'filter'         => 'show',
                 'filter_style'   => 'style_1',
                 'filter_align'   => 'align_left',

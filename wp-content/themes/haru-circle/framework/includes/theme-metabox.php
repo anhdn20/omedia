@@ -447,7 +447,7 @@ function haru_register_meta_boxes() {
             array(
                 'name' => esc_html__( 'Thumbnail Images', 'haru-circle' ),
                 'id'   => 'haru_digitalasset' . '_thumbnail_images',
-                'type' => 'image_advanced',
+                'type' => 'file_input',
                 'desc' => esc_html__( 'Select images for partner','haru-circle' )
             ),
             // HEADING PARTNER/ SPONSOR
