@@ -17,29 +17,29 @@ if ( is_front_page() ) {
     $paged   = get_query_var( 'paged' ) ? intval( get_query_var( 'paged' ) ) : 1;
 }
 
-$videos_paging_class   = array('video-shortcode-paging-wrapper');
-$videos_paging_class[] = 'paging-' . $paging_style;        
+$digitalassets_paging_class   = array('digitalasset-shortcode-paging-wrapper');
+$digitalassets_paging_class[] = 'paging-' . $paging_style;        
 
 $args = array(
     'orderby'        => 'post__in',
-    'post__in'       => explode(",", $video_ids),
-    'posts_per_page' => $posts_per_page, // -1 is Unlimited video
-    'post_type'      => 'haru_video',
+    'post__in'       => explode(",", $digitalasset_ids),
+    'posts_per_page' => $posts_per_page, // -1 is Unlimited digitalasset
+    'post_type'      => 'haru_digitalasset',
     'paged'          => $paged,
     'post_status'    => 'publish'
 );
 
 if ( $data_source == '' ) {
     $args = array(
-        'posts_per_page' => $posts_per_page, // -1 is Unlimited video
+        'posts_per_page' => $posts_per_page, // -1 is Unlimited digitalasset
         'orderby'        => $orderby,
         'order'          => $order,
-        'post_type'      => 'haru_video',
+        'post_type'      => 'haru_digitalasset',
         'paged'          => $paged,
         'post_status'    => 'publish',
         'tax_query'      => array(
             array(
-                'taxonomy' => 'video_category',
+                'taxonomy' => 'digitalasset_category',
                 'field'    => 'slug',
                 'terms'    => explode(',', $category),
             )
@@ -47,25 +47,25 @@ if ( $data_source == '' ) {
     );
 }
 
-$videos = new WP_Query($args);
+$digitalassets = new WP_Query($args);
 // Enqueue assets
 wp_enqueue_script( 'imagesloaded', get_template_directory_uri() . '/assets/libraries/imagesloaded/imagesloaded.min.js', false, true );
 wp_enqueue_script( 'isotope', get_template_directory_uri() . '/assets/libraries/isotope/isotope.pkgd.min.js', false, true );
 ?>
-<?php if( $videos->have_posts() ) : ?>
-    <div class="video-shortcode-wrapper <?php echo esc_attr( $layout_type . ' ' . $el_class); ?>">
-        <div class="video-content">
+<?php if( $digitalassets->have_posts() ) : ?>
+    <div class="digitalasset-shortcode-wrapper <?php echo esc_attr( $layout_type . ' ' . $el_class); ?>">
+        <div class="digitalasset-content">
             <?php
                 $slugSelected = explode(',', $category);
                 $terms = get_terms(
                     array(
-                        'taxonomy'  => 'video_category',
+                        'taxonomy'  => 'digitalasset_category',
                         'slug'      => $slugSelected,
                         'orderby'   => 'slug__in',
                     )
                 );
             ?>
-            <ul data-option-key="filter" class="video-filter <?php echo esc_attr( $filter_style . ' ' . $filter_align ); if ( $filter != 'show' ) echo ' hide'; ?>">
+            <ul data-option-key="filter" class="digitalasset-filter <?php echo esc_attr( $filter_style . ' ' . $filter_align ); if ( $filter != 'show' ) echo ' hide'; ?>">
                 <li>
                     <a class=""
                         href="javascript:;" 
@@ -82,13 +82,13 @@ wp_enqueue_script( 'isotope', get_template_directory_uri() . '/assets/libraries/
                 <?php endforeach; ?>
             </ul>
 
-            <div class="video-list columns-special">
+            <div class="digitalasset-list columns-special">
                 <?php 
                     $i = 1;
                     $temp = 3;
-                    while( $videos->have_posts() ) : $videos->the_post();
+                    while( $digitalassets->have_posts() ) : $digitalassets->the_post();
 
-                    $terms          = wp_get_post_terms(get_the_ID(), array('video_category'));
+                    $terms          = wp_get_post_terms(get_the_ID(), array('digitalasset_category'));
                     $filter_name = $filter_slug = '';
                     foreach ( $terms as $term ) {
                         $filter_slug .= $term->slug . ' ';
@@ -99,21 +99,21 @@ wp_enqueue_script( 'isotope', get_template_directory_uri() . '/assets/libraries/
                     ?>
 
                         <?php if ( $i == 1 ) : ?>
-                        <div class="hcol-md-5 video-item <?php echo esc_attr( $video_style . ' ' . $filter_slug ); ?>" onclick="void(0)">
+                        <div class="hcol-md-5 digitalasset-item <?php echo esc_attr( $digitalasset_style . ' ' . $filter_slug ); ?>" onclick="void(0)">
                             <?php //echo 'cot 5'; 
-                            echo haru_get_template('posttypes/video/video-style/special_'. $video_style .'.php', '', '', '' );
+                            echo haru_get_template('posttypes/digitalasset/digitalasset-style/special_'. $digitalasset_style .'.php', '', '', '' );
                             ?>
                         </div>
                         <?php elseif ( $i <= $temp ) : ?>
-                        <div class="hcol-md-7 video-item <?php echo esc_attr( $video_style . ' ' . $filter_slug ); ?>" onclick="void(0)">
+                        <div class="hcol-md-7 digitalasset-item <?php echo esc_attr( $digitalasset_style . ' ' . $filter_slug ); ?>" onclick="void(0)">
                             <?php //echo 'cot 7';
-                            echo haru_get_template('posttypes/video/video-style/special_'. $video_style .'.php', '', '', '' );
+                            echo haru_get_template('posttypes/digitalasset/digitalasset-style/special_'. $digitalasset_style .'.php', '', '', '' );
                             ?>
                         </div>
                         <?php elseif ( $i > $temp ) : ?>
-                        <div class="hcol-md-5 video-item <?php echo esc_attr( $video_style . ' ' . $filter_slug ); ?>" onclick="void(0)">
+                        <div class="hcol-md-5 digitalasset-item <?php echo esc_attr( $digitalasset_style . ' ' . $filter_slug ); ?>" onclick="void(0)">
                             <?php //echo 'cot 5';
-                                echo haru_get_template('posttypes/video/video-style/special_'. $video_style .'.php', '', '', '' );
+                                echo haru_get_template('posttypes/digitalasset/digitalasset-style/special_'. $digitalasset_style .'.php', '', '', '' );
                                 if ( $temp + 2 == $i ) {
                                     $temp = $temp + 2*2;
                                 }
@@ -124,18 +124,18 @@ wp_enqueue_script( 'isotope', get_template_directory_uri() . '/assets/libraries/
             </div>
         </div>
     </div>
-    <?php if ( ( $videos->max_num_pages > 1 ) && ( $paging_style != 'none' ) ) : ?>
-        <div class="<?php echo join(' ', $videos_paging_class); ?>">
+    <?php if ( ( $digitalassets->max_num_pages > 1 ) && ( $paging_style != 'none' ) ) : ?>
+        <div class="<?php echo join(' ', $digitalassets_paging_class); ?>">
             <?php
                 switch ( $paging_style ) {
                     case 'load-more':
-                        haru_paging_load_more_video($videos);
+                        haru_paging_load_more_digitalasset($digitalassets);
                         break;
                     case 'infinity-scroll':
-                        haru_paging_infinitescroll_video($videos);
+                        haru_paging_infinitescroll_digitalasset($digitalassets);
                         break;
                     default:
-                        echo haru_paging_nav_video($videos);
+                        echo haru_paging_nav_digitalasset($digitalassets);
                         break;
                 }
             ?>

@@ -55,7 +55,32 @@ wp_enqueue_script( 'isotope', get_template_directory_uri() . '/assets/libraries/
 <?php if( $digitalassets->have_posts() ) : ?>
     <div class="digitalasset-shortcode-wrapper <?php echo esc_attr( $layout_type . ' ' . $el_class); ?>">
         <div class="digitalasset-content">
-
+            <?php
+                $slugSelected = explode(',', $category);
+                $terms = get_terms(
+                    array(
+                        'taxonomy'  => 'digitalasset_category',
+                        'slug'      => $slugSelected,
+                        'orderby'   => 'slug__in',
+                    )
+                );
+            ?>
+            <ul data-option-key="filter" class="digitalasset-filter <?php echo esc_attr( $filter_style . ' ' . $filter_align ); if ( $filter != 'show' ) echo ' hide'; ?> ">
+                <li>
+                    <a class=""
+                        href="javascript:;" 
+                        data-option-value="*"
+                    ><?php echo esc_html__( 'All', 'haru-circle' ); ?></a>
+                </li>
+                <?php foreach ($terms as $term) : ?>
+                <li>
+                    <a class=""
+                        href="javascript:;" 
+                        data-option-value =".<?php echo esc_attr($term->slug); ?>"
+                    ><?php echo wp_kses_post( $term->name ); ?></a>
+                </li>
+                <?php endforeach; ?>
+            </ul>
 
             <div class="digitalasset-list columns-<?php echo esc_attr( $columns ); ?>">
                 <?php while( $digitalassets->have_posts() ) : $digitalassets->the_post(); ?>
