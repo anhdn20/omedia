@@ -24,6 +24,10 @@ if ( ($show_page_title == -1) || ($show_page_title === '') ) {
         $show_page_title = haru_get_option('haru_show_single_video_title');
     }
 
+    elseif ( is_singular('haru_digitalasset') ) {
+        $show_page_title = haru_get_option('haru_show_single_digitalasset_title');
+    }
+
     elseif ( is_singular('haru_film') ) {
         $show_page_title = haru_get_option('haru_show_single_film_title');
     }
@@ -64,6 +68,8 @@ if ( $page_title_bg_images ) {
         $page_title_bg_image = haru_get_option('portfolio_title_bg_image');
     } elseif ( is_singular('haru_video') ) {
         $page_title_bg_image = haru_get_option('haru_single_video_title_bg_image');
+    } elseif ( is_singular('haru_digitalasset') ) {
+        $page_title_bg_image = haru_get_option('haru_single_digitalasset_title_bg_image');
     } elseif ( is_singular('haru_film') ) {
         $page_title_bg_image = haru_get_option('haru_single_film_title_bg_image');
     } elseif ( is_singular('post') ) {
@@ -94,6 +100,8 @@ if ( ($breadcrumbs_in_page_title == -1) || ($breadcrumbs_in_page_title === '') )
         $breadcrumbs_in_page_title = haru_get_option('breadcrumbs_in_portfolio_title');
     } elseif ( is_singular('haru_video') ) {
         $breadcrumbs_in_page_title = haru_get_option('haru_breadcrumbs_in_single_video_title');
+    } elseif ( is_singular('haru_digitalasset') ) {
+        $breadcrumbs_in_page_title = haru_get_option('haru_breadcrumbs_in_single_digitalasset_title');
     } elseif ( is_singular('haru_film') ) {
         $breadcrumbs_in_page_title = haru_get_option('haru_breadcrumbs_in_single_film_title');
     } elseif ( is_singular('post') ) {
@@ -133,6 +141,8 @@ if ( !isset($page_title_parallax) || ($page_title_parallax == '') || ($page_titl
         $page_title_parallax = haru_get_option('portfolio_title_parallax');
     } elseif ( is_singular('haru_video') ) {
         $page_title_parallax = haru_get_option('haru_single_video_title_parallax');
+    } elseif ( is_singular('haru_digitalasset') ) {
+        $page_title_parallax = haru_get_option('haru_single_digitalasset_title_parallax');
     } elseif ( is_singular('haru_film') ) {
         $page_title_parallax = haru_get_option('haru_single_film_title_parallax');
     } else if ( is_singular('post') ) {
@@ -158,6 +168,9 @@ if ( !isset($page_title_layout) || ($page_title_layout == '') || ($page_title_la
     }
     elseif ( is_singular('haru_video') ) {
         $page_title_layout = haru_get_option('haru_single_video_title_layout');
+    }
+    elseif ( is_singular('haru_digitalasset') ) {
+        $page_title_layout = haru_get_option('haru_single_digitalasset_title_layout');
     }
     elseif ( is_singular('haru_film') ) {
         $page_title_layout = haru_get_option('haru_single_film_title_layout');

@@ -14,22 +14,42 @@ foreach ( $terms as $term ) {
     $filter_name .= $term->name . ' ';
 }
 ?>
-<div class="video-item style_3 <?php echo esc_attr( $filter_slug ); ?>" onclick="void(0)">
-    <div class="video-image">
-        <?php haru_get_video_thumbnail(get_the_ID()); ?>
-        <?php
-            $player_type = haru_get_option('player_type');
-            $player_js = haru_get_option('player_js');
-            $video_server     = get_post_meta( get_the_ID(), 'haru_video' . '_server', true );
-            if ( $player_type == 'player_popup' ) :
-        ?>
-        <div class="video-icon"><a href="javascript:;" class="view-video-button" data-id="<?php echo esc_attr( the_ID() ); ?>" data-player="<?php echo esc_attr( $player_js ); ?>" data-server="<?php echo esc_attr( $video_server ); ?>"></a></div>
-        <?php else : ?>
-            <div class="video-icon"><a href="<?php echo esc_url( get_the_permalink() ); ?>" class="view-video-button-direct"></a></div>
-        <?php endif; ?>
+<div class="dgtass-item style_3 <?php echo esc_attr( $filter_slug ); ?>" onclick="void(0)">
+    <div class="dgtass-thumbnail">
+        <a href="<?php echo esc_url( get_the_permalink() ); ?>">
+            <?php if($thumbnail_video == '') : ?>
+                <div class="dgtass-thumbnail-image">
+                    <picture>
+                        <?php
+                            $thumbnail_image = get_post_meta( $digitalasset_id, 'haru_digitalasset' . '_thumbnail_images', true );
+                        ?>
+                        <source media="(min-width: 900px)" srcset="<?=$thumbnail_image?>">
+                        <source media="(max-width: 480px)" srcset="<?=$thumbnail_image?>">
+                        <img src="<?=$thumbnail_image?>" alt="<?php echo esc_attr( get_the_title( $digitalasset_id ) ); ?>">
+                    </picture>
+                </div>
+            <?php else: ?>
+                <div class="dgtass-thumbnail-video">
+                    <video src="<?php echo $thumbnail_video;?>" title="<?php echo esc_attr( get_the_title( $digitalasset_id ) ); ?>" muted="muted">
+                        <source src="<?php echo $thumbnail_video;?>" type="video/mp4">
+                    </video>
+                </div>
+            <?php endif; ?>
+        </a>
     </div>
-    <div class="video-meta">
-        <h3 class="video-title"><a href="<?php echo esc_url( get_the_permalink() ); ?>"><?php the_title(); ?></a></h3>
-        <div class="video-category"><?php echo get_the_term_list( get_the_ID(), 'video_category', '', ', ' ); ?></div>
+    <div class="dgtass-meta">
+            <div class="dgtass-name">
+                <div class="dgtass-title"><a href="<?php echo esc_url( get_the_permalink() ); ?>"><?php the_title(); ?></a></div>
+                <span class="dgtass-author">by <?php echo get_the_author(); ?></span>
+            </div>
+            <div class="dgtass-info">
+                <div class="dgtass-category"><?php echo explode(',',get_the_term_list( get_the_ID(), 'digitalasset_category','', ','))[0] ?? ''; ?></div>
+                <div class="dgtass-price">
+                    <?php
+                        $price = get_post_meta( $digitalasset_id, 'haru_digitalasset' . '_price', true );
+                        echo $price;
+                    ?>
+                </div>
+            </div>
     </div>
 </div>

@@ -174,8 +174,8 @@ function digital_css(){
             color: var(--secondary-text-color);
         }
 
-        .digitalasset-shortcode-wrapper .digitalasset-content .digitalasset-list .dgtass-item .dgtass-thumbnail .dgtass-thumbnail-image,
-        .digitalasset-shortcode-wrapper .digitalasset-content .digitalasset-list .dgtass-item .dgtass-thumbnail .dgtass-thumbnail-video{
+        .dgtass-item .dgtass-thumbnail .dgtass-thumbnail-image,
+        .dgtass-item .dgtass-thumbnail .dgtass-thumbnail-video{
             position: relative;
             display: block;
             width: 100%;
@@ -185,8 +185,8 @@ function digital_css(){
             overflow: hidden;
         }
         
-        .digitalasset-shortcode-wrapper .digitalasset-content .digitalasset-list .dgtass-item .dgtass-thumbnail .dgtass-thumbnail-image picture,
-        .digitalasset-shortcode-wrapper .digitalasset-content .digitalasset-list .dgtass-item .dgtass-thumbnail .dgtass-thumbnail-video video{
+        .dgtass-item .dgtass-thumbnail .dgtass-thumbnail-image picture,
+        .dgtass-item .dgtass-thumbnail .dgtass-thumbnail-video video{
             position: absolute;
             top: 0;
             left: 0;
@@ -197,8 +197,8 @@ function digital_css(){
             justify-content: center;
             overflow: hidden;
         }
-        .digitalasset-shortcode-wrapper .digitalasset-content .digitalasset-list .dgtass-item .dgtass-thumbnail .dgtass-thumbnail-image picture img,
-        .digitalasset-shortcode-wrapper .digitalasset-content .digitalasset-list .dgtass-item .dgtass-thumbnail .dgtass-thumbnail-video picture video{
+        .dgtass-item .dgtass-thumbnail .dgtass-thumbnail-image picture img,
+        .dgtass-item .dgtass-thumbnail .dgtass-thumbnail-video picture video{
             min-height: 100%;
             min-width: 100%;
             position: relative;
@@ -206,6 +206,55 @@ function digital_css(){
             object-fit: cover;
             width: 100%;
             height: 100%;
+        }
+        .haru-single-digitalasset .single-content .single-wrapper article .post-wrapper .single-digitalasset-main .digitalasset-content .post-social-share {
+            text-align: center;
+            margin-bottom: 65px;
+        }
+                
+        .haru-single-digitalasset .single-content .single-wrapper article .post-wrapper .single-digitalasset-main .digitalasset-content .post-social-share .social-share-wrapper .social-share {
+            list-style: none;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .haru-single-digitalasset .single-content .single-wrapper article .post-wrapper .single-digitalasset-main .digitalasset-content .post-social-share .social-share-wrapper .social-share li {
+            display: inline-block;
+            margin-left: 15px;
+        }
+
+        .haru-single-digitalasset .single-content .single-wrapper article .post-wrapper .single-digitalasset-main .digitalasset-content .post-social-share .social-share-wrapper .social-share li.social-label {
+            display: none;
+        }
+
+        .haru-single-digitalasset .single-content .single-wrapper article .post-wrapper .single-digitalasset-main .digitalasset-content .post-social-share .social-share-wrapper .social-share li a {
+            color: #fd6500;
+            display: inline-block;
+            font-family: "Playfair Display";
+            font-weight: 700;
+            font-size: 16px;
+            text-transform: uppercase;
+            text-align: center;
+            width: 45px;
+            height: 45px;
+            line-height: 40px;
+            border: 2px solid rgba(224, 224, 224, 0.3);
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            -webkit-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+
+        .haru-single-digitalasset .single-content .single-wrapper article .post-wrapper .single-digitalasset-main .digitalasset-content .post-social-share .social-share-wrapper .social-share li a:hover {
+            background-color: #fd6500;
+            border: 2px solid #fd6500;
+            color: #fff;
+            -webkit-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
         }
         @media(max-width: 1200px){
             .digitalasset-list.columns-4{
@@ -241,6 +290,15 @@ function digital_css(){
             }
         }
         @media(max-width: 768px){
+            .haru-single-digitalasset .single-content .single-wrapper article .post-wrapper .single-digitalasset-main .digitalasset-content .post-social-share {
+                margin-bottom: 35px;
+            }
+            .haru-single-digitalasset .single-content .single-wrapper article .post-wrapper .single-digitalasset-main .digitalasset-content .post-social-share .social-share-wrapper .social-share li a {
+                font-size: 14px;
+                width: 35px;
+                height: 35px;
+                line-height: 32px;
+            }
 
             .digitalasset-list.columns-3{
                 gap: 35px;

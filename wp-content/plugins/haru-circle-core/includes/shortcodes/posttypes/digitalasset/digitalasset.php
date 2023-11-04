@@ -108,7 +108,7 @@ if ( ! class_exists('Haru_Framework_Shortcode_Digitalasset') ) {
                             'value'            => array(
                                 esc_html__( 'Grid', 'haru-circle' )         => 'grid',
                                 esc_html__( 'Masonry', 'haru-circle' )      => 'masonry',
-                                esc_html__( 'Special Grid', 'haru-circle' ) => 'grid_special'
+                                // esc_html__( 'Special Grid', 'haru-circle' ) => 'grid_special'
                             ),
                         ),
                         array(

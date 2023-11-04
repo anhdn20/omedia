@@ -19,6 +19,9 @@ if ( is_post_type_archive('haru_director') || is_tax('director_category') ) {
 if ( is_post_type_archive('haru_video') || is_tax('video_category') ) {
     $show_archive_title = haru_get_option('show_archive_video_title');
 }
+if ( is_post_type_archive('haru_digitalasset') || is_tax('digitalasset_category') ) {
+    $show_archive_title = haru_get_option('show_archive_digitalasset_title');
+}
 if ( is_post_type_archive('haru_film') || is_tax('film_category') ) {
     $show_archive_title = haru_get_option('show_archive_film_title');
 }
@@ -74,6 +77,8 @@ if (!have_posts()) {
 // Custom Post type
 } elseif (is_post_type_archive('haru_video')) {
     $page_title = esc_html__( 'Videos', 'haru-circle' );
+} elseif (is_post_type_archive('haru_digitalasset')) {
+    $page_title = esc_html__( 'Digital Assets', 'haru-circle' );
 } elseif (is_post_type_archive('haru_actor')) {
     $page_title = esc_html__( 'Actors', 'haru-circle' );
 } elseif (is_post_type_archive('haru_director')) {
@@ -83,6 +88,8 @@ if (!have_posts()) {
 // Custom Post type taxonomy
 } elseif (is_tax('video_category')) {
     $page_title = esc_html__( 'Videos', 'haru-circle' );
+} elseif (is_tax('digitalasset_category')) {
+    $page_title = esc_html__( 'Digital Assets', 'haru-circle' );
 } elseif (is_tax('actor_category')) {
     $page_title = esc_html__( 'Actors', 'haru-circle' );
 } elseif (is_tax('director_category')) {
@@ -105,6 +112,9 @@ if ( is_post_type_archive('haru_director') || is_tax('director_category') ) {
 }
 if ( is_post_type_archive('haru_video') || is_tax('video_category') ) {
     $archive_title_layout     = haru_get_option('archive_video_title_layout');
+}
+if ( is_post_type_archive('haru_digitalasset') || is_tax('digitalasset_category') ) {
+    $archive_title_layout     = haru_get_option('archive_digitalasset_title_layout');
 }
 if ( is_post_type_archive('haru_film') || is_tax('film_category') ) {
     $archive_title_layout     = haru_get_option('archive_film_title_layout');
@@ -133,6 +143,9 @@ if ( is_post_type_archive('haru_director') || is_tax('director_category') ) {
 }
 if ( is_post_type_archive('haru_video') || is_tax('video_category') ) {
     $page_title_bg_image     = haru_get_option('archive_video_title_bg_image');
+}
+if ( is_post_type_archive('haru_digitalasset') || is_tax('digitalasset_category') ) {
+    $page_title_bg_image     = haru_get_option('archive_digitalasset_title_bg_image');
 }
 if ( is_post_type_archive('haru_film') || is_tax('film_category') ) {
     $page_title_bg_image     = haru_get_option('archive_film_title_bg_image');
@@ -176,6 +189,9 @@ if ( is_post_type_archive('haru_director') || is_tax('director_category') ) {
 if ( is_post_type_archive('haru_video') || is_tax('video_category') ) {
     $page_title_parallax     = haru_get_option('archive_video_title_parallax');
 }
+if ( is_post_type_archive('haru_digitalasset') || is_tax('digitalasset_category') ) {
+    $page_title_parallax     = haru_get_option('archive_digitalasset_title_parallax');
+}
 if ( is_post_type_archive('haru_film') || is_tax('film_category') ) {
     $page_title_parallax     = haru_get_option('archive_film_title_parallax');
 }
@@ -199,6 +215,9 @@ if ( is_post_type_archive('haru_director') || is_tax('director_category') ) {
 }
 if ( is_post_type_archive('haru_video') || is_tax('video_category') ) {
     $breadcrumbs_in_archive_title     = haru_get_option('breadcrumbs_in_archive_video_title');
+}
+if ( is_post_type_archive('haru_digitalasset') || is_tax('digitalasset_category') ) {
+    $breadcrumbs_in_archive_title     = haru_get_option('breadcrumbs_in_archive_digitalasset_title');
 }
 if ( is_post_type_archive('haru_film') || is_tax('film_category') ) {
     $breadcrumbs_in_archive_title     = haru_get_option('breadcrumbs_in_archive_film_title');

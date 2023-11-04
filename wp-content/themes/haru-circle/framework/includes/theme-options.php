@@ -823,6 +823,249 @@ if ( ! class_exists( 'Redux_Framework_theme_options' ) ) {
                 )
             );
 
+            // Archive digital asset
+            $this->sections[] = array(
+                'title'      => esc_html__( 'Archive Digital Asset', 'haru-circle' ),
+                'desc'       => '',
+                'subsection' => true,
+                'icon'       => 'el el-laptop-alt',
+                'fields'     => array(
+                    array(
+                        'id'       => 'archive_digitalasset_layout',
+                        'type'     => 'button_set',
+                        'title'    => esc_html__( 'Layout', 'haru-circle' ),
+                        'subtitle' => esc_html__( 'Select Archive Layout', 'haru-circle' ),
+                        'desc'     => '',
+                        'options'  => array(
+                            'full'            => esc_html__( 'Full Width', 'haru-circle' ),
+                            'container'       => esc_html__( 'Container', 'haru-circle' ),
+                            ),
+                        'default'  => 'container'
+                    ),
+
+                    array(
+                        'id'       => 'archive_digitalasset_sidebar',
+                        'type'     => 'image_select',
+                        'title'    => esc_html__( 'Sidebar', 'haru-circle' ),
+                        'subtitle' => esc_html__( 'Set Sidebar Style', 'haru-circle' ),
+                        'desc'     => '',
+                        'options'  => array(
+                            'none'     => array('title' => '', 'img' => get_template_directory_uri() . '/framework/admin-assets/images/theme-options/sidebar-none.png'),
+                            'left'     => array('title' => '', 'img' => get_template_directory_uri() . '/framework/admin-assets/images/theme-options/sidebar-left.png'),
+                            'right'    => array('title' => '', 'img' => get_template_directory_uri() . '/framework/admin-assets/images/theme-options/sidebar-right.png'),
+                        ),
+                        'default'  => 'left'
+                    ),
+
+                    array(
+                        'id'       => 'archive_digitalasset_left_sidebar',
+                        'type'     => 'select',
+                        'title'    => esc_html__( 'Left Sidebar', 'haru-circle' ),
+                        'subtitle' => esc_html__( 'Choose the default left sidebar', 'haru-circle' ),
+                        'data'     => 'sidebars',
+                        'desc'     => '',
+                        'default'  => 'sidebar-1',
+                        'required' => array('archive_digitalasset_sidebar', '=', array('left','both')),
+                    ),
+
+                    array(
+                        'id'       => 'archive_digitalasset_right_sidebar',
+                        'type'     => 'select',
+                        'title'    => esc_html__( 'Right Sidebar', 'haru-circle' ),
+                        'subtitle' => esc_html__( 'Choose the default right sidebar', 'haru-circle' ),
+                        'data'     => 'sidebars',
+                        'desc'     => '',
+                        'default'  => 'sidebar-2',
+                        'required' => array('archive_digitalasset_sidebar', '=', array('right','both')),
+                    ),
+
+                    array(
+                        'id'       => 'archive_digitalasset_display_type',
+                        'type'     => 'select',
+                        'title'    => esc_html__('Archive Display Type', 'haru-circle'),
+                        'subtitle' => esc_html__('Select archive display type', 'haru-circle'),
+                        'desc'     => '',
+                        'options'  => array(
+                            'grid'         => esc_html__('Grid','haru-circle'),
+                            'masonry'      => esc_html__('Masonry','haru-circle'),
+                        ),
+                        'default'  => 'grid'
+                    ),
+
+                    array(
+                        'id'       => 'archive_digitalasset_paging_style',
+                        'type'     => 'button_set',
+                        'title'    => esc_html__( 'Paging Style', 'haru-circle' ),
+                        'subtitle' => esc_html__( 'Select archive paging style', 'haru-circle' ),
+                        'desc'     => '',
+                        'options'  => array(
+                            'default'         => esc_html__( 'Default', 'haru-circle' ),
+                            'load-more'       => esc_html__( 'Load More', 'haru-circle' ),
+                            'infinity-scroll' => esc_html__( 'Infinity Scroll', 'haru-circle' )
+                        ),
+                        'default'  => 'default'
+                    ),
+
+                    array(
+                        'id'       => 'archive_digitalasset_display_columns',
+                        'type'     => 'select',
+                        'title'    => esc_html__('Archive Display Columns', 'haru-circle'),
+                        'subtitle' => esc_html__('Choose the number of columns to display on archive pages.','haru-circle'),
+                        'options'  => array(
+                            '2'     => '2',
+                            '3'     => '3',
+                            '4'     => '4',
+                        ),
+                        'desc'     => '',
+                        'default'  => '2',
+                        'required' => array('archive_digitalasset_display_type','=',array('grid','masonry')),
+                    ),
+
+                    array(
+                        'id'        => 'archive_digitalasset_number_exceprt',
+                        'type'      => 'text',
+                        'title'     => esc_html__( 'Length of excerpt','haru-circle' ),
+                        'value'     => '30'    
+                    ),
+
+                    array(
+                        'id'     => 'section-archive-digitalasset-title-setting-start',
+                        'type'   => 'section',
+                        'title'  => esc_html__('Archive Title Setting', 'haru-circle'),
+                        'indent' => true
+                    ),
+
+                    array(
+                        'id'       => 'show_archive_digitalasset_title',
+                        'type'     => 'switch',
+                        'title'    => esc_html__('Show Archive Title', 'haru-circle'),
+                        'subtitle' => esc_html__('Enable/Disable Archive Title', 'haru-circle'),
+                        'default'  => true
+                    ),
+
+                    array(
+                        'id'       => 'archive_digitalasset_title_layout',
+                        'type'     => 'button_set',
+                        'title'    => esc_html__('Archive Title Layout', 'haru-circle'),
+                        'subtitle' => esc_html__('Select Archive Title Layout', 'haru-circle'),
+                        'desc'     => '',
+                        'options'  => array('full' => 'Full Width','container' => 'Container'),
+                        'default'  => 'container',
+                        'required' => array('show_archive_digitalasset_title','=',array('1')),
+                    ),
+
+                    array(
+                        'id'       => 'archive_digitalasset_title_bg_image',
+                        'type'     => 'media',
+                        'url'      => true,
+                        'title'    => esc_html__('Archive Title Background', 'haru-circle'),
+                        'subtitle' => esc_html__('Upload archive title background.', 'haru-circle'),
+                        'desc'     => '',
+                        'default'  =>  array(
+                            'url' => get_template_directory_uri() . '/framework/admin-assets/images/theme-options/bg-page-title.jpg'
+                        ),
+                        'required' => array('show_archive_digitalasset_title','=',array('1')),
+                    ),
+
+                    array(
+                        'id'       => 'archive_digitalasset_title_parallax',
+                        'type'     => 'switch',
+                        'title'    => esc_html__( 'Archive Title Parallax', 'haru-circle' ),
+                        'subtitle' => esc_html__( 'Enable Archive Title Parallax', 'haru-circle' ),
+                        'default'  => false,
+                        'required' => array('show_archive_digitalasset_title','=',array('1')),
+                    ),
+
+                    array(
+                        'id'       => 'breadcrumbs_in_archive_digitalasset_title',
+                        'type'     => 'switch',
+                        'title'    => esc_html__('Breadcrumbs', 'haru-circle'),
+                        'subtitle' => esc_html__('Enable/Disable Breadcrumbs In Archive', 'haru-circle'),
+                        'default'  => true
+                    ),
+                )
+            );
+
+            // Single digital asset
+            $this->sections[] = array(
+                'title'      => esc_html__( 'Single Digital Asset', 'haru-circle' ),
+                'desc'       => '',
+                'icon'       => 'el el-file',
+                'subsection' => true,
+                'fields'     => array(
+                    array(
+                        'id'       => 'haru_digitalasset_single_style',
+                        'type'     => 'select',
+                        'title'    => esc_html__( 'Single Style', 'haru-circle' ),
+                        'subtitle' => '',
+                        'desc'     => '',
+                        'options'  => array(
+                            'style_1'     => esc_html__( 'Default', 'haru-circle' ),
+                        ),
+                        'default'  => 'style_1',
+                    ),
+
+                    array(
+                        'id'     => 'haru-section-single-digitalasset-title-setting-start',
+                        'type'   => 'section',
+                        'title'  => esc_html__( 'Single Digital Asset Title Setting', 'haru-circle' ),
+                        'indent' => true
+                    ),
+
+                    array(
+                        'id'       => 'haru_show_single_digitalasset_title',
+                        'type'     => 'switch',
+                        'title'    => esc_html__( 'Single Digital Asset Title', 'haru-circle' ),
+                        'subtitle' => '',
+                        'default'  => true
+                    ),
+
+                    array(
+                        'id'       => 'haru_single_digitalasset_title_layout',
+                        'type'     => 'button_set',
+                        'title'    => esc_html__( 'Single Digital Asset Title Layout', 'haru-circle' ),
+                        'subtitle' => '',
+                        'desc'     => '',
+                        'options'  => array(
+                            'full'            => esc_html__( 'Full Width', 'haru-circle' ),
+                            'container'       => esc_html__( 'Container', 'haru-circle' ),
+                        ),
+                        'default'  => 'full',
+                        'required' => array('haru_show_single_digitalasset_title', '=', array('1')),
+                    ),
+
+                    array(
+                        'id'       => 'haru_single_digitalasset_title_bg_image',
+                        'type'     => 'media',
+                        'url'      => true,
+                        'title'    => esc_html__( 'Single Digital Asset Title Background', 'haru-circle' ),
+                        'subtitle' => '',
+                        'desc'     => '',
+                        'default'  =>  array(
+                            'url' => get_template_directory_uri() . '/framework/admin-assets/images/theme-options/bg-page-title.jpg'
+                        ),
+                        'required'  => array('haru_show_single_digitalasset_title', '=', array('1'))
+                    ),
+
+                    array(
+                        'id'       => 'haru_single_digitalasset_title_parallax',
+                        'type'     => 'switch',
+                        'title'    => esc_html__( 'Single Digital Asset Title Parallax', 'haru-circle' ),
+                        'subtitle' => '',
+                        'default'  => false,
+                        'required' => array('haru_show_single_digitalasset_title', '=', array('1')),
+                    ),
+
+                    array(
+                        'id'       => 'haru_breadcrumbs_in_single_digitalasset_title',
+                        'type'     => 'switch',
+                        'title'    => esc_html__( 'Breadcrumbs', 'haru-circle' ),
+                        'subtitle' => '',
+                        'default'  => true
+                    ),
+                )
+            );
+
             // Film
             $this->sections[] = array(
                 'title'      => esc_html__( 'Archive Film', 'haru-circle' ),

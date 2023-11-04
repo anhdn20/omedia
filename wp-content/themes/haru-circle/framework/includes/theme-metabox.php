@@ -428,7 +428,7 @@ function haru_register_meta_boxes() {
     // Digital Assets metabox
     $meta_boxes[] = array(
         'id'         => 'haru_digitalasset' . '_metabox',
-        'title'      => esc_html__( 'Video Metaboxes', 'haru-circle' ),
+        'title'      => esc_html__( 'Digital Asset Metaboxes', 'haru-circle' ),
         'post_types' => array( 'haru_digitalasset' ),
         'fields'     => array(
             // THUMBNAIL INFORMATION
