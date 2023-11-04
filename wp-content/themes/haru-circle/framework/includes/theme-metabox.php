@@ -467,6 +467,11 @@ function haru_register_meta_boxes() {
                 'type' => 'text',
             ),
             array(
+                'name' => esc_html__( 'Available', 'haru-circle' ),
+                'id'   => 'haru_digitalasset' . '_available',
+                'type' => 'text'
+            ),
+            array(
                 'name' => esc_html__( 'Link Find Out More', 'haru-circle' ),
                 'id'   => 'haru_digitalasset' . '_url_find_out_more',
                 'type' => 'text'

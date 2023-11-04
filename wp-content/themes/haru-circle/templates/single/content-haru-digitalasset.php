@@ -25,6 +25,7 @@
             // $digitalasset_thumbnail_image   = get_post_meta( get_the_ID(), 'haru_digitalasset' . '_thumbnail_images', true );
             $digitalasset_price             = get_post_meta( get_the_ID(), 'haru_digitalasset' . '_price', true );
             $digitalasset_opv               = get_post_meta( get_the_ID(), 'haru_digitalasset' . '_opv', true );
+            $digitalasset_available               = get_post_meta( get_the_ID(), 'haru_digitalasset' . '_available', true );
             $digitalasset_url_find_out_more = get_post_meta( get_the_ID(), 'haru_digitalasset' . '_url_find_out_more', true );
             // $digitalasset_director_isd      = get_post_meta( get_the_ID(), 'haru_digitalasset' . '_director', false ); // Array
         ?>
@@ -62,11 +63,11 @@
         <div class="single-digitalasset-main">
             <div class="container">
                 <div class="digitalasset-content">
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col-md-12">
                             <?php get_template_part('templates/single/social-share'); ?>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="row">
                         <div class="col-md-6 col-sm-6 dgtass-item">
                             <div class="dgtass-thumbnail">
@@ -98,19 +99,25 @@
                                 </div>
                                 <?php if($digitalasset_price != '' && $digitalasset_price != null): ?>
                                     <div class="digitalasset-price">
-                                        <p><?=__('Price')?></p>
-                                        <span><?php echo $digitalasset_price ?></span>
+                                        <p><?=__('PRICE')?></p>
+                                        <span><?php echo esc_html($digitalasset_price) ?></span>
                                         <?php if($digitalasset_opv != '' && $digitalasset_opv != null): ?>
-                                            <span> | </span>
-                                            <span><?=$digitalasset_opv?></span>
+                                            <span class="syn">&ensp; | &ensp;</span>
+                                            <span><?=esc_html($digitalasset_opv)?> OPV</span>
                                         <?php endif; ?>
                                     </div>
                                 <?php endif; ?>
+                                <div class="digitalasset-available btn btn-success">
+                                    <?=esc_html($digitalasset_available)?>
+                                </div>
                                 <div class="digitalasset-des">
+                                    <p class="des_lable"><?=__('Mô tả')?></p>
                                     <?php the_content(); ?>
                                 </div>
                                 <div class="digitalasset-find-more">
-                                    <a href="<?=$digitalasset_url_find_out_more?>" target="blank"></a>
+                                    <a class="btn btn-success" href="<?=esc_url($digitalasset_url_find_out_more)?>" target="blank">
+                                        <?php echo __('Find Out More') ?>
+                                    </a>
                                 </div>
                             </div>
                         </div>

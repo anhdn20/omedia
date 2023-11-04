@@ -10,6 +10,7 @@
 
 $digitalasset_id = get_the_ID();
 $thumbnail_video = get_post_meta( $digitalasset_id, 'haru_digitalasset' . '_thumbnail_video', true );
+$available = get_post_meta( $digitalasset_id, 'haru_digitalasset' . '_available', true );
 
 $terms          = wp_get_post_terms(get_the_ID(), array('digitalasset_category'));
 $filter_name = $filter_slug = '';
@@ -20,6 +21,9 @@ foreach ( $terms as $term ) {
 
 ?>
 <div class="dgtass-item style_1 <?php echo esc_attr( $filter_slug ); ?>" onclick="void(0)">
+    <div class="dgtass-available">
+        <?php echo esc_html($available); ?>
+    </div>
     <div class="dgtass-thumbnail">
         <a href="<?php echo esc_url( get_the_permalink() ); ?>">
             <?php if($thumbnail_video == '') : ?>

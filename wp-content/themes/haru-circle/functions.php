@@ -34,7 +34,7 @@ function digital_css(){
     <style>
         :root{
             --fifth-text-color: #aaa;
-            --secondary-text-color: #797980;
+            --secondary-text-color: #8c8c8c;
         }
         .digitalasset-shortcode-wrapper.grid .digitalasset-content .digitalasset-filter.align_left, .digitalasset-shortcode-wrapper.masonry .digitalasset-content .digitalasset-filter.align_left, .digitalasset-shortcode-wrapper.grid_special .digitalasset-content .digitalasset-filter.align_left, .digitalasset-shortcode-ajax.grid .digitalasset-content .digitalasset-filter.align_left, .digitalasset-shortcode-ajax.masonry .digitalasset-content .digitalasset-filter.align_left, .digitalasset-shortcode-ajax.grid_special .digitalasset-content .digitalasset-filter.align_left{
             text-align: left;
@@ -80,7 +80,7 @@ function digital_css(){
         .digitalasset-list.columns-2 > .digitalasset-item{
             width: calc(50% - 17.5px);
             border-radius: 15px;
-            border: 1px solid #ccc;
+            /* border: 1px solid #ccc; */
             overflow: hidden;
         }
 
@@ -93,7 +93,7 @@ function digital_css(){
         .digitalasset-list.columns-3 > .digitalasset-item{
             width: calc(33.333% - 40px);
             border-radius: 15px;
-            border: 1px solid #ccc;
+            /* border: 1px solid #ccc; */
             overflow: hidden;
         }
         
@@ -106,7 +106,7 @@ function digital_css(){
         .digitalasset-list.columns-4 > .digitalasset-item{
             width: calc(25% - 40px);
             border-radius: 15px;
-            border: 1px solid #ccc;
+            /* border: 1px solid #ccc; */
             overflow: hidden;
         }
         
@@ -119,13 +119,13 @@ function digital_css(){
         .digitalasset-list.columns-5 > .digitalasset-item{
             width: calc(25% - 80px);
             border-radius: 15px;
-            border: 1px solid #ccc;
+            /* border: 1px solid #ccc; */
             overflow: hidden;
         }
 
         .dgtass-name {
             display: grid;
-            grid-row-gap: 0.5rem;
+            grid-row-gap: 0.3rem;
             width: 90%;
         }
         .dgtass-info{
@@ -158,6 +158,7 @@ function digital_css(){
         .dgtass-name .dgtass-title a,
         .dgtass-price{
             color: var(--fifth-text-color);
+            font-size: 1.2em;
         }
         .dgtass-category {
             overflow: hidden;
@@ -165,13 +166,29 @@ function digital_css(){
             font-size: 13px;
             -webkit-line-clamp: 1;
             height: 24px;
-            line-height: 21px;
+            line-height: 26px;
             display: -webkit-box;
             -webkit-box-orient: vertical;
             max-width: 70px;
         }
         .dgtass-category a, .dgtass-author{
             color: var(--secondary-text-color);
+            font-size: 1.1em;
+        }
+        .archive-content .dgtass-item,
+        .digitalasset-list .dgtass-item{
+            background-color: #1e1e23;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .dgtass-item .dgtass-available{
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--secondary-text-color);
+            font-size: 1.2em;
         }
 
         .dgtass-item .dgtass-thumbnail .dgtass-thumbnail-image,
@@ -256,6 +273,49 @@ function digital_css(){
             -o-transition: all 0.3s;
             transition: all 0.3s;
         }
+        #haru-content-main{
+            background-color: #000;
+        }
+        .single-digitalasset-main .digitalasset-detail .digitalasset-title{
+            margin-top: 0;
+            font-size: 2.3em;
+            color: #fff;
+        }
+        .single-digitalasset-main .digitalasset-detail .digitalasset-author h5{
+            font-size: 1.2em;
+            color: #aaa;
+            margin-bottom: 40px;
+        }
+        .single-digitalasset-main .digitalasset-detail .digitalasset-price{
+            margin-bottom: 30px;
+        }
+        .single-digitalasset-main .digitalasset-detail .digitalasset-price p{
+            font-size: 1em;
+            color: #828282;
+            margin-bottom: 10px;
+        }
+        .single-digitalasset-main .digitalasset-detail .digitalasset-price span{
+            font-size: 1.5em;
+            color: #fff;
+        }
+        .single-digitalasset-main .digitalasset-detail .digitalasset-price span.syn{
+            color: #828282;
+        }
+        .single-digitalasset-main .digitalasset-detail .digitalasset-available{
+            margin-bottom: 20px;
+        }
+        .single-digitalasset-main .digitalasset-detail .digitalasset-des p.des_lable{
+            font-size: 1em;
+            font-weight: bold;
+        }
+        .single-digitalasset-main .digitalasset-detail .digitalasset-des > *{
+            color: #aaa;
+        }
+
+        .single-digitalasset-main .digitalasset-detail .digitalasset-find-more{
+            margin-top: 30px;
+        }
+
         @media(max-width: 1200px){
             .digitalasset-list.columns-4{
                 gap: 40px;
@@ -290,6 +350,9 @@ function digital_css(){
             }
         }
         @media(max-width: 768px){
+            .single-digitalasset-main .digitalasset-description{
+                margin-top: 30px;
+            }
             .haru-single-digitalasset .single-content .single-wrapper article .post-wrapper .single-digitalasset-main .digitalasset-content .post-social-share {
                 margin-bottom: 35px;
             }
