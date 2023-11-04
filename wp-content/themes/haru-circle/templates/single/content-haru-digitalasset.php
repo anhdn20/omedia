@@ -100,7 +100,7 @@
                                 <?php if($digitalasset_price != '' && $digitalasset_price != null): ?>
                                     <div class="digitalasset-price">
                                         <p><?=__('PRICE')?></p>
-                                        <span><?php echo esc_html($digitalasset_price) ?></span>
+                                        <span><?php echo esc_html('$'.$digitalasset_price) ?></span>
                                         <?php if($digitalasset_opv != '' && $digitalasset_opv != null): ?>
                                             <span class="syn">&ensp; | &ensp;</span>
                                             <span><?=esc_html($digitalasset_opv)?> OPV</span>

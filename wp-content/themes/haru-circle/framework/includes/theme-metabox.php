@@ -459,7 +459,7 @@ function haru_register_meta_boxes() {
             array(
                 'id'   => 'haru_digitalasset' . '_price',
                 'name' => esc_html__( 'Price', 'haru-circle' ),
-                'type' => 'text',
+                'type' => 'number',
             ),
             array(
                 'name' => esc_html__( 'OPV', 'haru-circle' ),

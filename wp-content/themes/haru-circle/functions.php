@@ -122,6 +122,34 @@ function digital_css(){
             /* border: 1px solid #ccc; */
             overflow: hidden;
         }
+        .haru-archive-blog.digitalasset{
+            padding-top: 40px;
+        }
+
+        #digital-filter-form{
+            display: flex;
+            margin-bottom: 20px;
+            justify-content: flex-end;
+            gap: 20px;
+        }
+
+        #digital-filter-form select{
+            padding: 15px 60px 15px 15px;
+            background-color: #1e1e23;
+            border: 0;
+            border-radius: 15px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        #digital-filter-form select span{
+            position: absolute;
+            right: 10px; 
+            top: 50%; 
+            transform: translateY(-50%); 
+            width: 20px; 
+            height: 20px; 
+        }
 
         .dgtass-name {
             display: grid;
@@ -441,6 +469,11 @@ add_action('wp_footer','digital_js');
 function digital_js(){
     ?>
     <script>
+
+        function submitFormFilterSortDigitalAsset() {
+            document.getElementById("digital-filter-form").submit();
+        }
+
         const videos = document.querySelectorAll('.dgtass-thumbnail-video video');
 
         videos.forEach(video => {

@@ -63,6 +63,39 @@ if ( empty($archive_paging_style) ) {
     $archive_paging_style = 'default';
 }
 
+// lấy danh sách danh mục
+$digitalasset_categories = get_categories(array(
+    'taxonomy' => 'digitalasset_category', // Thay thế bằng tên taxonomy của bạn
+));
+
+// xử lý filter và sort
+
+$category_digitalasset = isset($_GET['digital-category']) ? sanitize_text_field($_GET['digital-category']) : '';
+$sort_digitalasset = isset($_GET['digital-sort']) ? sanitize_text_field($_GET['digital-sort']) : '';
+
+$args = array(
+    'post_type' => 'haru_digitalasset',
+    'posts_per_page' => -1,
+    'orderby' => $sort,
+);
+
+if (!empty($category_digitalasset)) {
+    $args['tax_query'] = array(
+        array(
+            'taxonomy' => 'digitalasset_category', // Thay thế bằng tên taxonomy của bạn
+            'field' => 'slug',
+            'terms' => $category_digitalasset,
+        )
+    );
+}
+
+$query_posts = new WP_Query($args);
+
+
+// echo '<pre>';
+// var_dump($args);
+// die;
+
 ?>
 <?php 
     /*
@@ -70,7 +103,7 @@ if ( empty($archive_paging_style) ) {
     */
     do_action( 'haru_before_archive' );
 ?>
-<div class="haru-archive-blog">
+<div class="haru-archive-blog digitalasset">
     <?php if( $archive_layout != 'full' ) : ?>
         <div class="<?php echo esc_attr($archive_layout) ?> ">
     <?php endif; ?>
@@ -80,12 +113,30 @@ if ( empty($archive_paging_style) ) {
                 <!-- Archive content -->
                 <div class="archive-content col-md-<?php echo esc_attr($archive_content_col); ?> <?php if( is_active_sidebar( $archive_left_sidebar ) && ($archive_sidebar == 'left') ) echo esc_attr('has-left-sidebar'); ?> col-sm-12 col-xs-12">
                     <div class="archive-content-layout layout-style-<?php echo esc_attr($archive_display_type); ?>">
-                        
+                        <div class="digitalasset-filter-sort">
+                            <form id="digital-filter-form" method="get">
+                                <select name="digital-category" id="digital-category" onchange="submitFormFilterSortDigitalAsset()">
+                                    <option value=""><?=__('All')?></option>
+                                    <?php foreach($digitalasset_categories as $v): ?>
+                                        <option value="<?=$v->slug?>" <?php if(isset($_GET['digital-category']) && $_GET['digital-category'] == $v->slug) echo 'selected'; ?>><?=$v->name?></option>
+                                    <?php endforeach;?>
+                                    <!-- <span class="dashicons dashicons-arrow-down-alt2"></span> -->
+                                </select>
+                                
+                                <select name="digital-sort" id="digital-sort"  onchange="submitFormFilterSortDigitalAsset()">
+                                    <option value=""><?php echo __('Sort by') ?></option>
+                                    <option value="asc"><?php echo __('Price: Low to high') ?></option>
+                                    <option value="desc"><?php echo __('Price: High to low') ?></option>
+                                    <!-- <span class="dashicons dashicons-arrow-down-alt2"></span> -->
+                                </select>
+                                <input type="submit" value="Lọc" style="display: none;">
+                            </form>
+                        </div>
                         <div class="row">
                             <?php
-                                if ( have_posts() ) :
+                                if ( $query_posts->have_posts() ) :
                                     // Start the Loop.
-                                    while ( have_posts() ) : the_post();
+                                    while ( $query_posts->have_posts() ) : $query_posts->the_post();
                                         /*
                                          * Include the post format-specific template for the content. If you want to
                                          * use this in a child theme, then include a file called called content-___.php

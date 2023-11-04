@@ -84,7 +84,7 @@ $available = get_post_meta( $digitalasset_id, 'haru_digitalasset' . '_available'
                         <div class="dgtass-price">
                             <?php
                                 $price = get_post_meta( $digitalasset_id, 'haru_digitalasset' . '_price', true );
-                                echo $price;
+                                echo '$'.$price;
                             ?>
                         </div>
                     </div>
