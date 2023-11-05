@@ -63,11 +63,18 @@ if ( empty($archive_paging_style) ) {
     $archive_paging_style = 'default';
 }
 
-// lấy danh sách danh mục
-$digitalasset_categories = get_categories(array(
-    'taxonomy' => 'digitalasset_category', // Thay thế bằng tên taxonomy của bạn
-));
+// lấy danh sách danh mục con
 
+$parent_category_id = get_queried_object()->term_id; // Thay thế bằng ID của danh mục cha
+
+$digitalasset_categories = get_categories(array(
+    'taxonomy' => 'digitalasset_category',
+    'parent' => $parent_category_id,
+));
+// echo '<pre>';
+// var_dump($parent_category_id);
+// var_dump($digitalasset_categories);
+// die;
 // xử lý filter và sort
 
 $category_digitalasset = isset($_GET['digital-category']) ? sanitize_text_field($_GET['digital-category']) : '';
@@ -76,24 +83,39 @@ $sort_digitalasset = isset($_GET['digital-sort']) ? sanitize_text_field($_GET['d
 $args = array(
     'post_type' => 'haru_digitalasset',
     'posts_per_page' => -1,
-    'orderby' => $sort,
 );
 
-if (!empty($category_digitalasset)) {
+if(!empty($sort_digitalasset)){
+    $sort_digitalasset = explode(' ',$sort_digitalasset);
+
+    if($sort_digitalasset[0] == 'title'){
+        $args['orderby'] = 'title';
+    }else{
+        $args['meta_key'] = 'haru_digitalasset_' . $sort_digitalasset[0];
+    }
+
+    // $category = get_queried_object();
+    // $args['cat'] = $category->term_id;
+    $args['post_status'] = 'publish';
+    $args['order'] = $sort_digitalasset[1];
+
+    $category_slug = get_query_var('digitalasset_category');
+
     $args['tax_query'] = array(
         array(
             'taxonomy' => 'digitalasset_category', // Thay thế bằng tên taxonomy của bạn
             'field' => 'slug',
-            'terms' => $category_digitalasset,
+            'terms' => $category_slug,
         )
     );
+
+    query_posts($args);
 }
 
-$query_posts = new WP_Query($args);
 
 
 // echo '<pre>';
-// var_dump($args);
+// var_dump($query_posts);
 // die;
 
 ?>
@@ -125,8 +147,10 @@ $query_posts = new WP_Query($args);
                                 
                                 <select name="digital-sort" id="digital-sort"  onchange="submitFormFilterSortDigitalAsset()">
                                     <option value=""><?php echo __('Sort by') ?></option>
-                                    <option value="asc"><?php echo __('Price: Low to high') ?></option>
-                                    <option value="desc"><?php echo __('Price: High to low') ?></option>
+                                    <option value="title asc" <?php if(isset($_GET['digital-sort']) && $_GET['digital-sort'] == 'title asc') echo 'selected'; ?>><?php echo __('Title: A - Z') ?></option>
+                                    <option value="title desc" <?php if(isset($_GET['digital-sort']) && $_GET['digital-sort'] == 'title desc') echo 'selected'; ?>><?php echo __('Title: Z - A') ?></option>
+                                    <option value="price asc" <?php if(isset($_GET['digital-sort']) && $_GET['digital-sort'] == 'price asc') echo 'selected'; ?>><?php echo __('Price: Low to high') ?></option>
+                                    <option value="price desc" <?php if(isset($_GET['digital-sort']) && $_GET['digital-sort'] == 'price desc') echo 'selected'; ?>><?php echo __('Price: High to low') ?></option>
                                     <!-- <span class="dashicons dashicons-arrow-down-alt2"></span> -->
                                 </select>
                                 <input type="submit" value="Lọc" style="display: none;">
@@ -134,9 +158,9 @@ $query_posts = new WP_Query($args);
                         </div>
                         <div class="row">
                             <?php
-                                if ( $query_posts->have_posts() ) :
+                                if ( have_posts() ) :
                                     // Start the Loop.
-                                    while ( $query_posts->have_posts() ) : $query_posts->the_post();
+                                    while ( have_posts() ) : the_post();
                                         /*
                                          * Include the post format-specific template for the content. If you want to
                                          * use this in a child theme, then include a file called called content-___.php
