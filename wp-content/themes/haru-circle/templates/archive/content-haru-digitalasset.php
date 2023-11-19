@@ -47,14 +47,15 @@ $available = get_post_meta( $digitalasset_id, 'haru_digitalasset' . '_available'
 
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class($post_classes); ?> >
-    <div class="post-wrapper clearfix">
+    <div class="clearfix">
         <div class="dgtass-item style_1" onclick="void(0)">
             <div class="dgtass-available">
                 <?php echo esc_html($available); ?>
             </div>
             <div class="dgtass-thumbnail">
                 <a href="<?php echo esc_url( get_the_permalink() ); ?>">
-                    <?php if($thumbnail_video == '') : ?>
+                    <?php if($thumbnail_video == '' || isMobileDevice()) : ?>
+				
                         <div class="dgtass-thumbnail-image">
                             <picture>
                                 <?php
@@ -65,9 +66,10 @@ $available = get_post_meta( $digitalasset_id, 'haru_digitalasset' . '_available'
                                 <img src="<?=$thumbnail_image?>" alt="<?php echo esc_attr( get_the_title( $digitalasset_id ) ); ?>">
                             </picture>
                         </div>
+					
                     <?php else: ?>
-                        <div class="dgtass-thumbnail-video">
-                            <video src="<?php echo $thumbnail_video;?>" title="<?php echo esc_attr( get_the_title( $digitalasset_id ) ); ?>" muted="muted">
+                        <div class="dgtass-thumbnail-video ccc">
+                            <video preload="none" poster="https://omedia.art/wp-content/uploads/2023/11/thumb_660_a2bffc97-0caf-46ef-9506-6d45cbf5467c.jpg" muted playsinline src="<?php echo $thumbnail_video;?>" title="<?php echo esc_attr( get_the_title( $digitalasset_id ) ); ?>">
                                 <source src="<?php echo $thumbnail_video;?>" type="video/mp4">
                             </video>
                         </div>

@@ -84,7 +84,7 @@
                                     </div>
                                 <?php else: ?>
                                     <div class="dgtass-thumbnail-video">
-                                        <video src="<?php echo $digitalasset_thumbnail_video;?>" title="<?php echo esc_attr( get_the_title( get_the_ID() ) ); ?>" muted="muted">
+                                        <video autoplay loop src="<?php echo $digitalasset_thumbnail_video;?>" title="<?php echo esc_attr( get_the_title( get_the_ID() ) ); ?>" muted="muted">
                                             <source src="<?php echo $digitalasset_thumbnail_video;?>" type="video/mp4">
                                         </video>
                                     </div>

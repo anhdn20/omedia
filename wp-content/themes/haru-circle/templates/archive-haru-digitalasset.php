@@ -99,7 +99,13 @@ if(!empty($sort_digitalasset)){
     $args['post_status'] = 'publish';
     $args['order'] = $sort_digitalasset[1];
 
+}
+
     $category_slug = get_query_var('digitalasset_category');
+
+    if($category_digitalasset != ''){
+        $category_slug = $category_digitalasset;
+    }
 
     $args['tax_query'] = array(
         array(
@@ -109,8 +115,11 @@ if(!empty($sort_digitalasset)){
         )
     );
 
+    // echo '<pre>';
+    // var_dump($args);
+    // die;
+
     query_posts($args);
-}
 
 
 

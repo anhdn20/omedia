@@ -70,6 +70,22 @@ if ( $page_title_bg_images ) {
         $page_title_bg_image = haru_get_option('haru_single_video_title_bg_image');
     } elseif ( is_singular('haru_digitalasset') ) {
         $page_title_bg_image = haru_get_option('haru_single_digitalasset_title_bg_image');
+        
+        $nearest_category = get_nearest_category_by_product_id(get_the_ID());
+        if ($nearest_category) {
+            $category_id = $nearest_category->term_id;
+            $image = get_term_meta($category_id, 'digitalasset_category_image', true);
+            if($image != null && $image != ''){
+                $page_title_bg_image = [
+                    'url' => $image,
+                    'id' => '',
+                    'height' => '',
+                    'width' => '',
+                    'thumbnail' => ''
+                ];
+                $custom_style_img_taxo = 'background-size: contain;background-repeat: no-repeat;';
+            }
+        }
     } elseif ( is_singular('haru_film') ) {
         $page_title_bg_image = haru_get_option('haru_single_film_title_bg_image');
     } elseif ( is_singular('post') ) {
@@ -123,6 +139,7 @@ $custom_styles            = array();
 if ( isset($page_title_bg_image_url) ) {
     $page_title_wrap_class[] = 'page-title-wrapper-bg';
     $custom_styles[]         = 'background-image: url(' . $page_title_bg_image_url . ')';
+    isset($custom_style_img_taxo) ? $custom_styles[] = $custom_style_img_taxo : null;
 }
 
 $custom_style = '';

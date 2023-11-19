@@ -130,7 +130,8 @@ function digital_css(){
             display: flex;
             margin-bottom: 20px;
             justify-content: flex-end;
-            gap: 20px;
+            row-gap: 20px;
+			column-gap: 20px;
         }
 
         #digital-filter-form select{
@@ -154,11 +155,11 @@ function digital_css(){
         .dgtass-name {
             display: grid;
             grid-row-gap: 0.3rem;
-            width: 90%;
+            width: 78%;
         }
         .dgtass-info{
             display: grid;
-            grid-row-gap: 0.5rem;
+/*             grid-row-gap: 0.5rem; */
             text-align: right;
         }
         .dgtass-title{
@@ -186,22 +187,21 @@ function digital_css(){
         .dgtass-name .dgtass-title a,
         .dgtass-price{
             color: var(--fifth-text-color);
-            font-size: 1.2em;
+            font-size: 1.1em;
         }
         .dgtass-category {
             overflow: hidden;
             text-overflow: ellipsis;
-            font-size: 13px;
             -webkit-line-clamp: 1;
             height: 24px;
-            line-height: 26px;
+            line-height: 23px;
             display: -webkit-box;
             -webkit-box-orient: vertical;
-            max-width: 70px;
+            max-width: 80px;
         }
         .dgtass-category a, .dgtass-author{
             color: var(--secondary-text-color);
-            font-size: 1.1em;
+            font-size: 0.9em;
         }
         .archive-content .dgtass-item,
         .digitalasset-list .dgtass-item{
@@ -216,7 +216,7 @@ function digital_css(){
             align-items: center;
             justify-content: center;
             color: var(--secondary-text-color);
-            font-size: 1.2em;
+            font-size: 1em;
         }
 
         .dgtass-item .dgtass-thumbnail .dgtass-thumbnail-image,
@@ -241,9 +241,11 @@ function digital_css(){
             align-items: center;
             justify-content: center;
             overflow: hidden;
+			object-fit:cover;
         }
         .dgtass-item .dgtass-thumbnail .dgtass-thumbnail-image picture img,
-        .dgtass-item .dgtass-thumbnail .dgtass-thumbnail-video picture video{
+        .dgtass-item .dgtass-thumbnail .dgtass-thumbnail-video video source
+		{
             min-height: 100%;
             min-width: 100%;
             position: relative;
@@ -252,28 +254,28 @@ function digital_css(){
             width: 100%;
             height: 100%;
         }
-        .haru-single-digitalasset .single-content .single-wrapper article .post-wrapper .single-digitalasset-main .digitalasset-content .post-social-share {
+        .haru-single-digitalasset .single-content .single-wrapper article .single-digitalasset-main .digitalasset-content .post-social-share {
             text-align: center;
             margin-bottom: 65px;
         }
                 
-        .haru-single-digitalasset .single-content .single-wrapper article .post-wrapper .single-digitalasset-main .digitalasset-content .post-social-share .social-share-wrapper .social-share {
+        .haru-single-digitalasset .single-content .single-wrapper article .single-digitalasset-main .digitalasset-content .post-social-share .social-share-wrapper .social-share {
             list-style: none;
             list-style-type: none;
             padding: 0;
             margin: 0;
         }
 
-        .haru-single-digitalasset .single-content .single-wrapper article .post-wrapper .single-digitalasset-main .digitalasset-content .post-social-share .social-share-wrapper .social-share li {
+        .haru-single-digitalasset .single-content .single-wrapper article .single-digitalasset-main .digitalasset-content .post-social-share .social-share-wrapper .social-share li {
             display: inline-block;
             margin-left: 15px;
         }
 
-        .haru-single-digitalasset .single-content .single-wrapper article .post-wrapper .single-digitalasset-main .digitalasset-content .post-social-share .social-share-wrapper .social-share li.social-label {
+        .haru-single-digitalasset .single-content .single-wrapper article .single-digitalasset-main .digitalasset-content .post-social-share .social-share-wrapper .social-share li.social-label {
             display: none;
         }
 
-        .haru-single-digitalasset .single-content .single-wrapper article .post-wrapper .single-digitalasset-main .digitalasset-content .post-social-share .social-share-wrapper .social-share li a {
+        .haru-single-digitalasset .single-content .single-wrapper article .single-digitalasset-main .digitalasset-content .post-social-share .social-share-wrapper .social-share li a {
             color: #fd6500;
             display: inline-block;
             font-family: "Playfair Display";
@@ -293,7 +295,7 @@ function digital_css(){
             transition: all 0.3s;
         }
 
-        .haru-single-digitalasset .single-content .single-wrapper article .post-wrapper .single-digitalasset-main .digitalasset-content .post-social-share .social-share-wrapper .social-share li a:hover {
+        .haru-single-digitalasset .single-content .single-wrapper article .single-digitalasset-main .digitalasset-content .post-social-share .social-share-wrapper .social-share li a:hover {
             background-color: #fd6500;
             border: 2px solid #fd6500;
             color: #fff;
@@ -304,6 +306,9 @@ function digital_css(){
         #haru-content-main{
             background-color: #000;
         }
+		.haru-single-digitalasset{
+			margin-top: 50px;
+		}
         .single-digitalasset-main .digitalasset-detail .digitalasset-title{
             margin-top: 0;
             font-size: 2.3em;
@@ -343,17 +348,40 @@ function digital_css(){
         .single-digitalasset-main .digitalasset-detail .digitalasset-find-more{
             margin-top: 30px;
         }
+		
+		.thong_tin_them table{
+			width:100%;
+		}
+		
+		.thong_tin_them table tr td{
+			vertical-align: text-top;
+			border: 0px;
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		.thong_tin_them table tr, .thong_tin_them table{
+			border: 0px;
+		}
 
         @media(max-width: 1200px){
             .digitalasset-list.columns-4{
-                gap: 40px;
+                gap: 30px;
             }
             .digitalasset-list.columns-5{
                 gap: 15px;
             }
+			.digitalasset-list.columns-4 > .digitalasset-item{
+				width: calc(27% - 44px);
+			}
             .digitalasset-list.columns-5 > .digitalasset-item{
                 width: calc(25% - 60px);
             }
+			.dgtass-name .dgtass-title a, .dgtass-price{
+				font-size: 1em;
+			}
+			.dgtass-category a, .dgtass-author{
+				font-size: 0.8em;
+			}
         }
         @media(max-width: 1000px){
             .digitalasset-list.columns-4{
@@ -381,10 +409,10 @@ function digital_css(){
             .single-digitalasset-main .digitalasset-description{
                 margin-top: 30px;
             }
-            .haru-single-digitalasset .single-content .single-wrapper article .post-wrapper .single-digitalasset-main .digitalasset-content .post-social-share {
+            .haru-single-digitalasset .single-content .single-wrapper article .single-digitalasset-main .digitalasset-content .post-social-share {
                 margin-bottom: 35px;
             }
-            .haru-single-digitalasset .single-content .single-wrapper article .post-wrapper .single-digitalasset-main .digitalasset-content .post-social-share .social-share-wrapper .social-share li a {
+            .haru-single-digitalasset .single-content .single-wrapper article .single-digitalasset-main .digitalasset-content .post-social-share .social-share-wrapper .social-share li a {
                 font-size: 14px;
                 width: 35px;
                 height: 35px;
@@ -424,7 +452,14 @@ function digital_css(){
             }
             .dgtass-category{
                 height: 23px;
+				line-height: 19px;
             }
+			.dgtass-info{
+				    grid-row-gap: 0.2rem;
+			}
+			#digital-filter-form select{
+				padding: 10px 10px 15px 15px;
+			}
         }
         @media(max-width: 480px){
             .digitalasset-list.columns-2{
@@ -468,7 +503,7 @@ function digital_css(){
 add_action('wp_footer','digital_js');
 function digital_js(){
     ?>
-    <script>
+    <script type="text/javascript">
 
         function submitFormFilterSortDigitalAsset() {
             document.getElementById("digital-filter-form").submit();
@@ -486,6 +521,172 @@ function digital_js(){
                 video.currentTime = 0;
             });
         });
+
     </script>
     <?php
 }
+
+function isMobileDevice() {
+    $userAgent = $_SERVER['HTTP_USER_AGENT'];
+    $mobileKeywords = array('Mobile', 'Android', 'iPhone', 'iPad', 'Windows Phone');
+
+    foreach ($mobileKeywords as $keyword) {
+        if (stripos($userAgent, $keyword) !== false) {
+            return true;
+        }
+    }
+
+    return false;
+}
+
+
+// Thêm trường tùy chỉnh kiểu tải lên ảnh cho taxonomy "digitalasset_category"
+function add_taxonomy_image_field() {
+    ?>
+    <tr class="form-field">
+        <th scope="row" valign="top"><label for="category_image">Hình ảnh danh mục</label></th>
+        <td>
+            <div class="form-field term-thumbnail-wrap">
+                <input type="hidden" id="taxonomy-image" name="digitalasset_category_image" class="taxonomy-image" value="">
+                <div id="taxonomy-image-preview"></div>
+                <p>
+                    <input type="button" class="button button-secondary taxonomy-image-upload" value="<?php _e('Upload Image', 'text-domain'); ?>">
+                    <input type="button" class="button button-secondary taxonomy-image-remove" value="<?php _e('Remove Image', 'text-domain'); ?>">
+                </p>
+            </div>
+        </td>
+    </tr>
+    <script>
+        jQuery(document).ready(function($) {
+            // Xử lý sự kiện khi nhấp nút "Upload Image"
+            $('.taxonomy-image-upload').on('click', function() {
+                var imageUploader = wp.media({
+                    title: '<?php _e('Select or Upload Image', 'text-domain'); ?>',
+                    button: {
+                        text: '<?php _e('Use Image', 'text-domain'); ?>'
+                    },
+                    multiple: false
+                }).on('select', function() {
+                    var attachment = imageUploader.state().get('selection').first().toJSON();
+                    $('#taxonomy-image').val(attachment.url);
+                    $('#taxonomy-image-preview').html('<img src="' + attachment.url + '" alt="" style="max-width:100%;">');
+                }).open();
+            });
+
+            // Xử lý sự kiện khi nhấp nút "Remove Image"
+            $('.taxonomy-image-remove').on('click', function() {
+                $('#taxonomy-image').val('');
+                $('#taxonomy-image-preview').html('');
+            });
+
+        });
+		
+    </script>
+    <?php
+}
+add_action('digitalasset_category_add_form_fields', 'add_taxonomy_image_field');
+
+// Hiển thị hình ảnh đã lưu trong trang chỉnh sửa taxonomy
+function edit_taxonomy_image_field($term) {
+    $image_url = get_term_meta($term->term_id, 'digitalasset_category_image', true);
+    ?>
+    <tr class="form-field term-thumbnail-wrap">
+        <th scope="row"><?php _e('Taxonomy Image', 'text-domain'); ?></th>
+        <td>
+            <input type="hidden" id="taxonomy-image" name="digitalasset_category_image" class="taxonomy-image" value="<?php echo esc_attr($image_url); ?>">
+            <div id="taxonomy-image-preview">
+                <?php if (!empty($image_url)) : ?>
+                    <img src="<?php echo esc_url($image_url); ?>" alt="" style="max-width:100%;">
+                <?php endif; ?>
+            </div>
+            <p>
+                <input type="button" class="button button-secondary taxonomy-image-upload" value="<?php _e('Upload Image', 'text-domain'); ?>">
+                <input type="button" class="button button-secondary taxonomy-image-remove" value="<?php _e('Remove Image', 'text-domain'); ?>">
+            </p>
+        </td>
+    </tr>
+    <script>
+        jQuery(document).ready(function($) {
+            // Xử lý sự kiện khi nhấp nút "Upload Image"
+            $('.taxonomy-image-upload').on('click', function() {
+                var imageUploader = wp.media({
+                    title: '<?php _e('Select or Upload Image', 'text-domain'); ?>',
+                    button: {
+                        text: '<?php _e('Use Image', 'text-domain'); ?>'
+                    },
+                    multiple: false
+                }).on('select', function() {
+                    var attachment = imageUploader.state().get('selection').first().toJSON();
+                    $('#taxonomy-image').val(attachment.url);
+                    $('#taxonomy-image-preview').html('<img src="' + attachment.url + '" alt="" style="max-width:100%;">');
+                }).open();
+            });
+
+            // Xử lý sự kiện khi nhấp nút "Remove Image"
+            $('.taxonomy-image-remove').on('click', function() {
+                $('#taxonomy-image').val('');
+                $('#taxonomy-image-preview').html('');
+            });
+
+        });
+    </script>
+    <?php
+}
+add_action('digitalasset_category_edit_form_fields', 'edit_taxonomy_image_field', 10, 2);
+
+// Lưu dữ liệu của trường tùy chỉnh khi tạo hoặc chỉnh sửa taxonomy
+function save_taxonomy_image_field($term_id) {
+    if (isset($_POST['digitalasset_category_image'])) {
+        $image = sanitize_text_field($_POST['digitalasset_category_image']);
+        update_term_meta($term_id, 'digitalasset_category_image', $image);
+    }
+}
+add_action('created_digitalasset_category', 'save_taxonomy_image_field');
+add_action('edited_digitalasset_category', 'save_taxonomy_image_field');
+
+// Hiển thị ảnh của taxonomy "digitalasset_category"
+function display_taxonomy_image($term_id) {
+    $image = get_term_meta($term_id, 'digitalasset_category_image', true);
+    if (!empty($image)) {
+        echo '<img src="' . esc_url($image) . '" alt="" style="max-width:100%;">';
+    }
+}
+
+// Add custom WYSIWYG editor for a specific taxonomy
+function digitalasset_category_editor($term, $taxonomy) {
+    // Check if it's the taxonomy you want
+    if ($taxonomy === 'digitalasset_category') {
+        $content = get_term_meta($term->term_id, 'custom_editor_content', true);
+
+		?>		
+		<script src="https://cdn.ckeditor.com/4.22.1/full-all/ckeditor.js"></script>
+
+		<tr class="form-field term-thumbnail-wrap">
+			<th scope="row"><?php _e('Thông tin thêm', 'text-domain'); ?></th>
+			<td>
+				<textarea id="editor" name="custom_editor_content"><?=$content?></textarea>
+			</td>
+		</tr>
+		<script>
+			CKEDITOR.replace( 'editor' );
+		</script>
+		<?php
+    }
+}
+
+// Save the WYSIWYG content when the term is updated
+function save_digitalasset_category_editor($term_id) {
+    if (isset($_POST['custom_editor_content'])) {
+        update_term_meta($term_id, 'custom_editor_content', $_POST['custom_editor_content']);
+    }
+}
+
+// Hook the functions to the specific taxonomy edit screen
+add_action('edited_digitalasset_category', 'save_digitalasset_category_editor', 10, 2);
+add_action('digitalasset_category_edit_form_fields', 'digitalasset_category_editor', 10, 2);
+
+
+function load_media_files() {
+    wp_enqueue_media();
+}
+add_action( 'admin_enqueue_scripts', 'load_media_files' );
